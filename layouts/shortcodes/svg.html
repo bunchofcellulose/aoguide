@@ -5,12 +5,12 @@
 {{- $res := resources.Get $path -}}
 {{- if $res }}
   {{- $svg := $res | resources.Minify -}}
-  <figure class="ma0 w-75">
-    <div role="img" aria-label="{{ $alt }}" class="inline-svg">
+  <figure class="ma0" style="text-align: center;">
+    <div role="img" aria-label="{{ $alt }}" class="inline-svg" style="display: inline-block;">
       {{ $svg.Content | safeHTML }}
     </div>
     {{- if $caption }}
-      <figcaption>{{ $caption }}</figcaption>
+      <figcaption style="text-align: center;">{{ $caption }}</figcaption>
     {{- end }}
   </figure>
 {{- else }}

@@ -18,3 +18,4 @@ To add:
 - Compact stars; stellar evolution (copy camp notes)
 - Appendix
 - Positional Astronomy
+- Roche limit for tidally locked planet
