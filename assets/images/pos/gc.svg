@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+<style>
+.sphere { fill: none; stroke: #bbb; stroke-width: 4; }
+.arc { fill: none; stroke: #fbc02d; stroke-width: 4; }
+.arc-back { fill: none; stroke: #fbc02d; stroke-width: 4; opacity: 0.4; }
+.great-circle { fill: none; stroke: #00bcd4; stroke-width: 3; opacity: 0.9; }
+.great-circle-back { fill: none; stroke: #00bcd4; stroke-width: 3; opacity: 0.4; }
+.small-circle { fill: none; stroke: #e64a19; stroke-width: 3; opacity: 0.9; }
+.small-circle-back { fill: none; stroke: #e64a19; stroke-width: 3; opacity: 0.4; }
+.point { fill: #e53935; stroke: none; }
+.point-back { fill: #e53935; stroke: none; opacity: 0.4; }
+.label { fill: #fff; font-size: 28px; font-family: sans-serif; font-weight: bold; pointer-events: none; }
+.label-back { fill: #fff; font-size: 28px; font-family: sans-serif; font-weight: bold; pointer-events: none; opacity: 0.4; }
+.small-label { fill: #ffb74d; font-size: 18px; font-family: sans-serif; font-weight: 500; pointer-events: none; }
+.small-label-back { fill: #ffb74d; font-size: 18px; font-family: sans-serif; font-weight: 500; pointer-events: none; opacity: 0.4; }
+</style>
+<path class="great-circle-back" d="M 504.69 301.19 L 509.75 309.18 L 514.32 317.14 L 518.36 325.06 L 521.88 332.92 L 524.87 340.70 L 527.31 348.39 L 529.21 355.95 L 530.56 363.39 L 531.34 370.66 L 531.58 377.77 L 531.25 384.70 L 530.37 391.41 L 528.93 397.91 L 526.94 404.17 L 524.40 410.18 M 78.67 184.07 L 82.28 178.60 L 86.42 173.43 L 91.07 168.56 L 96.22 164.01 L 101.87 159.79 L 107.99 155.90 L 114.57 152.36 L 121.60 149.18 L 129.06 146.35 L 136.93 143.90 L 145.20 141.83 L 153.83 140.14 L 162.82 138.83 L 172.14 137.91 L 181.77 137.38 L 191.68 137.24 L 201.86 137.50 L 212.27 138.14 L 222.89 139.18 L 233.70 140.60 L 244.67 142.41 L 255.77 144.60 L 266.97 147.16 L 278.26 150.09 L 289.60 153.38 L 300.96 157.02 L 312.32 161.01 L 323.66 165.33 L 334.93 169.98 L 346.12 174.94 L 357.20 180.20 L 368.14 185.75 L 378.92 191.58 L 389.51 197.67 L 399.88 204.00 L 410.01 210.57 L 419.88 217.35 L 429.46 224.33 L 438.72 231.49 L 447.65 238.82 L 456.23 246.29 L 464.43 253.89 L 472.23 261.61 L 479.62 269.42 L 486.58 277.30 L 493.08 285.23 L 499.12 293.20 L 504.69 301.19 "/><path class="great-circle" d="M 521.33 415.93 L 517.72 421.40 L 513.58 426.57 L 508.93 431.44 L 503.78 435.99 L 498.13 440.21 L 492.01 444.10 L 485.43 447.64 L 478.40 450.82 L 470.94 453.65 L 463.07 456.10 L 454.80 458.17 L 446.17 459.86 L 437.18 461.17 L 427.86 462.09 L 418.23 462.62 L 408.32 462.76 L 398.14 462.50 L 387.73 461.86 L 377.11 460.82 L 366.30 459.40 L 355.33 457.59 L 344.23 455.40 L 333.03 452.84 L 321.74 449.91 L 310.40 446.62 L 299.04 442.98 L 287.68 438.99 L 276.34 434.67 L 265.07 430.02 L 253.88 425.06 L 242.80 419.80 L 231.86 414.25 L 221.08 408.42 L 210.49 402.33 L 200.12 396.00 L 189.99 389.43 L 180.12 382.65 L 170.54 375.67 L 161.28 368.51 L 152.35 361.18 L 143.77 353.71 L 135.57 346.11 L 127.77 338.39 L 120.38 330.58 L 113.42 322.70 L 106.92 314.77 L 100.88 306.80 L 95.31 298.81 L 90.25 290.82 L 85.68 282.86 L 81.64 274.94 L 78.12 267.08 L 75.13 259.30 L 72.69 251.61 L 70.79 244.05 L 69.44 236.61 L 68.66 229.34 L 68.42 222.23 L 68.75 215.30 L 69.63 208.59 L 71.07 202.09 L 73.06 195.83 L 75.60 189.82 "/><circle class="sphere" cx="300.00" cy="300.00" r="250.00"/><circle class="point-back" cx="205.81" cy="489.76" r="12.00"/><text class="label-back" x="221.81" y="477.76">B</text><circle class="point" cx="394.19" cy="110.24" r="12.00"/><text class="label" x="410.19" y="98.24">A</text>
+</svg>

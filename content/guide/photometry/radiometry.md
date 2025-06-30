@@ -104,12 +104,6 @@ Radiance | $B$ | $\mathrm{W \, m^{-2} \, sr^{-1}}$ | Radiant flux emitted, refle
 Spectral Radiance | $B_\nu$ | $\mathrm{W \, m^{-2} \, sr^{-1} \, Hz^{-1}}$ | Radiance of a surface per unit frequency or wavelength. This is sometimes also confusingly called "spectral intensity" |
 Irradiance or Flux density | $F$ | $\mathrm{W \, m^{-2}}$ | Radiant flux received by a surface per unit area |
 Spectral Irradiance or Spectral Flux density | $F_\nu$ | $\mathrm{W \, m^{-2} \, Hz^{-1}}$ | Irradiance of a surface per unit frequency or wavelength |
-Radiosity | $J$ | $\mathrm{W \, m^{-2}}$ | Radiant flux leaving (emitted, reflected and transmitted by) a surface per unit area |
-Spectral Radiosity | $J_\nu$ | $\mathrm{W \, m^{-2} \, Hz^{-1}}$ | Radiosity of a surface per unit frequency or wavelength |
-Radiant Exitance | $M$ | $\mathrm{W \, m^{-2}}$ | Radiant flux emitted by a surface per unit area |
-Spectral Exitance | $M_\nu$ | $\mathrm{W \, m^{-2} \, Hz^{-1}}$ | Radiant exitance of a surface per unit frequency or wavelength |
-Radiant Exposure | $H$ | $\mathrm{J \, m^{-2}}$ | Radiant energy received by a surface per unit area |
-Spectral Exposure | $H_\nu$ | $\mathrm{J \, m^{-2} \, Hz^{-1}}$ | Radiant exposure of a surface per unit frequency or wavelength |
 
 ### Properties of Radiation
 
