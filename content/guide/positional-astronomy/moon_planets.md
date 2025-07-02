@@ -1,5 +1,5 @@
 ---
-title: Moon
+title: Moon and Planets
 weight: 5
 ---
 
@@ -10,3 +10,5 @@ weight: 5
 ## Eclipses of the Moon
 
 ## Months
+
+## Planetary Configurations
