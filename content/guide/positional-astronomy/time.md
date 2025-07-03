@@ -7,7 +7,7 @@ weight: 3
 
 The local sidereal time is defined as the hour angle of vernal equinox ♈︎.
 
-$$\text{LST} = \text{HA}$$
+$$\boxed{\text{LST} = \text{HA}_\gamma}$$
 
 If the hour angle and right ascension of some object $X$ are known, the local sidereal time can be calculated as
 
@@ -17,7 +17,7 @@ where $\text{HA}_X$ is the hour angle of object $X$ and $\text{RA}_X$ is the rig
 
 The position of the vernal equinox ♈︎ changes over time due to precession and nutation. The equinoxes move backwards with time, the steady mean backward motion termed general precession. If nutation variations are ignored, the position of ♈︎ at any time defined the mean sidereal time (MST). If nutational variations are included, the position of ♈︎ at any time defines the apparent sidereal time (AST). The equation of equinoxes is defined as
 
-$$ \mathcal{E} = \text{AST} - \text{MST} $$
+$$ \mathcal{E}_\gamma = \text{AST} - \text{MST} $$
 
 It fluctuates around $-1^s$.
 
@@ -27,16 +27,6 @@ $$\text{GST} = \text{LST} + \lambda$$
 $$\boxed{\text{GHA}_X = \text{HA}_X + \lambda}$$
 
 The sidereal day stars when ♈︎ transits across the observer's meridian and lasts 24 sidereal hours, until ♈︎ transists the meridian again.
-
-## Geocentric Path of the Sun
-
-### Sunrise and Sunset
-
-### Seasons
-
-### Tilted plane of the ecliptic
-
-### Twilight
 
 ## Mean and True Solar Time
 
@@ -71,3 +61,17 @@ $$\text{LST} = \text{MST} \cdot \frac{366.2422}{365.2422}$$
 Thus one sidereal day is approximately $23^h 56^m 4.1^s$ in mean solar time.
 
 ## Civil Time
+
+Earth has been divided into standard time zones. Within each zone the same civil mean time called Zone Time (ZT) is used. Each zone is around $15^\circ$ ($1^h$) wide.
+
+Greenwich Zone (Zone 0) lies between the longitudes $0^h 30^m$ E and $0^h 30^m$ W. Zone +1 lies between $0^h 30^m$ E and $1^h 30^m$ E, Zone -1 lies between $0^h 30^m$ W and $1^h 30^m$ W, and so on. The time followed in each zone is the mean solar time at the central meridian of the zone. Zone +12 and -12 lie between $11^h 30^m$ W to $12^h$ W and $11^h 30^m$ E to $12^h$ E respectively, both keeping a time of the $12^h$ meridian. The meridian separating them is the International Date Line (IDL). Crossing it from east to west omits one day, and crossing from west to east adds one day. The Greenwich date is defined as GMT plus the date at Greenwich.
+
+$$GMT = ZT + \lambda$$
+
+where $\lambda$ is the longitude of the central meridian of the zone, and $ZT$ is the zone time at observer's meridian.
+
+The civil year is based on the tropical year, the time interval between successive passages of the sun through the vernal equinox ♈︎, and equal to 365.2422 mean solar days.
+
+A normal year consists of 365 days, and every fourth year is a leap year, having 366 days. Every century except those divisible by 400 is not a leap year. Thus the year 2000 was a leap year, but 1900 was not. This is the Gregorian calendar, which is the most widely used civil calendar today.
+
+Julian dates are used by astronomers to give each day a running number. A Julian century is 36,525 days long. The starting date was chosen as January 1, 4713 BC in the Julian calendar, which is equivalent to November 24, 4714 BC in the proleptic Gregorian calendar.
