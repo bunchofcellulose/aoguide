@@ -158,6 +158,14 @@ $$\tag{2.4.10} \text{FOV} = \frac{\text{AFOV}}{m} $$
 
 where AFOV is the apparent field of view and $m$ is the magnification.
 
+## SEFD
+
+The System Equivalent Flux Density (SEFD) is a measure of the sensitivity of a radio telescope. It is defined as the flux density of a source that produces a signal equal to the noise level of the receiver. The SEFD is mathematically given by
+
+$$ \text{SEFD} = \frac{2 k T_\text{sys}}{A_\text{eff}} $$
+
+where $T_\text{sys}$ is the system temperature, and $A_\text{eff}$ is the effective collecting area of the telescope.
+
 ## Charge-Coupled Devices (CCDs)
 
 A CCD is a semiconductor device that converts light into an electrical signal. It consists of an array of pixels, typically ~$10^4 \times 10^4$, each of which can store a charge proportional to the amount of light that falls on it. The charge is then read out and converted into a digital signal, which can be processed and analyzed.

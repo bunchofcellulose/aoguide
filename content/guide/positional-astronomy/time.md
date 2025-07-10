@@ -56,7 +56,7 @@ $$\text{GMT}_{\odot , G} = 12^h - \mathcal{E}$$
 
 Readings in sidereal time and mean solar time can be interconverted by scaling with appropriate factors:
 
-$$\text{LST} = \text{MST} \cdot \frac{366.2422}{365.2422}$$
+$$\text{ST} \cdot 365.2422 = \text{MST} \cdot 366.2422$$
 
 Thus one sidereal day is approximately $23^h 56^m 4.1^s$ in mean solar time.
 

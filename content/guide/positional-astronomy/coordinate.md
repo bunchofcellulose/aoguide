@@ -29,6 +29,42 @@ The right ascension $\alpha$ of a point $X$ is the angle between the vernal equi
 
 The RA/Dec coordinates of a point are given by the pair $(\alpha, \delta)$, where $\alpha$ is the right ascension and $\delta$ is the declination. These coordinates do not depend on the location of the observer or the time of observation, as they are defined with respect to the celestial equator and the vernal equinox, which are fixed points on the celestial sphere.
 
+### Circumpolar Stars
+
+A star is said to be circumpolar if it never sets below the horizon for a given observer. For a star to be circumpolar, we must have
+
+$$ \phi + \delta \geq 90^\circ $$
+
+where $\phi$ is the observer's latitude and $\delta$ is the star's declination. If this condition is satisfied, the star will always be above the horizon, and its altitude will always be positive.
+
+Some stars also never rise above the horizon. For a star to never rise above the horizon, we must have
+
+$$ \phi - \delta \leq -90^\circ $$
+
+where $\phi$ is the observer's latitude and $\delta$ is the star's declination. If this condition is satisfied, the star will always be below the horizon, and its altitude will always be negative.
+
+### Culmination
+
+A star is said to culminate when it is at the observer's meridian. There are two types of culmination: upper culmination and lower culmination.
+
+The upper culmination occurs when the star is at its highest point in the sky, which corresponds to the moment when the star's hour angle is $0$ hrs. At this point, the altitude of the star is at its maximum, and it is directly south of the observer in the northern hemisphere (or directly north in the southern hemisphere).
+
+The lower culmination occurs when the star is at its lowest point in the sky, which corresponds to the moment when the star's hour angle is $12$ hrs. At this point, the altitude of the star is at its minimum, and it is directly north of the observer in the northern hemisphere (or directly south in the southern hemisphere).
+
+The maximum altitude or minimum zenith distance of a star (during upper culmination) can be calculated using the formula:
+
+$$ a_{\text{max}} = 90^\circ - |\phi - \delta| $$
+$$ z_{\text{min}} = |\phi - \delta| $$
+
+where $\phi$ is the observer's latitude, and $\delta$ is the star's declination. If $a_{\text{max}} < 0$, the star will never culminate above the horizon. If $\phi > \delta$, the star will culminate in the south of zenith, and if $\phi < \delta$, it will culminate in the north of zenith.
+
+The minimum altitude or maximum zenith distance of a star (during lower culmination) can be calculated using the formula:
+
+$$ a_{\text{min}} = \phi + \delta - 90^\circ $$
+$$ z_{\text{max}} = 180^\circ - (\phi + \delta) $$
+
+If $a_{\text{min}} < 0$, the star will never culminate below the horizon.
+
 ## Ecliptic Coordinate System
 
 The ecliptic coordinate system is based on the ecliptic plane, which is the plane of the Earth's orbit around the Sun. The coordinates in this system are ecliptic longitude ($\lambda$) and ecliptic latitude ($\beta$).
@@ -54,3 +90,47 @@ The north galactic pole (NGP) is the point in the sky that is perpendicular to t
 The zero point $L$ of galactic longitude is defined as the direction towards the galactic center, which is located in the constellation Sagittarius. The zero point of galactic latitude is defined as the plane of the Milky Way galaxy. It is such that the angle $\theta = \angle PGL \approx 123.0^\circ$, where $PGL$ is the position of the galactic north pole in the equatorial coordinate system.
 
 ## Transformation Between Coordinate Systems
+
+The easiest way to transform between coordinate systems is to draw a spherical diagram and apply formulae of spherical trigonometry.
+
+### Horizontal and Equatorial
+
+To interconvert between horizontal coordinates $(a, A)$ and equatorial coordinates $(h, \delta)$, given the observer's latitude $\phi$, we use the following formulae:
+
+$$\begin{align*}
+\sin A \cos a &= \sin h \cos \delta \\
+\cos A \cos a &= \cos h \cos \delta \sin \phi - \sin \delta \cos \phi \\
+\sin a &= \cos h \cos \delta \cos \phi + \sin \delta \sin \phi
+\\ \\
+\sin h \cos \delta &= \sin A \cos a \\
+\cos h \cos \delta &= \cos A \cos a + \sin a \cos \phi \\
+\sin \delta &= - \cos a \cos A \cos \phi + \sin a \sin \phi
+\end{align*}$$
+
+### Equatorial and Ecliptic
+
+To interconvert between equatorial coordinates $(\alpha, \delta)$ and ecliptic coordinates $(\lambda, \beta)$, we use the following formulae:
+
+$$\begin{align*}
+\sin \alpha \cos \delta &= - \sin \beta \sin \varepsilon + \cos \beta \cos \varepsilon \sin \lambda \\
+\cos \alpha \cos \delta &= \cos \beta \cos \lambda \\
+\sin \delta &= \sin \beta \cos \varepsilon + \cos \beta \sin \varepsilon \sin \lambda
+\\ \\
+\sin \lambda \cos \beta &= \sin \delta \sin \varepsilon + \cos \delta \cos \varepsilon \sin \alpha \\
+\cos \lambda \cos \beta &= \cos \delta \cos \alpha \\
+\sin \beta &= \sin \delta \cos \varepsilon - \cos \delta \sin \varepsilon \sin \alpha
+\end{align*}$$
+
+where $\varepsilon$ is the axial tilt of the Earth, which is approximately $23.44^\circ$.
+
+### Equatorial to Galactic
+
+To convert from equatorial coordinates $(\alpha, \delta)$ to galactic coordinates $(l, b)$, we use the following formulae:
+
+$$\begin{align*}
+\sin (\theta - l) \cos b &= \cos \delta \sin (\alpha - \alpha_G) \\
+\cos (\theta - l) \cos b &= - \cos \delta \cos \delta_G \ cos (\alpha - \alpha_G) + \sin \delta \sin \delta_G \\
+\sin b &= \cos \delta \cos \delta_G \cos (\alpha - \alpha_G) + \sin \delta \sin \delta_G
+\end{align*}$$
+
+where $\theta = 123.0^\circ$ is the angle between the galactic north pole and the vernal equinox, and $(\alpha_G, \delta_G) = (12^h 51.4^m, 27^\circ 8')$ are the coordinates of the galactic north pole in the equatorial coordinate system.
