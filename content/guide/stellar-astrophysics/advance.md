@@ -1,6 +1,6 @@
 ---
 title: Advanced Topics
-weight: 5
+weight: 6
 ---
 
 ## Lane-Emden equation

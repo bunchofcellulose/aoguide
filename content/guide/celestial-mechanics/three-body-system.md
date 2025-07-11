@@ -93,6 +93,26 @@ The above expression is for a rigid satellite. For a fluid satellite,
 
 $$ d \approx 2.44\, R_M \left( \frac{\rho_M}{\rho_m} \right)^{1/3} $$
 
+{{< tabs items="Problem,Solution" >}}
+    {{< tab >}}
+    Consider the satellite to be tidally locked to the primary body, such that the same side of the satellite always faces the primary. Find the Roche limit for such a satellite.
+    {{< /tab >}}
+
+    {{< tab >}}
+    Here along with the tidal forces and the planet's gravitational force, we also have the centrifugal force acting on the satellite. For the mass $m'$ on the surface of the satellite to remain in equilibrium, we must have
+
+    $$ 2 \frac{GM_M R_m m'}{d^3} + m' \omega^2 R_m = \frac{GM_m m'}{R_m^2} $$
+
+    where $\omega$ is the angular velocity of the satellite. The angular velocity is given by
+
+    $$ \omega = \sqrt{ \frac{GM_M}{d^3} } $$
+
+    Substituting this into the equation, we get
+
+    $$ d = R_m \left( \frac{3 M_M}{M_m} \right)^{1/3} = R_M \left( \frac{3 \rho_M}{\rho_m} \right)^{1/3} $$
+    {{< /tab >}}
+{{< /tabs >}}
+
 ## Hill Sphere
 
 The Hill sphere is the region around a celestial body where its own gravity (compared to other nearby bodies) is the dominant force in attracting satellites. It is also known as the Roche sphere. If a less massive body $m$ orbits a more mass body $M$ ($M \ll m$), and has an instantaneous distance $a$ from $M$, then its hill radius (at that instant) is

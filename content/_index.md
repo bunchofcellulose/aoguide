@@ -10,11 +10,5 @@ This is a tailored guide for you all to excel.
 
 To add:
 
-- Earth-Moon system
-- Earth's atmosphere, magnetosphere
-- Sun and other planets
-- Compact stars; stellar evolution (copy camp notes)
-- Analemma
-- Roche limit for tidally locked planet
+- Compact stars; stellar evolution
 - Gravitational lensing
-- Figures, questions
