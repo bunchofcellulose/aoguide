@@ -7,38 +7,38 @@ weight: 4
 
 First of all, we define the following
 
-- Reference plane: plane used as a reference to define orbital elements. The reference plane is typically taken to be the ecliptic or the equator.
-- Reference direction (♈︎): direction in the reference plane used to define the orbital elements. The reference direction is typically taken to be the vernal equinox.
-- Node: intersection of the orbiting body's orbital plane with the reference plane.
-- Ascending node (☊): point at which the orbiting body crosses the reference plane from below to above.
-- Descending node (☋): point at which the orbiting body crosses the reference plane from above to below.
-- Periapsis (☉): point at which the orbiting body is closest to the focus of the ellipse. If the primary body is the Sun, this point is called perihelion (☉). If the primary body is Earth, this point is called perigee (☉). If the primary body is the Moon, this point is called perilune (☉).
-- Apoapsis (☽): point at which the orbiting body is farthest from the focus of the ellipse. If the primary body is the Sun, this point is called aphelion (☽). If the primary body is Earth, this point is called apogee (☽). If the primary body is the Moon, this point is called apolune (☽).
+- **Reference plane**: plane used as a reference to define orbital elements. The reference plane is typically taken to be the ecliptic or the equator.
+- **Reference direction (♈︎)**: direction in the reference plane used to define the orbital elements. The reference direction is typically taken to be the vernal equinox.
+- **Node**: intersection of the orbiting body's orbital plane with the reference plane.
+- **Ascending node (☊)**: point at which the orbiting body crosses the reference plane from below to above.
+- **Descending node (☋)**: point at which the orbiting body crosses the reference plane from above to below.
+- **Periapsis (☉)**: point at which the orbiting body is closest to the focus of the ellipse. If the primary body is the Sun, this point is called perihelion (☉). If the primary body is Earth, this point is called perigee (☉). If the primary body is the Moon, this point is called perilune (☉).
+- **Apoapsis (☽)**: point at which the orbiting body is farthest from the focus of the ellipse. If the primary body is the Sun, this point is called aphelion (☽). If the primary body is Earth, this point is called apogee (☽). If the primary body is the Moon, this point is called apolune (☽).
 
 Orbital elements are the parameters required to uniquely identify a specific orbit. When viewed from an inertial frame, two orbiting bodies trace out distinct trajectories. Each of these trajectories has its focus at the common center of mass. When viewed from a non-inertial frame centered on one of the bodies, only the trajectory of the opposite body is apparent; Keplerian elements describe these non-inertial trajectories. In general, six parameters are used to describe the orbit.
 
 Two parameter are required to describe the size and shape of the orbit. These are:
 
-- Semi-major axis $a$: half the distance between the apoapsis and periapsis (long axis of the ellipse). This value is positive for elliptical orbits, infinity for parabolic trajectories, and negative for hyperbolic trajectories, which can hinder its usability when working with different types of trajectories.
-- Eccentricity $e$: shape of the ellipse, describing how much it deviates from a perfect a circle. An eccentricity of zero describes a perfect circle, values less than 1 describe an ellipse, values greater than 1 describe a hyperbolic trajectory, and a value of exactly 1 describes a parabola.
+- **Semi-major axis $a$**: half the distance between the apoapsis and periapsis (long axis of the ellipse). This value is positive for elliptical orbits, infinity for parabolic trajectories, and negative for hyperbolic trajectories, which can hinder its usability when working with different types of trajectories.
+- **Eccentricity $e$**: shape of the ellipse, describing how much it deviates from a perfect a circle. An eccentricity of zero describes a perfect circle, values less than 1 describe an ellipse, values greater than 1 describe a hyperbolic trajectory, and a value of exactly 1 describes a parabola.
 
 Three parameters are required to descrive the orientation of the orbit. These are:
 
-- Inclination $i$: vertical tilt of the ellipse with respect to the reference plane, measured at the ascending node. Inclinations from $90^\circ$ to $180^\circ$ are typically used to denote retrograde orbits.
-- Longitude of the ascending node $\Omega$: describes the angle from the ascending node of the orbit (☊ in the diagram) to the reference frame's reference direction (♈︎ in the diagram). This is measured in the reference plane. This quantity is undefined for perfectly coplanar orbits, but is often set to zero instead by convention.
-- Argument of periapsis $\omega$: defines the orientation of the ellipse in the orbital plane, as an angle measured from the ascending node to the periapsis. This quantity is undefined for circular orbits, but is often set to zero instead by convention.
+- **Inclination $i$**: vertical tilt of the ellipse with respect to the reference plane, measured at the ascending node. Inclinations from $90^\circ$ to $180^\circ$ are typically used to denote retrograde orbits.
+- **Longitude of the ascending node $\Omega$**: describes the angle from the ascending node of the orbit (☊ in the diagram) to the reference frame's reference direction (♈︎ in the diagram). This is measured in the reference plane. This quantity is undefined for perfectly coplanar orbits, but is often set to zero instead by convention.
+- **Argument of periapsis $\omega$**: defines the orientation of the ellipse in the orbital plane, as an angle measured from the ascending node to the periapsis. This quantity is undefined for circular orbits, but is often set to zero instead by convention.
 
 Another parameter commonly used is
 
-- Longitude of periapsis $\varpi$: describes the angle between the reference direction (♈︎) and the periapsis, measured partly in the reference plane and partly in the orbital plane. It is defined as $\varpi =\Omega +\omega$. Unlike the longitude of the ascending node, this value is defined for orbits where the inclination is zero.
+- **Longitude of periapsis $\varpi$**: describes the angle between the reference direction (♈︎) and the periapsis, measured partly in the reference plane and partly in the orbital plane. It is defined as $\varpi =\Omega +\omega$. Unlike the longitude of the ascending node, this value is defined for orbits where the inclination is zero.
 
 One parameter are needed to describe the position of the body around its orbit, and the time at which this occurs. These are:
 
-- Time of periapsis $\tau$:  time at which the orbiting body is at periapsis. This value is not defined for circular orbits, as they do not have a uniquely defined point of periapsis.
+- **Time of periapsis $\tau$**:  time at which the orbiting body is at periapsis. This value is not defined for circular orbits, as they do not have a uniquely defined point of periapsis.
 
 Another parameter commonly used is
 
-- Mean Longitude $\bar{\lambda}$: Mean longitude is similar to mean anomaly, in that it increases linearly with time and does not represent the real angular displacement. Unlike with mean anomaly, mean longitude is defined relative to the vernal point, which means it is defined for circular orbits. $\bar{\lambda} = \varpi + M$
+- **Mean Longitude $\bar{\lambda}$**: Mean longitude is similar to mean anomaly, in that it increases linearly with time and does not represent the real angular displacement. Unlike with mean anomaly, mean longitude is defined relative to the vernal point, which means it is defined for circular orbits. $\bar{\lambda} = \varpi + M$
 
 ## Eulerian Angles
 

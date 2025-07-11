@@ -9,8 +9,8 @@ A class of three body problems, called the restricted three body problem is as f
 
 There do exist some special configurations, for which solutions to the three body problem are known:
 
-- Lagrange points: This is a solution to the restricted three body problem. Five points exist in the orbital plane of two massive bodies, where a third body can be placed and remain in a stable position relative to the two massive bodies. The Lagrange points are denoted $L_1$, $L_2$, $L_3$, $L_4$, and $L_5$. The $L_4$ and $L_5$ points are stable, while the others are unstable.
-- 8 shaped orbit: This is a solution to the full three body problem. Three bodies of equal masses can orbit each other in a figure-eight pattern. This solution is known as the Chenciner–Montgomery orbit. The total angular momentum of such a system is zero, and the three bodies lie in a plane.
+- **Lagrange points**: This is a solution to the restricted three body problem. Five points exist in the orbital plane of two massive bodies, where a third body can be placed and remain in a stable position relative to the two massive bodies. The Lagrange points are denoted $L_1$, $L_2$, $L_3$, $L_4$, and $L_5$. The $L_4$ and $L_5$ points are stable, while the others are unstable.
+- **8 shaped orbit**: This is a solution to the full three body problem. Three bodies of equal masses can orbit each other in a figure-eight pattern. This solution is known as the Chenciner–Montgomery orbit. The total angular momentum of such a system is zero, and the three bodies lie in a plane.
 
 ## Virial Theorem
 
