@@ -95,7 +95,9 @@ E &= \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2 - \frac{G m_1 m_2}{|\mathbf{r
   &= \frac{1}{2}M\mathbf{\dot{R}}^2 + \frac{1}{2} m v^2 - \mu \frac{m}{r^2}
 \end{align*}
 $$
+
 but since the COM does not experience a net force, $\mathbf{\dot{R}}$ is constant, so we might as well discard it. Then our modified energy becomes, 
+
 $$
 E \to \frac{1}{2} m v^2 - \mu \frac{m}{r^2}
 $$
