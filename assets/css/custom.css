@@ -215,3 +215,12 @@ details :not(.math) {
     background-color: #1E2A385d; /* Sky Blue with Opacity */
     color: #b0e2ff; /* Light Sky Blue */
 }
+
+/* Link styling for markdown content */
+.content a {
+    color: #2563eb; /* A vibrant blue */
+}
+
+.dark .content a {
+    color: #60a5fa; /* A lighter blue for dark mode */
+}

@@ -196,6 +196,37 @@ $$\tag{9.1.14} |\frac{\sigma_f}{f}| \le |\frac{\sigma_A}{A}| + |\frac{\sigma_B}{
 
 when accounted for covariance between $A$ and $B$.
 
+{{< tabs items="P1,Solution,IOAA 2018" >}}
+    {{< tab >}}
+    An observer measured trigonometric parallaxes of stars in a star cluster. Due to random errors, the measured parallax values are distributed symmetrically around the expected value with standard deviation equal to $0.05$ mas (milliarcsec). Assume there are no systematic errors and assume all stars in the said cluster have the same luminosity. It is known that the distance of this cluster from us is $R=5$ kpc.
+
+    He gave the data table to 4 of his students (A, B, C and D) and they estimated the distance to the cluster in the following ways:
+
+    1.  A. Convert each parallax measurement into distance and then find the average distance $(R_{A})$
+    2.  B. Take the average of all parallaxes first and then convert the average parallax into distance. $(R_{B})$
+    3.  C. Convert each parallax measurement into distance and then take the median distance value. $(R_{C})$
+    4.  D. Find the median value of the parallaxes and then convert the median value into distance. $(R_{D})$
+
+    State if the following statements are true or false. In case a given mathematical relation is false, give the correct relation.
+
+    1.  If the $i^{th}$ star gave the smallest value of parallax and the $j^{th}$ star gave the highest value of parallax, in all likelihood $R_{i}-R>R-R_{j}$
+    2.  $R_{A}=R$ (i.e. there is a high chance that the distance estimated by A fairly matches the true distance)
+    3.  $R_{B}=R$ (i.e. there is a high chance that the distance estimated by B fairly matches the true distance)
+    4.  $R_{C}<R$ (i.e. there is a high chance that the distance estimated by C will be systematically lower than the true distance)
+    5.  $R_{D}=R$ (i.e. there is a high chance that the distance estimated by D fairly matches the true distance)
+    {{< /tab >}}
+
+    {{< tab >}}
+    For parallaxes, we have a Gaussian distribution with mean $\mu=0.2$ mas and standard deviation $\sigma=0.05$ mas. This means the standard deviation is 25% of the expectation value.
+
+    1.  **True.** The relationship between parallax $(p)$ and distance $(d)$ is $d = 1/p$. This is an inverse relationship. If parallax values are symmetrically distributed, the distances will not be. Small parallaxes correspond to large distances, and large parallaxes correspond to small distances. Thus, a small error in parallax for a close star has a smaller impact on distance than the same error for a distant star.
+    2.  **False.** Correct relation: $R_{A} > R$. Due to the inverse relationship $d=1/p$, converting each parallax to distance _before_ averaging tends to overestimate the true distance. Smaller parallaxes (larger distances) have a disproportionately large effect on the average.
+    3.  **True.** Taking the average of parallaxes first $(p_{avg})$ and then converting to distance $(R_B = 1/p_{avg})$ tends to give a more accurate estimate of the true distance, especially when errors are symmetric around the true parallax.
+    4.  **False.** Correct relation: $R_{C} = R$. Taking the median of distances $(R_C)$ is generally robust against extreme values. For a symmetrically distributed parallax, the median of distances will be a good estimator of the true distance.
+    5. **True.** Finding the median value of parallaxes $(p_{median})$ and then converting it to distance $(R_D = 1/p_{median})$ should also provide a good estimate that matches the true distance, as the median is less sensitive to outliers.
+    {{< /tab >}}
+{{< /tabs >}}
+
 ## Linear Regression
 
 A linear regression is a model that estimates the linear relationship between a dependent variable $y$ and one or more independent variables $x_i$.
