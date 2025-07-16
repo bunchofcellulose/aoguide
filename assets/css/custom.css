@@ -216,6 +216,20 @@ details :not(.math) {
     color: #b0e2ff; /* Light Sky Blue */
 }
 
+/* Light Mode */
+.callout-trivia {
+    border-color: #e879f9; /* Bright magenta */
+    background-color: #fdf4ff; /* Very light purple */
+    color: #86198f; /* Dark magenta */
+}
+
+/* Dark Mode */
+.dark .callout-trivia {
+    border-color: rgba(232, 121, 249, 0.4); /* Bright magenta with opacity */
+    background-color: rgba(134, 25, 143, 0.2); /* Dark magenta with opacity */
+    color: #f0abfc; /* Light magenta */
+}
+
 /* Link styling for markdown content */
 .content a {
     color: #2563eb; /* A vibrant blue */

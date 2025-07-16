@@ -14,6 +14,10 @@ $$\tag{3.1.1} \mathbf{F} = -\frac{G m_1 m_2}{|\mathbf{r_2} - \mathbf{r_1}|^3} (\
 
 Here G is the universal gravitational constant, equal to $6.67430 \times 10^{-11} \: \mathrm{m^3\,kg^{-1}\,s^{-2}}$.
 
+{{< callout type="trivia" >}}
+Modern analytic celestial mechanics started with Isaac Newton's Principia (1687). The name celestial mechanics is more recent than that. Newton wrote that the field should be called "rational mechanics". The term "dynamics" came in a little later with Gottfried Leibniz, and over a century after Newton, Pierre-Simon Laplace introduced the term celestial mechanics. Prior to Kepler, there was little connection between exact, quantitative prediction of planetary positions, using geometrical or numerical techniques, and contemporary discussions of the physical causes of the planets' motion.
+{{< /callout >}}
+
 The problem we're going to tackle is Kepler's two body problem, which asks to calculate and predict the motion of two bodies under the influence of their mutual gravitational attraction. The two bodies are assumed to be point masses, and the force acting on them is given by Newton's law of gravitation.
 
 We'll see later what we can say about the other cases of the $n$ body problem.
@@ -208,6 +212,20 @@ $$ dA = \frac{1}{2}|\mathbf{r} \times \mathbf{dr}| = \frac{1}{2}|\mathbf{r} \tim
 $$\tag{3.1.7} \implies \boxed{\frac{dA}{dt} = \frac{h}{2}} $$
 
 which is constant. Thus, we are done.
+
+{{< callout type="trivia" >}}
+Johannes Kepler's laws improved the model of Copernicus. According to Copernicus:
+
+1. The planetary orbit is a circle with epicycles.
+2. The Sun is approximately at the center of the orbit.
+3. The speed of the planet in the main orbit is constant.
+
+Despite being correct in saying that the planets revolved around the Sun, Copernicus was incorrect in defining their orbits. Introducing physical explanations for movement in space beyond just geometry, Kepler correctly defined the orbit of planets as follows:
+
+1. The planetary orbit is not a circle with epicycles, but an ellipse.
+2. The Sun is not at the center but at a focal point of the elliptical orbit.
+3. Neither the linear speed nor the angular speed of the planet in the orbit is constant, but the area speed (closely linked historically with the concept of angular momentum) is constant.
+{{< /callout >}}
 
 ## Third Law
 

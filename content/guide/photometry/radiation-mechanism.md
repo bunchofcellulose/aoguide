@@ -161,7 +161,7 @@ The Stark effect is the splitting of spectral lines in the presence of an electr
 - **Linear Stark Effect**: This occurs when the electric field is weak and the splitting is linear. The spectral lines split into two components, one on each side of the unshifted line.
 - **Quadratic Stark Effect**: This occurs when the electric field is strong and the splitting is non-linear. The spectral lines can split into multiple components, depending on the strength of the electric field and the quantum numbers of the energy levels involved.
 
-## Cyclotron and Synchrotron Radiation
+## Cyclotron Radiation
 
 When charged particles like electrons move through a magnetic field, they experience a force that causes them to spiral. This motion causes them to emit radiation, which is important in many astrophysical environments.
 

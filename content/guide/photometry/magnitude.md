@@ -11,6 +11,12 @@ Apparent magnitude is a measure of the brightness of an object as seen from Eart
 
 Absolute magnitude on the other hand is a measure of the intrinsic brightness of an object, defined as the apparent magnitude it would have if it were located at a distance of 10 parsecs from the observer, without any extinction. The absolute magnitude of a star is directly related to its luminosity. It is usually denoted by $M$.
 
+{{< callout type="trivia" >}}
+The Greek astronomer Hipparchus produced a catalogue which noted the apparent brightness of stars in the second century BCE. In the second century CE, the Alexandrian astronomer Ptolemy classified stars on a six-point scale, and originated the term magnitude. To the unaided eye, a more prominent star such as Sirius or Arcturus appears larger than a less prominent star such as Mizar, which in turn appears larger than a truly faint star such as Alcor.
+
+After several centuries of progress, in 1856 Norman Pogson, an English astronomer, proposed the modern logarithmic scale for magnitudes. This is the scale we use today.
+{{< /callout >}}
+
 ## Pogson's Equation
 
 The dimmer an object appears, the higher the numerical value given to its magnitude, with a difference of 5 magnitudes corresponding to a brightness factor of exactly 100. Let a flux value of $F_0$ correspond to a magnitude of $m_0$. Then, the magnitude $m$ corresponding to an object having a flux of $F$ is given by Pogson's equation, which reads
