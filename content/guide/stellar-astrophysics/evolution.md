@@ -3,6 +3,20 @@ title: Stellar Evolution
 weight: 4
 ---
 
+## Star Clusters
+
+Associations are groups of very young stars.
+
+Open star clusters are groups of stars that are gravitationally bound and have a common origin. They are typically found in the galactic disk and are composed of a few hundred to a few thousand stars. Open clusters are usually younger than globular clusters and have a more irregular shape. In younger clusters, the main sequence extends to brighter and hotter stars and easlier spectral types. Usually, one can clearly see the point in the HR diagram where the main sequence ends and bends over the giant branch. This point is called the turnoff point, and it can be used to estimate the age of the cluster.
+
+Globular clusters are spherical collections of stars that are gravitationally bound and orbit the galactic center. They are typically found in the halo of the galaxy and are composed of tens of thousands to millions of stars. Globular clusters are usually older than open clusters and have a more regular shape. The stars in globular clusters are typically older and have lower metallicity than stars in open clusters.
+
+Stars can be classifield on the basis of their generation
+
+- Population I stars are young stars with almost circular orbits that are found in the galactic disk. They are typically metal-rich and have a high abundance of heavy elements. Population I stars are usually found in open clusters and are associated with star formation regions.
+- Population II stars are older stars with more elliptical orbits that are found in the halo of the galaxy. They are typically metal-poor and have a low abundance of heavy elements. Population II stars are usually found in globular clusters and are associated with the early stages of galaxy formation.
+- Population III stars are the first generation of stars that formed in the universe. They are thought to be metal-free and have a very low abundance of heavy elements. Population III stars are believed to have formed from primordial gas and dust and are thought to have played a key role in the reionization of the universe.
+
 ## Stellar Time Scales
 
 ### Nuclear Time Scale

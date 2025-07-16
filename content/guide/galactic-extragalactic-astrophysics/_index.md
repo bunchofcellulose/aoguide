@@ -1,6 +1,6 @@
 ---
 title: Galactic and Extragalactic Astrophysics
-weight: 8
+weight: 6
 next: /guide/galactic-extragalactic-astrophysics/galaxy/
 ---
 

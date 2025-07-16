@@ -4,18 +4,6 @@ prev: /guide/stellar-astrophysics
 weight: 1
 ---
 
-Stars are huge spheres of gas. The gas in the stars are completely ionised. Hence to a good approximation, we can assume it to be an ideal gas
-
-$$ P = \frac{k}{\mu m_H} \rho T$$
-
-where $\mu$ is the mean molecular weight. Hydrogen when ionized gives rise to two particles ($\ce{H^+}$ and $\ce{e}$), per nucleon (single proton in Hydrogen). Helium gives $3/4$ particles per nucleon when ionized (3 particles from one atom, each atom has 4 nucleons). For other elements having atomic number $Z$, give rise to ~$1/2$ particles per nucleon when ionized. Let the relative mass fractions of Hydrogen, Helium and heavier elements (which are all called metals by astronomers) be $X$, $Y$ and $Z$ respectively. Then
-
-$$ X + Y + Z = 1 $$
-
-$$ \mu = \frac{1}{2X + \frac{3}{4}Y + \frac{1}{2} Z } $$
-
-For our sun, $\mu_\odot \approx 0.6$.
-
 A star can go on shining steadily for thousands of millions of years. Thus the equilibrium of a star must remain stable for such long periods. Mathematically the conditions for the internal equilibrium of a star can be expressed as four differential equations governing the distribution of mass, gas pressure and energy production and transport in the star.
 
 ## Mass Continuity
@@ -66,6 +54,20 @@ or
 
 $$\tag{5.1.7} \frac{dP}{dm} = - \frac{Gm}{4 \pi r^4} $$
 
+### Gas Pressure
+
+Stars are huge spheres of gas. The gas in the stars are completely ionised. Hence to a good approximation, we can assume it to be an ideal gas
+
+$$ P = \frac{k}{\mu m_H} \rho T$$
+
+where $\mu$ is the mean molecular weight. Hydrogen when ionized gives rise to two particles ($\ce{H^+}$ and $\ce{e}$), per nucleon (single proton in Hydrogen). Helium gives $3/4$ particles per nucleon when ionized (3 particles from one atom, each atom has 4 nucleons). For other elements having atomic number $Z$, give rise to ~$1/2$ particles per nucleon when ionized. Let the relative mass fractions of Hydrogen, Helium and heavier elements (which are all called metals by astronomers) be $X$, $Y$ and $Z$ respectively. Then
+
+$$ X + Y + Z = 1 $$
+
+$$ \mu = \frac{1}{2X + \frac{3}{4}Y + \frac{1}{2} Z } $$
+
+For our sun, $\mu_\odot \approx 0.6$.
+
 ### Central Pressure
 
 The central pressure can be calculated as
@@ -76,7 +78,7 @@ where $S$ represents the surface of the star, at $r= R$. Taking the pressure at 
 
 $$\tag{5.1.8} P_c > \frac{GM^2}{8 \pi R^4} $$
 
-If density is constant,
+If the density is uniform,
 
 $$P_c = \frac{3GM^2}{8 \pi R^4}$$
 
@@ -86,7 +88,7 @@ $$ \frac{dP}{dm} = -\frac{Gm}{4\pi r^4} \implies \int_0^S 4 \pi r^3 dP = \int_0^
 
 where $\Omega$ is the total gravitational potential energy of the star. Now since $4 \pi r^3$ = $3V$, where $V$ is the volume of the sphere upto radius $r$, using integration by parts we get
 
-$$ 3 \int_0^S V dP = 3 \left( VP |_0^S - \int_0^S P dV \right) = -3 \int_0^S P dV $$
+$$ 3 \int_0^S V dP = 3 \left( VP \vert_0^S - \int_0^S P dV \right) = -3 \int_0^S P dV $$
 
 Since at $r=0$ we have $V=0$and at $r=R$ we have $P =0$. Putting this back, we get the virial theorem
 
