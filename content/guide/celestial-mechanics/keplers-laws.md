@@ -143,9 +143,11 @@ we find that the eccentricity vector does not change with time, hence is also a 
 
 $$\tag{3.1.3} e = \sqrt{1 + \frac{2 \varepsilon h^2}{\mu^2}} $$
 
-I can't quite give you a motivation for the eccentricity vector, there is *some* rhyme or reason to it, but justifying it is a great task in itself, so I must ask you to take my word for this. If you want, you can read more: (TODO: Maybe add some optional reading on this?)
-The magnitude of the eccentricity vector (as we'll see in a bit), determins the eccentricity of a planetary orbit, but this is sadly not
-very apparent from our definition.
+You can derive the magnitude by taking the dot product with itself, and subbing in the specific energy. It is a little tedious, so I've omitted it for clarity.
+
+I can't quite give you a motivation for the eccentricity vector, there is *some* rhyme or reason to it, but justifying it is a great task in itself, so I must ask you to take my word for this. 
+
+The magnitude of the eccentricity vector (as we'll see in a bit), determins the eccentricity of a planetary orbit, but this is sadly not very apparent from our definition, although suggestive from its name.
 
 ## First Law
 
@@ -179,9 +181,10 @@ $$ r_1 = \frac{m_2}{M} \frac{h^2 / \mu}{1 + e \cos \theta} \,, \qquad \qquad r_2
 
 Of course because the centre of mass is fixed, the trajectories of the two bodies however will be oriented opposite to each other in our frame, with an angle of $\pi$ radian between them, to keep the center of mass fixed.
 
-We can actually determine the energy of the system can by just the eccentricity $e$ and length of semi-latus rectum $p$ of the trajectory. Consider the dot product, $\mathbf{e} \cdot \mathbf{e} = ||\mathbf{e}||^2$ (TODO: expand the calculation)
+We can actually determine the energy of the system can by just the eccentricity $e$ and length of semi-latus rectum $p$ of the trajectory. Consider the dot product, $\mathbf{e} \cdot \mathbf{e} = ||\mathbf{e}||^2$, using the
+magnitude of the eccentricity vector:
 
-$$e^2 = 1 + \frac{2h \varepsilon}{\mu^2} \implies \varepsilon = \frac{1}{2} \left( e^2 - 1 \right) \frac{\mu^2}{h^2}$$
+$$e^2 = 1 + \frac{2h^2 \varepsilon}{\mu^2} \implies \varepsilon = \frac{1}{2} \left( e^2 - 1 \right) \frac{\mu^2}{h^2}$$
 
 $$\tag{3.1.6} \implies \varepsilon = -\frac{1}{2} \frac{\mu (1 - e^2)}{p}$$
 
@@ -191,7 +194,24 @@ From here we can see that the sign of the total energy depends on the eccentrici
 - $e = 1$: A parabolic trajectory gives a zero total energy, and hence an *unbound* orbit
 - $e > 1$: A hyperbolic trajectory gives a positive total energy, and hence an *unbound* orbit
 
-(TODO: add why bound maybe? I mean its sorta apparent Ig? A diagram might help, I'll add that.)
+{{< callout type="math" >}}
+{{% details title="Why Bound Orbits?" closed="true" %}}
+
+First of all the sign of $\epsilon$ is the same as that of $E$, of course. If we write down the expression for 
+total energy:
+
+$$
+E = \frac{1}{2} mv^2 - \frac{Gm_1m_2}{r}
+$$
+
+The first term is non-negative. If $E \ge 0$, $r$ is unbounded for large values, because its fine for it be large, as the first term will accomodate for it. Contrastingly, this is *not* the case for $E<0$ as 
+if $r$ grows too large, the last term goes $\to 0$, and the first term is $\ge 0$, even though $E < 0$. Thus
+$r$ can't grow too large, and is thus bounded. 
+
+You can also see this qualitatively in an *energy diagram*. For an extended discussion, see Kleppner & Kolenkow, *An Introduction to Mechanics*, 2nd ed, Section 10.4, page 382.
+
+{{% /details %}}
+{{< /callout >}}
 
 Therefore all bound orbits are ellipses, and all unbound orbits are hyperbolae or parabolae.
 
