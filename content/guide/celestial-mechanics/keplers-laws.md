@@ -4,27 +4,19 @@ prev: /guide/celestial-mechanics/
 weight: 1
 ---
 
-We start here by a study of "celestial mechanics", studying the interaction of bodies through gravitation forces. 
+We start here by a study of "celestial mechanics", studying the interaction of bodies through gravitation forces.
 
-<<<<<<< HEAD
-The basic law preluding it is Newton's law of universal gravitation, which is the classical description of gravity (we'll see a bit of the modern modification to it, the study of general relativity later on). Consider two bodies of masses $m_1$ and $m_2$, with position vectors $\mathbf{r_1}$ and $\mathbf{r_2}$. The force exerted on body 2 due to body 1, described by Newton's law of universal gravitation is:
-=======
-The basic law preluding it is Newton's law of universal gravitation, which is the classical description of gravity (we'll see a bit of the modern modification to it, the study of general relativity later on). 
+The basic law preluding it is Newton's law of universal gravitation, which is the classical description of gravity (we'll see a bit of the modern modification to it, the study of general relativity later on).
 
 Consider two bodies of masses $m_1$ and $m_2$, with position vectors $\mathbf{r_1}$ and $\mathbf{r_2}$. The force exerted on body 2 due to body 1, described by Newton's law of universal gravitation is:
->>>>>>> 7e30e386a5e13892d95d8dcb3702b0e45221b6a8
 
 $$\tag{3.1.1} \mathbf{F} = -\frac{G m_1 m_2}{|\mathbf{r_2} - \mathbf{r_1}|^3} (\mathbf{r_2} - \mathbf{r_1}) $$
 
 Here G is the universal gravitational constant, equal to $6.67430 \times 10^{-11} \: \mathrm{m^3\,kg^{-1}\,s^{-2}}$.
 
-<<<<<<< HEAD
-The problem we're going to tackle is Kepler's two body problem, which asks to calculate and predict the motion of two bodies under the influence of their mutual gravitational attraction. The two bodies are assumed to be point masses, and the force acting on them is given by Newton's law of gravitation. We'll see later that the problem for a higher amount of bodies is unsolvable, but we can still talk about some reduced cases.
-=======
-The problem we're going to tackle is Kepler's two body problem, which asks to calculate and predict the motion of two bodies under the influence of their mutual gravitational attraction. The two bodies are assumed to be point masses, and the force acting on them is given by Newton's law of gravitation. 
+The problem we're going to tackle is Kepler's two body problem, which asks to calculate and predict the motion of two bodies under the influence of their mutual gravitational attraction. The two bodies are assumed to be point masses, and the force acting on them is given by Newton's law of gravitation.
 
 We'll see later what we can say about the other cases of the $n$ body problem.
->>>>>>> 7e30e386a5e13892d95d8dcb3702b0e45221b6a8
 
 To solve for the trajectories of the two bodies, it is most convenient to work in the center of mass frame. The center of mass $\mathbf{R}$ of the two body system is given by
 
@@ -82,8 +74,7 @@ The separation vector $\mathbf{r}$ also gives the trajectory of one of the bodie
 
 ## Constants of Motion
 
-There are a couple of observations we can make here to simplify the tasks. The first is to look for invariants, quantities that don't change. These turn out to be quite helpful (and sometimes we can't
-even solve the problem without them!). Because the force is along the line joining the two masses, it makes sense to think about the angular momentum, because the force is central in a sense. 
+There are a couple of observations we can make here to simplify the tasks. The first is to look for invariants, quantities that don't change. These turn out to be quite helpful (and sometimes we can't even solve the problem without them!). Because the force is along the line joining the two masses, it makes sense to think about the angular momentum, because the force is central in a sense.
 
 In particular, because the force on the reduced mass is $f(r) \mathbf{\hat{r}}$, the "angular momentum", $\mathbf{r} \times m\mathbf{\dot{r}}$ is constant.
 
@@ -95,8 +86,7 @@ $$
 \end{align*}
 $$
 
-where $\mathbf{v} = \dot{\mathbf{r}}$. The algebra is a little tricky, 
-and offers no insight, so I've ommited it, but you should go through it once (you'll actually get a $\mathbf{\dot{R}}$ term as well, but see the energy discussion later). Anyway, from our previous discussion, this is an invariant.
+where $\mathbf{v} = \dot{\mathbf{r}}$. The algebra is a little tricky, and offers no insight, so I've ommited it, but you should go through it once (you'll actually get a $\mathbf{\dot{R}}$ term as well, but see the energy discussion later). Anyway, from our previous discussion, this is an invariant.
 
 The total energy of the system is given by
 
@@ -108,7 +98,7 @@ E &= \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2 - \frac{G m_1 m_2}{|\mathbf{r
 \end{align*}
 $$
 
-but since the COM does not experience a net force, $\mathbf{\dot{R}}$ is constant, so we might as well discard it. Then our modified energy becomes, 
+but since the COM does not experience a net force, $\mathbf{\dot{R}}$ is constant, so we might as well discard it. Then our modified energy becomes,
 
 $$
 E \to \frac{1}{2} m v^2 - \mu \frac{m}{r^2}
@@ -126,7 +116,7 @@ $$
 
 Since both energy and angular momentum are invariants, so are $\mathbf{h}$ and $\varepsilon$.
 
-Since $\mathbf{h} \cdot \mathbf{r} = 0$, $\mathbf{h}$ lies perpendicular to the plane of motion, and hence defines the plane of motion, which must be fixed because $\mathbf{h}$ is constant. 
+Since $\mathbf{h} \cdot \mathbf{r} = 0$, $\mathbf{h}$ lies perpendicular to the plane of motion, and hence defines the plane of motion, which must be fixed because $\mathbf{h}$ is constant.
 
 We define the eccentricity vector as
 
@@ -157,8 +147,7 @@ very apparent from our definition.
 
 Kepler's first law of planetary motion states that the orbit of a planet is an ellipse with the sun at one of the foci.
 
-First, we can ask what the solutions for the trajectories of particles in such a system are. Also we'll be using properties 
-of ellipse somewhat freely for the next sections, so if you aren't familiar with them, I'd recommend reading the wikipidea page: https://en.wikipedia.org/wiki/Ellipse. The sections of importance are mostly the cartesian co-ordinates one, and metric properties.
+First, we can ask what the solutions for the trajectories of particles in such a system are. Also we'll be using properties of ellipse somewhat freely for the next sections, so if you aren't familiar with them, I'd recommend reading the wikipidea page: https://en.wikipedia.org/wiki/Ellipse. The sections of importance are mostly the cartesian co-ordinates one, and metric properties.
 
 To do this we define a new quantity (we don't necessarily need it, but its very useful later, so I might as well define it here), we call the angle between the eccentricity vector and the position vector the *true anamoly*, $\theta$. We can use this to take the dot product:
 
@@ -203,6 +192,7 @@ From here we can see that the sign of the total energy depends on the eccentrici
 Therefore all bound orbits are ellipses, and all unbound orbits are hyperbolae or parabolae.
 
 For our solar system, the orbits of the planets are bound. The sun is much more massive than any of the planets, hence is nearly at the center of mass, or the focus of the elliptical orbits of all planets, which proves the first law. Of course this isn't exactly true, the orbits influence each other a bit, but its still good enough.
+
 ## Second Law
 
 Kepler's second law of planetary motion states that a line segment joining a planet and the sun sweeps out equal areas during equal intervals of time.
@@ -217,7 +207,7 @@ $$ dA = \frac{1}{2}|\mathbf{r} \times \mathbf{dr}| = \frac{1}{2}|\mathbf{r} \tim
 
 $$\tag{3.1.7} \implies \boxed{\frac{dA}{dt} = \frac{h}{2}} $$
 
-which is constant. Thus, we are done. 
+which is constant. Thus, we are done.
 
 ## Third Law
 
