@@ -1,5 +1,6 @@
 ---
 title: About
+toc: false
 ---
 
 ## Akshat Srivastava

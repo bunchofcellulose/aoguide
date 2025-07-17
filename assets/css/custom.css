@@ -238,3 +238,539 @@ details :not(.math) {
 .dark .content a {
     color: #60a5fa; /* A lighter blue for dark mode */
 }
+
+/* Hero section */
+.ao-hero {
+  width: 100%;
+  max-width: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8vw;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+.ao-hero-content {
+  flex: 1;
+  min-width: 340px;
+  padding-left: 5vw;
+}
+.ao-title {
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 900;
+  line-height: 1.09;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg,#6366f1 0%,#f43f5e 50%,#fbbf24 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.01em;
+}
+
+/* Main subtitle color */
+.ao-gradient {
+  display: block;
+  font-weight: 900;
+  font-size: 1.7rem;
+  background: linear-gradient(90deg,#f43f5e 0%,#6366f1 50%,#fbbf24 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.01em;
+}
+
+.ao-subtitle {
+  font-size: 1.22rem;
+  line-height: 1.7;
+  margin: 1.5rem 0 2.5rem 0;
+  max-width: 700px;
+}
+.ao-buttons {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+.ao-visual {
+  flex: 1;
+  min-width: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section titles */
+.ao-section-title {
+  font-size: 2.1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
+  font-weight: 800;
+}
+
+/* Features grid */
+.ao-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 2.5rem 0;
+  align-items: stretch;
+}
+
+/* Features and topics grid cards - smaller width for 3-in-row fit */
+.ao-feature, .ao-topic {
+  width: 340px;
+  min-width: 280px;
+  max-width: 340px;
+  min-height: 320px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 32px 0 rgba(80,80,120,0.10);
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s, transform 0.3s;
+  padding: 2.2rem 2rem 1.5rem 2rem;
+  margin: 0;
+}
+.ao-feature:hover {
+  box-shadow: 0 12px 48px 0 rgba(80,80,120,0.18), 0 1.5px 8px 0 rgba(80,80,120,0.10);
+  transform: translateY(-8px) scale(1.04);
+}
+.ao-feature h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  background: linear-gradient(90deg,#6366f1 0%,#f43f5e 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.1rem;
+  letter-spacing: 0.01em;
+  text-align: center;
+  transition: background 0.3s;
+}
+.ao-feature p {
+  font-size: 1.08rem;
+  color: #222;
+  text-align: center;
+}
+.dark .ao-feature {
+  background: #18181b;
+  color: #fff;
+}
+.dark .ao-feature h3, .dark .ao-feature p {
+  color: #fff;
+}
+
+/* Topics grid */
+.ao-topics-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 3.5rem 0 0 0;
+  align-items: stretch;
+  overflow-x: visible;
+}
+.ao-topics-row + .ao-topics-row {
+  margin: 2.5rem 0 0 0;
+}
+.ao-topics-row:last-of-type {
+  margin: 2.5rem 0 3.5rem 0;
+}
+.ao-topic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 440px;
+  min-width: 440px;
+  max-width: 440px;
+  min-height: 320px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 32px 0 rgba(80,80,120,0.10);
+  border: none;
+  transition: box-shadow 0.3s, transform 0.3s;
+  padding: 2.2rem 2rem 1.5rem 2rem;
+}
+.ao-topic-header {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.ao-topic-header h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  background: linear-gradient(90deg,#6366f1 0%,#fbbf24 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.01em;
+  margin-bottom: 1.1rem;
+  transition: background 0.3s;
+  text-align: center;
+}
+.ao-topic p {
+  font-size: 1.01rem;
+  text-align: center;
+}
+.ao-progress {
+  margin: 2.5rem auto 0 auto;
+  max-width: 340px;
+  width: 100%;
+}
+.ao-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: linear-gradient(90deg,#6366f1 0%,#fbbf24 100%);
+  box-shadow: 0 2px 8px 0 rgba(80,80,120,0.10);
+  transition: background 0.3s;
+}
+
+/* CTA */
+.ao-cta {
+  width: 100%;
+  text-align: center;
+  padding: 3.5rem 0;
+  background: linear-gradient(135deg,rgba(102,126,234,0.1) 0%,rgba(118,75,162,0.1) 100%);
+  border-radius: 16px;
+  margin: 3.5rem 0;
+}
+.ao-cta h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+.ao-cta p {
+  font-size: 1.13rem;
+  margin-bottom: 1.3rem;
+}
+.ao-btn-cta {
+  display: inline-block;
+  padding: 0.7rem 2.2rem;
+  border-radius: 10px;
+  font-size: 1.13rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  background: #5865F2;
+  color: #fff;
+  border: 2px solid #5865F2;
+  box-shadow: 0 2px 12px 0 rgba(30,41,59,0.10);
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 0.5rem;
+  min-width: 160px;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s, border 0.18s;
+}
+.ao-btn-cta:hover {
+  background: #404eed;
+  border: 2px solid #404eed;
+  color: #fff;
+  box-shadow: 0 4px 24px 0 rgba(88,101,242,0.18);
+}
+
+/* Main hero buttons - rectangular, dark theme */
+.ao-btn-primary, .ao-btn-secondary {
+  display: inline-block;
+  padding: 0.7rem 2.2rem;
+  border-radius: 10px;
+  font-size: 1.13rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s, border 0.18s;
+  box-shadow: 0 2px 12px 0 rgba(30,41,59,0.10);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 0.5rem;
+  min-width: 160px;
+}
+
+.ao-btn-primary {
+  background: linear-gradient(90deg, #6366f1 0%, #f43f5e 100%);
+  color: #fff;
+  border: 2px solid #6366f1;
+}
+.ao-btn-primary:hover {
+  background: linear-gradient(90deg, #8385f3 0%, #ee4b6b 100%);
+  border: 2px solid #3739a7;
+  box-shadow: 0 4px 24px 0 rgba(184,134,11,0.18), 0 2px 12px 0 rgba(30,41,59,0.10);
+}
+
+.ao-btn-secondary {
+  background: #fff;
+  color: #a21caf;
+  border: 2px solid #a21caf;
+}
+.ao-btn-secondary:hover {
+  background: #fdf4ff;
+  color: #6366f1;
+  border: 2px solid #6366f1;
+  box-shadow: 0 4px 24px 0 rgba(184,134,11,0.18), 0 2px 12px 0 rgba(30,41,59,0.10);
+}
+
+@keyframes ao-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes ao-twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+@keyframes ao-float {
+  0%, 100% { transform: translate(-50%, -50%) translateY(0px); }
+  50% { transform: translate(-50%, -50%) translateY(-10px); }
+}
+
+@keyframes ao-rotate {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@media (max-width: 768px) {
+  .ao-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .ao-visual {
+    height: 300px;
+    margin-top: 2rem;
+  }
+  
+  .ao-animation {
+    width: 200px;
+    height: 200px;
+  }
+}
+.ao-animation {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.ao-coming-soon {
+  opacity: 0.7;
+}
+
+.ao-topic-header {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.ao-badge-core, .ao-badge-advanced, .ao-badge-essential, .ao-badge-practical, .ao-badge-soon {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+}
+
+.ao-badge-core { background: rgba(102, 126, 234, 0.2); color: #667eea; }
+.ao-badge-advanced { background: rgba(236, 72, 153, 0.2); color: #ec4899; }
+.ao-badge-essential { background: rgba(34, 197, 94, 0.2); color: #22c55e; }
+.ao-badge-practical { background: rgba(249, 115, 22, 0.2); color: #f97316; }
+.ao-badge-soon { background: rgba(156, 163, 175, 0.2); color: #9ca3af; }
+
+/* Fix for gradient text in .ao-topic-header h3 */
+.ao-topic-header h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  background: linear-gradient(90deg,#6366f1 0%,#fbbf24 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.01em;
+  margin-bottom: 1.1rem;
+  transition: background 0.3s;
+  text-align: center;
+}
+
+/* Fix for .ao-bar gradient (ensure visible) */
+.ao-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: linear-gradient(90deg,#6366f1 0%,#fbbf24 100%);
+}
+
+/* Card backgrounds and shadow for features and topics */
+.ao-feature, .ao-topic {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 rgba(80,80,120,0.07);
+  border: 1px solid #ececec;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+/* Card hover effect */
+.ao-feature:hover, .ao-topic:hover {
+  box-shadow: 0 6px 24px 0 rgba(80,80,120,0.18);
+  transform: translateY(-4px) scale(1.03);
+}
+
+/* Card text color for dark mode */
+.dark .ao-feature, .dark .ao-topic {
+  background: #18181b;
+  border-color: #222;
+  color: #fff;
+}
+
+/* Card text color for light mode */
+.ao-feature h3, .ao-feature p,
+.ao-topic-header h3, .ao-topic p {
+  color: #222;
+}
+
+/* Card text color for dark mode */
+.dark .ao-feature h3, .dark .ao-feature p,
+.dark .ao-topic-header h3, .dark .ao-topic p {
+  color: #fff;
+}
+
+/* Gradient text for topic headers (override for each card if needed) */
+.ao-topic-header h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  background: linear-gradient(90deg,#6366f1 0%,#fbbf24 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.01em;
+  margin-bottom: 1.1rem;
+  transition: background 0.3s;
+  text-align: center;
+}
+ 
+.ao-star-2 {
+  width: 12px; height: 12px; left: 70%; top: 20%;
+  background: #38bdf8;
+  animation: ao-twinkle 3.2s infinite;
+}
+.ao-star-3 {
+  width: 10px; height: 10px; left: 30%; top: 70%;
+  background: #f43f5e;
+  animation: ao-twinkle 2.1s infinite;
+}
+.ao-star-4 {
+  width: 14px; height: 14px; left: 80%; top: 60%;
+  background: #a3e635;
+  animation: ao-twinkle 2.8s infinite;
+}
+
+/* Sleek progress bar */
+.ao-progress {
+  margin: 2.5rem auto 0 auto;
+  max-width: 340px;
+  width: 100%;
+}
+.ao-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: linear-gradient(90deg,#6366f1 0%,#fbbf24 100%);
+  box-shadow: 0 2px 8px 0 rgba(80,80,120,0.10);
+  transition: background 0.3s;
+}
+
+/* Remove custom scrollbar */
+.ao-topics-row::-webkit-scrollbar,
+.ao-topics-row::-webkit-scrollbar-track,
+.ao-topics-row::-webkit-scrollbar-thumb {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}
+
+/* Sleek animation for .ao-planet (floating and glowing) */
+.ao-planet {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #fbbf24 0%, #f59e42 60%, #f43f5e 100%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 48px 0 #fbbf24, 0 0 96px 0 #f43f5e;
+  animation: ao-planet-float 4s cubic-bezier(.4,0,.2,1) infinite;
+  z-index: 2;
+}
+
+/* Sleek orbit animation */
+.ao-orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #6366f1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: ao-orbit-rotate 12s linear infinite;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+/* Sleek star animation */
+.ao-star {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.85;
+  filter: blur(0.5px);
+  transition: box-shadow 0.3s;
+}
+.ao-star-1 {
+  width: 20px; height: 20px; left: 18%; top: 22%;
+  background: #fbbf24;
+  animation: ao-star-pulse 2.5s infinite;
+  box-shadow: 0 0 12px #fbbf24;
+}
+.ao-star-2 {
+  width: 14px; height: 14px; left: 72%; top: 18%;
+  background: #38bdf8;
+  animation: ao-star-pulse 3.2s infinite;
+  box-shadow: 0 0 10px #38bdf8;
+}
+.ao-star-3 {
+  width: 12px; height: 12px; left: 32%; top: 72%;
+  background: #f43f5e;
+  animation: ao-star-pulse 2.1s infinite;
+  box-shadow: 0 0 8px #f43f5e;
+}
+.ao-star-4 {
+  width: 16px; height: 16px; left: 82%; top: 62%;
+  background: #a3e635;
+  animation: ao-star-pulse 2.8s infinite;
+  box-shadow: 0 0 10px #a3e635;
+}
+
+/* Sleek keyframes */
+@keyframes ao-planet-float {
+  0%, 100% { transform: translate(-50%, -50%) translateY(0px) scale(1); box-shadow: 0 0 48px 0 #fbbf24, 0 0 96px 0 #f43f5e;}
+  50% { transform: translate(-50%, -50%) translateY(-18px) scale(1.07); box-shadow: 0 0 64px 0 #fbbf24, 0 0 128px 0 #f43f5e;}
+}
+@keyframes ao-orbit-rotate {
+  from { transform: translate(-50%, -50%) rotate(0deg);}
+  to { transform: translate(-50%, -50%) rotate(360deg);}
+}
+@keyframes ao-star-pulse {
+  0%, 100% { opacity: 0.7; box-shadow: 0 0 12px #fff;}
+  50% { opacity: 1; box-shadow: 0 0 24px #fff;}
+}
