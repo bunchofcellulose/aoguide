@@ -32,6 +32,10 @@ markup:
   highlight:
     noClasses: false
 
+services:
+  googleAnalytics:
+    ID: G-BHEQ5451BE
+
 params:
   description: Comprehensive guide for astronomy olympiads
 
