@@ -267,23 +267,6 @@ details :not(.math) {
   position: relative;
 }
 
-.ao-hero::before {
-  content: '';
-  position: absolute;
-  top: -10vh;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100vw;
-  height: calc(100% + 20vh);
-  background-image: url('/images/gradient.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(0.6);
-  z-index: -1;
-  pointer-events: none;
-}
-
 .ao-hero-content {
   flex: 1;
   min-width: 340px;
@@ -644,7 +627,7 @@ details :not(.math) {
   transform: translateX(-50%);
   width: 100vw;
   height: calc(100% + 25vh);
-  background-image: url('/images/M33.png');
+  background-image: url('/images/start/M33.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
