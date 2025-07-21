@@ -64,7 +64,7 @@ $$\tag{2.1.4} B = \int_0^{\infty} B_\nu \, d\nu $$
 {{% /callout %}}
 
 {{< callout type="image" >}}
-{{< svg "images/photometry/radiance.svg" "Radiance" "The radiance B is related to the energy passing through a surface element dA into a solid angle dω, in a direction θ (source: Fundamental Astronomy)" >}}
+{{< svg "photometry/radiance.svg" "Radiance" "The radiance B is related to the energy passing through a surface element dA into a solid angle dω, in a direction θ (source: Fundamental Astronomy)" >}}
 {{% /callout %}}
 
 The flux density is related to the spectral radiance as
@@ -88,7 +88,7 @@ $$\tag{2.1.8} B = \frac{F}{\omega}$$
 Surface brightness is independent of distance. It is equal to radiance of the object if the object emits isotropically.
 
 {{< callout type="image" >}}
-{{< svg "images/photometry/surfbright.svg" "Surface Brightness" "The surface brightness B is the flux received by the observer, divided by the solid angle the object is spread over as seen by the observer" >}}
+{{< svg "photometry/surfbright.svg" "Surface Brightness" "The surface brightness B is the flux received by the observer, divided by the solid angle the object is spread over as seen by the observer" >}}
 {{% /callout %}}
 
 ### A List of Radiometric Quantities
@@ -175,7 +175,7 @@ $$
 These two are connected by the relation $B_\nu(T) \, d\nu = -B_\lambda(T) \, d\lambda$ (the minus sign comes from the fact that as frequency increases, wavelength decreases.).
 
 {{< callout type="image" >}}
-{{< svg "images/photometry/blackbody.svg" "Black Body Radiation Curve" "Black Body Radiation Curve (source: Wikipedia)" >}}
+{{< svg "photometry/blackbody.svg" "Black Body Radiation Curve" "Black Body Radiation Curve (source: Wikipedia)" >}}
 {{% /callout %}}
 
 These equations for spectral radiance can be simplified when the wavelengths in question are much larger than the peak wavelength of the spectrum or when they are approximately equal to the peak wavelength of the spectrum.

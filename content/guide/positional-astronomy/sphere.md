@@ -12,7 +12,7 @@ A great circle is defined to be the intersection with the sphere of a plane cont
 
 The two points equidistant at $90^\circ$ from a great circle are called the poles of the great circle.
 
-{{< svg "images/pos/gc.svg" "Poles of a Great Circle" "Poles of a Great Circle" >}}
+{{< svg "pos/gc.svg" "Poles of a Great Circle" "Poles of a Great Circle" >}}
 
 If three great circles intersect one another so that a closed fgiure is formed by three arcs of the great circles, it is called a spherical triangle provided that it possesses the following properties:
 
@@ -22,7 +22,7 @@ If three great circles intersect one another so that a closed fgiure is formed b
 
 The sides of a spherical triangle are expressed in angular measure.
 
-{{< svg "images/pos/sphtri.svg" "Spherical Triangle" "Spherical Triangle ABC formed by the intersections of great circles" >}}
+{{< svg "pos/sphtri.svg" "Spherical Triangle" "Spherical Triangle ABC formed by the intersections of great circles" >}}
 
 The sides of the triangle are denoted by $a$, $b$, and $c$ and the angles by $A$, $B$, and $C$. The sides are the arcs of the great circles, while the angles are the angles between the planes of the great circles. For example, angle $A$ is the angle $\angle BAC$ and side $a$ is the arc $BC$.
 
@@ -101,7 +101,7 @@ $$d = R \Delta \lambda \, \cos \phi$$
 
 where $R$ is the radius of the Earth, $\phi$ is the latitude, and $\Delta \lambda$ is the difference in longitude between the two points. Note that the departure is not the shortest distance between the two points, as it is measured along the parallel of latitude, which is a small circle.
 
-{{< svg "images/pos/departure.svg" "Departure between two points" "Distance along the small circle parallel to the Equator is the departure between AB, distance along the great circle is the shortest distance between AB" >}}
+{{< svg "pos/departure.svg" "Departure between two points" "Distance along the small circle parallel to the Equator is the departure between AB, distance along the great circle is the shortest distance between AB" >}}
 
 The distance between two points on the same meridian is given by
 
@@ -111,7 +111,7 @@ where $\Delta \phi$ is the difference in latitude between the two points.
 
 A nautical mile is the great circle distance subtending an angle of one minute of arc at the centre of the Earth.
 
-{{< svg "images/pos/latlon.svg" "Latitude and Longitude" "Latitude of A is the angle AA', whereas the longitude difference between AB is the angle APB" >}}
+{{< svg "pos/latlon.svg" "Latitude and Longitude" "Latitude of A is the angle AA', whereas the longitude difference between AB is the angle APB" >}}
 
 ## The Celestial Sphere
 
@@ -131,7 +131,7 @@ For an observer, the point on the celestial sphere directly overhead is called t
 
 The meridian of an observer is the great circle on the celestial sphere that passes through the zenith, nadir, and the north and south celestial poles. The points where the celestial equator intersects the meridian are called the north and south points.
 
-{{< svg "images/pos/celsph.svg" "Celestial Sphere" "Celestial Sphere" >}}
+{{< svg "pos/celsph.svg" "Celestial Sphere" "Celestial Sphere" >}}
 
 In the above diagram, the north celestial pole is denoted by $P$, and the south celestial pole by $Q$. The north and south ecliptic poles are denoted by $K$ and $K'$, respectively. The zenith is denoted by $Z$, the nadir by $Z'$. The cardinal points are the east point $E$, and the west point $W$, the north point $N$ and the south point $S$.
 

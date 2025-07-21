@@ -224,7 +224,7 @@ Kepler's second law of planetary motion states that a line segment joining a pla
 The proof of it relies on the fact that the cross product of two vectors gives the area of a parallelogram possessing sides of those vectors. Hence, the triangular area $dA$ swept out in a short period of time is given by half the cross product of the $\mathbf{r}$ and $\mathbf{dr}$ vectors, for some short piece of the orbit, $\mathbf{dr}$.
 
 {{< callout type="image" >}}
-{{< svg "images/celmech/secondlaw.svg" "Sweeping out area $dA$" "Sweeping out area dA" >}}
+{{< svg "celmech/secondlaw.svg" "Sweeping out area $dA$" "Sweeping out area dA" >}}
 {{% /callout %}}
 
 $$ dA = \frac{1}{2}|\mathbf{r} \times \mathbf{dr}| = \frac{1}{2}|\mathbf{r} \times \mathbf{v} dt| = \frac{h}{2} dt $$

@@ -1,18 +1,20 @@
-{{- $path := .Get 0 -}}
+{{- $filename := .Get 0 -}}
 {{- $alt := .Get 1 | default "" -}}
 {{- $caption := .Get 2 | default "" -}}
 
-{{- $res := resources.Get $path -}}
-{{- if $res }}
-  {{- $svg := $res | resources.Minify -}}
+{{- $staticPath := printf "static/assets/images/%s" $filename -}}
+{{- $webPath := printf "/assets/images/%s" $filename -}}
+
+{{- if fileExists $staticPath }}
+  {{- $content := readFile $staticPath -}}
   <figure class="ma0" style="text-align: center;">
     <div role="img" aria-label="{{ $alt }}" class="inline-svg" style="display: inline-block;">
-      {{ $svg.Content | safeHTML }}
+      {{ $content | safeHTML }}
     </div>
     {{- if $caption }}
       <figcaption style="text-align: center;">{{ $caption }}</figcaption>
     {{- end }}
   </figure>
 {{- else }}
-  <div style="color: red;">⚠️ SVG not found at '{{ $path }}'</div>
+  <div style="color: red;">⚠️ SVG not found at '{{ $staticPath }}'</div>
 {{- end }}

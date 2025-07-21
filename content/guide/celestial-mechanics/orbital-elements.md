@@ -3,7 +3,7 @@ title: Orbital Elements
 weight: 4
 ---
 
-{{< svg "images/celmech/orbital-elements.svg" "Orbital elements illustration" "Orbital Elements (source: Wikipedia)" >}}
+{{< svg "celmech/orbital-elements.svg" "Orbital elements illustration" "Orbital Elements (source: Wikipedia)" >}}
 
 First of all, we define the following
 
@@ -42,7 +42,7 @@ Another parameter commonly used is
 
 ## Eulerian Angles
 
-{{< svg "images/celmech/euler-angles.svg" "Euler angle illustration" "Euler Angles" >}}
+{{< svg "celmech/euler-angles.svg" "Euler angle illustration" "Euler Angles" >}}
 
 The Euler angles are three angles used to describe the orientation of a coordinate system with respect to another fixed coordinate system. The angles $\Omega$, $i$, $\omega$ are the Euler angles characterizing the orientation of the coordinate system. Let ${\hat{\mathbf{X}}}$, $\hat{\mathbf{Y}}$ and $\hat{\mathbf{Z}}$ define the coordinate system of the reference plane, and ${\hat{\mathbf{x}}}$, $\hat{\mathbf{y}}$ and $\hat{\mathbf{z}}$ define the coordinate system of the orbital plane. N in the figure denotes the direction of the ascending node, while X is the reference direction.
 

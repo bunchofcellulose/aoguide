@@ -52,7 +52,7 @@ The plane containing the smallest possible image (not a point) is called the pla
 Chromatic aberration can be corrected by using a combination of lenses made from different materials with different refractive indices. This arrangement is called an achromatic doublet.
 
 {{< callout type="image" >}}
-{{< svg "images/photometry/chromatic_aberration.svg" "Chromatic Aberration" "Chromatic Aberration in a lens (source: Wikipedia)" >}}
+{{< svg "photometry/chromatic_aberration.svg" "Chromatic Aberration" "Chromatic Aberration in a lens (source: Wikipedia)" >}}
 {{% /callout %}}
 
 ### Spherical Aberration
@@ -62,7 +62,7 @@ The focus position of a spherical lens for any incident ray depends on its dista
 Spherical aberration can be corrected by using a combination of lenses with different shapes, known as a compound lens. It can also be corrected by aspherization, where the lens is shaped to have a non-spherical surface. In case of reflecting telescopes, spherical aberration can be corrected by using a parabolic mirror instead of a spherical one.
 
 {{< callout type="image" >}}
-{{< svg "images/photometry/spherical_aberration.svg" "Spherical Aberration" "Spherical Aberration in a lens (source: Wikipedia)" >}}
+{{< svg "photometry/spherical_aberration.svg" "Spherical Aberration" "Spherical Aberration in a lens (source: Wikipedia)" >}}
 {{% /callout %}}
 
 ### Coma
@@ -72,7 +72,7 @@ Coma is an aberration where the image of a point object off the optical axis app
 Coma can be corrected using an aplanatic lens, which is a combination of two lenses with different shapes. The first lens is positive, and the second is negative. The two lenses are placed at a distance equal to their focal lengths, with their optical axes aligned.
 
 {{< callout type="image" >}}
-{{< svg "images/photometry/coma.svg" "Coma" "Coma in a lens (source: Wikipedia)" >}}
+{{< svg "photometry/coma.svg" "Coma" "Coma in a lens (source: Wikipedia)" >}}
 {{% /callout %}}
 
 ### Astigmatism
