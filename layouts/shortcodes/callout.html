@@ -5,7 +5,14 @@
   {{- $emoji = index $calloutEmojiDict $type -}}
 {{- end -}}
 {{- $icon := .Get "icon" -}}
-{{- $content := .InnerDeindent | markdownify -}}
+
+{{/* Handle content processing based on type */}}
+{{- $content := "" -}}
+{{- if eq $type "image" -}}
+  {{- $content = .InnerDeindent -}}
+{{- else -}}
+  {{- $content = .InnerDeindent | markdownify -}}
+{{- end -}}
 
 {{/* Map types to CSS classes */}}
 {{- $classMap := dict 

@@ -3,18 +3,13 @@
 {{- $caption := .Get 2 | default "" -}}
 
 {{- $staticPath := printf "static/assets/images/%s" $filename -}}
-{{- $webPath := printf "/assets/images/%s" $filename -}}
 
 {{- if fileExists $staticPath }}
   {{- $content := readFile $staticPath -}}
-  <figure class="ma0" style="text-align: center;">
-    <div role="img" aria-label="{{ $alt }}" class="inline-svg" style="display: inline-block;">
-      {{ $content | safeHTML }}
-    </div>
-    {{- if $caption }}
-      <figcaption style="text-align: center;">{{ $caption }}</figcaption>
-    {{- end }}
-  </figure>
+  {{ $content | safeHTML }}
+  {{- if $caption }}
+    <div style="text-align: center; margin-top: 0.5rem; font-style: italic;">{{ $caption }}</div>
+  {{- end }}
 {{- else }}
   <div style="color: red;">⚠️ SVG not found at '{{ $staticPath }}'</div>
 {{- end }}

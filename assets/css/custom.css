@@ -1,30 +1,30 @@
 @font-face {
     font-family: 'Futura';
-    src: url('/assets/fonts/futura/Futura Heavy font.ttf') format('truetype');
+    src: url('../../static/assets/fonts/futura/Futura Heavy font.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/assets/fonts/Roboto/Roboto-ExtraBold.ttf') format('truetype');
+    src: url('../../static/assets/fonts/Roboto/Roboto-ExtraBold.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Courier-Prime';
-    src: url('/assets/fonts/courier-prime/Courier Prime Bold.ttf') format('truetype');
+    src: url('../../static/assets/fonts/courier-prime/Courier Prime Bold.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Riesling';
-    src: url('/assets/fonts/riesling.ttf') format('truetype');
+    src: url('../../static/assets/fonts/riesling.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Dune Rise';
-    src: url('/assets/fonts/dune_rise/Dune_Rise.ttf') format('truetype');
+    src: url('../../static/assets/fonts/dune_rise/Dune_Rise.ttf') format('truetype');
     font-display: swap;
 }
 
@@ -627,7 +627,7 @@ details :not(.math) {
   transform: translateX(-50%);
   width: 100vw;
   height: calc(100% + 25vh);
-  background-image: url('/assets/images/start/bg.png');
+  background-image: url('../../static/assets/images/start/bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

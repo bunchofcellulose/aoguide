@@ -53,7 +53,7 @@ Chromatic aberration can be corrected by using a combination of lenses made from
 
 {{< callout type="image" >}}
 {{< svg "photometry/chromatic_aberration.svg" "Chromatic Aberration" "Chromatic Aberration in a lens (source: Wikipedia)" >}}
-{{% /callout %}}
+{{< /callout >}}
 
 ### Spherical Aberration
 
@@ -63,7 +63,7 @@ Spherical aberration can be corrected by using a combination of lenses with diff
 
 {{< callout type="image" >}}
 {{< svg "photometry/spherical_aberration.svg" "Spherical Aberration" "Spherical Aberration in a lens (source: Wikipedia)" >}}
-{{% /callout %}}
+{{< /callout >}}
 
 ### Coma
 
@@ -73,7 +73,7 @@ Coma can be corrected using an aplanatic lens, which is a combination of two len
 
 {{< callout type="image" >}}
 {{< svg "photometry/coma.svg" "Coma" "Coma in a lens (source: Wikipedia)" >}}
-{{% /callout %}}
+{{< /callout >}}
 
 ### Astigmatism
 

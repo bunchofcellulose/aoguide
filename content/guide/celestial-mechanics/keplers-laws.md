@@ -225,7 +225,7 @@ The proof of it relies on the fact that the cross product of two vectors gives t
 
 {{< callout type="image" >}}
 {{< svg "celmech/secondlaw.svg" "Sweeping out area $dA$" "Sweeping out area dA" >}}
-{{% /callout %}}
+{{< /callout >}}
 
 $$ dA = \frac{1}{2}|\mathbf{r} \times \mathbf{dr}| = \frac{1}{2}|\mathbf{r} \times \mathbf{v} dt| = \frac{h}{2} dt $$
 

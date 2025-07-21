@@ -61,11 +61,11 @@ $$\tag{2.1.3} B_\nu = \frac{\partial^2 \Phi_\nu}{\partial \omega \, \partial A_\
 Here the quantity $B_\nu$ is called the spectral radiance of the radiation at frequency $\nu$ and direction $\theta$. $A_\text{proj} = A \cos \theta$ is the projected area on which the radiation is incident. The total radiance is given by
 
 $$\tag{2.1.4} B = \int_0^{\infty} B_\nu \, d\nu $$
-{{% /callout %}}
+{{< /callout >}}
 
 {{< callout type="image" >}}
 {{< svg "photometry/radiance.svg" "Radiance" "The radiance B is related to the energy passing through a surface element dA into a solid angle dω, in a direction θ (source: Fundamental Astronomy)" >}}
-{{% /callout %}}
+{{< /callout >}}
 
 The flux density is related to the spectral radiance as
 
@@ -89,7 +89,7 @@ Surface brightness is independent of distance. It is equal to radiance of the ob
 
 {{< callout type="image" >}}
 {{< svg "photometry/surfbright.svg" "Surface Brightness" "The surface brightness B is the flux received by the observer, divided by the solid angle the object is spread over as seen by the observer" >}}
-{{% /callout %}}
+{{< /callout >}}
 
 ### A List of Radiometric Quantities
 
@@ -176,7 +176,7 @@ These two are connected by the relation $B_\nu(T) \, d\nu = -B_\lambda(T) \, d\l
 
 {{< callout type="image" >}}
 {{< svg "photometry/blackbody.svg" "Black Body Radiation Curve" "Black Body Radiation Curve (source: Wikipedia)" >}}
-{{% /callout %}}
+{{< /callout >}}
 
 These equations for spectral radiance can be simplified when the wavelengths in question are much larger than the peak wavelength of the spectrum or when they are approximately equal to the peak wavelength of the spectrum.
 
@@ -189,7 +189,7 @@ The Rayleigh-Jeans approximation is used often in radio astronomy, where the wav
 
 {{< callout type="example" >}}
 Derive the Rayleigh-Jeans approximation from Planck's law.
-{{% /callout %}}
+{{< /callout >}}
 
 When $\lambda \lesssim \lambda_\text{peak}$ or $\nu \gtrsim \nu_\text{peak}$, we can use the Wien approximation
 
