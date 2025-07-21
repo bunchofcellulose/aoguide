@@ -1,0 +1,214 @@
+{{ define "main" }}
+<style>
+  .about-page {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.03) 0%, rgba(244, 63, 94, 0.03) 100%);
+    min-height: 100vh;
+    padding: 2rem 0;
+  }
+  
+  .about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .about-header h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #6366f1 0%, #f43f5e 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+  }
+  
+  .about-section {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.12);
+  }
+  
+  .about-section h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1e293b;
+    position: relative;
+  }
+  
+  .about-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #6366f1 0%, #f43f5e 100%);
+    border-radius: 2px;
+  }
+  
+  .about-section h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem 0;
+    color: #334155;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #475569;
+    margin-bottom: 1.2rem;
+  }
+  
+  .about-section ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  .about-section li {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #475569;
+    margin-bottom: 0.5rem;
+  }
+  
+  .author-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(244, 63, 94, 0.1) 100%);
+    border-radius: 15px;
+    margin: 1.5rem 0;
+    border: 1px solid rgba(99, 102, 241, 0.2);
+  }
+  
+  .author-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #6366f1 0%, #f43f5e 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+  }
+  
+  .author-info h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1e293b;
+  }
+  
+  .author-info p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+  }
+  
+  .author-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.8rem;
+  }
+  
+  .author-links a {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .author-links a:hover {
+    color: #f43f5e;
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .feature-item {
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    border: 1px solid rgba(99, 102, 241, 0.1);
+  }
+  
+  .feature-item h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    color: #1e293b;
+  }
+  
+  .dark .about-section {
+    background: rgba(30, 41, 59, 0.8);
+    border: 1px solid rgba(71, 85, 105, 0.3);
+  }
+  
+  .dark .about-section h2,
+  .dark .about-section h3,
+  .dark .author-info h4,
+  .dark .feature-item h4 {
+    color: #f1f5f9;
+  }
+  
+  .dark .about-section p,
+  .dark .about-section li,
+  .dark .author-info p {
+    color: #cbd5e1;
+  }
+  
+  @media (max-width: 768px) {
+    .about-header h1 {
+      font-size: 2.5rem;
+    }
+    
+    .about-section {
+      padding: 2rem;
+    }
+    
+    .author-card {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .feature-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="about-page">
+  <div class="about-container">
+    <div class="about-header">
+      <h1>{{ .Title }}</h1>
+    </div>
+    
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

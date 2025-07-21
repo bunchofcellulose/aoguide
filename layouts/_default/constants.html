@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+  <style>
+    .constants-container {
+      display: flex;
+      gap: 4rem;
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem 0;
+    }
+    
+    .constants-column {
+      flex: 1;
+      min-width: 600px;
+    }
+    
+    .constants-column h2 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+    
+    @media (max-width: 1300px) {
+      .constants-container {
+        flex-direction: column;
+        gap: 2rem;
+      }
+      
+      .constants-column {
+        min-width: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  {{ partial "header.html" . }}
+  
+  <main class="mx-auto max-w-screen-xl px-6 py-4">
+    <div class="flex flex-col gap-4">
+      <!-- Page Header -->
+      <div class="mb-8">
+        <h1 class="text-4xl font-bold">{{ .Title }}</h1>
+      </div>
+      
+      <!-- Constants Content -->
+      <div class="constants-container">
+        {{ .Content }}
+      </div>
+    </div>
+  </main>
+  
+  {{ partial "footer.html" . }}
+</body>
+</html>
+    <div class="flex flex-col gap-4">
+      <!-- Page Header -->
+      <div class="mb-8">
+        <h1 class="text-4xl font-bold">{{ .Title }}</h1>
+      </div>
+      
+      <!-- Constants Content -->
+      <div class="constants-container">
+        {{ .Content }}
+      </div>
+    </div>
+  </main>
+  
+  {{ partial "footer.html" . }}
+</body>
+</html>

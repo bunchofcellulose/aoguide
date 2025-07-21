@@ -1,8 +1,11 @@
 ---
 title: List of Constants
 weight: 2
+type: constants
 toc: false
 ---
+
+<div class="constants-column">
 
 ## Physical Constants
 
@@ -39,9 +42,15 @@ g \qquad & 9.80665 & & \mathrm{m\,s^{-2}} \quad & \text{Standard gravity on Eart
 \end{aligned}
 $$
 
+</div>
+
+<div style="width: 2px; background: linear-gradient(to bottom, #6366f1, #f43f5e); margin: 0 auto; height: 100%; min-height: 100vh; border-radius: 1px; position: absolute; left: 50%; transform: translateX(-50%);"></div>
+
+<div class="constants-column">
+
 ## Astronomical Constants
 
-All the constants are of standard epoch 2000. Nominal values or mean values of all constants are taken.
+*All constants are of standard epoch J2000.0. Nominal or mean values are provided.*
 
 $$
 \begin{aligned}
@@ -79,3 +88,5 @@ H_0 \qquad & 70.1 & & \mathrm{km\,s^{-1}\,Mpc^{-1}} \quad & \text{Hubble constan
 \text{Jy} \qquad & 1 & \times 10^{-26} \quad & \mathrm{W\,m^{-2}\,Hz^{-1}} \quad & \text{Jansky} \\
 \end{aligned}
 $$
+
+</div>
