@@ -1,35 +1,48 @@
 @font-face {
     font-family: 'Futura';
-    src: url('/assets/fonts/futura/Futura Heavy font.ttf') format('truetype');
+    src: url('/aoguide/assets/fonts/futura/Futura Book font.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura-Bold';
+    src: url('/aoguide/assets/fonts/futura/futura medium bt.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/assets/fonts/Roboto/Roboto-ExtraBold.ttf') format('truetype');
+    src: url('/aoguide/assets/fonts/Roboto/Roboto-ExtraBold.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Courier-Prime';
-    src: url('/assets/fonts/courier-prime/Courier Prime Bold.ttf') format('truetype');
+    src: url('/aoguide/assets/fonts/courier-prime/Courier Prime Bold.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Riesling';
-    src: url('/assets/fonts/riesling.ttf') format('truetype');
+    src: url('/aoguide/assets/fonts/riesling.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Dune Rise';
-    src: url('/assets/fonts/dune_rise/Dune_Rise.ttf') format('truetype');
+    src: url('/aoguide/assets/fonts/dune_rise/Dune_Rise.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url('/aoguide/assets/fonts/Baskerville/Baskerville-Italic.ttf') format('truetype');
     font-display: swap;
 }
 
 .content {
     font-family: 'Futura', 'Arial', sans-serif;
+    font-weight: 100;
 }
 
 .hextra-scrollbar::-webkit-scrollbar {
@@ -277,13 +290,13 @@ details :not(.math) {
 }
 
 .ao-title {
-  font-size: 2.0rem;
-  font-weight: 900;
+  font-family: 'Baskerville';
+  font-size: 3.0rem;
   line-height: 1.3;
   margin-bottom: 1.5rem;
   color: white;
   letter-spacing: 0.01em;
-  font-weight:900;
+  font-weight:100;
   margin-bottom:1.5rem;
   text-align:center;
   width:100%;
@@ -303,6 +316,7 @@ details :not(.math) {
 }
 
 .ao-subtitle {
+  font-family: 'Futura';
   line-height: 1.7;
   margin: 1.5rem 0 2.5rem 0;
   max-width: 700px;
@@ -325,16 +339,18 @@ details :not(.math) {
 
 /* Section titles */
 .ao-section-title {
+  font-family: 'Futura-Bold';
   font-size: 2.8rem;
   margin-top: 2.5rem;
   margin-bottom: 1.2rem;
-  font-weight: 800;
+  font-weight: 100;
   text-align: center;
   width: 100%;
 }
 
 /* Features grid */
 .ao-features {
+    font-family: 'Futura';
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -364,6 +380,7 @@ details :not(.math) {
 }
 
 .ao-topic {
+    font-family: 'Futura';
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -499,6 +516,7 @@ details :not(.math) {
 
 /* CTA */
 .ao-cta {
+  font-family: 'Futura';
   width: 100%;
   text-align: center;
   padding: 3.5rem 0;
@@ -628,7 +646,7 @@ details :not(.math) {
   transform: translateX(-50%);
   width: 100vw;
   height: calc(100% + 25vh);
-  background-image: url('/assets/images/start/bg.png');
+  background-image: url('/aoguide/assets/images/start/bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
