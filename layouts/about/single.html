@@ -1,92 +1,87 @@
 {{ define "main" }}
 <style>
+  body {
+    overflow-x: hidden;
+  }
+  
   .about-page {
-    background: #fafafa;
+    background: #000000;
     min-height: 100vh;
-  }
-  
-  .about-hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 6rem 0 4rem 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .about-hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1.5" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="70" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="70" cy="80" r="2.5" fill="rgba(255,255,255,0.1)"/></svg>');
-    animation: float 20s infinite linear;
-  }
-  
-  @keyframes float {
-    0% { transform: translateY(0px); }
-    100% { transform: translateY(-100px); }
-  }
-  
-  .about-hero h1 {
-    font-size: 4rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    letter-spacing: -0.02em;
-  }
-  
-  .about-hero p {
-    font-size: 1.3rem;
-    opacity: 0.9;
-    max-width: 600px;
-    margin: 0 auto;
-    font-weight: 300;
+    font-family: 'Futura', 'Arial', sans-serif;
+    color: #e5e7eb;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    overflow-x: hidden;
   }
   
   .about-content {
-    max-width: 1200px;
+    max-width: 80%;
     margin: 0 auto;
-    padding: 4rem 3rem;
+    padding: 4rem 2rem;
+  }
+  
+  .about-content h1 {
+    font-family: 'Dune Rise', 'Comic Sans MS', cursive;
+    font-size: 6rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    text-align: center;
   }
   
   .about-section {
-    background: white;
-    border-radius: 8px;
-    padding: 4rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.04);
-    border: 1px solid #f0f0f0;
+    padding: 4rem 10%;
+    margin-bottom: 0;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
   }
   
-  .about-section h2 {
+  .about-section:nth-child(odd) {
+    background: #000000;
+  }
+  
+  .about-section:nth-child(even) {
+    background: #111111;
+  }
+  
+  .about-section .section-content {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .about-section .section-title {
+    font-family: 'Futura-Bold', 'Arial', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 0 0 2rem 0;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .about-section .subsection-title {
+    font-family: 'Futura-Bold', 'Arial', sans-serif;
     font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-    color: #2d3748;
-    border-bottom: 2px solid #e2e8f0;
-    padding-bottom: 0.5rem;
-  }
-  
-  .about-section h3 {
-    font-size: 1.4rem;
     font-weight: 500;
-    margin: 2rem 0 1rem 0;
-    color: #4a5568;
+    margin: 3rem 0 1.5rem 0;
+    color: #d1d5db;
+    text-align: center;
   }
   
-  .about-section h4 {
-    font-size: 1.1rem;
+  .about-section .sub-title {
+    font-family: 'Futura', 'Arial', sans-serif;
+    font-size: 1.4rem;
     font-weight: 600;
-    margin: 1.5rem 0 0.5rem 0;
-    color: #2d3748;
+    margin: 2rem 0 0.8rem 0;
+    color: #f3f4f6;
+    text-align: center;
   }
   
   .about-section p {
     font-size: 1rem;
     line-height: 1.8;
-    color: #4a5568;
+    color: #d1d5db;
     margin-bottom: 1.5rem;
   }
   
@@ -96,70 +91,92 @@
     list-style: none;
   }
   
-  .about-section li {
+  .about-section ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+    counter-reset: item;
+  }
+  
+  .about-section ol li {
     font-size: 1rem;
     line-height: 1.7;
-    color: #4a5568;
+    color: #d1d5db;
+    margin-bottom: 0.8rem;
+    padding-left: 0;
+    position: relative;
+    list-style-type: decimal;
+  }
+  
+  .about-section ul li {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #d1d5db;
     margin-bottom: 0.8rem;
     padding-left: 1.5rem;
     position: relative;
   }
   
-  .about-section li::before {
+  .about-section ul li::before {
     content: '→';
     position: absolute;
     left: 0;
-    color: #667eea;
+    color: #6366f1;
     font-weight: 600;
+  }
+  
+  .about-section ol li::before {
+    display: none;
   }
   
   .feature-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
     margin: 2rem 0;
   }
   
   .feature-item {
-    padding: 1.5rem;
-    background: #f7fafc;
-    border-radius: 6px;
-    border-left: 4px solid #667eea;
-    transition: transform 0.2s ease;
+    padding: 2rem;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .feature-item:hover {
-    transform: translateY(-2px);
+    transform: translateY(-4px);
   }
   
   .feature-item h4 {
-    font-size: 1rem;
+    font-family: 'Futura-Bold', 'Arial', sans-serif;
+    font-size: 1.2rem;
     font-weight: 600;
-    margin-bottom: 0.5rem;
-    color: #2d3748;
+    margin-bottom: 0.8rem;
+    color: #ffffff;
   }
   
   .feature-item p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: 0;
-    color: #718096;
+    color: #d1d5db;
   }
   
   .author-card {
     display: flex;
     align-items: center;
     gap: 2rem;
-    padding: 2rem;
-    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
-    border-radius: 8px;
+    padding: 2.5rem 0;
     margin: 2rem 0;
+    border-bottom: 1px solid #374151;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .author-card:hover {
+    transform: translateY(-2px);
   }
   
   .author-avatar {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #6366f1 0%, #f43f5e 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,18 +184,21 @@
     font-weight: 600;
     color: white;
     flex-shrink: 0;
+    font-family: 'Futura-Bold', 'Arial', sans-serif;
   }
   
   .author-info h4 {
+    font-family: 'Futura-Bold', 'Arial', sans-serif;
     font-size: 1.4rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: #2d3748;
+    color: #ffffff;
   }
   
   .author-info p {
     margin: 0.3rem 0;
     font-size: 0.95rem;
+    color: #d1d5db;
   }
   
   .author-links {
@@ -188,130 +208,102 @@
   }
   
   .author-links a {
-    color: #667eea;
+    color: #6366f1;
     text-decoration: none;
     font-weight: 500;
     padding: 0.5rem 1rem;
-    border: 1px solid #667eea;
-    border-radius: 4px;
-    transition: all 0.2s ease;
+    border: 1px solid #6366f1;
+    border-radius: 6px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 0.9rem;
+    font-family: 'Futura', 'Arial', sans-serif;
   }
   
   .author-links a:hover {
-    background: #667eea;
+    background: #6366f1;
     color: white;
+    transform: translateY(-1px);
   }
   
   .simple-list {
-    columns: 3;
-    column-gap: 3rem;
+    columns: 1;
+    column-gap: 0;
     margin: 1rem 0;
   }
   
-  .simple-list p {
-    break-inside: avoid;
-    margin-bottom: 0.5rem;
-    font-size: 0.95rem;
+  .simple-list ul {
+    list-style: disc;
+    padding-left: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .simple-list li {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    color: #d1d5db;
+    padding-left: 0;
+  }
+  
+  .simple-list li::before {
+    display: none;
   }
   
   .license-box {
-    background: #2b5035;
-    border: 1px solid #286640;
-    border-radius: 6px;
-    padding: 1.5rem;
-    margin: 1.5rem 0;
+    border: 2px solid #10b981;
+    background: rgba(16, 185, 129, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    backdrop-filter: blur(10px);
+    text-align: center;
   }
   
   .license-box h4 {
-    color: #6b9b83;
+    color: #10b981;
     margin-top: 0;
+    font-family: 'Futura-Bold', 'Arial', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
   }
   
-  .dark .about-page {
-    background: #1a202c;
+  .license-box p {
+    text-align: center;
   }
-  
-  .dark .about-section {
-    background: #2d3748;
-    border-color: #4a5568;
-  }
-  
-  .dark .about-section h2,
-  .dark .about-section h3,
-  .dark .about-section h4,
-  .dark .author-info h4 {
-    color: #e2e8f0;
-  }
-  
-  .dark .about-section p,
-  .dark .about-section li,
-  .dark .author-info p,
-  .dark .feature-item p {
-    color: #a0aec0;
-  }
-  
-  .dark .about-section h2 {
-    border-color: #4a5568;
-  }
-  
-  .dark .feature-item {
-    background: #4a5568;
-  }
-  
-  .dark .author-card {
-    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
-  }
-  
-  @media (max-width: 1024px) {
+
+  @media (max-width: 768px) {
     .about-content {
-      max-width: 900px;
-      padding: 4rem 2rem;
+      max-width: 95%;
+      padding: 2rem 1rem;
     }
     
     .about-section {
-      padding: 3rem;
+      padding: 3rem 5%;
     }
     
-    .simple-list {
-      columns: 2;
+    .about-section .section-content {
+      max-width: 95%;
     }
-  }
-  
-  @media (max-width: 768px) {
-    .about-hero h1 {
+    
+    .about-content h1 {
+      font-size: 4rem;
+    }
+    
+    .about-section .section-title {
       font-size: 2.5rem;
     }
     
-    .about-hero p {
-      font-size: 1.1rem;
-    }
-    
-    .about-content {
-      padding: 3rem 2rem;
-    }
-    
-    .about-section {
-      padding: 2rem;
+    .about-section .subsection-title {
+      font-size: 1.5rem;
     }
     
     .author-card {
       flex-direction: column;
       text-align: center;
     }
-    
-    .simple-list {
-      columns: 1;
-    }
   }
 </style>
 
 <div class="about-page">
-  <div class="about-hero">
-    <h1>{{ .Title }}</h1>
-    <p>Learn more about the guide, its mission, and the people behind it</p>
-  </div>
-  
   <div class="about-content">
     {{ .Content }}
   </div>

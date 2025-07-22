@@ -4,31 +4,14 @@ layout: hextra-home
 css: /assets/css/custom.css
 ---
 
-<div class="ao-hero" style="display:block;width:100%;padding:4vw 0;">
-  <div class="ao-hero-content" style="width:100%;padding:0 2vw;text-align:center;">
+<div class="ao-hero">
+  <div class="ao-hero-content">
     <h1 class="ao-title">
       <span class="ao-gradient">AO Guide</span>
       Your Pathway to Success.
     </h1>
-    <div style="display:flex;align-items:center;gap:12vw;margin:2rem 0;">
-      <div style="flex:1;">
-        <p class="ao-subtitle">
-          Developed for ambitious students, this guide delivers a rigorous, structured, and modern approach to mastering the International Olympiad on Astronomy and Astrophysics.<br>
-          Go beyond summaries—build true conceptual depth, analytical skill, and problem-solving confidence.
-        </p>
-      </div>
-      <div class="ao-visual" style="flex:0 0 300px;display:flex;align-items:center;justify-content:center;">
-        <div class="ao-animation">
-          <div class="ao-star ao-star-1"></div>
-          <div class="ao-star ao-star-2"></div>
-          <div class="ao-star ao-star-3"></div>
-          <div class="ao-star ao-star-4"></div>
-          <div class="ao-planet"></div>
-          <div class="ao-orbit"></div>
-        </div>
-      </div>
-    </div>
-    <div class="ao-buttons" style="display:flex;gap:1.2rem;flex-wrap:wrap;justify-content:center;margin-top:3rem;">
+    <div style="margin-top: 12rem;"></div>
+    <div class="ao-buttons">
       <a href="/aoguide/guide" class="ao-btn-primary" style="font-size:1.13rem;">Start Learning →</a>
       <a href="/aoguide/about" class="ao-btn-secondary" style="font-size:1.13rem;">About the Guide</a>
     </div>
