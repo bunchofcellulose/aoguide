@@ -110,9 +110,9 @@ $$\tag{3.4.6} \tan \lambda = \frac{Y}{X}\,, \qquad \qquad \sin \beta = \frac{Z}{
 
 ## Problems
 
-{{< tabs items="Problem,Solution" >}}
+{{< tabs items="Problem,Solution,NAC 2023" >}}
     {{< tab >}}
-    [NAC 2023, Long Questions, problem 2](https://usaaao.org/wp-content/uploads/2023/09/second_exam_2023-1.pdf)
+    [Long Questions, problem 2](https://usaaao.org/wp-content/uploads/2023/09/second_exam_2023-1.pdf) - An interesting problem related to an interstellar comet.
     {{< /tab >}}
 
     {{< tab >}} 

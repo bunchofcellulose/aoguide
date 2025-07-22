@@ -3,6 +3,8 @@ title: Coordinate Systems
 weight: 2
 ---
 
+In order to specify the position of objects in the sky, we need a way to be able to describe their exact location. This can be done by setting up a coordinate system, such that each point in the sky can be described by a pair of numbers. There are several coordinate systems used in astronomy, each with its own advantages and disadvantages. In this section, we will cover the most commonly used coordinate systems: horizontal (alt-az), equatorial, ecliptic and galactic.
+
 ## Horizontal (Alt-Az) Coordinate System
 
 Any point in the sky can be described by its altitude and azimuth. The horizontal coordinate system is based on the observer's local horizon, with the zenith (the point directly above the observer) at $90^\circ$ altitude and the nadir (the point directly below the observer) at $-90^\circ$ altitude.

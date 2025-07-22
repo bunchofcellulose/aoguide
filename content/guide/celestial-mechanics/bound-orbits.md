@@ -183,9 +183,9 @@ $$\tag{3.2.15} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
 
 ## Problems
 
-{{< tabs items="Problem,Solution" >}}
+{{< tabs items="Problem,Solution,IOAA 2007" >}}
     {{< tab >}}
-    $\text{(IOAA 2007)}$ A Sun-orbiting periodic comet is the farthest at $31.5 \mathrm{\,AU}$ and the closest at $0.5 \mathrm{\,AU}$. What is the orbital period of this comet? What is the area (in $\mathrm{AU^2/yr}$) swept by the line joining the comet and the Sun?
+    A Sun-orbiting periodic comet is the farthest at $31.5 \mathrm{\,AU}$ and the closest at $0.5 \mathrm{\,AU}$. What is the orbital period of this comet? What is the area (in $\mathrm{AU^2/yr}$) swept by the line joining the comet and the Sun?
     {{< /tab >}}
 
     {{< tab >}}
@@ -209,9 +209,9 @@ $$\tag{3.2.15} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="Problem,Solution" >}}
+{{< tabs items="Problem,Solution,IOAA 2009" >}}
     {{< tab >}}
-    $\text{(IOAA 2009)}$ Estimate the radius of a planet that a man can escape its gravitation by jumping vertically. Assume density of the planet and the Earth are the same.
+    Estimate the radius of a planet that a man can escape its gravitation by jumping vertically. Assume density of the planet and the Earth are the same.
     {{< /tab >}}
 
     {{< tab >}}

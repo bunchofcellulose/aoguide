@@ -194,8 +194,7 @@ From here we can see that the sign of the total energy depends on the eccentrici
 - $e = 1$: A parabolic trajectory gives a zero total energy, and hence an *unbound* orbit
 - $e > 1$: A hyperbolic trajectory gives a positive total energy, and hence an *unbound* orbit
 
-{{< callout type="math" >}}
-{{% details title="Why Bound Orbits?" closed="true" %}}
+{{< callout type="why" title="Why Bound Orbits are Ellipses?" >}}
 
 First of all the sign of $\epsilon$ is the same as that of $E$, of course. If we write down the expression for 
 total energy:
@@ -209,8 +208,6 @@ if $r$ grows too large, the last term goes $\to 0$, and the first term is $\ge 0
 $r$ can't grow too large, and is thus bounded. 
 
 You can also see this qualitatively in an *energy diagram*. For an extended discussion, see Kleppner & Kolenkow, *An Introduction to Mechanics*, 2nd ed, Section 10.4, page 382.
-
-{{% /details %}}
 {{< /callout >}}
 
 Therefore all bound orbits are ellipses, and all unbound orbits are hyperbolae or parabolae.

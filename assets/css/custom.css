@@ -259,6 +259,20 @@ details :not(.math) {
     color: #f0abfc; /* Light magenta */
 }
 
+/* Light Mode */
+.callout-why {
+    border-color: #a855f7;             /* Purple border */
+    background-color: rgba(168, 85, 247, 0.08); /* Light purple background */
+    color: #6b21a8;                    /* Dark purple text */
+}
+  
+/* Dark Mode */
+.dark .callout-why {
+    border-color: rgba(168, 85, 247, 0.4); /* Purple border with opacity */
+    background-color: rgba(168, 85, 247, 0.15); /* Purple background with opacity */
+    color: #d8b4fe;                    /* Light purple text */
+}
+
 /* Link styling for markdown content */
 .content a {
     color: #2563eb; /* A vibrant blue */

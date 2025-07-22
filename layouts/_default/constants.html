@@ -7,22 +7,23 @@
       display: flex;
       gap: 4rem;
       width: 100%;
-      max-width: 1400px;
+      max-width: 95vw;
       margin: 0 auto;
       padding: 2rem 0;
     }
     
     .constants-column {
       flex: 1;
-      min-width: 600px;
+      min-width: 45%;
     }
     
     .constants-column h2 {
       font-size: 1.8rem;
       font-weight: 700;
       margin-bottom: 1.5rem;
+      color: var(--text-color, #1f2937);
     }
-    
+   
     @media (max-width: 1300px) {
       .constants-container {
         flex-direction: column;
@@ -31,6 +32,32 @@
       
       .constants-column {
         min-width: 0;
+      }
+    }
+    
+    /* Dark mode support */
+    @media (prefers-color-scheme: dark) {
+      .constants-column {
+        background: var(--bg-color, #1f2937);
+        border-color: var(--border-color, #374151);
+      }
+      
+      .constants-column h2,
+      .constants-column th,
+      .constants-column td {
+        color: var(--text-color, #f9fafb);
+      }
+      
+      .constants-column th {
+        background-color: var(--bg-secondary, #374151);
+      }
+      
+      .constants-column tr:hover {
+        background-color: var(--bg-hover, #374151);
+      }
+      
+      .constants-column .katex-display {
+        border-bottom-color: #374151;
       }
     }
   </style>

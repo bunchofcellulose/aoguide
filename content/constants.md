@@ -44,13 +44,11 @@ $$
 
 </div>
 
-<div style="width: 2px; background: linear-gradient(to bottom, #6366f1, #f43f5e); margin: 0 auto; height: 100%; min-height: 100vh; border-radius: 1px; position: absolute; left: 50%; transform: translateX(-50%);"></div>
-
 <div class="constants-column">
 
 ## Astronomical Constants
 
-*All constants are of standard epoch J2000.0. Nominal or mean values are provided.*
+<p style="text-align: center; font-style: italic; margin-bottom: 1.5rem;">All constants are of standard epoch J2000.0. Nominal or mean values are provided.</p>
 
 $$
 \begin{aligned}

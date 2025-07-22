@@ -1,10 +1,11 @@
-{{- $calloutEmojiDict := dict "tip" "ℹ️" "example" "✏️" "math" "🧮" "remark" "📍" "image" "" "trivia" "👀" -}}
+{{- $calloutEmojiDict := dict "tip" "ℹ️" "example" "✏️" "math" "🧮" "remark" "📍" "image" "" "trivia" "👀" "why" "🤔" -}}
 {{- $type := .Get "type" | default "default" -}}
 {{- $emoji := .Get "emoji" -}}
 {{- if eq $emoji "" -}}
   {{- $emoji = index $calloutEmojiDict $type -}}
 {{- end -}}
 {{- $icon := .Get "icon" -}}
+{{- $title := .Get "title" -}}
 
 {{/* Handle content processing based on type */}}
 {{- $content := "" -}}
@@ -23,6 +24,7 @@
   "math"   "callout callout-math"
   "image" "callout callout-image"
   "trivia" "callout callout-trivia"
+  "why" "callout callout-why"
 -}}
 
 {{- $class := index $classMap $type -}}
@@ -31,5 +33,6 @@
   "content" $content 
   "emoji" $emoji 
   "icon" $icon 
+  "title" $title
   "class" $class
 ) -}}

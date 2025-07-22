@@ -3,11 +3,13 @@ title: Observational Astronomy
 weight: 8
 prev: N
 next: N
+sidebar:
+  exclude: true
 ---
 
 ## Zodiac
 
-The zodiac is a belt shaped region of the skyy that extends about 8 degrees north and south of the ecliptic. The ecliptic is the apparent path of the Sun across the celestial sphere, which is tilted at an angle of 23.5 degrees to the celestial equator. It mainly contains 13 constellations
+The zodiac is a belt shaped region of the sky that extends about 8 degrees north and south of the ecliptic. The ecliptic is the apparent path of the Sun across the celestial sphere, which is tilted at an angle of 23.5 degrees to the celestial equator. It mainly contains 13 constellations
 
 Name          |Symbol|Dates             |Solar Stay       |
 --------------|------|------------------|-----------------|
