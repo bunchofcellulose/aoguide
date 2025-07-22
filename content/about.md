@@ -9,27 +9,31 @@ toc: false
 
 <div class="section-title">About AO Guide</div>
 
-Hey there! We're excited you're here. AO Guide isn't just another textbook or study resource – it's something we built because we genuinely felt frustrated with what was out there.
+Hey, thanks for dropping by! We're grateful to have you here. Let's talk a bit about why we built AO Guide. 
 
-When we were preparing for astronomy olympiads, we found ourselves jumping between massive textbooks (that had way more info than we needed), scattered PDFs from random websites, and outdated materials that didn't really capture what IOAA was all about. It was honestly pretty overwhelming.
+When we were preparing for astronomy olympiads, we found ourselves (and others) jumping between massive textbooks (that had way more info than we needed), scattered handouts from random websites, and outdated materials that didn't really capture what IOAA was all about. It was honestly pretty overwhelming. Its understandable, they weren't really designed for IOAA in mind, but we wanted to fix this.
 
-<div class="subsection-title">What We're Actually Trying to Do</div>
+Therefore we built AO Guide. Its not a textbook or another handout, the main goal of AO Guide is to be 
+*complete* and *concise*. That doesn't mean its just short, dry text without any motivation, we have actively
+tried to do the exact opposite; but that it contains a lot more of what is needed for the olympiads.
+
+<div class="subsection-title">What We're Really Trying to Do</div>
 
 We wanted to create something that we wish we had when we started our olympiad journey:
 
 1. **Everything you actually need** for IOAA – no more, no less. We've been through this, so we know what matters.
 2. **Built the way we learn** – step by step, with plenty of examples and explanations that actually make sense.
 3. **Modern and accessible** – because studying shouldn't feel like punishment, and everyone deserves good resources.
-4. **Visual and engaging** – diagrams, animations, and interactive elements that help concepts click.
+4. **Visual and engaging** – diagrams, and other interactive elements that help visualise concepts.
 5. **Real problem-solving practice** – not just theory, but the kind of problems you'll actually face in competitions.
 
-<div class="subsection-title">Why This Exists (The Real Story)</div>
+<div class="subsection-title">Why This Exists</div>
 
-Look, astronomy and astrophysics are incredible subjects that got us hooked in the first place. But finding good study materials for olympiad prep? That was a nightmare. Most textbooks either assumed you already had a PhD or were so basic they weren't helpful for competition level.
+Astronomy and astrophysics are incredible subjects that we really do love. But preparing for olympiads caused us a lot of frustations, and not for a lack of trying. Most textbooks were either too advanced, or woefully incomplete for IOAA. 
 
-We kept thinking: "There has to be a better way to learn this stuff." So we decided to make it ourselves.
+It was because of this frustation that we decided to write AO Guide. We don't really benefit much from it, its free for you to use and modify afterall! But honestly, just allowing for a far smoother way to learn for the next person who wanted to get into astronomy is quite rewarding in itself :) 
 
-Olympiad success isn't about memorizing formulas (though you need those too). It's about really understanding how things work, being able to think through problems step by step, and having the confidence to tackle something you've never seen before. That's what we're trying to help you build.
+Olympiads aren't about memorizing formulas (though you do really need some of them). It's about really understanding how things work, being able to think through problems step by step, and having the confidence to tackle something you've never seen before. That's what we're trying to help you build, we have a plethora of problems with solutions for you to go through!
 
 <div class="feature-grid">
   <div class="feature-item">
@@ -72,7 +76,7 @@ Olympiad success isn't about memorizing formulas (though you need those too). It
   <div class="author-info">
     <h4>Adyansh Mishra</h4>
     <p><strong>Co-Author & Problem Guru</strong></p>
-    <p>I'm also a high school student and was lucky enough to get into PROMYS 2025. I'm passionate about mathematics, physics, literature, and philosophy (yeah, I know, pretty random combo). I help make sure our math is rock-solid and our explanations are crystal clear. I believe that if you can't explain something simply, you don't understand it well enough – so that's what we aim for.</p>
+    <p>I'm a high school student from India passionate about mathematics, physics, cs, literature, and philosophy (yes its a bit of a weird combo). I was a PROMYS 2025 Alumni, and was the leader of Physics Olympiad Co-operation for BL4S, which was shortlisted. I help make sure our explanations are correct, and most importantly clear! You can contact me at discord at @jardindelys, but do send a cat pic if you decide to :D</p>
     <div class="author-links">
       <a href="https://github.com/jardin-de-lys" target="_blank">GitHub</a>
     </div>
@@ -84,11 +88,11 @@ Olympiad success isn't about memorizing formulas (though you need those too). It
 This project is way bigger than just the two of us, and we'd love your help! Whether you're a fellow student who's found a mistake, an educator with suggestions, or just someone who loves astronomy:
 
 1. **Spot an error?** Please let us know! We're human and definitely make mistakes.
-2. **Have a great problem or explanation?** We'd love to include it (with full credit, of course).
+2. **Have a great problem or explanation?** We'd love to include it (with credit, of course).
 3. **Ideas for improvements?** We're always looking for ways to make this better.
-4. **Want to spread the word?** Tell your friends, teachers, or anyone who might find this useful.
+4. **Want to spread the word?** Tell your friends, teachers, or anyone who might find this useful!
 
-Check out our [GitHub repository](https://github.com/bunchofcellulose/aoguide) to get involved. Every contribution helps make this resource better for everyone.
+Check out the [GitHub repository](https://github.com/bunchofcellulose/aoguide) to get involved. Every contribution helps make this better for everyone.
 
 </div>
 </div>
@@ -98,7 +102,7 @@ Check out our [GitHub repository](https://github.com/bunchofcellulose/aoguide) t
 
 <div class="section-title">References & Sources</div>
 
-AO Guide is built upon the foundational work of many excellent textbooks, research papers, and educational resources.
+AO Guide is built upon the foundational work of many excellent textbooks, research papers, and educational resources. A lot of these are not the most helpful for IOAA, but they're wonderful in general!
 
 ### Primary Textbooks
 <div class="simple-list">
@@ -136,9 +140,9 @@ AO Guide is built upon the foundational work of many excellent textbooks, resear
 <div class="about-section">
 <div class="section-content">
 
-<div class="section-title">Thanks to Everyone Who Made This Possible</div>
+<div class="section-title">Thanks to Everyone Who Made This Possible!</div>
 
-We definitely didn't build this in a vacuum. Huge thanks to:
+There were a lot of people and institutions that helped create this. Its not possible to credit all of them, and we're sorry if we missed you, we do really appreciate your contribution. Huge thanks to:
 
 ### Educational Institutions
 1. **Homi Bhabha Centre for Science Education (HBCSE)** – For creating such an amazing olympiad culture in India and giving us opportunities we never thought we'd have
@@ -196,7 +200,7 @@ Basically, if you're making money from it, that's commercial use:
 
 This guide is completely free for educational use! Use it for studying, teaching, school projects, or olympiad preparation. Just give us a quick mention if you use our content in presentations or assignments.
 
-If you need to use our content commercially for some reason, just reach out to us and we can probably work something out.
+If you need to use our content commercially for some reason, just reach out to us and we can probably work something out. Note that fair use of the content is completely fine!
 
 </div>
 </div>
