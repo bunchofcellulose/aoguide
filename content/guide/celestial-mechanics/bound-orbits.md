@@ -3,11 +3,32 @@ title: Bound Orbits
 weight: 2
 ---
 
-As proved in section 3.1, all bound orbits are elliptical. Consider an ellipse with semi-major axis $a$, semi-minor axis $b$, and eccentricity $e$. The semi-major axis is half the length of longest radii of the ellipse, while the semi-minor axis is half the length of the shortest radii. The semi-minor and semi-major axis are related by
+Done with kepler's laws, you might ask why do we need to study about the two body problem anymore, at all?
+Well, the idea is seemingly similar to why after learning Coloumb's law, we still devote a fair amount of time
+into learning further electrostatics. 
+
+The answer is simply practical application. Practically, it is much easier to derive some results regarding the system, and use it to make our lives when solving the problems a lot more easier. And of course, if you let me be
+a little romantic, it is simply a natural tendency of humans to seek more knowledge.
+
+Anyway, we are still only really considering the problem of a two body system, but we'll primarily work
+with bound orbits, and see what we can do with them.
+
+As we proved in section 3.1, *all* bound orbits are elliptical. Therefore a fair amount of the following discussion is going to be reliant on some knowledge of ellipses. (TODO: Add appendix for it) You should have ideally finished reading the wikipidea page, or used an equivalent resource.  
+
+Consider an ellipse with semi-major axis $a$, semi-minor axis $b$, and eccentricity $e$. As you perhaps know, the semi-major axis is half the length of longest radii of the ellipse, while the semi-minor axis is half the length of the shortest radii. Here radii refers to the distance from the *centre* (notably, not the foci) to the boundary.
+
+I'll just go through some useful results for ellipses that we will need later, I'll urge you to go through this
+before proceeding, as its vital to the succeeding discussions. 
+
+The semi-minor and semi-major axis are related by
 
 $$ b^2 = a^2 (1 - e^2) $$
 
-The eccentricity of an ellipse is always less than 1, being 0 for a circle. The length of the periapsis, which is the point closest to the foci, and apoapsis, the point farthest from the foci, are given by
+The eccentricity of an ellipse is always less than 1, being 0 for a circle. Anyway, now we can use the equation of the ellipse with the origin at one of the foci:
+$$
+r = \frac{a(1-e^2)}{1 + e\cos\theta}
+$$
+to find the smallest and largest $r$, we see that this gives the length of the periapsis, which is the point closest to the foci, and apoapsis, the point farthest from the foci:
 
 $$
 \begin{align*}
@@ -24,8 +45,7 @@ The semi-latus rectum $p$ of an ellipse is defined as the distance from the focu
 
 $$ p = \frac{b^2}{a} = a (1 - e^2) $$
 
-From this we get that the total energy and angular momentum of the orbit is
-
+From this, eqns. $(3.13)$, $(3.15)$; we get that the total energy and angular momentum of the orbit in terms of $a$ and $e$ are:
 $$
 \begin{align*}
 \tag{3.2.1} \varepsilon &= -\frac{\mu}{2a}\\
@@ -33,42 +53,42 @@ $$
 \end{align*}
 $$
 
-From hereon for all subsections except the last one, we consider the case when $m_2 \gg m_1$.
+From hereon for all subsections except the last one, we consider the case when $m_2 \gg m_1$, which is 
+the case for, for example, our solar system.
 
 ## Orbital Velocity
 
-From eq 3.1.1, we have
+Because we know the value of energy in terms of the parameters now, and the velocity and radius
+are related by the energy, we can use eqns. $(3.1.1)$ and $(3.2.1)$ to get the *vis-viva equation*:
 
 $$ \frac{1}{2} v^2 - \frac{\mu}{r} = \varepsilon = -\frac{\mu}{2a} $$
 
 $$\tag{3.2.3} \implies \boxed{v^2 = \mu \left( \frac{2}{r} - \frac{1}{a} \right)} $$
 
-This is called the vis-viva equation. It gives the velocity of the smaller body at a distance $r$ from the larger body. The velocity is maximum at periapsis and minimum at apoapsis. The velocity at periapsis is given by
+This gives us the velocity of the smaller body at a distance $r$ from the larger body. From here you can see that the velocity is maximum at periapsis and minimum at apoapsis, because it roughly depends on $1/\sqrt{r}$. The velocity at periapsis is then (using the expression for $r_p$ that we found earlier):
 
 $$v_p = \sqrt{\mu \left( \frac{2}{r_p} - \frac{1}{a} \right)} = \sqrt{\frac{\mu}{a} \left( \frac{1+e}{1-e} \right)} $$
 
-The velocity at apoapsis is given by
-
+And the velocity at apoapsis is:
 $$v_a = \sqrt{\mu \left( \frac{2}{r_a} - \frac{1}{a} \right)} = \sqrt{\frac{\mu}{a} \left( \frac{1-e}{1+e} \right)} $$
 
-From this we get two relations:
-
+You can see that they're sort of very symmmetric, if we multiply or divide them, one of the term cancels out! This
+gives us some very nice relations:
 $$ v_p v_a = \frac{\mu}{a}\,, \qquad \qquad \frac{v_p}{v_a} = \frac{1+e}{1-e} $$
 
-In the case of a circular orbit, we have $e = 0$. The body therefore moves with a constant speed $v_c$, called the circular velocity, given by
+As something you should always do when you have a formula with a parameter you can vary, we can ask what the limiting cases of this are. Since $e$ is bound between $0$ and $1$, let's see what we can do. $e \to 1$ is not really a nice case, for one the orbit becomes unbound, and everything diverges. On the other hand, we can talk about $e = 0$ precisely! 
 
+In the case of a circular orbit, we have $e = 0$. The body therefore moves with a *constant speed* $v_c$, called the circular velocity, given by
 $$\tag{3.2.4} v_c = \sqrt{\frac{\mu}{a}} $$
 
 For the body to escape the gravitational influence of the larger body and become unbound, the total energy of the system must become more than or equal to 0. This can be achieved by increasing the velocity of the smaller body to a value equal to the escape velocity $v_e$, given by
-
+(TODO: show the derivation why does bro never do this.)
 $$\tag{3.2.5} v_e = \sqrt{\frac{2\mu}{r}} = \sqrt{2} v_c$$
 
-From eq 3.1.8, the time period of the orbit is
-
+From eqn. $(3.1.8)$, the time period of the circular orbit is:
 $$ P = 2 \pi \sqrt{\frac{a^3}{\mu}} $$
 
 ## Kepler's Equation
-
 Let the instant in time when the body was at periapsis be $t = \tau$. The mean motion $n$ is defined as
 
 $$n = \frac{2 \pi}{P}$$

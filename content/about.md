@@ -8,11 +8,11 @@ toc: false
 
 ## About AOGUIDE
 
-AOGUIDE is a comprehensive, modern guide designed specifically for students preparing for the International Olympiad on Astronomy and Astrophysics (IOAA). Born from the need for a structured, rigorous, and accessible resource, this guide bridges the gap between scattered information and the deep understanding required for Olympiad-level astronomy and astrophysics.
+AO Guide is a comprehensive, modern guide designed specifically for students preparing for the International Olympiad on Astronomy and Astrophysics (IOAA). It was born from the need for a structured, rigorous, and accessible resource. AO Guide aims to bridge the gap between scattered information and the deep understanding required for Olympiad-level astronomy and astrophysics.
 
 ### Our Mission
 
-Our mission is to democratize access to high-quality astronomical education by providing:
+Our mission is to provide a high quality, free of cost, accesible resource to students preparing for astronomy olympiads:
 
 - Comprehensive Coverage: Every topic required for IOAA, from fundamental concepts to advanced applications
 - Structured Learning: Carefully organized content that builds understanding progressively
@@ -20,28 +20,26 @@ Our mission is to democratize access to high-quality astronomical education by p
 - Visual Learning: Rich diagrams, interactive elements, and visual aids to enhance comprehension
 - Problem-Solving Focus: Extensive practice problems with detailed solutions and strategies
 
-### Why AOGUIDE Exists
+### Why AO Guide Exists
 
-The inspiration for AOGUIDE came from a simple observation: while astronomy and astrophysics are among the most fascinating subjects in science, quality educational resources for Olympiad preparation were scattered, outdated, or inaccessible. Students often struggled to find comprehensive materials that could take them from basic concepts to competition-ready mastery.
+The inspiration for AO Guide came from a simple observation: while astronomy and astrophysics are among the most fascinating, and popular subjects in science; quality educational resources for Olympiad preparation were scattered, outdated, or inaccessible. Many of the students relied on books that contained too much info to be very relevant to IOAA. There was a lack of materials focused on IOAA in particular.
 
-We recognized that successful Olympiad preparation requires more than just memorizing facts—it demands deep conceptual understanding, analytical thinking, and problem-solving skills. AOGUIDE was created to fill this gap, providing a single, authoritative resource that students can rely on throughout their journey.
+Students often struggled to find comprehensive materials that could take them from basic concepts to competition-ready mastery.
+
+Olympiad preparation requires more than just memorizing facts—it demands deep conceptual understanding, analytical thinking, and problem-solving skills. AO Guide was created to fill this gap, providing a single, accesible resource that students can rely on throughout their journey.
 
 <div class="feature-grid">
   <div class="feature-item">
-    <h4>🎯 Targeted Content</h4>
+    <h4>Targeted Content</h4>
     <p>Every section is specifically designed for IOAA preparation, ensuring relevance and efficiency.</p>
   </div>
   <div class="feature-item">
-    <h4>🔄 Living Document</h4>
+    <h4>Living Document</h4>
     <p>Continuously updated with new problems, explanations, and improvements based on user feedback.</p>
   </div>
   <div class="feature-item">
-    <h4>🌍 Global Community</h4>
+    <h4>Global Community</h4>
     <p>Built by and for the international astronomy Olympiad community.</p>
-  </div>
-  <div class="feature-item">
-    <h4>📱 Accessible Everywhere</h4>
-    <p>Optimized for all devices, ensuring you can study anywhere, anytime.</p>
   </div>
 </div>
 
@@ -69,7 +67,7 @@ We recognized that successful Olympiad preparation requires more than just memor
   <div class="author-info">
     <h4>Adyansh Mishra</h4>
     <p><strong>Co-Author & Contributor</strong></p>
-    <p>High school student and participant in PROMYS India 2025 camp. Contributes to content development and problem solutions with a focus on mathematical rigor and clarity.</p>
+    <p>High school student and PROMYS 2025 Alumni. Passionate about mathematics, physics, literature and philosopy. Contributes to content development and problem solutions with a focus on mathematical rigor and clarity.</p>
     <div class="author-links">
       <a href="https://github.com/jardin-de-lys" target="_blank">GitHub</a>
     </div>
@@ -78,7 +76,7 @@ We recognized that successful Olympiad preparation requires more than just memor
 
 ### How to Contribute
 
-AOGUIDE thrives on community contributions. Whether you're a student, educator, or astronomy enthusiast, there are many ways to help:
+AO Guide thrives on community contributions. Whether you're a student, educator, or astronomy enthusiast, there are many ways to help:
 
 - Content Contributions: Submit new problems, solutions, or explanations
 - Error Reporting: Help us maintain accuracy by reporting any mistakes
@@ -93,7 +91,7 @@ Visit our [GitHub repository](https://github.com/bunchofcellulose/aoguide) to ge
 
 ## References & Sources
 
-AOGUIDE is built upon the foundational work of many excellent textbooks, research papers, and educational resources.
+AO Guide is built upon the foundational work of many excellent textbooks, research papers, and educational resources.
 
 ### Primary Textbooks
 <div class="simple-list">
@@ -135,7 +133,7 @@ We extend our heartfelt gratitude to the institutions, tools, and individuals wh
 ### Technology & Tools
 - Hugo Static Site Generator - Powering our fast, modern website
 - Hextra Theme - Providing the beautiful, responsive design foundation
-- MathJax - Enabling beautiful mathematical typesetting
+- Katex - Enabling beautiful mathematical typesetting
 - GitHub - Hosting our open-source project and enabling collaboration
 
 ### Community
@@ -150,7 +148,7 @@ We extend our heartfelt gratitude to the institutions, tools, and individuals wh
 ## License & Usage
 
 <div class="license-box">
-<h4>📄 Creative Commons License</h4>
+<h4>Creative Commons License</h4>
 <p>AOGUIDE is released under the <strong>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)</strong>.</p>
 </div>
 

@@ -93,6 +93,7 @@ details .math {
 /* Force normal weight for all text inside details except math */
 details :not(.math) {
     font-weight: 400 !important;
+    font-family: 'Futura', 'Arial', sans-serif;
 }
 
 /* Problem tab button (first tab) */
