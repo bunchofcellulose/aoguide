@@ -5,6 +5,7 @@ weight: 1
 ---
 
 We start here by a study of "celestial mechanics", studying the interaction of bodies through gravitation forces.
+The fundamental problem at hand is to determine the *trajectory* of the particle. Here first, we'll work more on finding the *shape* of the trajectory, in bound orbits, we'll develop some tools to find the position as a function of time.
 
 The basic law preluding it is Newton's law of universal gravitation, which is the classical description of gravity (we'll see a bit of the modern modification to it, the study of general relativity later on).
 
@@ -113,8 +114,8 @@ We define the specific angular momentum and specific energy as
 
 $$
 \begin{align*}
-\mathbf{h} &= \frac{\mathbf{L}}{m} = \mathbf{r} \times \dot{\mathbf{r}}\\
-\tag{3.1.1} \varepsilon &= \frac{E}{m} = \frac{1}{2} v^2 - \frac{\mu}{r}
+\tag{3.1.5} \mathbf{h} &= \frac{\mathbf{L}}{m} = \mathbf{r} \times \dot{\mathbf{r}}\\
+\tag{3.1.6} \varepsilon &= \frac{E}{m} = \frac{1}{2} v^2 - \frac{\mu}{r}
 \end{align*}
 $$
 
@@ -124,7 +125,7 @@ Since $\mathbf{h} \cdot \mathbf{r} = 0$, $\mathbf{h}$ lies perpendicular to the 
 
 We define the eccentricity vector as
 
-$$\tag{3.1.2} \mathbf{e} = -\frac{\mathbf{h} \times \dot{\mathbf{r}}}{\mu} - \frac{\mathbf{r}}{r} $$
+$$\tag{3.1.7} \mathbf{e} = -\frac{\mathbf{h} \times \dot{\mathbf{r}}}{\mu} - \frac{\mathbf{r}}{r} $$
 
 Taking its time derivative
 
@@ -141,7 +142,7 @@ $$
 
 we find that the eccentricity vector does not change with time, hence is also a constant of motion. It lies in the plane of motion ($\mathbf{h} \cdot \mathbf{e} = 0$) and points in the direction of the periapsis. The magnitude of the eccentricity vector is given by
 
-$$\tag{3.1.3} e = \sqrt{1 + \frac{2 \varepsilon h^2}{\mu^2}} $$
+$$\tag{3.1.8} e = \sqrt{1 + \frac{2 \varepsilon h^2}{\mu^2}} $$
 
 You can derive the magnitude by taking the dot product with itself, and subbing in the specific energy. It is a little tedious, so I've omitted it for clarity.
 
@@ -153,17 +154,17 @@ The magnitude of the eccentricity vector (as we'll see in a bit), determins the 
 
 Kepler's first law of planetary motion states that the orbit of a planet is an ellipse with the sun at one of the foci.
 
-First, we can ask what the solutions for the trajectories of particles in such a system are. Also we'll be using properties of ellipse somewhat freely for the next sections, so if you aren't familiar with them, I'd recommend reading the wikipidea page: https://en.wikipedia.org/wiki/Ellipse. The sections of importance are mostly the cartesian co-ordinates one, and metric properties.
+First, we can ask what the solutions for the trajectories of particles in such a system are. Also we'll be using properties of ellipse somewhat freely for the next sections, so if you aren't familiar with them, I'd recommend reading the wikipedia page: https://en.wikipedia.org/wiki/Ellipse. The sections of importance are mostly the cartesian co-ordinates one, and metric properties.
 
 To do this we define a new quantity (we don't necessarily need it, but its very useful later, so I might as well define it here), we call the angle between the eccentricity vector and the position vector the *true anamoly*, $\theta$. We can use this to take the dot product:
 
 $$ \mathbf{r} \cdot \mathbf{e} = r e \cos \theta = \mathbf{r} \cdot \left( -\frac{\mathbf{h} \times \dot{\mathbf{r}}}{\mu} - \frac{\mathbf{r}}{r} \right) = \frac{h^2}{\mu} - r$$
 
-$$\tag{3.1.4} \implies \boxed{r = \frac{h^2 / \mu}{1 + e \cos \theta}} $$
+$$\tag{3.1.9} \implies \boxed{r = \frac{h^2 / \mu}{1 + e \cos \theta}} $$
 
 Note that this, if you have seen it before, is the equation of a conic section in polar coordinates, with the focus being at origin, the eccentricity being $e$ and the length of the semi-latus rectum being $p = \frac{h^2}{\mu}$, which gives the relation
 
-$$\tag{3.1.5} h = \sqrt{\mu p}$$
+$$\tag{3.1.10} h = \sqrt{\mu p}$$
 
 The magnitude of $\mathbf{e}$ determines the shape of the trajectory:
 
@@ -186,7 +187,7 @@ magnitude of the eccentricity vector:
 
 $$e^2 = 1 + \frac{2h^2 \varepsilon}{\mu^2} \implies \varepsilon = \frac{1}{2} \left( e^2 - 1 \right) \frac{\mu^2}{h^2}$$
 
-$$\tag{3.1.6} \implies \varepsilon = -\frac{1}{2} \frac{\mu (1 - e^2)}{p}$$
+$$\tag{3.1.11} \implies \varepsilon = -\frac{1}{2} \frac{\mu (1 - e^2)}{p}$$
 
 From here we can see that the sign of the total energy depends on the eccentricity of the trajectory.
 
@@ -194,7 +195,7 @@ From here we can see that the sign of the total energy depends on the eccentrici
 - $e = 1$: A parabolic trajectory gives a zero total energy, and hence an *unbound* orbit
 - $e > 1$: A hyperbolic trajectory gives a positive total energy, and hence an *unbound* orbit
 
-{{< callout type="why" title="Why Bound Orbits are Ellipses?" >}}
+{{< callout type="why" title="Why are Bound Orbits Ellipses?" >}}
 
 First of all the sign of $\epsilon$ is the same as that of $E$, of course. If we write down the expression for 
 total energy:
@@ -226,7 +227,7 @@ The proof of it relies on the fact that the cross product of two vectors gives t
 
 $$ dA = \frac{1}{2}|\mathbf{r} \times \mathbf{dr}| = \frac{1}{2}|\mathbf{r} \times \mathbf{v} dt| = \frac{h}{2} dt $$
 
-$$\tag{3.1.7} \implies \boxed{\frac{dA}{dt} = \frac{h}{2}} $$
+$$\tag{3.1.12} \implies \boxed{\frac{dA}{dt} = \frac{h}{2}} $$
 
 which is constant. Thus, we are done.
 
@@ -267,10 +268,10 @@ where $P$ is the time period of revolution.
 
 Rearranging, we get
 
-$$\tag{3.1.8} \boxed{P^2 = \frac{4 \pi^2}{\mu} a^3} $$
+$$\tag{3.1.13} \boxed{P^2 = \frac{4 \pi^2}{\mu} a^3} $$
 
 where $P$ is the period of one revolution. This is known as Newton's form of the third law. If we work in the units of AU, sidereal years, and solar masses, we have $G M_\odot = 4 \pi^2$. Hence the equation simplifies to
 
-$$\tag{3.1.9} \boxed{a^3 = M P^2} $$
+$$\tag{3.1.14} \boxed{a^3 = M P^2} $$
 
 In our solar system, $M = M_\odot + m_{planet} \approx M_\odot = 1$, we get the relation $P^2 = a^3$. This gives us the third and final law!

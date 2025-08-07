@@ -7,13 +7,13 @@ Done with kepler's laws, you might ask why do we need to study about the two bod
 Well, the idea is seemingly similar to why after learning Coloumb's law, we still devote a fair amount of time
 into learning further electrostatics. 
 
-The answer is simply practical application. Practically, it is much easier to derive some results regarding the system, and use it to make our lives when solving the problems a lot more easier. And of course, if you let me be
-a little romantic, it is simply a natural tendency of humans to seek more knowledge.
+The answer is simply practical application. Practically, it is much easier to derive some results regarding the system, and use it to make our lives when solving the problems a lot more easier. For instance, you could, theoretically, now that you know $r(\theta)$ figure out $r(t)$ without any of the tools we discuss below, but it
+would be a much more daunting task.
 
 Anyway, we are still only really considering the problem of a two body system, but we'll primarily work
 with bound orbits, and see what we can do with them.
 
-As we proved in section 3.1, *all* bound orbits are elliptical. Therefore a fair amount of the following discussion is going to be reliant on some knowledge of ellipses. (TODO: Add appendix for it) You should have ideally finished reading the wikipidea page, or used an equivalent resource.  
+As we proved in section 3.1, *all* bound orbits are elliptical. Therefore a fair amount of the following discussion is going to be reliant on some knowledge of ellipses. You should have ideally finished reading the wikipidea page, or used an equivalent resource.  
 
 Consider an ellipse with semi-major axis $a$, semi-minor axis $b$, and eccentricity $e$. As you perhaps know, the semi-major axis is half the length of longest radii of the ellipse, while the semi-minor axis is half the length of the shortest radii. Here radii refers to the distance from the *centre* (notably, not the foci) to the boundary.
 
@@ -45,7 +45,7 @@ The semi-latus rectum $p$ of an ellipse is defined as the distance from the focu
 
 $$ p = \frac{b^2}{a} = a (1 - e^2) $$
 
-From this, eqns. $(3.13)$, $(3.15)$; we get that the total energy and angular momentum of the orbit in terms of $a$ and $e$ are:
+From this, eqns. $(3.1.8)$, $(3.1.10)$; we get that the total energy and angular momentum of the orbit in terms of $a$ and $e$ are:
 $$
 \begin{align*}
 \tag{3.2.1} \varepsilon &= -\frac{\mu}{2a}\\
@@ -59,7 +59,7 @@ the case for, for example, our solar system.
 ## Orbital Velocity
 
 Because we know the value of energy in terms of the parameters now, and the velocity and radius
-are related by the energy, we can use eqns. $(3.1.1)$ and $(3.2.1)$ to get the *vis-viva equation*:
+are related by the energy, we can use eqns. $(3.1.7)$ and $(3.2.1)$ to get the *vis-viva equation*:
 
 $$ \frac{1}{2} v^2 - \frac{\mu}{r} = \varepsilon = -\frac{\mu}{2a} $$
 
@@ -72,8 +72,10 @@ $$v_p = \sqrt{\mu \left( \frac{2}{r_p} - \frac{1}{a} \right)} = \sqrt{\frac{\mu}
 And the velocity at apoapsis is:
 $$v_a = \sqrt{\mu \left( \frac{2}{r_a} - \frac{1}{a} \right)} = \sqrt{\frac{\mu}{a} \left( \frac{1-e}{1+e} \right)} $$
 
+
 You can see that they're sort of very symmmetric, if we multiply or divide them, one of the term cancels out! This
 gives us some very nice relations:
+
 $$ v_p v_a = \frac{\mu}{a}\,, \qquad \qquad \frac{v_p}{v_a} = \frac{1+e}{1-e} $$
 
 As something you should always do when you have a formula with a parameter you can vary, we can ask what the limiting cases of this are. Since $e$ is bound between $0$ and $1$, let's see what we can do. $e \to 1$ is not really a nice case, for one the orbit becomes unbound, and everything diverges. On the other hand, we can talk about $e = 0$ precisely! 
@@ -81,23 +83,49 @@ As something you should always do when you have a formula with a parameter you c
 In the case of a circular orbit, we have $e = 0$. The body therefore moves with a *constant speed* $v_c$, called the circular velocity, given by
 $$\tag{3.2.4} v_c = \sqrt{\frac{\mu}{a}} $$
 
-For the body to escape the gravitational influence of the larger body and become unbound, the total energy of the system must become more than or equal to 0. This can be achieved by increasing the velocity of the smaller body to a value equal to the escape velocity $v_e$, given by
-(TODO: show the derivation why does bro never do this.)
+For the body to escape the gravitational influence of the larger body and become unbound, the total energy of the system must become more than or equal to 0. We can see this through the conservation of energy. Let the initial velocity be $v$. Finally, we need the velocity to
+be just non-zero to find the minimum velocity. Note that far away, the potential energy goes to $0$. Pairing this up
+with the fact that $K = mv^2/2$ is going to be $0$ for the minimum velocity, we get that the total energy must be $0$.
+
+So the *escape veloctiy* is such that the total energy is $0$. Using the expression for total energy from Kepler's Laws, and since initially the seperation between the bodies is $r$;
+$$
+0 = \frac{1}{2}mv_e^2 - \mu\frac{m}{r^2} \implies v_e = \sqrt{\frac{2\mu}{r}}
+$$
+
+Thus for the smaller body to escape, the minimum velocity needed is:
 $$\tag{3.2.5} v_e = \sqrt{\frac{2\mu}{r}} = \sqrt{2} v_c$$
 
-From eqn. $(3.1.8)$, the time period of the circular orbit is:
+From eqn. $(3.1.13)$, the time period of the circular orbit is:
 $$ P = 2 \pi \sqrt{\frac{a^3}{\mu}} $$
 
 ## Kepler's Equation
-Let the instant in time when the body was at periapsis be $t = \tau$. The mean motion $n$ is defined as
 
-$$n = \frac{2 \pi}{P}$$
+We know what the equation for $r(\theta)$ is, but what about the position as a function of time? 
+It turns out, that's a fairly more difficult task, and the neatest way to do this is using *anomalies*,
+parameters that describe the motion of our lighter body. As I said when discussing the first law of Kepler,
+we call the angle between the eccentricity vector and the position vector the *true anamoly*, $\theta$.
 
-We define the mean anamoly $M$ as the angular distance from the periapsis which a fictitious body would have if it moved in a circular orbit, with constant speed, with the same orbital period as the actual body in its elliptical orbit. At any instant in time $t$, it is given by
+Note that because the position vector from the center of mass (which is effectively the larger body here) $r$ is:
+$$
+r = \frac{h^2/\mu}{1 + e\cos\theta},
+$$
+the periapsis occurs at $\theta = 0$. So the true anomaly, stated in another manner, measures the angle from the periapsis.
+If we can somehow find the true anamoly as a function of time, our job is essentially done because we already know $r(\theta)$.
 
+The idea that we use here is to use a *fictious* circular body (this is closely related to the fact that elliptical motion is a 
+superposition of two independent circular motions). The mean motion $n$ is defined as
+$$n \coloneq \frac{2 \pi}{P}$$
+
+Let the instant at which the body was at periapsis be $\tau$. We define the mean anamoly $M$ as the *angular distance* from the periapsis which a fictitious body would have if it moved in a circle of radius $a$ (the semi-major axis length). At any instant in time $t$, it is clearly given by:
 $$\tag{3.2.6} M = n (t - \tau) $$
 
-We defined the eccentric anamoly $E$ as the eccentric angle of the smaller body in its elliptical orbit. In cartesian coordinates with the center of the ellipse being at origin, the equation of the ellipse becomes
+{{< callout type="image" >}}
+{{< svg "celmech/Mean_anomaly_diagram.svg" "Mean and True Anomaly" "Mean and True Anomaly" >}}
+{{< /callout >}}
+
+
+As it turns out, our equations become much neater if we ignore the true anamoly, and insteard work with the *eccentric anomaly*.
+We defined the eccentric anamoly $E$ as the eccentric angle of the smaller body in its elliptical orbit (see the figure). In cartesian coordinates with the center of the ellipse being at origin, the equation of the ellipse becomes
 
 $$ \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 $$
 
@@ -105,36 +133,53 @@ The eccentric anamoly $E$ in terms of these coordinates is given by
 
 $$ \cos E = \frac{x}{a}\,, \qquad \qquad \sin E = \frac{y}{b} $$
 
-Moreover, we get that the distance of the smaller body from the larger body (foci of the ellipse) is given by
+As a consequence, since $r = x^2 + y^2$, and $b^2 = a^2(1-e^2)$ we get that the distance of the smaller body from the larger body (foci of the ellipse) is given by
 
 $$ r = a (1 - \cos E) $$
 
-With this result, we can show that the true anomaly $\theta$ and the eccentric anamoly $E$ are related by
-
-$$\tag{3.2.7} \tan \frac{\theta}{2} = \sqrt{\frac{1+e}{1-e}} \tan \frac{E}{2} $$
-
-and
-
+Now since $\mathbf{r}(\theta) = r(\cos\theta \hat{\mathbf{{i}}} + \sin\theta \hat{\mathbf{j}})$, comparing it with expression for $x$ and 
+$y$ that we have, we get that the eccentric anamoly $E$ and true anamoly are related by
 $$ \cos \theta = \frac{a}{r} (\cos E - e) \qquad \qquad \sin \theta = \frac{b}{r} \sin E $$
 
-Using Kepler's second law, by finding the total area covered by the smaller body, presently at the eccentric angle $E$. Thus one obtains the relation between the mean anamoly $M$ and the eccentric anamoly $E$ as
+so that
+
+$$\tag{3.2.7} \tan \frac{\theta}{2} = \sqrt{\frac{1+e}{1-e}} \tan \frac{E}{2}.$$
+
+
+{{< callout type="image" >}}
+{{< svg "celmech/Eccentric_Anomaly.svg" "Eccentric Anomaly" "Eccentric Anomaly, The Point P is at (x,y). Reproduced from Katturnen et al., Fundamental Astronomy" >}}
+{{< /callout >}}
+
+
+Using Kepler's second law, the total area covered by the smaller body in the shaded region (see the previous figure) is:
+$$
+A = \pi ab \frac{t - \tau}{P} = \frac{1}{2}ab M
+$$
+when it is present at the eccentric angle $E$. Also, since an ellipse is a rescaling of a circle, the area is $b/a$ times the area of $FP'X$. Thus one obtains from someone geometry that the area of $FPX$ is:
+$$
+A = \frac{1}{2}ab(E - e\sin E)
+$$
+
+We then equate these to find the relation between the mean anamoly $M$ and the eccentric anamoly $E$ as
 
 $$\tag{3.2.8} M = E - e \sin E $$
 
-This is called Kepler's equation. It is a transcendental equation, and can be solved using numerical methods.
+This is called Kepler's equation. It is a *transcendental equation*, and we can solve it using numerical methods.
 
-It can be solved exactly in terms of an infinite series expansion, given by
+Using an infinite series expansion, we can solve it exactly:
 
 $$ E = M + e \sin M + \frac{e^2}{2} \sin 2M + \frac{e^3}{6} \sin 3M + \ldots $$
 
-The true anamoly and distance from focus too can be obtained in terms of infinite series expansion, given by
+Using this and the relations we found, the true anamoly (if you so want) and distance from focus too can be obtained in terms of infinite series expansion, given by
 
 $$
 \begin{align*}
-\theta &= M + {2e \sin M} + \frac{5e^2}{4} \sin 2M + \frac{e^3}{12} (12 \sin 3M - 3 \sin M) + \ldots\\
-\frac{r}{a} &= 1 - e\cos M + \frac{e^2}{2} (1 - \cos 2M) + \frac{3e^3}{8} (\cos M - \cos 3M) + \ldots
+\theta &= M + {2e \sin M} + \frac{5e^2}{4} \sin 2M + \frac{e^3}{12} (12 \sin 3M - 3 \sin M) + \cdots\\
+\frac{r}{a} &= 1 - e\cos M + \frac{e^2}{2} (1 - \cos 2M) + \frac{3e^3}{8} (\cos M - \cos 3M) + \cdots
 \end{align*}
 $$
+
+And thus we *have* found $r(t)$. 
 
 ## Radial Elliptic trajectory
 
