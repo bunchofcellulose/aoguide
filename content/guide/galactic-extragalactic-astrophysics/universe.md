@@ -1,14 +1,25 @@
 ---
 title: Our Universe
 weight: 2
-prev: /guide/cosmology/
 ---
+
+### Cosmological Principle
 
 The cosmological principle states that the universe is homogeneous and isotropic on large scales. This means that, on average, the universe looks the same in all directions (isotropic) and at all locations (homogeneous).
 
-The fact that the night sky is dark, known as Olbers' Paradox, suggests that the universe is not static and infinite. If it were, we would see a bright sky filled with stars. Instead, we observe a dark night sky, which implies that the universe has a finite age and is expanding.
+For example, a dart board can be considered isotropic when seeing from the center, but isn't homogeneous, the center being a special point on the surface. Similarly, an infinite striped pattern can be considered homogeneous as the pattern would look the same from everywhere, but not isotropic since the stripes have a preferred direction.
 
-Another observation is the Hubble's Law (or Hubble-Lemaître Law), which states that the velocity at which a galaxy is receding from us is proportional to its distance.
+### Observations
+
+Since the universe is so vast and so old, we would expect to encounter a star in any direction we look. Hence the night sky, instead of being dark should instead be fully bright, filled with stars. This is known as Olbers' Paradox. The resolution to this is that the universe is not static and infinite, but rather dynamic and expanding. We observe a dark night sky since the universe has a finite age and is not infinitely old.
+
+Another observation is the Hubble's Law (or Hubble-Lemaître Law), which states that the velocity at which a galaxy is receding from us is proportional to its distance. Galaxies which are farther from us are receding faster. Hubble's Law states that
+
+$$ v = H_0 d $$
+
+where \( H_0 \) is the Hubble constant and \( d \) is the distance to the galaxy. The Hubble constant is a measure of the rate of expansion of the universe.
+
+### Redshift
 
 Redshift is defined as
 
@@ -20,11 +31,9 @@ $$ v = cz $$
 
 A positive redshift indicates that the object is moving away from us, while a negative redshift indicates that it is moving towards us.
 
-Hubble's Law states that
+According to Hubble's law, the redshift of a galaxy is directly related to its distance from us (for low redshifts).
 
-$$ v = H_0 d $$
-
-where \( H_0 \) is the Hubble constant and \( d \) is the distance to the galaxy. The Hubble constant is a measure of the rate of expansion of the universe.
+### Cosmic Microwave Background Radiation
 
 In 1965, Penzias and Wilson discovered the Cosmic Microwave Background Radiation (CMB), which is the remnant radiation from the Big Bang. The CMB is a nearly uniform background radiation that fills the universe and has a temperature of $T_0 = 2.725 \pm 0.001 \, \mathrm{K}$. The CMB is isotropic and homogeneous, which supports the cosmological principle. Given the temperature of the CMB, we can find its energy density and number density
 

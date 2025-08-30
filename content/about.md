@@ -63,9 +63,9 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
   <div class="author-info">
     <h4>Akshat Srivastava</h4>
     <p><strong>Founder & Primary Author</strong></p>
-    <p>Hi! I'm a high school student from India who somehow made it into the Indian team for IOAA 2025. I love physics, astronomy and math, along with few other subjects (including but not limited to cs, linguistics, chemistry and engineering). I was the founder of the the Physics Olympiad Co-operation team for BL4S 2025, which eventually got shortlisted amongst the top 50. I like mathematical rigor in solving problems, and I believe I have been succesfully able to reflect this in the guide. You can reach out to me on my <a href="https://discord.gg/bV8bxvTmzU" target="_blank">Discord server</a>, or dm me at @bunchofcells (I like cucumbers).</p>
+    <p>Hi! I'm a high school student from India who somehow made it into the Indian team for IOAA 2025, and got a gold medal. I love physics, astronomy and math, along with few other subjects (including but not limited to cs, linguistics, chemistry and engineering). I like mathematical rigor in solving problems, and I believe I have been succesfully able to reflect this in the guide. You can reach out to me on my <a href="https://discord.gg/bV8bxvTmzU" target="_blank">Discord server</a>, or dm me at @bunchofcells (I like cucumbers).</p>
     <div class="author-links">
-      <a href="https://bunchofcellulose.github.io" target="_blank">My Website</a>
+      <a href="https://bunchofcellulose.github.io" target="_blank">Website</a>
       <a href="https://github.com/bunchofcellulose" target="_blank">GitHub</a>
     </div>
   </div>

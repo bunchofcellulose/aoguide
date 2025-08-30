@@ -4,21 +4,49 @@ weight: 1
 prev: /guide/galactic-extragalactic-astrophysics/
 ---
 
+Galaxies are huge groups of stars, gas, dust, and dark matter bound together by gravity. Typically they contain billions to trillions of stars, along with their planetary systems and interstellar gas and dust. Galaxies can range in size from dwarfs with just a few billion stars, to the largest galaxies known, which can contain one hundred trillion stars or more.
+
+Most galaxies are between 10 billion and 13.6 billion years old. Some are almost as old as the universe itself, which formed around 13.8 billion years ago. Astronomers think the youngest known galaxy formed approximately 500 million years ago.
+
+{{< callout type="trivia" >}}
+It was used to be thought that the galaxies we know today were just nebulae, part of the Milky Way. It wasn't until the 1920s that astronomers realized these objects were actually separate galaxies. In 1922, using the new 100-inch Mount Wilson telescope, Edwin Hubble was able to resolve the outer parts of some spiral nebulae as collections of individual stars and identified some Cepheid variables, thus allowing him to estimate the distance to the nebulae: they were far too distant to be part of the Milky Way.
+{{< /callout >}}
+
+{{< callout type="remark" >}}
+Galaxies can organize into groups of about 100 or fewer members held together by their mutual gravity. Larger structures, called clusters, may contain thousands of galaxies. Groups and clusters can be arranged in superclusters, which are not gravitationally bound. At the largest scales, the superclusters are arranged into sheets and filaments - the largest known structures in the universe.
+
+Galaxy filaments are massive, thread-like structures spanning around 50 to 80 megaparsecs, with the largest being the Hercules-Corona Borealis Great Wall at around 3 gigaparsecs in length (although still unconfirmed). The filaments are separated by cosmic voids, which are vast spaces which contain very few or no galaxies, the largest being the KBC void (aka the Local Hole).
+
+The Milky Way is part of the Local Group, which is part of the Virgo Supercluster, which in turn is part of the Laniakea Supercluster. The KBC void contains the Milky Way and the Local Group, and the larger part of the Laniakea Supercluster.
+{{< /callout >}}
+
 ## Hubble Classification of Galaxies
 
 The Hubble classification scheme is a system used to classify galaxies based on their morphology. It was developed by Edwin Hubble in the 1920s and is still widely used today. The Hubble classification scheme divides galaxies into several main categories, including:
 
-- **Elliptical galaxies (E)**: These galaxies are characterized by their smooth, featureless appearance and are typically composed of older stars. They are classified based on their ellipticity, with E0 being nearly spherical and E7 being highly elongated. If the major and minor axes of the galaxy are $a$ and $b$ respectively, then its type is given by En, where $n = 10 (1 - b/a)$.
+- **Elliptical galaxies (E)**: These galaxies are characterized by their smooth, featureless appearance and are typically composed of older stars. They are classified based on their ellipticity, with E0 being nearly spherical and E7 being highly elongated. If the major and minor axes of the galaxy are $a$ and $b$ respectively, then its type is given by E$n$, where $n = 10 (1 - b/a)$.
 - **Lenticular galaxies (S0)**: These galaxies have a disk-like structure similar to spiral galaxies but lack the prominent spiral arms. They are often considered a transitional type between elliptical and spiral galaxies.
 - **Spiral galaxies (S)**: These galaxies are characterized by their spiral arms and a central bulge. They are classified based on the tightness of their spiral arms and the size of their central bulge. These can be further classified as Sa, Sb and Sc, where Sa has tightly wound spiral arms and a large central bulge, Sb has moderately wound spiral arms and a medium-sized central bulge, and Sc has loosely wound spiral arms and a small central bulge.
 - **Spiral Barred galaxies (SB)**: These galaxies have a central bar-shaped structure that extends from the nucleus to the spiral arms. They are classified in the same way as normal spiral galaxies, with the addition of the "SB" prefix. These can be further classified as SBa, SBb and SBc, where SBa has tightly wound spiral arms and a large central bulge, SBb has moderately wound spiral arms and a medium-sized central bulge, and SBc has loosely wound spiral arms and a small central bulge.
 - **Irregular galaxies (Irr)**: These galaxies do not fit into any of the above categories and have an irregular shape. They are often rich in gas and dust and are typically associated with active star formation.
 
+![Hubble Classification](hubble.png "Hubble Classification")
+
+{{< callout type="remark" >}}
+A few more classifications, which are not part of the OG hubble classification are:
+
+- **SAB galaxies**: These are spiral barred galaxies that have a weak central bar-shaped structure that extends from the nucleus to the spiral arms. They lie between S and SB galaxies in terms of their morphology.
+- **Sm galaxies**: These are irregular galaxies that have a more regular shape than typical irregular galaxies. They are often rich in gas and dust and are typically associated with active star formation. These are shaped like the Magellanic clouds.
+- **dIrr galaxies**: These are dwarf irregular galaxies that are found in the outskirts of galaxy clusters. They are typically small and have a low luminosity.
+- **dE galaxies**: Dwarf elliptical galaxies
+- **dSph galaxies**: Dwarf spheroidal galaxies
+{{< /callout >}}
+
 ## Galactic Relations
 
-The galaxy effective radius or half light radius is the radius at which half of the total light of a galaxy is emitted.
+We define the galaxy effective radius or half light radius as the radius at which half of the total light of a galaxy is emitted. The radius $R_{25}$ is defined as the disk radius corresponding to a surface brightness of $25 \mathrm{^m\,/arcsec^2}$.
 
-The mass to light ratio is a marker of the amount of mass per brightness contained within a certain radius $R_{25}$, which is the disk radius corresponding to a surface brightness of $25 \mathrm{^m\,/arcsec^2}$. It is given by the total mass of the galaxy divided by its total luminosity. This ratio is approximately constant for each class of spiral galaxy, when integrating across the entire galaxy. The mass to light ratio is a useful tool for estimating the total mass of a galaxy, including dark matter, and can be used to study the dynamics and evolution of galaxies.
+The mass to light ratio is a marker of the amount of mass per brightness contained within the radius $R_{25}$. It is given by the total mass of the galaxy divided by its total luminosity. This ratio is approximately constant for each class of spiral galaxy, when integrating across the entire galaxy. The mass to light ratio is a useful tool for estimating the total mass of a galaxy, including dark matter, and can be used to study the dynamics and evolution of galaxies.
 
 The de-Vaucouleurs profile describes how the surface brightness $I$ of an elliptical galaxy varies as a function of apparent distance $R$ from the center of the galaxy. It is given by the equation
 
@@ -40,19 +68,27 @@ For quasars, the part of the quasar that is varying in brightness must be smalle
 
 The Milky Way is a barred spiral galaxy or type SBbc or SBc that is home to our solar system. It is composed of several components, including the galactic bulge, disk, and halo. The galactic bulge is a dense and bright region of stars located at the center of the galaxy. The disk is a flat region that contains most of the galaxy's stars and gas, a few kiloparsecs thick. The stars found in the disk are relatively younger. The halo is a spherical region that surrounds the galaxy and contains globular clusters, older and redder stars, and dark matter. It is almost spherical.
 
-Sun's orbital speed around the galactic center is around 220 km/s. For stars and gas in the disk of our galaxy to be in stable circular orbits,
+![Milky Way](milkyway.png "Milky Way")
 
-$$\tag{6.1.6} \frac{V(R)^2}{R} = \frac{GM(R)}{R^2} \implies M(R) = \frac{V(R)^2 R}{G} $$
-
-In the region outside sun's orbital radius, the orbital velocity is roughly constant, hence the mass enclosed must increase. However, the luminosity decreases exponentially. This is explained by dark matter. The rotation curve can be measured by doppler shift of the 21 cm line.
-
-The Local Standard of Rest (LSR) is the reference fram in which the mean velocity of the stars in the solar neightbourhood is zero. The velocity of the individual stars relative to the LSR is called the peculiar velocity of the star. The point towards which the Sun is moving relative to the LSR is called the solar apex. The poosite point on the celestial sphere is called the solar antapex. Sun's velocity with respect to the LSR is around 20 km/s.
+Sun's orbital speed around the galactic center is around 220 km/s, and is at a distance of about 8.5 kpc from the galactic center.
 
 Let the angular velocity of a star in circular orbit around the center of the galaxy be
 
 $$ \omega(R) = \sqrt{\frac{G M(R)}{R^3}} $$
 
-It has been observed that the angular velocity of rotation depends on the distance from the galactic center. Such rotation is called differential rotation. Thus the rotation curve of the galaxy is not keplerian.
+It has been observed that the angular velocity of rotation depends on the distance from the galactic center. Such rotation is called differential rotation. Thus the rotation curve of the galaxy is not keplerian, but rather flattens out after a few kiloparsecs.
+
+{{< callout type="remark" >}}
+
+For stars and gas in the disk of our galaxy to be in stable circular orbits (assuming spherical mass distribution),
+
+$$\tag{6.1.6} \frac{V(R)^2}{R} = \frac{GM(R)}{R^2} \implies M(R) = \frac{V(R)^2 R}{G} $$
+
+It has been observed that in the region outside sun's orbital radius, the orbital velocity is roughly constant, hence the mass enclosed must increase. However, the luminosity decreases exponentially. This "extra" non-luminous mass is termed as dark matter. Approximately 85% of all matter in the universe is in the form of dark matter.
+
+{{< /callout >}}
+
+The Local Standard of Rest (LSR) is the reference frame in which the mean velocity of the stars in the solar neighborhood is zero. The velocity of the individual stars relative to the LSR is called the peculiar velocity of the star. The point towards which the Sun is moving relative to the LSR is called the solar apex. The opposite point on the celestial sphere is called the solar antapex. Sun's velocity with respect to the LSR is around 20 km/s, with the apex being located in the constellation Hercules.
 
 Let the sun's orbital speed and orbital radius be $V_\odot$ and $R_\odot$ respectively. For a star in the galactic plane at galactic longitude $l$ and distance $r$ from the sun, its relative velocity with respect to sun is given by
 
@@ -91,11 +127,11 @@ where $Q_\text{ext}$ is the extinction efficiency factor, which is a function of
 $$\tag{6.1.2} d\tau = n \, C_\text{ext} \, dl $$
 $$\tag{6.1.3} \tau = \bar{n} \, C_\text{ext} \, L $$
 
-where $dl$ is in the direction of propagation of light, $L$ is the distance travelled by light, and $\bar{n}$ is the average number density of particles along the path of light. The optical depth is a measure of the amount of light absorbed or scattered by the ISM. The total extinction $A$ is given by
+where $dl$ is a small distance in the direction of propagation of light, $L$ is the total distance travelled by light, and $\bar{n}$ is the average number density of particles along the path of light. The optical depth is a measure of the amount of light absorbed or scattered by the ISM. The total extinction $A$ is given by
 
-$$\tag{6.1.4} A = 2.5 \log e\,  \tau $$
+$$\tag{6.1.4} A = 2.5 \log e\,  \tau \approx 1.09 \, \tau $$
 
-Extinction highly depends on the wavelength of light. Hence the ISM is also responsible for the reddening of the light of stars.
+Extinction highly depends on the wavelength of light. Blue light is scattered more than red light. Hence the ISM is also responsible for the reddening of the light of stars.
 
 $$\tag{6.1.5} B-V = (B-V)_0 + E_{B-V} $$
 $$\tag{6.1.6} R = \frac{A_V}{E_{B-V}} \approx 3 $$
@@ -117,13 +153,8 @@ The 21 cm line is a spectral line that is produced by the hyperfine transition o
 Except the hubble classification scheme, galaxies can be classified into several other types based on their properties and characteristics. Some of the most common types of galaxies include:
 
 - **CD galaxies**: These are dwarf elliptical galaxies that are found in the central regions of galaxy clusters. They are typically small and have a low luminosity.
-- **dIrr galaxies**: These are dwarf irregular galaxies that are found in the outskirts of galaxy clusters. They are typically small and have a low luminosity.
-- **dE galaxies**: These are dwarf elliptical galaxies that are found in the outskirts of galaxy clusters. They are typically small and have a low luminosity.
-- **dSph galaxies**: These are dwarf spheroidal galaxies that are found in the outskirts of galaxy clusters. They are typically small and have a low luminosity.
 - **uFd galaxies**: These are ultra-faint dwarf galaxies that are found in the outskirts of galaxy clusters. They are typically very small and have a very low luminosity.
 - **UCD galaxies**: These are ultra-compact dwarf galaxies that are found in the central regions of galaxy clusters. They are typically very small and have a very low luminosity.
-- **SAB galaxies**: These are spiral barred galaxies that have a weak central bar-shaped structure that extends from the nucleus to the spiral arms. They lie between S and SB galaxies in terms of their morphology.
-- **Sm galaxies**: These are irregular galaxies that have a more regular shape than typical irregular galaxies. They are often rich in gas and dust and are typically associated with active star formation. These are shaped like the Magellanic clouds.
 - **Radio galaxies**: These are galaxies that emit strong radio waves, often associated with active galactic nuclei (AGN) or supermassive black holes. They can be classified into two main types: Fanaroff-Riley type I (FRI) and type II (FRII) radio galaxies, based on their radio morphology and luminosity.
 - **Quasars**: Quasars are extremely luminous and distant active galactic nuclei (AGN) powered by supermassive black holes. They are among the most energetic objects in the universe and can outshine entire galaxies.
 - **Seyfert galaxies**: These are a type of active galaxy that exhibits strong emission lines in their spectra. They are classified into two main types: Seyfert 1 and Seyfert 2, based on the strength and width of their emission lines. Seyfert I galaxies have broad emission lines, while Seyfert II galaxies have narrow emission lines.

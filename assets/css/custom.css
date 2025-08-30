@@ -805,3 +805,16 @@ body::before {
   height: 0 !important;
   background: transparent !important;
 }
+
+.content table {
+    display: table !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    float: none !important;
+}
+
+.content table th,
+.content table td {
+  text-align: center;
+}

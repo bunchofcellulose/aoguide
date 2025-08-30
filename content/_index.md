@@ -110,7 +110,7 @@ css: /assets/css/custom.css
       <p>Trace the history and fate of the universe, from the Big Bang to cosmic acceleration. Grasp the large-scale structure and fundamental questions of cosmology.</p>
     </div>
   </a>
-  <a class="ao-topic" href="/aoguide/guide/data-analysis" style="background-image:url('./assets/images/start/lightcurve.png');">
+  <!-- <a class="ao-topic" href="/aoguide/guide/data-analysis" style="background-image:url('./assets/images/start/lightcurve.png');">
     <div>
       <div class="ao-topic-header">
         Data Analysis
@@ -125,7 +125,7 @@ css: /assets/css/custom.css
       </div>
       <p>Gain hands-on experience with telescopes, sky surveys, and observational campaigns—connecting theory to the real night sky.</p>
     </div>
-  </a>
+  </a> -->
 </div>
 
 <div style="margin-top: 15rem;"></div>

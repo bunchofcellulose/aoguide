@@ -5,7 +5,7 @@ weight: 2
 
 ## Stellar Spectra
 
-The light coming from a star can be analyzed by splitting it with a prism or diffraction grating into a spectrum, composed of a continuous spectra superimposed with narrow spectral lines. Each line indicates a particular chemical element or molecule, with the line strength indicating the abundance of that element. Stars can be classified into various classes, depending on their spectra.
+The light coming from a star can be analyzed by splitting it with a prism or diffraction grating into a spectrum, composed of a continuous spectra superimposed with narrow spectral lines. Each line indicates the presence of a particular chemical element or molecule, with the line strength indicating the abundance of that element. Stars can be classified into various classes, depending on their spectra.
 
 ### Harvard Classification
 
@@ -21,7 +21,7 @@ The Harvard classification is based on lines that are mainly sensitive to the st
 |K|3900-5300|Pale yellowish orange|0.45-0.8|0.7-0.96|0.08-0.6|
 |M|2300-3900|Orangish red|0.08-0.45|$\le$ 0.7|$\le$ 0.08|
 
-The mass (M), radius (R) and luminosity (L) ranges are only for main-sequence stars. A common mnemonic to remember the class names is 'Oh Be A Fine Girl Kiss Me'.
+The mass (M), radius (R) and luminosity (L) ranges indicated in the table are valid only for main-sequence stars. A common mnemonic to remember the class names is 'Oh Be A Fine Girl Kiss Me (OBAFGKM)'.
 
 Additional classes include
 
@@ -47,7 +47,7 @@ The Morgan-Keenana or Yerkes classification further distinguishes and classifies
 - sd or VI: subdwarfs
 - D or VII: white dwarfs
 
-The sun is a G2V type star.
+Our Sun is a G2V type star.
 
 ### Peculiar stars
 

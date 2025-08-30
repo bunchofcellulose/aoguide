@@ -83,7 +83,7 @@ The geocentric ecliptic coordinates are the ecliptic coordinates of a point as s
 
 The galactic coordinate system is based on the plane of the Milky Way galaxy. The coordinates in this system are galactic longitude ($l$) and galactic latitude ($b$).
 
-The galactic longitude $l$ of a point $X$ is the angle between the galactic center and the projection of the point onto the galactic plane, measured eastwards from the galactic center. The galactic longitude is positive eastwards from the galactic center and ranges from $0^\circ$ at the galactic center, $90^\circ$ at the first galactic quadrant, $180^\circ$ at the second galactic quadrant, and $270^\circ$ at the third galactic quadrant.
+The galactic longitude $l$ of a point $X$ is the angle between the galactic center and the projection of the point onto the galactic plane, measured eastwards from the Sun. The galactic longitude is positive eastwards from the galactic center and ranges from $0^\circ$ at the galactic center, $90^\circ$ at the first galactic quadrant, $180^\circ$ at the second galactic quadrant, and $270^\circ$ at the third galactic quadrant.
 
 The galactic latitude $b$ of a point $X$ is the angle between the point and the galactic plane, measured northwards from the galactic plane. The galactic latitude is positive northwards from the galactic plane and ranges from $-90^\circ$ (the south galactic pole) to $90^\circ$ (the north galactic pole).
 
