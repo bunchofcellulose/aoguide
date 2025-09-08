@@ -16,7 +16,7 @@ In this unit, we will cover:
 - Telescopes and the use of CCDs
 - Radiative Transfer and synchrotron radiation
 
-### Further Reading
+### Recommended Reading
 
 - Chapter 5 and 6 of "Foundations of Astrophysics" by Barbara Ryden and Bradley M. Peterson
 - Chapter 3 and 5 of "An Introduction to Modern Astrophysics" by Bradley W. Carroll and Dale A. Ostlie

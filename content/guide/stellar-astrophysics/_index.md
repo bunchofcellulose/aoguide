@@ -14,7 +14,7 @@ In this unit, we will cover:
 - Our solar system and the Sun's properties
 - Stellar remnants: white dwarfs, neutron stars, and black holes
 
-### Further Reading
+### Recommended Reading
 
 - Chapter 7, 8, 9, 10, 14, 15, 17 and 18 of "Foundations of Astrophysics" by Barbara Ryden and Bradley M. Peterson
 - Chapter 7, 8, 11, 12, 13, 15 and 16 of "An Introduction to Modern Astrophysics" by Bradley W. Carroll and Dale A. Ostlie

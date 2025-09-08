@@ -144,19 +144,21 @@ Gamma-ray bursts (GRBs) are extremely energetic events occurring in distant gala
 
 A black hole is a massive, compact astronomical object so dense that its gravity prevents anything from escaping, even light. Albert Einstein's theory of general relativity predicts that a sufficiently compact mass will form a black hole. The boundary of no escape is called the event horizon. Black holes typically form when massive stars collapse at the end of their life cycle. After a black hole has formed, it can grow by absorbing mass from its surroundings. Supermassive black holes of millions of solar masses may form by absorbing other stars and merging with other black holes, or via direct collapse of gas clouds. There is consensus that supermassive black holes exist in the centres of most galaxies.
 
-The radius of the even horizon of a black hole is given by
+The Schwarzchild radius of the even horizon of a black hole is given by
 
-$$\tag{5.2.2} r_s = \frac{2GM}{c^2} $$
+$$\tag{4.2.2} r_s = \frac{2GM}{c^2} $$
+
+This is the radius of the event horizon of the black hole, a point of no return for anything that crosses it.
 
 In many ways, a black hole acts like an ideal black body, as it reflects no light. Quantum field theory in curved spacetime predicts that event horizons emit Hawking radiation, with the same spectrum as a black body of a temperature inversely proportional to its mass. This temperature is of the order of billionths of a kelvin for stellar black holes, making it essentially impossible to observe directly. The Hawking temperature of a black hole is given by
 
-$$\tag{5.2.3} T_H = \frac{\hbar c^3}{8 \pi GM k_B} $$
+$$\tag{4.2.3} T_H = \frac{\hbar c^3}{8 \pi GM k_B} $$
 
 A black hole can only have three observable quantities: mass, angular momentum and charge.
 
 Near the event horizon the different time definitions become significant. An observer falling into a black hole reaches the centre in a finite time, according to his own clock, and does not notice anything special as he passes through the event horizon. However, to a distant observer he never seems to reach the event horizon; his velocity of fall seems to decrease towards zero as he approaches the horizon. The slowing down of time also appears as a decrease in the frequency of light signals. The formula for the gravitational redshift can be written in terms of the Schwarzschild radius as
 
-$$\tag{5.2.4} \nu_\infty = \nu \sqrt{1 - \frac{2GM}{rc^2}} = \nu \sqrt{1 - \frac{r_s}{r}} $$
+$$\tag{4.2.4} \nu_\infty = \nu \sqrt{1 - \frac{2GM}{rc^2}} = \nu \sqrt{1 - \frac{r_s}{r}} $$
 
 Here, $\nu$ is the frequency of radiation emitted at a distance r from the black hole and $\nu_\infty$ the frequency observed by an infinitely distant observer. It can be seen that the frequency at infinity approaches zero for radiation emitted near the event horizon.
 

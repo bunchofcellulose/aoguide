@@ -42,7 +42,7 @@ To simplify the algebra, we define the reduced mass $m$ of the two body system a
 
 $$\tag{3.1.2} m = \frac{m_1 m_2}{m_1 + m_2} $$
 
-such that $Mm = m_1 m_2$. Further, we define the gravitational parameter $\mu$ as
+such that $Mm = m_1 m_2$. Recommended, we define the gravitational parameter $\mu$ as
 
 $$\tag{3.1.3} \mu = G M = G (m_1 + m_2) $$
 

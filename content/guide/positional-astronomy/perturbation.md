@@ -3,24 +3,24 @@ title: Perturbation in Astronomical Observations
 weight: 4
 ---
 
-When observing celestial objects, several factors can affect the observed position of the object. These factors include atmospheric refraction, observer's altitude, aberration of light, parallax, precession, nutation, and proper motion of the star.
+When observing celestial objects, several factors can affect the observed position of the object. These factors include atmospheric refraction, observer's altitude, aberration, parallax, precession, nutation, and proper motion of the object.
 
 ## Refraction
 
-Since light is refracted by the Earth's atmosphere, the observed altitude of a celestial object is slightly higher than its true altitude. This effect is called atmospheric refraction. The amount of refraction depends on the altitude of the object and the atmospheric conditions, such as temperature and pressure.
+Since light is refracted by the Earth's atmosphere, the observed altitude of any celestial object is slightly higher than its true altitude. This effect is called atmospheric refraction. The amount of refraction depends on the altitude of the object and the atmospheric conditions, such as temperature and pressure.
 
-The atmosphere can be modelled as a stack of parallel layers, each having refractive index $n_i$. Let the true zenith angle of the object be $z$ and apparent zenith angle be $\zeta$. Using snell's law, we get that
+The atmosphere can be modelled as a stack of parallel layers of air, each having refractive index $n_i$. Let the true zenith angle of the object be $z$ and apparent zenith angle be $\zeta$. Using snell's law, we get that
 
 $$\sin z = n_{k} \sin z_{k} = n_{k-1} \sin z_{k-1} = \ldots = n_{1} \sin z_{1} = n_0 \sin \zeta$$
 
 Define the refraction angle as $R = z - \zeta$. It is usally small, so
 
 $$n_0 \sin \zeta = \sin (R + \zeta) \approx R \cos \zeta + \sin \zeta$$
-$$\implies R = (n_0 - 1) \tan \zeta$$
+$$\implies R = k \tan \zeta$$
 
-At STP conditions, $n_0 - 1 \approx 60.3''$ and is called the constant of refraction.
+where $k = n_0 - 1$ is called the constant of refraction. It depends on the atmospheric conditions. At STP conditions, $k \approx 60.3''$.
 
-This is a good approximation for $z < 45^\circ$, and fairly accurate for $z < 70^\circ$. For zenith angle close to $90^\circ$, the refraction angle is around $35'$ and is called horizontal refraction. It lengthens the time of sunrise and sunset, and causes the Sun to appear above the horizon even when it is below it.
+This is a good approximation for $z < 45^\circ$, and fairly accurate for $z < 70^\circ$. For zenith angle close to $90^\circ$, the refraction angle is around $35'$, and is called horizontal refraction. It lengthens the time of sunrise and sunset, and causes the Sun to appear above the horizon even when it is below it.
 
 ## Correction for observer's altitude
 

@@ -75,7 +75,7 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
   <img src="https://github.com/jardin-de-lys.png" alt="Adyansh Mishra" class="author-avatar">
   <div class="author-info">
     <h4>Adyansh Mishra</h4>
-    <p><strong>Co-Author</strong></p>
+    <p><strong>Editor</strong></p>
     <p>I'm a high school student from India passionate about mathematics, physics, cs, literature, and philosophy (yes its a bit of a weird combo). I was a PROMYS 2025 Alumni, and was the leader of Physics Olympiad Co-operation for BL4S, which was shortlisted. I help make sure our explanations are correct, and most importantly clear! You can contact me at discord at @jardindelys, but do send a cat pic if you decide to :D</p>
     <div class="author-links">
       <a href="https://github.com/jardin-de-lys" target="_blank">GitHub</a>

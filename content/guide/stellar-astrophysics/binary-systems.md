@@ -14,15 +14,17 @@ Binary star systems can be classified according to their specific observational 
 
 The mass function of a binary system inclined at an angle $i$, with stars of mass $m_1$ and $m_2$ is defined as
 
-$$\tag{5.3.1} \frac{m_2^3}{(m_1 + m_2)^2} \sin^3 i$$
+$$\tag{4.3.1} \frac{m_2^3}{(m_1 + m_2)^2} \sin^3 i$$
 
-As shown in eq 3.2.14, it is equal to
+As shown in equation (3.2.14), it is equal to
 
 $$\boxed{ \frac{m_2^3}{(m_1 + m_2)^2} \sin^3 i = \frac{P}{2 \pi G} v_{1r}^3 } $$
 
 ## Lightcurve
 
-In the case of eclipsing binaries, $i \approx 90^\circ$. The light curve can be used to further estimate the inclination of the system. A grazing eclipse will have a sharp dip, whereas a partial eclipse will have a flat bottom. Further, for an eclipsing spectroscopic binary, using measurements of duration of eclipses, the radii of each member can be deduced. The raio of the effective temperatures can also be obtained from the light curve. The deeper (primary) minima occurs when the hotter of the two stars is eclipsed begine the cooler star. The other minima is called the secondary minima.
+A lightcurve is a plot of brightness versus time for a celestial object, such as a star.
+
+In the case of eclipsing binaries, $i \approx 90^\circ$. The light curve can be used to further estimate the inclination of the system. A grazing eclipse will have a sharp dip, whereas a partial eclipse will have a flat bottom. Recommended, for an eclipsing spectroscopic binary, using measurements of duration of eclipses, the radii of each member can be deduced. The ratio of the effective temperatures can also be obtained from the light curve. The deeper (primary) minima occurs when the hotter of the two stars is eclipsed behind the cooler star. The other minima is called the secondary minima.
 
 ## Roche Lobe
 

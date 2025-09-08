@@ -18,7 +18,7 @@ In this unit, we will cover:
 - Geometry of the universe and the FLRW metric
 - Friedmann equations and cosmological models
 
-### Further Reading
+### Recommended Reading
 
 - Chapter 19 to 24 of "Foundations of Astrophysics" by Barbara Ryden and Bradley M. Peterson
 - Chapter 24 to 30 of "An Introduction to Modern Astrophysics" by Bradley W. Carroll and Dale A. Ostlie

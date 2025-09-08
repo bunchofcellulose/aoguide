@@ -638,7 +638,7 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
     $$v^2 = -2\alpha \left( \frac{1}{r} - \frac{1}{R_\odot} \right) $$
     $$v = \frac{dr}{dt} = \sqrt{\frac{2\alpha}{R_\odot} \left( 1-\frac{R_\odot}{r}\right)}$$
 
-    Further integrating a second time and substituting the limits, we get
+    Recommended integrating a second time and substituting the limits, we get
 
     $$\int_{R_\odot}^{a_J} dr = \int_0^T \sqrt{\frac{2\alpha}{R_\odot} \left( 1-\frac{R_\odot}{r}\right)} dt$$
 

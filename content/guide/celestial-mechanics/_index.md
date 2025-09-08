@@ -14,7 +14,7 @@ In this unit, we will cover:
 - Multi-body systems and Lagrange points
 - Orbital maneuvering and transfer orbits
 
-### Further Reading
+### Recommended Reading
 
 - Chapter 3 and 4 of "Foundations of Astrophysics" by Barbara Ryden and Bradley M. Peterson
 - Chapter 2 of "An Introduction to Modern Astrophysics" by Bradley W. Carroll and Dale A. Ostlie

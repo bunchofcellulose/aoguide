@@ -17,7 +17,7 @@ In this unit, we will cover:
 - Moon's phases and eclipses
 - Planetary motion
 
-### Further Reading
+### Recommended Reading
 
 - Chapter 1 and 2 of "Foundations of Astrophysics" by Barbara Ryden and Bradley M. Peterson
 - Chapter 1 of "An Introduction to Modern Astrophysics" by Bradley W. Carroll and Dale A. Ostlie

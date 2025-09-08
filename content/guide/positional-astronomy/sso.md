@@ -1,5 +1,5 @@
 ---
-title: Sun and Moon
+title: Sun, Moon and Planets
 weight: 5
 ---
 
