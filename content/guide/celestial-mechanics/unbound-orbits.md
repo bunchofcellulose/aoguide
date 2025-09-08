@@ -3,15 +3,19 @@ title: Unbound Orbits
 weight: 3
 ---
 
-As proved in section 3.1, hyperbolic and parabolic trajectories having total energy greater than or equal to zero are unbound.
+We now move onto *unbound* orbits. These are of much less importance for our concerns, so we won't talk too much about them. However, unlike what you might think they aren't unphysical, examples include comets originating from the Oort cloud, or perhaps even have interstellar origin. You can check [this wiki page](https://en.wikipedia.org/wiki/List_of_parabolic_and_hyperbolic_comets) for particular examples.
+
+
+As we proved in section 3.1, trajectories having energy greater than or equal to zero are *unbound*. We also saw that these trajectories have eccentricites greater than or equal to 1, and thus are parabolic or hyperbolic in nature. We'll briefly
+go over both of them. You should at least have some knowledge of these conic sections before proceeding further.
 
 ## Parabolic trajectory
 
-A parabola is a conic section with eccentricity equal to 1. The vertex point is the point of closest approach and is closest to the focus. If the distance to the focus from the vertex of the parabola is $r_p = a$, the length of the semi-latus rectum is $p = 2a$. The equation of the parabolic trajectory is
+A parabola is a conic section with eccentricity equal to 1. The *vertex point* is the point of closest approach and is closest to the focus. If the distance to the *focus* from the vertex of the parabola is $r_p = a$, the length of the semi-latus rectum is $p = 2a$. The equation of the parabolic trajectory is then:
 
 $$r = \frac{2a}{1 + \cos \theta}$$
 
-The angular momentum of such a trajectory is $h = \sqrt{2 \mu a}$. The total energy of a parabolic trajectory is zero. Therefore the velocity at any point, at a distance $r$ from the focus, is equal to the escape velocity
+The angular momentum of such a trajectory is $h = \sqrt{2 \mu a}$ from eqn. $(3.1.10)$. Because the total energy of a parabolic trajectory is zero, the potential energy must cancel out the kinetic energy. Using this we get that the velocity at any point, at a distance $r$ from the focus, is equal to the escape velocity (if it was moving in a circle of radius $r$):
 
 $$v = \sqrt{\frac{2\mu}{r}}$$
 
@@ -21,7 +25,7 @@ $$v_p = \sqrt{\frac{2\mu}{r_p}} = \sqrt{\frac{2\mu}{a}}$$
 
 ## Hyperbolic trajectory
 
-A hyperbola is a conic section with eccentricity greater than 1. The vertex point is the point of closest approach and is closest to the focus. Let the semi-major axis of the hyperbola be $a$. By convention, it is defined to be a negative quantity. This is done so that the equations match with those of an elliptical orbit. The distance of vertex from focus is
+A hyperbola is a conic section with eccentricity greater than 1. The *vertex point* is the point of closest approach and is closest to the focus. Let the semi-major axis of the hyperbola be $a$. By convention, we define it to be a negative quantity. This is done so that the equations match with those of an elliptical orbit. The distance of vertex from focus is
 
 $$ r_p = (-a) (e - 1) = a(1-e) $$
 
@@ -33,7 +37,7 @@ The equation of the hyperbolic trajectory is
 
 $$ r = \frac{a(1-e^2)}{1 + e \cos \theta} $$
 
-We see that the true anamoly can only take values between $-\cos^{-1} \left(\frac{-1}{e}\right)$ and $\cos^{-1} \left(\frac{-1}{e}\right)$.
+Both of which are identical to the formulas for ellipses. We see that the true anamoly can only take values between $-\cos^{-1} \left(\frac{-1}{e}\right)$ and $\cos^{-1} \left(\frac{-1}{e}\right)$. This wasn't an issue earlier, because $e$ was less than 1 for a bound orbit. Note that the bound for a parabola is $(-\pi, \pi)$
 
 The angular momentum of the system is $h = \sqrt{\mu a (1 - e^)}$, and the total energy is given by $\varepsilon = -\frac{\mu}{2a}$. Note that the energy is positive, due to $a$ being negative. The velocity of the body at a distance $r$ from the focus is given by
 
