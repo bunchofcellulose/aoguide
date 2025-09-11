@@ -5,11 +5,15 @@
 {{- $staticPath := printf "static/assets/images/%s" $filename -}}
 
 {{- if fileExists $staticPath }}
-  {{- $content := readFile $staticPath -}}
-  {{ $content | safeHTML }}
-  {{- if $caption }}
-    <div style="text-align: center; margin-top: 0.5rem; font-style: italic;">{{ $caption }}</div>
-  {{- end }}
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <div style="display: flex; justify-content: center;">
+      {{- $content := readFile $staticPath -}}
+      {{ $content | safeHTML }}
+    </div>
+    {{- if $caption }}
+      <div style="margin-top: 0.5rem; font-style: italic; text-align: center;">{{ $caption }}</div>
+    {{- end }}
+  </div>
 {{- else }}
   <div style="color: red;">⚠️ SVG not found at '{{ $staticPath }}'</div>
 {{- end }}

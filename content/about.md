@@ -62,7 +62,7 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
   <img src="https://github.com/bunchofcellulose.png" alt="Akshat Srivastava" class="author-avatar">
   <div class="author-info">
     <h4>Akshat Srivastava</h4>
-    <p><strong>Founder & Primary Author</strong></p>
+    <p><strong>Founder & Author</strong></p>
     <p>Hi! I'm a high school student from India who somehow made it into the Indian team for IOAA 2025, and got a gold medal. I love physics, astronomy and math, along with few other subjects (including but not limited to cs, linguistics, chemistry and engineering). I like mathematical rigor in solving problems, and I believe I have been succesfully able to reflect this in the guide. You can reach out to me on my <a href="https://discord.gg/bV8bxvTmzU" target="_blank">Discord server</a>, or dm me at @bunchofcells (I like cucumbers).</p>
     <div class="author-links">
       <a href="https://bunchofcellulose.github.io" target="_blank">Website</a>
@@ -102,9 +102,9 @@ Check out the [GitHub repository](https://github.com/bunchofcellulose/aoguide) t
 
 <div class="section-title">References & Sources</div>
 
-AO Guide is built upon the foundational work of many excellent textbooks, research papers, and educational resources. A lot of these are not the most helpful for IOAA, but they're wonderful in general!
+AO Guide is built upon the foundational work of many excellent textbooks, research papers, and educational resources. These books were not written with IOAA in mind, but they're wonderful in general!
 
-### Primary Textbooks
+### Primary Resources
 <div class="simple-list">
 <ul>
 <li><strong>“Astronomy: Principles and Practice”</strong> by A. E. Roy and D. Clarke</li>
@@ -113,7 +113,8 @@ AO Guide is built upon the foundational work of many excellent textbooks, resear
 <li><strong>"Introduction to Cosmology"</strong> by Barbara Ryden</li>
 <li><strong>"Foundations of Astrophysics"</strong> by Barbara Ryden</li>
 <li><strong>"An Introduction to Modern Astrophysics"</strong> by Bradley W. Carroll and Dale A. Ostlie</li>
-<li><strong>Kevin Zhou's Physics Olympiad Handouts</strong> - Comprehensive problem-solving guides</li>
+<li><strong><a href="https://knzhou.github.io">Kevin Zhou's Physics Olympiad Handouts</a></strong> - Comprehensive problem-solving guides</li>
+<li><strong><a href="https://www.usaaao.guide/handouts">USAAAO Guide</a></strong> - Handouts for USAAAO and IOAA preparation</li>
 </ul>
 </div>
 

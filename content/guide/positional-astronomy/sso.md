@@ -11,17 +11,17 @@ The sun appears to go around the Earth in a period of one year, following a path
 
 We are often asked to find the time of sunrise and sunset for a given location and date. The time of sunrise is the moment when the upper limb of the Sun appears above the horizon, while the time of sunset is the moment when the upper limb of the Sun disappears below the horizon.
 
-Say an object $X$ has the equatorial coordinates $(\alpha, \delta)$ and the observer's latitude is $\phi$. The hour angle $h$ of the object at the time of rising or setting is given by
+Say an object $X$ has the equatorial coordinates $(\alpha, \delta)$ and the observer's latitude is $\phi$. The hour angle $h$ of the object at the time of rising or setting (see P2 chapter 1.2) is given by
 
-$$\boxed{\cos h = -\tan \phi \tan \delta}$$
+$$\tag{1.5.1} \boxed{\cos h = -\tan \phi \tan \delta}$$
 
-This gives two solutions for the hour angle $h$ in the interval $[-\pi, \pi]$. The solution lying in the interval $[-\pi, 0]$ corresponds to the time of rising, while the solution lying in the interval $[0, \pi]$ corresponds to the time of setting.
+This gives two solutions for the hour angle $h$ in the interval $[-12^h, 12^h]$. The solution lying in the interval $[-12^h, 0]$ corresponds to the time of rising, while the solution lying in the interval $[0, 12^h]$ corresponds to the time of setting.
 
-The azimuth $A$ of the object at the time of rising or setting is given by
+The azimuth $A$ of the object at the time of rising or setting (see P3 chapter 1.2) is given by
 
-$$\cos A = \sin \delta \sec \phi$$
+$$\tag{1.5.2} \cos A = \sin \delta \sec \phi$$
 
-where the solution of azimuth lying in the range $[0, \pi]$ corresponds to the time of rising, while the solution lying in the range $[\pi, 2\pi]$ corresponds to the time of setting.
+where the solution of azimuth lying in the range $[0, 180^\circ]$ corresponds to the time of rising, while the solution lying in the range $[180^\circ, 360^\circ]$ corresponds to the time of setting.
 
 This simple treatment however, does not give accurate results for the Sun, due to the effects of atmospheric refraction and the finite size of the solar disk. The Sun is not a point source, and its upper limb appears above the horizon when it is still below the horizon due to atmospheric refraction. The time of sunrise and sunset can be calculated more accurately by taking into account these effects.
 
@@ -182,13 +182,3 @@ A month is a period of time based on the motion of the Moon around the Earth. Th
 - **Tropical month**: The time it takes for the Moon to return to the same position relative to the Sun, about 27.3216 days.
 - **Anomalistic month**: The time it takes for the Moon to return to the same point in its elliptical orbit, about 27.5545 days.
 - **Draconic month**: The time it takes for the Moon to return to the same node of its orbit, about 27.2122 days.
-
-### Years
-
-A year is a period of time based on the motion of the Earth around the Sun. There are several types of years:
-
-- **Tropical year**: The time it takes for the Earth to complete one orbit around the Sun, or for the ecliptic longitude of the Sun to increase by 360$^\circ$, defined to be exactly 365.24219 days. This is the basis for the Gregorian calendar.
-- **Sidereal year**: The time it takes for the Earth to complete one orbit around the Sun with respect to the stars, about 365.2566 days. This is slightly longer than the tropical year due to the precession of the equinoxes.
-- **Anomalistic year**: The time it takes for the Earth to return to the same point in its elliptical orbit, about 365.2596 days. This is the time between successive perihelion passages.
-- **Draconic year**: The time it takes for the Earth to return to the same node of its orbit, about 346.6201 days. This is the time between successive passages of the Sun through the same node of the Moon's orbit.
-- **Lunar year**: A year based on the cycles of the Moon, consisting of 12 synodic months, which is about 354.37 days. This is shorter than the tropical year, leading to the need for intercalation in lunar calendars to keep them aligned with the seasons.

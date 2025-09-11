@@ -52,7 +52,7 @@ The northernmost and southernmost points of the analemma are the solstices. Devi
 
 If the axial tilt $\varepsilon$ is zero, the analemma would become an arc of a great circle. If the eccentricity $e$ of the orbit is zero, it will become a perfect figure-eight. If both are zero, the analemma will be a single point.
 
-The following requires knowledge of kepler's laws and orbital anomalies, covered in the Celestial Mechanics section.
+The following requires knowledge of kepler's laws and orbital anomalies, covered in the Celestial Mechanics chapter.
 
 When viewed from different locations and at different times of the day, the position of the analemma and its orientation changes, however the shape remains the same. Thus without loss of generality, assume the observer is at the north pole, and the sun's position is measured at noon. The altitude of the Sun will just be its declination $\delta$, and its azimuth will be the difference in the right ascension of the Sun and the Mean Sun. Since the Mean Sun moves at a constant rate, its right ascension is just its mean anomaly $M$. Let the ecliptic longitude of the Sun be $\lambda$, and its true anomaly be $\theta$. These two are related by
 

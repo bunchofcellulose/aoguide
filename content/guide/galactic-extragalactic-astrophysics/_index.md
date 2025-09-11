@@ -24,3 +24,4 @@ In this unit, we will cover:
 - Chapter 24 to 30 of "An Introduction to Modern Astrophysics" by Bradley W. Carroll and Dale A. Ostlie
 - Chapter 17, 18, 19 and 20 of "Fundamental Astronomy" by Hannu Karttunen et al.
 - Chapter 1 to 10 of "Introduction to Cosmology" by Barbara Ryden
+- [Armin Hodaei's tutorial on cosmology](https://physolympacademy.com/beyond-the-textbook-a-coachs-guide-to-learning-cosmology/)

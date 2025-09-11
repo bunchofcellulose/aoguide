@@ -63,8 +63,8 @@ params:
 
   theme:
     # light | dark | system
-    default: system
-    displayToggle: true
+    default: dark
+    displayToggle: false
 
   footer:
     enable: true

@@ -154,7 +154,7 @@ The celestial sphere is an imaginary sphere of infinite radius, concentric with 
 
 For an observer, the point on the celestial sphere directly overhead is called the zenith, while the point directly below is called the nadir. The line connecting the zenith and nadir is called the zenith-nadir line. The horizon is the great circle on the celestial sphere that is perpendicular to the zenith-nadir line. This is the boundary where the sky appears to meet the Earth, and it defines the limits of the observer's view of the celestial sphere. The points where the celestial equator intersects the horizon are defined as the east and west cardinal points.
 
-The local meridian of an observer is a great circle on the celestial sphere that passes through the zenith, nadir, and the north and south celestial poles. The points where the celestial equator intersects the meridian are defined as the north and south cardinal points. The prime vertical is defined as the great circle passing throught the zenith, nadir and the east and west cardinal points.
+The celestial meridian or local meridian of an observer is a great circle on the celestial sphere that passes through the zenith, nadir, and the north and south celestial poles. The points where the celestial equator intersects the meridian are defined as the north and south cardinal points. The prime vertical is defined as the great circle passing throught the zenith, nadir and the east and west cardinal points.
 
 The celestial sphere and all the objects on it (stars, galaxies, etc.) appear to rotate westwards around the Earth once nearly every 24 hours. This apparent motion is due to the rotation of the Earth on its axis. However, to the observer it makes no difference whether it is the Earth that is rotating on its axis, or if the celestial sphere is rotating around the Earth. The point about which the celestial sphere appears to rotate is called the celestial pole. This is the projection of Earth's axis of rotation onto the celestial sphere. The two celestial poles are the north celestial pole (NCP) and the south celestial pole (SCP).
 
@@ -221,7 +221,7 @@ The horizon is the great circle defined by the cardinal points $NWSEN$. The cele
 
     $$\cos d = \cos(90^\circ - \phi_1) \cos(90^\circ - \phi_2) + \sin(90^\circ - \phi_1) \sin(90^\circ - \phi_2) \cos \Delta \lambda$$
     $$\implies \cos d = \sin \phi_1 \sin \phi_2 + \cos \phi_1 \cos \phi_2 \cos \Delta \lambda$$
-    $$\therefore \boxed{D = R \cos^{-1} \left[ \sin \phi_1 \sin \phi_2 + \cos \phi_1 \cos \phi_2 \cos \Delta \lambda \right]}$$
+    $$\tag{1.1.15} \therefore \boxed{D = R \cos^{-1} \left[ \sin \phi_1 \sin \phi_2 + \cos \phi_1 \cos \phi_2 \cos \Delta \lambda \right]}$$
 
     where $R$ is the radius of the Earth. This is a very important result and is often used.
 

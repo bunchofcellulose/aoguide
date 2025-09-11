@@ -13,7 +13,7 @@ would be a much more daunting task.
 Anyway, we are still only really considering the problem of a two body system, but we'll primarily work
 with bound orbits, and see what we can do with them.
 
-As we proved in section 3.1, *all* bound orbits are elliptical. Therefore a fair amount of the following discussion is going to be reliant on some knowledge of ellipses. You should have ideally finished reading the wikipidea page, or used an equivalent resource.  
+As we proved in chapter 3.1, *all* bound orbits are elliptical. Therefore a fair amount of the following discussion is going to be reliant on some knowledge of ellipses. You should have ideally finished reading the wikipidea page, or used an equivalent resource.  
 
 Consider an ellipse with semi-major axis $a$, semi-minor axis $b$, and eccentricity $e$. As you perhaps know, the semi-major axis is half the length of longest radii of the ellipse, while the semi-minor axis is half the length of the shortest radii. Here radii refers to the distance from the *centre* (notably, not the foci) to the boundary.
 
