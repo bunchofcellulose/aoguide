@@ -43,8 +43,12 @@ params:
   dateFormat: "January 2, 2006"
 
   math:
+    math:
     enable: true
-    katex: true
+
+  katex:
+    enable: true
+    base: "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/"
 
   navbar:
     displayTitle: true
