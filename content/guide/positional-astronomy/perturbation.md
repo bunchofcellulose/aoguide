@@ -3,7 +3,7 @@ title: Perturbation in Astronomical Observations
 weight: 4
 ---
 
-When observing celestial objects, several factors can affect the observed position of the object. These factors include atmospheric refraction, observer's altitude, aberration, parallax, precession, nutation, and proper motion of the object.
+When observing celestial objects, several factors can affect the observed position of the object. These factors are discussed below.
 
 ## Refraction
 
@@ -38,7 +38,17 @@ $$\tag{1.4.3} \alpha_d = \kappa_d \cos \theta$$
 
 where $\kappa_d \approx 0.32'' \cos \phi$ is the constant of diurnal aberration, and $\phi$ is the observer's latitude.
 
-For fast moving objects like comets, asteroids, planets and satellites, the aberration due to the motion of the object itself (the distance object moved by the time light reached the observer) is also significant, and must be taken into account.
+## Light time correction
+
+Light from a celestial object takes some time to reach the Earth. For example, light from the Sun takes about 499s to reach the Earth. During this time, the Sun moves a bit (as seen from Earth), and so the position of the Sun when the light was emitted is slightly different from its position when the light is observed on Earth. This displacement in the apparent position of a celestial object from its true position is called light time correction (LTC for short).
+
+The reason for this phenomenon is that the speed of light is finite. The magnitude and direction of the displacement in position depends upon the distance of the object from the observer and the motion of the object, and is measured at the instant at which the object's light reaches the observer. It is independent of the motion of the observer. This is in contrast to aberration of light, which depends upon the instantaneous velocity of the observer at the time of observation, and is independent of the motion or distance of the object.
+
+Light time correction is the most pronounced for objects in the solar system, such as planets and asteroids. For example, light from Jupiter takes about 35 minutes to reach the Earth, and during this time, Jupiter moves about 9'' (as seen from Earth during opposition). For this reason, the combined displacement of the apparent position due to the effects of light-time correction and aberration is known as planetary aberration.
+
+Light time correction is negligible for stars, as they are so far away that their motion during the time taken by their light to reach Earth is negligible.
+
+As it turns out however, aberration and light time correction are not independent of each other, but are in fact two aspects of the same phenomenon, namely the finite speed of light, just as seen in two different frames. In the frame of the observer, the effect is seen as aberration, while in the frame of the object, it is seen as light time correction. This [wikipedia article](https://en.wikipedia.org/wiki/Aberration_(astronomy)#Relationship_to_light-time_correction_and_relativistic_beaming) has a detailed discussion on the relationship between aberration and light time correction.
 
 ## Parallax
 
@@ -50,7 +60,7 @@ For an object with stellar parallax $\pi$, its distance $d$ is given by
 
 $$\tag{1.4.4} d = \frac{1 \mathrm{AU}}{\pi}$$
 
-where $1 \mathrm{AU}$ is the distance from the Earth to the Sun. If $\pi$ is expressed in arcseconds, then
+where 1 AU is the distance from the Earth to the Sun. If $\pi$ is expressed in arcseconds, then
 
 $$\tag{1.4.5} d = \frac{1}{\pi}$$
 

@@ -3,13 +3,13 @@ title: Sun, Moon and Planets
 weight: 5
 ---
 
-## Geocentric Path of the Sun
+## The Sun
 
-The sun appears to go around the Earth in a period of one year, following a path called the ecliptic. The ecliptic is the plane of the Earth's orbit around the Sun, and it is tilted with respect to the celestial equator by about $23.5^\circ$. The sun's apparent motion along the ecliptic is not uniform, as it moves faster when it is closer to the Earth (at perihelion) and slower when it is farther away (at aphelion).
+As seen from Earth, the sun appears to go around the Earth in a period of one year, following a path called the ecliptic. The ecliptic is the plane of the Earth's orbit around the Sun, and it is tilted with respect to the celestial equator by about $23.5^\circ$. The sun's apparent motion along the ecliptic is not uniform, as it moves faster when it is closer to the Earth (at perihelion) and slower when it is farther away (at aphelion).
 
 ### Sunrise and Sunset
 
-We are often asked to find the time of sunrise and sunset for a given location and date. The time of sunrise is the moment when the upper limb of the Sun appears above the horizon, while the time of sunset is the moment when the upper limb of the Sun disappears below the horizon.
+We are often asked to find the time and duration of sunrise and sunset for a given location and date. The time of sunrise is the moment when the upper limb of the Sun appears above the horizon, while the time of sunset is the moment when the upper limb of the Sun disappears below the horizon. The duration of sunrise or sunset is the time interval between the top and bottom limbs of the Sun crossing the horizon.
 
 Say an object $X$ has the equatorial coordinates $(\alpha, \delta)$ and the observer's latitude is $\phi$. The hour angle $h$ of the object at the time of rising or setting (see P2 chapter 1.2) is given by
 
@@ -25,7 +25,13 @@ where the solution of azimuth lying in the range $[0, 180^\circ]$ corresponds to
 
 This simple treatment however, does not give accurate results for the Sun, due to the effects of atmospheric refraction and the finite size of the solar disk. The Sun is not a point source, and its upper limb appears above the horizon when it is still below the horizon due to atmospheric refraction. The time of sunrise and sunset can be calculated more accurately by taking into account these effects.
 
-Even after sunset, some sunlight is recieved by the observer by scattering off of the atmoshpere. This phenomena is called twilight. Civil twilight is defined as the time when the Sun is between $6^\circ$ below the horizon and the horizon, nautical twilight is defined as the time when the Sun is between $12^\circ$ below the horizon and $6^\circ$ below the horizon, and astronomical twilight is defined as the time when the Sun is between $18^\circ$ below the horizon and $12^\circ$ below the horizon. The times of these twilights can be calculated using similar formulas as above, with appropriate values for $\delta$.
+{{< callout type="remark" >}}
+Even after sunset, some sunlight is recieved by the observer by scattering off of the atmoshpere. This phenomena is called twilight. There are three types of twilight: civil, nautical, and astronomical.
+
+- Civil twilight: The time when the Sun is between $0^\circ$ and $6^\circ$ below the horizon. During this time, there is enough light for most outdoor activities without additional lighting.
+- Nautical twilight: The time when the Sun is between $6^\circ$ and $12^\circ$ below the horizon. During this time, the horizon is still visible at sea, allowing sailors to take navigational measurements.
+- Astronomical twilight: The time when the Sun is between $12^\circ$ and $18^\circ$ below the horizon. During this time, the sky is dark enough for astronomical observations, as the Sun's light does not interfere with the visibility of stars and other celestial objects.
+{{< /callout >}}
 
 ### Tilted plane of the ecliptic
 
