@@ -50,6 +50,20 @@
     height: 10px;
 }
 
+/* Make bold text really bold */
+.content strong, 
+.content b {
+  font-family: 'Futura-Bold';
+  font-weight: 600 !important;
+}
+
+/* If using 'prose' classes in Tailwind via Hextra's typography: */
+.prose strong,
+.prose b {
+  font-weight: 700 !important;
+}
+
+
 .hextra-scrollbar::-webkit-scrollbar-track {
     background: #111;
     border-radius: 10px;

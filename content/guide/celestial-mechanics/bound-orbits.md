@@ -114,7 +114,7 @@ If we can somehow find the true anamoly as a function of time, our job is essent
 
 The idea that we use here is to use a *fictious* circular body (this is closely related to the fact that elliptical motion is a 
 superposition of two independent circular motions). The mean motion $n$ is defined as
-$$n \coloneq \frac{2 \pi}{P}$$
+$$n \overset{\text{def}}{\equiv} \frac{2 \pi}{P}$$
 
 Let the instant at which the body was at periapsis be $\tau$. We define the mean anamoly $M$ as the *angular distance* from the periapsis which a fictitious body would have if it moved in a circle of radius $a$ (the semi-major axis length). At any instant in time $t$, it is clearly given by:
 $$\tag{3.2.6} M = n (t - \tau) $$
