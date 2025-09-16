@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 800 800" version="1.1">
+ <g stroke-width="1.4">
+  <circle transform="rotate(-6.0722)" cx="62.477" cy="722" r="646.29" fill="none" stroke="#8282e8"/>
+  <circle transform="rotate(-6.0722)" cx="370.11" cy="153.62" r="55.456" fill="#babaff" stroke="#8282e8"/>
+  <circle transform="rotate(-6.0722)" cx="175.8" cy="512.63" r="77.151" fill="#fbfb86" stroke="#dd0"/>
+  <circle transform="rotate(-6.0722)" cx="360.45" cy="171.48" r="28.396" fill="#999" stroke="#999"/>
+  <ellipse transform="rotate(-6.0722)" cx="377.06" cy="140.8" rx="186.12" ry="82.038" fill="none" stroke="#00ce00"/>
+ </g>
+ <g fill="#ff8080" stroke-linecap="square" stroke-width="1.4">
+  <g stroke="#dd0">
+   <path d="m305.69 499.94 36.53-317.43"/>
+   <path d="m365.72 192.18-197.36 251.33"/>
+   <path d="m164.67 448.63 179.64-271.89"/>
+   <path d="m368.29 186.6-63.585 319.61"/>
+  </g>
+  <path d="m342.22 182.51 6.1412-53.371" stroke="#999"/>
+  <path d="m365.72 192.18 33.179-42.252" stroke="#999"/>
+ </g>
+ <g stroke-width="1.4">
+  <circle transform="rotate(-6.0722)" cx="333.88" cy="220.58" r="13.205" fill="#f9f9f9" stroke="#666"/>
+  <path d="m378.98 132.87-10.69 53.732c-2.2172-12.042-14.027-15.904-23.977-9.8596l30.202-45.709" fill="#999" opacity=".45882" stroke="#1a1a1a" stroke-linecap="square"/>
+  <circle transform="rotate(-6.0722)" cx="360.45" cy="171.48" r="2.4601" fill="#1a1a1a" stroke="#1a1a1a"/>
+  <path d="m189.73 107.17 173.31 10.393" fill="none" stroke="#000" stroke-linecap="round"/>
+  <path d="m197.22 132.48 178.42-1.5714" fill="none" stroke="#000" stroke-linecap="round"/>
+ </g>
+ <g font-family="DejaVu Sans" font-size="17" font-weight="bold" text-anchor="end">
+  <switch transform="translate(142,527)" fill="#c9c900"><text systemLanguage="zh-hans" id="trsvg71"><tspan id="trsvg11">太阳</tspan></text><text systemLanguage="zh-hant" id="trsvg70"><tspan id="trsvg10">太陽</tspan></text>
+   <text systemLanguage="af" id="trsvg61"><tspan id="trsvg1">Son</tspan></text>
+   <text systemLanguage="ca" id="trsvg62"><tspan id="trsvg2">Sol</tspan></text>
+   <text systemLanguage="de" id="trsvg63"><tspan id="trsvg3">Sonne</tspan></text>
+   <text systemLanguage="en" id="trsvg64"><tspan id="trsvg4">Sun</tspan></text>
+   <text systemLanguage="es" id="trsvg65"><tspan id="trsvg5">Sol</tspan></text>
+   <text systemLanguage="hi" id="trsvg66"><tspan id="trsvg6">सूर्य</tspan></text>
+   <text systemLanguage="it" id="trsvg67"><tspan id="trsvg7">Sole</tspan></text>
+   <text systemLanguage="so" id="trsvg68"><tspan id="trsvg8">Qorraxda</tspan></text>
+   <text systemLanguage="sw" id="trsvg69"><tspan id="trsvg9">Jua</tspan></text>
+   
+   
+   
+  <text id="trsvg72-ms" systemLanguage="ms"><tspan id="trsvg12-ms">Matahari</tspan></text><text id="trsvg72-mk" systemLanguage="mk"><tspan id="trsvg12-mk">Сонце</tspan></text><text id="trsvg72-fi" systemLanguage="fi"><tspan id="trsvg12-fi">Aurinko</tspan></text><text id="trsvg72-ar" systemLanguage="ar"><tspan id="trsvg12-ar">الشمس</tspan></text><text id="trsvg72"><tspan id="trsvg12">Sun</tspan></text></switch>
+  <switch transform="translate(298,26)" fill="#00ce00"><text systemLanguage="zh-hans" id="trsvg83"><tspan id="trsvg23">月球轨道</tspan></text><text systemLanguage="zh-hant" id="trsvg82"><tspan id="trsvg22">月球軌道</tspan></text>
+   <text systemLanguage="af" id="trsvg73"><tspan id="trsvg13">Maan se wentelbaan</tspan></text>
+   <text systemLanguage="ca" id="trsvg74"><tspan id="trsvg14">Òrbita de la Lluna</tspan></text>
+   <text systemLanguage="de" id="trsvg75"><tspan id="trsvg15">Mondumlaufbahn</tspan></text>
+   <text systemLanguage="en" id="trsvg76"><tspan id="trsvg16">Orbit of the Moon</tspan></text>
+   <text systemLanguage="es" id="trsvg77"><tspan id="trsvg17">Órbita de la Luna</tspan></text>
+   <text systemLanguage="hi" id="trsvg78"><tspan id="trsvg18">चंद्रमा की कक्षा</tspan></text>
+   <text systemLanguage="it" id="trsvg79"><tspan id="trsvg19">Orbita della Luna</tspan></text>
+   <text systemLanguage="so" id="trsvg80"><tspan id="trsvg20">Dayaxa</tspan></text>
+   <text systemLanguage="sw" id="trsvg81"><tspan id="trsvg21">Njia mzingo ya Mwezi</tspan></text>
+   
+   
+   
+  <text id="trsvg84-ms" systemLanguage="ms"><tspan id="trsvg24-ms">Orbit Bulan</tspan></text><text id="trsvg84-mk" systemLanguage="mk"><tspan id="trsvg24-mk">Месечева орбита</tspan></text><text id="trsvg84-fi" systemLanguage="fi"><tspan id="trsvg24-fi">Kuun kiertorata</tspan></text><text id="trsvg84-ar" systemLanguage="ar"><tspan id="trsvg24-ar">مدار القمر</tspan></text><text id="trsvg84"><tspan id="trsvg24">Orbit of the Moon</tspan></text></switch>
+  <switch transform="translate(214,57)" fill="#8282e8"><text systemLanguage="zh-hans" id="trsvg95"><tspan id="trsvg35">地球轨道</tspan></text><text systemLanguage="zh-hant" id="trsvg94"><tspan id="trsvg34">地球軌道</tspan></text>
+   <text systemLanguage="af" id="trsvg85"><tspan id="trsvg25">Aarde se wentelbaan</tspan></text>
+   <text systemLanguage="ca" id="trsvg86"><tspan id="trsvg26">Òrbita de la Terra</tspan></text>
+   <text systemLanguage="de" id="trsvg87"><tspan id="trsvg27">Erdumlaufbahn</tspan></text>
+   <text systemLanguage="en" id="trsvg88"><tspan id="trsvg28">Orbit of the Earth</tspan></text>
+   <text systemLanguage="es" id="trsvg89"><tspan id="trsvg29">Órbita de la Tierra</tspan></text>
+   <text systemLanguage="hi" id="trsvg90"><tspan id="trsvg30">पृथ्वी की कक्षा</tspan></text>
+   <text systemLanguage="it" id="trsvg91"><tspan id="trsvg31">Orbita della Terra</tspan></text>
+   <text systemLanguage="so" id="trsvg92"><tspan id="trsvg32">Dhulka</tspan></text>
+   <text systemLanguage="sw" id="trsvg93"><tspan id="trsvg33">Njia mzingo</tspan></text>
+   
+   
+   
+  <text id="trsvg96-ms" systemLanguage="ms"><tspan id="trsvg36-ms">Orbit Bumi</tspan></text><text id="trsvg96-mk" systemLanguage="mk"><tspan id="trsvg36-mk">Земјина орбита</tspan></text><text id="trsvg96-fi" systemLanguage="fi"><tspan id="trsvg36-fi">Maan kiertorata</tspan></text><text id="trsvg96-ar" systemLanguage="ar"><tspan id="trsvg36-ar">مدار الأرض</tspan></text><text id="trsvg96"><tspan id="trsvg36">Orbit of the Earth</tspan></text></switch>
+  <switch transform="translate(185,110)" fill="#E0E0E0"><text systemLanguage="zh-hans" id="trsvg107"><tspan id="trsvg47">半影</tspan></text><text systemLanguage="zh-hant" id="trsvg106"><tspan id="trsvg46">半影</tspan></text>
+   <text systemLanguage="af" id="trsvg97"><tspan id="trsvg37">Halfskadu</tspan></text>
+   <text systemLanguage="ca" id="trsvg98"><tspan id="trsvg38">Penombra</tspan></text>
+   <text systemLanguage="de" id="trsvg99"><tspan id="trsvg39">Halbschatten</tspan></text>
+   <text systemLanguage="en" id="trsvg100"><tspan id="trsvg40">Penumbra</tspan></text>
+   <text systemLanguage="es" id="trsvg101"><tspan id="trsvg41">Penumbra</tspan></text>
+   <text systemLanguage="hi" id="trsvg102"><tspan id="trsvg42">उपच्छाया</tspan></text>
+   <text systemLanguage="it" id="trsvg103"><tspan id="trsvg43">Penombra</tspan></text>
+   <text systemLanguage="so" id="trsvg104"><tspan id="trsvg44">Meesha mugdiga noqoneaysa</tspan></text>
+   <text systemLanguage="sw" id="trsvg105"><tspan id="trsvg45">Kivuli cha kando</tspan></text>
+   
+   
+   
+  <text id="trsvg108-mk" systemLanguage="mk"><tspan id="trsvg48-mk">Полусенка</tspan></text><text id="trsvg108-fi" systemLanguage="fi"><tspan id="trsvg48-fi">Puolivarjo</tspan></text><text id="trsvg108-ar" systemLanguage="ar"><tspan id="trsvg48-ar">منطقة شبه الظل</tspan></text><text id="trsvg108"><tspan id="trsvg48">Penumbra</tspan></text></switch>
+  <switch transform="translate(194,138)" fill="#E0E0E0"><text systemLanguage="zh-hans" id="trsvg119"><tspan id="trsvg59">本影</tspan></text><text systemLanguage="zh-hant" id="trsvg118"><tspan id="trsvg58">本影</tspan></text>
+   <text systemLanguage="af" id="trsvg109"><tspan id="trsvg49">Volskadu</tspan></text>
+   <text systemLanguage="ca" id="trsvg110"><tspan id="trsvg50">Ombra</tspan></text>
+   <text systemLanguage="de" id="trsvg111"><tspan id="trsvg51">Kernschatten</tspan></text>
+   <text systemLanguage="en" id="trsvg112"><tspan id="trsvg52">Umbra</tspan></text>
+   <text systemLanguage="es" id="trsvg113"><tspan id="trsvg53">Umbra</tspan></text>
+   <text systemLanguage="hi" id="trsvg114"><tspan id="trsvg54">प्रच्छाया</tspan></text>
+   <text systemLanguage="it" id="trsvg115"><tspan id="trsvg55">Ombra</tspan></text>
+   <text systemLanguage="so" id="trsvg116"><tspan id="trsvg56">Hooska Dayaxa</tspan></text>
+   <text systemLanguage="sw" id="trsvg117"><tspan id="trsvg57">Kitovu cha kivuli</tspan></text>
+   
+   
+   
+  <text id="trsvg120-mk" systemLanguage="mk"><tspan id="trsvg60-mk">Сенка</tspan></text><text id="trsvg120-fi" systemLanguage="fi"><tspan id="trsvg60-fi">Täysvarjo</tspan></text><text id="trsvg120-ar" systemLanguage="ar"><tspan id="trsvg60-ar">منظقة الظل</tspan></text><text id="trsvg120"><tspan id="trsvg60">Umbra</tspan></text></switch>
+ </g>
+</svg>

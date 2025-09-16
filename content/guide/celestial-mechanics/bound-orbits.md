@@ -3,32 +3,28 @@ title: Bound Orbits
 weight: 2
 ---
 
-Done with kepler's laws, you might ask why do we need to study about the two body problem anymore, at all?
-Well, the idea is seemingly similar to why after learning Coloumb's law, we still devote a fair amount of time
-into learning further electrostatics. 
+Having finished Kepler's laws, you might ask why we need to study the two-body problem any further at all.
+Well, the idea is similar to why, after learning Coulomb's law, we still devote a fair amount of time to learning further electrostatics.
 
-The answer is simply practical application. Practically, it is much easier to derive some results regarding the system, and use it to make our lives when solving the problems a lot more easier. For instance, you could, theoretically, now that you know $r(\theta)$ figure out $r(t)$ without any of the tools we discuss below, but it
-would be a much more daunting task.
+The answer is simply practical application. It is much easier to derive some results regarding the system and use them to make our lives easier when solving problems. For instance, you could, theoretically, now that you know $r(\theta)$, figure out $r(t)$ without any of the tools we discuss below, but it would be a much more daunting task.
 
-Anyway, we are still only really considering the problem of a two body system, but we'll primarily work
-with bound orbits, and see what we can do with them.
+Anyway, we are still only considering the problem of a two-body system, but we'll primarily work with bound orbits and see what we can do with them.
 
-As we proved in chapter 3.1, *all* bound orbits are elliptical. Therefore a fair amount of the following discussion is going to be reliant on some knowledge of ellipses. You should have ideally finished reading the wikipidea page, or used an equivalent resource.  
+As we proved in chapter 3.1, *all* bound orbits are elliptical. Therefore, a fair amount of the following discussion is going to rely on some knowledge of ellipses. You should have ideally finished reading the Wikipedia page or used an equivalent resource.
 
-Consider an ellipse with semi-major axis $a$, semi-minor axis $b$, and eccentricity $e$. As you perhaps know, the semi-major axis is half the length of longest radii of the ellipse, while the semi-minor axis is half the length of the shortest radii. Here radii refers to the distance from the *centre* (notably, not the foci) to the boundary.
+Consider an ellipse with semi-major axis $a$, semi-minor axis $b$, and eccentricity $e$. As you may know, the semi-major axis is half the length of the longest radius of the ellipse, while the semi-minor axis is half the length of the shortest radius. Here, radius refers to the distance from the *center* (not the foci) to the boundary.
 
-I'll just go through some useful results for ellipses that we will need later, I'll urge you to go through this
-before proceeding, as its vital to the succeeding discussions. 
+I'll just go through some useful results for ellipses that we will need later. I'll urge you to go through this before proceeding, as it's vital to the succeeding discussions.
 
-The semi-minor and semi-major axis are related by
+The semi-minor and semi-major axes are related by
 
 $$ b^2 = a^2 (1 - e^2) $$
 
-The eccentricity of an ellipse is always less than 1, being 0 for a circle. Anyway, now we can use the equation of the ellipse with the origin at one of the foci:
+The eccentricity of an ellipse is always less than 1, being 0 for a circle. Now, we can use the equation of the ellipse with the origin at one of the foci:
 $$
 r = \frac{a(1-e^2)}{1 + e\cos\theta}
 $$
-to find the smallest and largest $r$, we see that this gives the length of the periapsis, which is the point closest to the foci, and apoapsis, the point farthest from the foci:
+to find the smallest and largest $r$. This gives the length of the periapsis, which is the point closest to the foci, and apoapsis, the point farthest from the foci:
 
 $$
 \begin{align*}
@@ -37,9 +33,10 @@ r_a &= a (1 + e)
 \end{align*}
 $$
 
-From this we get the relations
+From this, we get the relations
 
-$$ a = \frac{r_p + r_a}{2}\,, \qquad \qquad e = \frac{r_a - r_p}{r_a + r_p} $$
+$$ a = \frac{r_p + r_a}{2}
+\,, \qquad \qquad e = \frac{r_a - r_p}{r_a + r_p} $$
 
 The semi-latus rectum $p$ of an ellipse is defined as the distance from the focus to the ellipse along a line perpendicular to the major axis. It is given by
 
@@ -53,8 +50,7 @@ $$
 \end{align*}
 $$
 
-From hereon for all subsections except the last one, we consider the case when $m_2 \gg m_1$, which is 
-the case for, for example, our solar system.
+From here on, for all subsections except the last one, we consider the case when $m_2 \gg m_1$, which is the case for, for example, our solar system.
 
 ## Orbital Velocity
 
@@ -72,13 +68,12 @@ $$v_p = \sqrt{\mu \left( \frac{2}{r_p} - \frac{1}{a} \right)} = \sqrt{\frac{\mu}
 And the velocity at apoapsis is:
 $$v_a = \sqrt{\mu \left( \frac{2}{r_a} - \frac{1}{a} \right)} = \sqrt{\frac{\mu}{a} \left( \frac{1-e}{1+e} \right)} $$
 
-
 You can see that they're sort of very symmmetric, if we multiply or divide them, one of the term cancels out! This
 gives us some very nice relations:
 
 $$ v_p v_a = \frac{\mu}{a}\,, \qquad \qquad \frac{v_p}{v_a} = \frac{1+e}{1-e} $$
 
-As something you should always do when you have a formula with a parameter you can vary, we can ask what the limiting cases of this are. Since $e$ is bound between $0$ and $1$, let's see what we can do. $e \to 1$ is not really a nice case, for one the orbit becomes unbound, and everything diverges. On the other hand, we can talk about $e = 0$ precisely! 
+As something you should always do when you have a formula with a parameter you can vary, we can ask what the limiting cases of this are. Since $e$ is bound between $0$ and $1$, let's see what we can do. $e \to 1$ is not really a nice case, for one the orbit becomes unbound, and everything diverges. On the other hand, we can talk about $e = 0$ precisely!
 
 In the case of a circular orbit, we have $e = 0$. The body therefore moves with a *constant speed* $v_c$, called the circular velocity, given by
 $$\tag{3.2.4} v_c = \sqrt{\frac{\mu}{a}} $$
@@ -100,29 +95,24 @@ $$ P = 2 \pi \sqrt{\frac{a^3}{\mu}} $$
 
 ## Kepler's Equation
 
-We know what the equation for $r(\theta)$ is, but what about the position as a function of time? 
-It turns out, that's a fairly more difficult task, and the neatest way to do this is using *anomalies*,
-parameters that describe the motion of our lighter body. As I said when discussing the first law of Kepler,
-we call the angle between the eccentricity vector and the position vector the *true anamoly*, $\theta$.
+We know what the equation for $r(\theta)$ is, but what about the position as a function of time? It turns out, that's a fairly more difficult task, and the neatest way to do this is using *anomalies*, parameters that describe the motion of our lighter body. As I said when discussing the first law of Kepler, we call the angle between the eccentricity vector and the position vector the *true anomaly*, $\theta$.
 
 Note that because the position vector from the center of mass (which is effectively the larger body here) $r$ is:
 $$
 r = \frac{h^2/\mu}{1 + e\cos\theta},
 $$
 the periapsis occurs at $\theta = 0$. So the true anomaly, stated in another manner, measures the angle from the periapsis.
-If we can somehow find the true anamoly as a function of time, our job is essentially done because we already know $r(\theta)$.
+If we can somehow find the true anomaly as a function of time, our job is essentially done because we already know $r(\theta)$.
 
-The idea that we use here is to use a *fictious* circular body (this is closely related to the fact that elliptical motion is a 
-superposition of two independent circular motions). The mean motion $n$ is defined as
+The idea that we use here is to use a *fictious* circular body (this is closely related to the fact that elliptical motion is a superposition of two independent circular motions). The mean motion $n$ is defined as
 $$n \overset{\text{def}}{\equiv} \frac{2 \pi}{P}$$
 
-Let the instant at which the body was at periapsis be $\tau$. We define the mean anamoly $M$ as the *angular distance* from the periapsis which a fictitious body would have if it moved in a circle of radius $a$ (the semi-major axis length). At any instant in time $t$, it is clearly given by:
+Let the instant at which the body was at periapsis be $\tau$. We define the mean anomaly $M$ as the *angular distance* from the periapsis which a fictitious body would have if it moved in a circle of radius $a$ (the semi-major axis length). At any instant in time $t$, it is clearly given by:
 $$\tag{3.2.6} M = n (t - \tau) $$
 
 {{< callout type="image" >}}
 {{< svg "celmech/Mean_anomaly_diagram.svg" "Mean and True Anomaly" "Mean and True Anomaly" >}}
 {{< /callout >}}
-
 
 As it turns out, our equations become much neater if we ignore the true anamoly, and insteard work with the *eccentric anomaly*.
 We defined the eccentric anamoly $E$ as the eccentric angle of the smaller body in its elliptical orbit (see the figure). In cartesian coordinates with the center of the ellipse being at origin, the equation of the ellipse becomes
@@ -137,19 +127,16 @@ As a consequence, since $r = x^2 + y^2$, and $b^2 = a^2(1-e^2)$ we get that the 
 
 $$ r = a (1 - \cos E) $$
 
-Now since $\mathbf{r}(\theta) = r(\cos\theta \hat{\mathbf{{i}}} + \sin\theta \hat{\mathbf{j}})$, comparing it with expression for $x$ and 
-$y$ that we have, we get that the eccentric anamoly $E$ and true anamoly are related by
+Now since $\mathbf{r}(\theta) = r(\cos\theta \hat{\mathbf{{i}}} + \sin\theta \hat{\mathbf{j}})$, comparing it with expression for $x$ and $y$ that we have, we get that the eccentric anamoly $E$ and true anamoly are related by
 $$ \cos \theta = \frac{a}{r} (\cos E - e) \qquad \qquad \sin \theta = \frac{b}{r} \sin E $$
 
 so that
 
 $$\tag{3.2.7} \tan \frac{\theta}{2} = \sqrt{\frac{1+e}{1-e}} \tan \frac{E}{2}.$$
 
-
 {{< callout type="image" >}}
 {{< svg "celmech/Eccentric_Anomaly.svg" "Eccentric Anomaly" "Eccentric Anomaly, The Point P is at (x,y). Reproduced from Katturnen et al., Fundamental Astronomy" >}}
 {{< /callout >}}
-
 
 Using Kepler's second law, the total area covered by the smaller body in the shaded region (see the previous figure) is:
 $$
@@ -179,7 +166,7 @@ $$
 \end{align*}
 $$
 
-And thus we *have* found $r(t)$. 
+And thus we *have* found $r(t)$.
 
 ## Radial Elliptic trajectory
 
@@ -228,12 +215,12 @@ $$\tag{3.2.15} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
 
 ## Problems
 
-{{< tabs items="Problem,Solution,IOAA 2007" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P1" >}}
     A Sun-orbiting periodic comet is the farthest at $31.5 \mathrm{\,AU}$ and the closest at $0.5 \mathrm{\,AU}$. What is the orbital period of this comet? What is the area (in $\mathrm{AU^2/yr}$) swept by the line joining the comet and the Sun?
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     The semi-major axis of the orbit is
 
     $$a = \frac{r_p + r_a}{2} = 16 \mathrm{\,AU}$$
@@ -254,12 +241,12 @@ $$\tag{3.2.15} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="Problem,Solution,IOAA 2009" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P2" >}}
     Estimate the radius of a planet that a man can escape its gravitation by jumping vertically. Assume density of the planet and the Earth are the same.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     A man can jump to a height $h \approx 50 \mathrm{\,cm}$ on Earth. This gives the man's jump velocity to be $v_\text{jump} = \sqrt{2g_\oplus h}$. Equating it to the escape velocity of the planet, we get
 
     $$\sqrt{2g_\oplus h} = \sqrt{\frac{2GM}{R}} \implies \sqrt{2\frac{G}{R_\oplus^2} \frac{4 \pi \rho_\oplus R_\oplus^3}{3} h} = \sqrt{\frac{2G}{R} \frac{4 \pi \rho R^3}{3}}$$
@@ -270,8 +257,8 @@ $$\tag{3.2.15} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="Problem,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P3" >}}
     A projectile which starts from the surface of the Earth at the sea level is launched with the initial speed of $v_0 < \sqrt{\frac{2GM_\oplus}{R_\oplus}}$ and the projecting angle (with respect to the local horizon) of $\theta$. Ignore the air resistance.
     1. The orbit of the projectile is an ellipse. Find its semi-major axis $a$ in units of $R_\oplus$.
     2. Calculate the highest altitude of the projectile with respect to the Earth surface (in units of $R_\oplus$)
@@ -280,7 +267,7 @@ $$\tag{3.2.15} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
     5. What is the eccentricity $e$ of this elliptical orbit?
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     Coming Soon
     {{< /tab >}}
 {{< /tabs >}}

@@ -6,7 +6,7 @@ weight: 1
 
 A star is a luminous ball of plasma held together by its own gravity. These produce their light through nuclear fusion reactions in their cores. The nearest star to Earth is the Sun.
 
-A star can go on shining steadily for thousands of millions of years. Thus the equilibrium of a star must remain stable for such long periods. Mathematically the conditions for the internal equilibrium of a spherically symmetric star can be expressed as four differential equations governing the distribution of mass, gas pressure and energy production and transport in the star.
+A star can shine steadily for thousands of millions of years. Thus, the equilibrium of a star must remain stable for such long periods. Mathematically, the conditions for the internal equilibrium of a spherically symmetric star can be expressed as four differential equations governing the distribution of mass, gas pressure, and energy production and transport in the star.
 
 ## Mass Continuity
 

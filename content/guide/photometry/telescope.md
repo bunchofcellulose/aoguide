@@ -49,17 +49,17 @@ The refractive index $n$ of a lens depends on the wavelength $\lambda$ of light.
 
 The plane containing the smallest possible image (not a point) is called the plane of sharpest focus. The image is known as the circle of least confusion. The spread of the image along the optical axis is called longitudinal aberration, and the spread in the plane perpendicular to the optical axis at the plane of sharpest focus is called lateral aberration.
 
-Chromatic aberration can be corrected by using a combination of lenses made from different materials with different refractive indices. This arrangement is called an achromatic doublet.
+Chromatic aberration can be corrected by using a combination of lenses made from different materials with different refractive indices. This arrangement is called an achromatic doublet. However, this can only focus two wavelengths to the same point. Apochromatic lenses use three or more lenses to bring three wavelengths into focus in the same plane, significantly reducing chromatic aberration. Modern cameras often use a combination of several lenses to correct for chromatic aberration.
 
 {{< callout type="image" >}}
-{{< svg "photometry/chromatic_aberration.svg" "Chromatic Aberration" "Chromatic Aberration in a lens (source: Wikipedia)" >}}
+{{< svg "photometry/chromatic.svg" "Chromatic Aberration" "Chromatic Aberration in a lens (source: Wikipedia)" >}}
 {{< /callout >}}
 
 ### Spherical Aberration
 
 The focus position of a spherical lens for any incident ray depends on its distance from the optical axis. This causes the image to spread along the optical axis, known as spherical aberration. The severity of this aberration can be expressed as the ratio $\Delta F / F$, where $\Delta F$ is the spread of the image along the optical axis and $F$ is the focal length of the lens.
 
-Spherical aberration can be corrected by using a combination of lenses with different shapes, known as a compound lens. It can also be corrected by aspherization, where the lens is shaped to have a non-spherical surface. In case of reflecting telescopes, spherical aberration can be corrected by using a parabolic mirror instead of a spherical one.
+Spherical aberration can be corrected by using a combination of lenses with different shapes, known as a compound lens. It can also be corrected by aspherization, where the lens is shaped to have a non-spherical surface. In the case of reflecting telescopes, spherical aberration can be corrected by using a parabolic mirror instead of a spherical one.
 
 {{< callout type="image" >}}
 {{< svg "photometry/spherical_aberration.svg" "Spherical Aberration" "Spherical Aberration in a lens (source: Wikipedia)" >}}

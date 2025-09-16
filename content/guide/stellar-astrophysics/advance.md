@@ -3,11 +3,11 @@ title: Advanced Topics
 weight: 6
 ---
 
-## Lane-Emden equation
+## Lane-Emden Equation
 
 The Lane–Emden equation is a dimensionless equation that describes a Newtonian self-gravitating, spherically symmetric, polytropic fluid. It is named after astrophysicists Jonathan Homer Lane and Robert Emden. The equation reads:
 
-$$\boxed{ \frac{1}{\xi^2} \frac{d}{d\xi^2} \left( \xi^2 \frac{d \theta}{d \xi} \right) + \theta^n = 0 }$$
+$$\boxed{ \frac{1}{\xi^2} \frac{d}{d\xi} \left( \xi^2 \frac{d \theta}{d \xi} \right) + \theta^n = 0 }$$
 
 where $\xi$ is a dimensionless radius and $\theta$ is related to the density, and thus the pressure, by $\rho = \rho_c \theta^n$, where  $\rho_c$ is the central density. The index $n$ is the polytropic index that appears in the polytropic equation of state,
 
@@ -47,7 +47,7 @@ $$ \alpha^2 = (n+1) K \rho_c^{\frac{1}{n} - 1} / 4\pi G, $$
 
 we have the Lane-Emden equation
 
-$$ \frac{1}{\xi^2} \frac{d}{d\xi^2} \left( \xi^2 \frac{d \theta}{d \xi} \right) + \theta^n = 0 $$
+$$ \frac{1}{\xi^2} \frac{d}{d\xi} \left( \xi^2 \frac{d \theta}{d \xi} \right) + \theta^n = 0 $$
 
 The boundary conditions are:
 
@@ -60,7 +60,7 @@ The surface of the fluid is defined by the condition $\theta(\xi_R) = 0$, where 
 
 - $n = 0$
 
-The Lane-Emden equation becomes $\frac{1}{\xi^2} \frac{d}{d\xi^2} \left( \xi^2 \frac{d \theta}{d \xi} \right) = 0$. Integrating, we find that the solution is
+The Lane-Emden equation becomes $\frac{1}{\xi^2} \frac{d}{d\xi} \left( \xi^2 \frac{d \theta}{d \xi} \right) = 0$. Integrating, we find that the solution is
 
 $$ \theta(\xi) = 1 - \frac{\xi^2}{6} $$
 

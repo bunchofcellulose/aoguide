@@ -93,12 +93,12 @@ The above expression is for a rigid satellite. For a fluid satellite,
 
 $$ d \approx 2.44\, R_M \left( \frac{\rho_M}{\rho_m} \right)^{1/3} $$
 
-{{< tabs items="Problem,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P1" >}}
     Consider the satellite to be tidally locked to the primary body, such that the same side of the satellite always faces the primary. Find the Roche limit for such a satellite.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     Here along with the tidal forces and the planet's gravitational force, we also have the centrifugal force acting on the satellite. For the mass $m'$ on the surface of the satellite to remain in equilibrium, we must have
 
     $$ 2 \frac{GM_M R_m m'}{d^3} + m' \omega^2 R_m = \frac{GM_m m'}{R_m^2} $$
@@ -197,12 +197,12 @@ There is no general closed form solution for $n >2$.
 
 ## Problems
 
-{{< tabs items="Problem,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P2" >}}
     Find the first cosmic velocity, which is the least velocity of a satellite launched from the surface of Earth required to put a satellite into orbit around the earth.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     The first cosmic velocity is given by
 
     $$\tag{3.5.11} v_1 = \sqrt{\frac{GM_\oplus}{R_\oplus}} \approx \boxed{7.91 \mathrm{\,km/s}}$$
@@ -210,12 +210,12 @@ There is no general closed form solution for $n >2$.
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="Problem,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P3" >}}
     Find the second cosmic velocity, which is the least velocity of a satellite launched from the surface of Earth required to escape from the gravitational field of the earth.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     The second cosmic velocity is given by
 
     $$\tag{3.5.12} v_2 = \sqrt{\frac{2GM_\oplus}{R_\oplus}} \approx \boxed{11.2 \mathrm{\,km/s}}$$
@@ -223,12 +223,12 @@ There is no general closed form solution for $n >2$.
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="Problem,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P4" >}}
     Find the third cosmic velocity, which is the least velocity of a satellite launched from the surface of Earth required to escape from the gravitational field of the solar system.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     In heliocentric frame, the escape velocity is
 
     $$v_{2,\odot} = \sqrt{\frac{2GM_\odot}{a_\odot}} \approx 42.1 \mathrm{\,km/s}$$
@@ -246,15 +246,17 @@ There is no general closed form solution for $n >2$.
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="Problem,Solution" >}}
-    {{< tab >}}
-    $\text{(IOAA 2011)}$ Estimate the number of stars in a globular cluster of diameter 40 pc, if the escape velocity at the edge of the cluster is 6 km/s and most of the stars are similar to the Sun.
+{{< tabs >}}
+    {{< tab name="P5" >}}
+    Estimate the number of stars in a globular cluster of diameter 40 pc, if the escape velocity at the edge of the cluster is 6 km/s and most of the stars are similar to the Sun.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     The escape velocity of object on the edge of the cluster is given by
 
     $$ v_e = \sqrt{ \frac{2GM}{R} } \implies M = \frac{Rv_e^2}{2G} $$
     $$ N = \frac{M}{M_\odot} = \frac{Rv_e^2}{2GM_\odot} \approx \boxed{ 8.4 \times 10^4 } $$
     {{< /tab >}}
+
+    {{< tab name="IOAA 2011" >}}{{< /tab >}}
 {{< /tabs >}}

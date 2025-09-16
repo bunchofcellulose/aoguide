@@ -5,7 +5,7 @@ weight: 3
 
 ## Nature of Radiation
 
-Radiation, or electromagnetic radiation (EMR), is a form of energy that travels through space. It is characterized by its wavelength or frequency, and can be described as a wave or a particle. The electromagnetic spectrum encompasses all types of electromagnetic radiation, ranging from radio waves to gamma rays.
+Radiation, or electromagnetic radiation (EMR), is a form of energy that travels through space. It is characterized by its wavelength or frequency and can be described as a wave or a particle. The electromagnetic spectrum encompasses all types of electromagnetic radiation, ranging from radio waves to gamma rays.
 
 A spectrum is a representation of the distribution of electromagnetic radiation as a function of wavelength or frequency. The spectrum can be continuous, showing a range of wavelengths, or discrete, showing specific wavelengths corresponding to particular energies. Devices used to measure the spectrum of EMR are called spectrometers or spectrographs. The visible spectrum is the part of the electromagnetic spectrum that can be seen by the human eye. The wavelength of visible light ranges from 390 to 700 nm.
 
@@ -19,13 +19,13 @@ The electromagnetic spectrum is divided into several regions based on wavelength
 - **X-rays**: Wavelengths between 0.01 nm and 10 nm, with frequencies between 30 PHz and 30 EHz.
 - **Gamma Rays**: Wavelengths shorter than 0.01 nm, with frequencies above 30 EHz.
 
-The quanta of electromagnetic radiation is a photon, whose energy is given by $E = h \nu$ where $\nu$ is the frequency of the photon.
+The quantum of electromagnetic radiation is a photon, whose energy is given by $E = h \nu$ where $\nu$ is the frequency of the photon.
 
 ### Continuous Spectrum
 
-A continuous spectrum is one which contains all wavelengths of light within a certain range, without any gaps. There are several processes that can produce a continuous spectrum:
+A continuous spectrum is one that contains all wavelengths of light within a certain range, without any gaps. There are several processes that can produce a continuous spectrum:
 
-- **Thermal Radiation**: Objects at a finite temperature emit thermal radiation, which produces a continuous spectrum. At room temperature, most of the emission is in the infrared (IR) spectrum, 73–86  though above around 525${}^{\circ}$C enough of it becomes visible for the matter to visibly glow. This visible glow is called incandescence. Blackbody radiation is a concept used to analyze thermal radiation in idealized systems. A perfect blackbody emits a continuous spectrum of radiation at all wavelengths, depending on its temperature. The intensity of the radiation at each wavelength is described by Planck's law.
+- **Thermal Radiation**: Objects at a finite temperature emit thermal radiation, which produces a continuous spectrum. At room temperature, most of the emission is in the infrared (IR) spectrum, though above around 525${}^{\circ}$C enough of it becomes visible for the matter to visibly glow. This visible glow is called incandescence. Blackbody radiation is a concept used to analyze thermal radiation in idealized systems. A perfect blackbody emits a continuous spectrum of radiation at all wavelengths, depending on its temperature. The intensity of the radiation at each wavelength is described by Planck's law.
 - **Synchrotron Radiation**: Charged particles moving at relativistic speeds in a magnetic field emit a continuous spectrum of radiation, known as synchrotron radiation. When non-relativistic charged particles are accelerated in a magnetic field, they emit radiation in a continuous spectrum, which is also known as cyclotron radiation.
 - **Bremsstrahlung**: When charged particles, such as electrons, are accelerated or decelerated, they emit radiation in a continuous spectrum. This is particularly significant in high-energy astrophysical processes. Bremsstrahlung emitted from plasma is sometimes referred to as free–free radiation.
 - **Compton Scattering**: High-energy photons can scatter off charged particles, resulting in a continuous spectrum of lower-energy photons.
@@ -39,7 +39,7 @@ A continuous spectrum is one which contains all wavelengths of light within a ce
 
 ### Line Spectrum
 
-A discrete or line spectrum is one which contains only specific wavelengths of light, corresponding to the energies of transitions between quantized energy levels in atoms or molecules. The line spectrum can be produced by:
+A discrete or line spectrum is one that contains only specific wavelengths of light, corresponding to the energies of transitions between quantized energy levels in atoms or molecules. The line spectrum can be produced by:
 
 - **Atomic Transitions**: When electrons in atoms transition between energy levels, they emit or absorb photons at specific wavelengths, resulting in a line spectrum. The wavelengths of these lines are characteristic of the element and can be used to identify the element in a sample. These are also called bound-bound transitions, as they involve transitions between bound states of electrons in atoms.
 - **Molecular Transitions**: Similar to atomic transitions, molecules can also have quantized energy levels, leading to emission or absorption lines in the spectrum. These lines are often associated with vibrational and rotational transitions in molecules.
@@ -48,13 +48,13 @@ A discrete or line spectrum is one which contains only specific wavelengths of l
 
 ### Polarization of Radiation
 
-Electromagnetic radiation can be polarized - linearly, circularly or elliptically. Polarization refers to the orientation of the electric field vector of the electromagnetic wave.
+Electromagnetic radiation can be polarized—linearly, circularly, or elliptically. Polarization refers to the orientation of the electric field vector of the electromagnetic wave.
 
-- **Linearly Polarised Radiation**: The electric field vector oscillates in a single plane, perpendicular to the direction of propagation. This can be represented as $E(t) = E_0 \cos(\omega t + \phi)$, where $E_0$ is the amplitude, $\omega$ is the angular frequency, and $\phi$ is the phase.
-- **Circularly Polarised Radiation**: The electric field vector rotates in a circular motion as the wave propagates. This can be represented as $E(t) = E_0 \cos(\omega t + \phi) \hat{x} + E_0 \sin(\omega t + \phi) \hat{y}$, where $\hat{x}$ and $\hat{y}$ are orthogonal unit vectors in the plane of polarization.
-- **Elliptically Polarised Radiation**: The electric field vector traces out an ellipse as the wave propagates. This can be represented as $E(t) = E_{0x} \cos(\omega t + \phi) \hat{x} + E_{0y} \sin(\omega t + \phi) \hat{y}$, where the amplitudes in the $\hat{x}$ and $\hat{y}$ directions are different.
+- **Linearly Polarized Radiation**: The electric field vector oscillates in a single plane, perpendicular to the direction of propagation. This can be represented as $E(t) = E_0 \cos(\omega t + \phi)$, where $E_0$ is the amplitude, $\omega$ is the angular frequency, and $\phi$ is the phase.
+- **Circularly Polarized Radiation**: The electric field vector rotates in a circular motion as the wave propagates. This can be represented as $E(t) = E_0 \cos(\omega t + \phi) \hat{x} + E_0 \sin(\omega t + \phi) \hat{y}$, where $\hat{x}$ and $\hat{y}$ are orthogonal unit vectors in the plane of polarization.
+- **Elliptically Polarized Radiation**: The electric field vector traces out an ellipse as the wave propagates. This can be represented as $E(t) = E_{0x} \cos(\omega t + \phi) \hat{x} + E_{0y} \sin(\omega t + \phi) \hat{y}$, where the amplitudes in the $\hat{x}$ and $\hat{y}$ directions are different.
 
-The polarization of light can be measured using polarimeters. The degree of polarisation is a measure of how much of the radiation is polarised. For completely linearly polarised radiation, the degree of polarisation is 1, while for unpolarised radiation, it is 0. The degree of polarisation can also be expressed in terms of the maximum and minimum intensities of the radiation, as follows:
+The polarization of light can be measured using polarimeters. The degree of polarization is a measure of how much of the radiation is polarized. For completely linearly polarized radiation, the degree of polarization is 1, while for unpolarized radiation, it is 0. The degree of polarization can also be expressed in terms of the maximum and minimum intensities of the radiation, as follows:
 
 $$ P = \frac{I_{\text{max}} - I_{\text{min}}}{I_{\text{max}} + I_{\text{min}}} $$
 
@@ -79,7 +79,7 @@ The total energy of an electron in the $n^\text{th}$ orbit is
 
 $$\tag{2.3.2} E_n = - \frac{m_e e^4 Z^2}{32 \pi^2 \varepsilon_0^2 \hbar^2 n^2} = - E_0 \frac{Z^2}{n^2} $$
 
-where $E_0 = \frac{m_e e^4}{32 \pi^2 \varepsilon_0^2 \hbar^2} \approx 13.6 \, \mathrm{eV}$ is a constant, $Z$ is the atomic number and $e$ is the elementary charge.
+where $E_0 = \frac{m_e e^4}{32 \pi^2 \varepsilon_0^2 \hbar^2} \approx 13.6 \, \mathrm{eV}$ is a constant, $Z$ is the atomic number, and $e$ is the elementary charge.
 
 During a transition, an electron moves from one orbit to another, and the energy of the electron changes. The energy difference between two orbits is given by
 
@@ -87,7 +87,7 @@ $$\tag{2.3.3} E = E_n - E_m = -E_0 Z^2 \left( \frac{1}{n^2} - \frac{1}{m^2} \rig
 
 where $n$ and $m$ are the principal quantum numbers of the initial and final orbits, respectively.
 
-Thus the wavelength of the photon is
+Thus, the wavelength of the photon is
 
 $$\tag{2.3.4} \frac{1}{\lambda} = \frac{E_0 Z^2}{hc} \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right) = RZ^2 \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right) $$
 
@@ -108,7 +108,7 @@ The $\text{H}\alpha$ line is the first line of the Balmer series, corresponding 
 
 ## Spectral Broadening
 
-Spectral lines are not infinitely narrow, but have a finite width. The width of the line is called the line profile. The line profile is a function of the wavelength, and is denoted by $I(\lambda)$. The area under the line profile is equal to the total intensity of the radiation. There are several mechanisms which cause broadening of spectral lines. The most important ones are:
+Spectral lines are not infinitely narrow, but have a finite width. The width of the line is called the line profile. The line profile is a function of the wavelength and is denoted by $I(\lambda)$. The area under the line profile is equal to the total intensity of the radiation. There are several mechanisms which cause broadening of spectral lines. The most important ones are:
 
 ### Natural Broadening
 
@@ -116,9 +116,9 @@ The lifetime of excited states results in natural broadening, also known as life
 
 ### Doppler Broadening
 
-This is the broadening of spectral lines due to doppler shift caused by velocity distribution of particles. The resulting profile is called doppler profile, and follows a gaussian distribution.
+This is the broadening of spectral lines due to Doppler shift caused by velocity distribution of particles. The resulting profile is called the Doppler profile and follows a Gaussian distribution.
 
-In the non-relativistic case, doppler shift is $f = f_0 \left( 1 + \frac{v}{c} \right)$. If $P_v(v) \, dv$ is the number of particles having velocities between $v$ and $v + dv$, then the corresponding frequency distribution is
+In the non-relativistic case, Doppler shift is $f = f_0 \left( 1 + \frac{v}{c} \right)$. If $P_v(v) \, dv$ is the number of particles having velocities between $v$ and $v + dv$, then the corresponding frequency distribution is
 
 $$
 \begin{aligned}
@@ -127,24 +127,24 @@ P_f (f) \, df &= P_v (v) \, \frac{dv}{df} \, df \\
 \end{aligned}
 $$
 
-Thermal doppler broadening is caused by the thermal motion of the molecules. The velocity distribution of the particles is given by the Maxwell-Boltzmann distribution
+Thermal Doppler broadening is caused by the thermal motion of the molecules. The velocity distribution of the particles is given by the Maxwell-Boltzmann distribution
 
 $$ P_v (v) \, dv = \sqrt{\frac{m}{2 \pi k T}} \, \exp\left(-\frac{mv^2}{2kT}\right) \, dv $$
 $$ \implies P_f (f) \, df = \frac{c}{f_0} \sqrt{\frac{m}{2 \pi k T}} \, \exp\left(-\frac{mc^2}{2kT} \left( \frac{f}{f_0} - 1 \right)^2 \right)  \, df  $$
 
-This is a gaussian profile with a standard deviation of $\sigma = \sqrt{\frac{kT}{mc^2}} f_0$ and FWHM
+This is a Gaussian profile with a standard deviation of $\sigma = \sqrt{\frac{kT}{mc^2}} f_0$ and FWHM
 
 $$ \Delta f_\text{FWHM} = \sqrt{\frac{8 \ln 2 kT}{mc^2}} f_0 = 2 \sqrt{2 \ln 2} \, \sigma $$
 
 ### Pressure Broadening
 
-Impact or collisional pressure broadening is caused by collisions of particles with other particles and follows a lorentzian profile. Pressure broadening can be classified into the following categories
+Impact or collisional pressure broadening is caused by collisions of particles with other particles and follows a Lorentzian profile. Pressure broadening can be classified into the following categories:
 
 - Impact pressure broadening or collisional broadening
 - Quasistatic pressure broadening
-- Linear stark broadening
-- Quadratic stark broadening
-- Vanderwaals broadening
+- Linear Stark broadening
+- Quadratic Stark broadening
+- Van der Waals broadening
 - Resonance broadening
 
 ### Zeeman Effect

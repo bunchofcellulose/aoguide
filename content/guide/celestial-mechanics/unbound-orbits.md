@@ -3,11 +3,9 @@ title: Unbound Orbits
 weight: 3
 ---
 
-We now move onto *unbound* orbits. These are of much less importance for our concerns, so we won't talk too much about them. However, unlike what you might think they aren't unphysical, examples include comets originating from the Oort cloud, or perhaps even have interstellar origin. You can check [this wiki page](https://en.wikipedia.org/wiki/List_of_parabolic_and_hyperbolic_comets) for particular examples.
+We now move on to *unbound* orbits. These are of much less importance for our concerns, so we won't talk too much about them. However, unlike what you might think, they aren't unphysical; examples include comets originating from the Oort cloud, or perhaps even having interstellar origin. You can check [this wiki page](https://en.wikipedia.org/wiki/List_of_parabolic_and_hyperbolic_comets) for particular examples.
 
-
-As we proved in chapter 3.1, trajectories having energy greater than or equal to zero are *unbound*. We also saw that these trajectories have eccentricites greater than or equal to 1, and thus are parabolic or hyperbolic in nature. We'll briefly
-go over both of them. You should at least have some knowledge of these conic sections before proceeding further.
+As we proved in chapter 3.1, trajectories having energy greater than or equal to zero are *unbound*. We also saw that these trajectories have eccentricities greater than or equal to 1, and thus are parabolic or hyperbolic in nature. We'll briefly go over both of them. You should at least have some knowledge of these conic sections before proceeding further.
 
 ## Parabolic trajectory
 

@@ -138,7 +138,7 @@ details :not(.math) {
 
 /* Third tab (problem number) - subtle purple, at the right of the tab box, not the screen */
 .hextra-tabs-toggle:nth-child(3) {
-    background: #6a5acd !important;   /* Slate Blue - more subdued purple */
+    background: #6a5acd !important;   /*Slate Blue - more subdued purple*/
     color: #fff !important;
     margin-left: auto !important;
     pointer-events: none !important;  /* Not clickable */
@@ -162,7 +162,7 @@ details :not(.math) {
 }
 
 /* Problem tab panel (first panel) */
-.hextra-tabs-panel#tabs-panel-0 {
+.hextra-tabs-panel[id$="-0"] {
     background: rgba(26, 54, 93, 0.3) !important;   /* Dark blue, low opacity */
     color: #fff !important;                         /* Light text for contrast */
     padding: 1.25rem 1.5rem !important;
@@ -172,9 +172,9 @@ details :not(.math) {
 }
 
 /* Solution tab panel (second panel) */
-.hextra-tabs-panel#tabs-panel-1 {
-    background: rgba(46, 139, 87, 0.3) !important;  /* Teal, low opacity */
-    color: #fff !important;                         /* Light text for contrast */
+.hextra-tabs-panel[id$="-1"] {
+    background: rgba(46, 139, 87, 0.3) !important; 
+    color: #fff !important;
     padding: 1.25rem 1.5rem !important;
     border-radius: 10px !important;
     border: 3px solid #2e8b57 !important;
@@ -828,7 +828,38 @@ body::before {
     float: none !important;
 }
 
-.content table th,
+.content table th {
+  text-align: center;
+  font-size: 1.05rem !important; /* Headings 1-2px larger than content */
+  font-family: 'Futura-Bold', 'Arial', sans-serif !important;
+  font-weight: 600 !important;
+  padding: 0.85em 0.5em !important;
+}
+
 .content table td {
   text-align: center;
+  font-size: 0.95rem !important; /* Content font size matches normal text */
+  font-family: 'Futura', 'Arial', sans-serif !important;
+  font-weight: 400 !important;
+  padding: 0.7em 0.5em !important;
+}
+
+/* Table Callout Styles - Green Theme */
+.callout-table {
+    border-color: #2e8b57; /* Medium green border */
+    background-color: #102617; /* Dark green background */
+    color: #b7f5c9; /* Light green text */
+}
+.dark .callout-table {
+    border-color: #2e8b57; /* Medium green border for dark mode */
+    background-color: #102617; /* Dark green background */
+    color: #b7f5c9; /* Light green text for contrast */
+}
+
+/* Table borders inside table callout */
+.callout-table table th {
+  border-bottom: 1.5px solid #3fc97a !important; /* Faint light green border for header */
+}
+.callout-table table td {
+  border-bottom: 1.5px solid rgba(63, 201, 122, 0.35) !important; /* Less opaque for content rows */
 }

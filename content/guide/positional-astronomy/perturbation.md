@@ -67,21 +67,21 @@ $$\tag{1.4.5} d = \frac{1}{\pi}$$
 gives the distance $d$ in units of parsecs. More precisely, one parsec is defined as the distance at which an object has an stellar parallax of one arcsecond.
 
 {{< callout type="trivia" >}}
-Stellar parallaxes are so small that they were unobservable till the 19th century, and its apparent absence was used as a scientific argument against heliocentrism during the early modern age. The first experiment to measure parallax was conducted by James Bradley in 1729, but he ended up discovering the aberration of light and nutation of Earth's axis instead. The first successful measurement of stellar parallax was made by Friedrich Bessel in 1838, who measured the parallax of the star 61 Cygni to be $0.3''$, using a device called heliometer.
+Stellar parallaxes are so small that they were unobservable until the 19th century, and their apparent absence was used as a scientific argument against heliocentrism during the early modern age. The first experiment to measure parallax was conducted by James Bradley in 1729, but he ended up discovering the aberration of light and nutation of Earth's axis instead. The first successful measurement of stellar parallax was made by Friedrich Bessel in 1838, who measured the parallax of the star 61 Cygni to be $0.3''$, using a device called a heliometer.
 {{< /callout >}}
 
 When measuring distances to nearby objects, such as the Moon, planets and asteroids, instead of stellar parallax, diurnal parallax is used. The diurnal parallax is the angle subtended at the object by the radius of the Earth. If $R_\oplus$ is the radius of the Earth, and $d$ is the distance to the object, then the diurnal parallax $\pi_d$ is given by
 
 $$\tag{1.4.6} \pi_d = \frac{R_\oplus}{d}$$
 
-{{< tabs items="P1,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P1" >}}
 
     Knowing the distance of Sun from Earth is $1 \, \mathrm{AU} = 1.496 \times 10^{11}\, \mathrm{m}$, and the radius of Earth is $R_\oplus = 6.3781 \times 10^{6} \,\mathrm{m}$, find the solar parallax (diurnal parallax of the Sun).
 
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
 
     Using equation (1.4.6), we get that
 

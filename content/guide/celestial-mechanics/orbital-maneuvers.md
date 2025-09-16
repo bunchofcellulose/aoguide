@@ -98,8 +98,8 @@ Let a spacecraft having a velocity $v$ relative to the sun, approach Jupiter. Fr
 
 ## Problems
 
-{{< tabs items="Problem,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P1" >}}
     Consider a spacecraft currently in a circular orbit of radius $a_1 = 1 \mathrm{\,AU}$ around sun, and has to go into a circular orbit of radius $a_2 = 5 \mathrm{\,AU}$, via a bi-elliptic transfer. To achieve this, it first goes into an elliptical orbit, with its aphelion at a distance $r =  8 \mathrm{\,AU}$. Then it goes into an orbit whose perihelion is at $a_2$. Find
     1. $\Delta v$ of the first burn
     2. $\Delta v$ of the second burn
@@ -107,7 +107,7 @@ Let a spacecraft having a velocity $v$ relative to the sun, approach Jupiter. Fr
     4. minimum fuel needed for the maneuver, if the exhaust velocity is $v_\text{exh} = 1 \mathrm{\,km/s}$ and mass of the empty spacecraft is $m_0 = 2000 \mathrm{\, kg}$. Is this maneuver feasible?
     {{< /tab >}}
 
-    {{< tab >}} 
+    {{< tab name="Solution" >}} 
     1. The semi-major axis of the first parking orbit will be
     
     $$ a_\text{p1} = \frac{a_1 + r}{2} = 4.5 \mathrm{\,AU} $$

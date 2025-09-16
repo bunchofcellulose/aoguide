@@ -4,10 +4,9 @@ weight: 4
 ---
 
 
-We are in essence done with the problem we started off with. However, there are still some advanced topics left which will simplify our life, and some setups left to consider. Before that,
-though, we're going to discuss orbitals elements. These are the elements we need to categorise an orbit, and give us a more general overview of what information we need to fix an orbit. This will be helpful in trying to figure out what kind of shape, orientation, etc. our orbit has. This also servers as a recap of things that we've introduced earlier.
+We are essentially done with the problem we started off with. However, there are still some advanced topics left which will simplify our lives, and some setups left to consider. Before that, though, we're going to discuss orbital elements. These are the elements we need to categorize an orbit, and give us a more general overview of what information we need to fix an orbit. This will be helpful in trying to figure out what kind of shape, orientation, etc. our orbit has. This also serves as a recap of things that we've introduced earlier.
 
-Before that, however, let's have a look over some terminology that we'll commonly use. You should review positional astronomy (specifically, co-ordinate systems and the sphere) before moving on, as we'll use terms from there.  
+Before that, however, let's have a look over some terminology that we'll commonly use. You should review positional astronomy (specifically, coordinate systems and the sphere) before moving on, as we'll use terms from there.  
 
 {{< svg "celmech/orbital-elements.svg" "Orbital elements illustration" "Orbital Elements (source: Wikipedia)" >}}
 
@@ -19,13 +18,11 @@ Before that, however, let's have a look over some terminology that we'll commonl
 - **Periapsis (☉)**: point at which the orbiting body is closest to the focus of the ellipse. If the primary body is the Sun, this point is called perihelion (☉). If the primary body is Earth, this point is called perigee (☉). If the primary body is the Moon, this point is called perilune (☉).
 - **Apoapsis (☽)**: point at which the orbiting body is farthest from the focus of the ellipse. If the primary body is the Sun, this point is called aphelion (☽). If the primary body is Earth, this point is called apogee (☽). If the primary body is the Moon, this point is called apolune (☽).
 
-Orbital elements are the parameters required to *uniquely* identify a specific orbit. 
+Orbital elements are the parameters required to *uniquely* identify a specific orbit.
 
-When we view them from an inertial frame, two orbiting bodies trace out distinct trajectories. Each of these trajectories has its focus at the common center of mass. A visualisation here certainly helps, so I would recommend playing a bit with the wonderful visuals by 
-Bartosz Ciechanowski at https://ciechanow.ski/moon/.  
+When we view them from an inertial frame, two orbiting bodies trace out distinct trajectories. Each of these trajectories has its focus at the common center of mass. A visualisation here certainly helps, so I would recommend playing a bit with the wonderful visuals by [Bartosz Ciechanowski](https://ciechanow.ski/moon/).  
 
-Anyway, when viewed from a non-inertial frame centered on one of the bodies, only the trajectory of the opposite body is apparent; *Keplerian elements* describe these non-inertial trajectories. 
-In general, six such parameters are used to describe the orbit when viewed from such a frame.
+Anyway, when viewed from a non-inertial frame centered on one of the bodies, only the trajectory of the opposite body is apparent; *Keplerian elements* describe these non-inertial trajectories. In general, six such parameters are used to describe the orbit when viewed from such a frame.
 
 ---
 
@@ -38,10 +35,9 @@ Two parameter are required to describe the size and shape of the orbit. These ar
 
 Three parameters are required to descrive the orientation of the orbit. These are:
 
-- **Inclination $i$**: vertical tilt of the ellipse with respect to the reference plane, measured at the ascending node. Inclinations from $90^\circ$ to $180^\circ$ are typically used to denote retrograde orbits.[^1] 
+- **Inclination $i$**: vertical tilt of the ellipse with respect to the reference plane, measured at the ascending node. Inclinations from $90^\circ$ to $180^\circ$ are typically used to denote retrograde orbits.[^1]
 - **Longitude of the ascending node $\Omega$**: describes the angle from the ascending node of the orbit (☊ in the diagram) to the reference frame's reference direction (♈︎ in the diagram). This is measured in the reference plane. This is clearly undefined for perfectly coplanar orbits, but is often set to zero instead by convention.
 - **Argument of periapsis $\omega$**: defines the orientation of the ellipse in the orbital plane, as an angle measured from the ascending node to the periapsis. This is again, undefined for circular orbits, but is often set to zero instead by convention.
-
 
 Another alternative parameter commonly used is
 
@@ -85,7 +81,7 @@ $$
 \begin{bmatrix} x \\ y \\ z \end{bmatrix}
 $$
 
-$$\tag{3.4.1}$$ <br />
+$$\tag{3.4.1}$$ <br/>
 
 and
 
@@ -109,7 +105,7 @@ $$
 \begin{bmatrix} X \\ Y \\ Z \end{bmatrix}
 $$
 
-$$\tag{3.4.2}$$  <br />
+$$\tag{3.4.2}$$  <br/>
 
 If the orbiting body is at a distance $r$, having true anamoly $\theta$, its coordinates are $x = r \cos \theta$, $y = r \sin \theta$ and $z = 0$. Therefore, the coordinates of the orbiting body in the reference frame are given by
 
@@ -127,18 +123,18 @@ $$\tag{3.4.6} \tan \lambda = \frac{Y}{X}\,, \qquad \qquad \sin \beta = \frac{Z}{
 
 ## Problems
 
-{{< tabs items="Problem,Solution,NAC 2023" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P1" >}}
     [Long Questions, problem 2](https://usaaao.org/wp-content/uploads/2023/09/second_exam_2023-1.pdf) - An interesting problem related to an interstellar comet.h
     {{< /tab >}}
 
-    {{< tab >}} 
+    {{< tab name="Solution" >}} 
     [Solution](https://usaaao.org/wp-content/uploads/2023/09/second_exam_2023_sols-1.pdf)
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="Problem,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P2" >}}
     Assume that at this exact moment a satellite in circular heliocentric orbit is in a solar transit.
     1. Find the distance of the satellite from earth 65 days later.
     2. Find the equatorial coordinates of this satellite 140 days later.
@@ -146,7 +142,7 @@ $$\tag{3.4.6} \tan \lambda = \frac{Y}{X}\,, \qquad \qquad \sin \beta = \frac{Z}{
     You are given that the orbital inclination of the satellite is $20^\circ$, orbital radius is $0.6 \mathrm{\, AU}$, longitude of ascending node is $130^\circ$ and inclination of the ecliptic relative to the equator is $23.5^\circ$. Assume the orbit of Earth to be circular.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     We are given that
 
     - $a = 0.6 \mathrm{\, AU}$

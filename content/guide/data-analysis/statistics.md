@@ -90,8 +90,8 @@ $$\tag{9.1.14} |\frac{\sigma_f}{f}| \le |\frac{\sigma_A}{A}| + |\frac{\sigma_B}{
 
 when accounted for covariance between $A$ and $B$.
 
-{{< tabs items="P1,Solution,IOAA 2018" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P1" >}}
     An observer measured trigonometric parallaxes of stars in a star cluster. Due to random errors, the measured parallax values are distributed symmetrically around the expected value with standard deviation equal to $0.05$ mas (milliarcsec). Assume there are no systematic errors and assume all stars in the said cluster have the same luminosity. It is known that the distance of this cluster from us is $R=5$ kpc.
 
     He gave the data table to 4 of his students (A, B, C and D) and they estimated the distance to the cluster in the following ways:
@@ -110,7 +110,7 @@ when accounted for covariance between $A$ and $B$.
     5.  $R_{D}=R$ (i.e. there is a high chance that the distance estimated by D fairly matches the true distance)
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     For parallaxes, we have a Gaussian distribution with mean $\mu=0.2$ mas and standard deviation $\sigma=0.05$ mas. This means the standard deviation is 25% of the expectation value.
 
     1.  **True.** The relationship between parallax $(p)$ and distance $(d)$ is $d = 1/p$. This is an inverse relationship. If parallax values are symmetrically distributed, the distances will not be. Small parallaxes correspond to large distances, and large parallaxes correspond to small distances. Thus, a small error in parallax for a close star has a smaller impact on distance than the same error for a distant star.

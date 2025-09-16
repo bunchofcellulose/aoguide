@@ -1,4 +1,4 @@
-{{- $calloutEmojiDict := dict "tip" "ℹ️" "example" "✏️" "math" "🧮" "remark" "📍" "image" "" "trivia" "👀" "why" "🤔" -}}
+{{- $calloutEmojiDict := dict "tip" "ℹ️" "example" "✏️" "math" "🧮" "remark" "📍" "image" "" "trivia" "👀" "why" "🤔" "table" "🗃️" -}}
 {{- $type := .Get "type" | default "default" -}}
 {{- $emoji := .Get "emoji" -}}
 {{- if eq $emoji "" -}}
@@ -25,6 +25,7 @@
   "image" "callout callout-image"
   "trivia" "callout callout-trivia"
   "why" "callout callout-why"
+  "table" "callout callout-table"
 -}}
 
 {{- $class := index $classMap $type -}}

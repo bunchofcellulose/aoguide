@@ -9,6 +9,6 @@ cascade:
 TODO
 
 - Gravitational Waves
-- Compact Stars
+- Compact Stars: Black Holes
 - History & Fate of Universe, flatness problem etc.
 - Evolution of Stars

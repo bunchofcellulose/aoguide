@@ -4,18 +4,18 @@ weight: 1
 prev: /guide/galactic-extragalactic-astrophysics/
 ---
 
-Galaxies are huge groups of stars, gas, dust, and dark matter bound together by gravity. Typically they contain billions to trillions of stars, along with their planetary systems and interstellar gas and dust. Galaxies can range in size from dwarfs with just a few billion stars, to the largest galaxies known, which can contain one hundred trillion stars or more.
+Galaxies are huge groups of stars, gas, dust, and dark matter bound together by gravity. Typically, they contain billions to trillions of stars, along with their planetary systems and interstellar gas and dust. Galaxies can range in size from dwarfs with just a few billion stars to the largest galaxies known, which can contain one hundred trillion stars or more.
 
 Most galaxies are between 10 billion and 13.6 billion years old. Some are almost as old as the universe itself, which formed around 13.8 billion years ago. Astronomers think the youngest known galaxy formed approximately 500 million years ago.
 
 {{< callout type="trivia" >}}
-It was used to be thought that the galaxies we know today were just nebulae, part of the Milky Way. It wasn't until the 1920s that astronomers realized these objects were actually separate galaxies. In 1922, using the new 100-inch Mount Wilson telescope, Edwin Hubble was able to resolve the outer parts of some spiral nebulae as collections of individual stars and identified some Cepheid variables, thus allowing him to estimate the distance to the nebulae: they were far too distant to be part of the Milky Way.
+It used to be thought that the galaxies we know today were just nebulae, part of the Milky Way. It wasn't until the 1920s that astronomers realized these objects were actually separate galaxies. In 1922, using the new 100-inch Mount Wilson telescope, Edwin Hubble was able to resolve the outer parts of some spiral nebulae as collections of individual stars and identified some Cepheid variables, thus allowing him to estimate the distance to the nebulae: they were far too distant to be part of the Milky Way.
 {{< /callout >}}
 
 {{< callout type="remark" >}}
-Galaxies can organize into groups of about 100 or fewer members held together by their mutual gravity. Larger structures, called clusters, may contain thousands of galaxies. Groups and clusters can be arranged in superclusters, which are not gravitationally bound. At the largest scales, the superclusters are arranged into sheets and filaments - the largest known structures in the universe.
+Galaxies can organize into groups of about 100 or fewer members held together by their mutual gravity. Larger structures, called clusters, may contain thousands of galaxies. Groups and clusters can be arranged in superclusters, which are not gravitationally bound. At the largest scales, the superclusters are arranged into sheets and filaments—the largest known structures in the universe.
 
-Galaxy filaments are massive, thread-like structures spanning around 50 to 80 megaparsecs, with the largest being the Hercules-Corona Borealis Great Wall at around 3 gigaparsecs in length (although still unconfirmed). The filaments are separated by cosmic voids, which are vast spaces which contain very few or no galaxies, the largest being the KBC void (aka the Local Hole).
+Galaxy filaments are massive, thread-like structures spanning around 50 to 80 megaparsecs, with the largest being the Hercules-Corona Borealis Great Wall at around 3 gigaparsecs in length (although still unconfirmed). The filaments are separated by cosmic voids, which are vast spaces that contain very few or no galaxies, the largest being the KBC void (also known as the Local Hole).
 
 The Milky Way is part of the Local Group, which is part of the Virgo Supercluster, which in turn is part of the Laniakea Supercluster. The KBC void contains the Milky Way and the Local Group, and the larger part of the Laniakea Supercluster.
 {{< /callout >}}

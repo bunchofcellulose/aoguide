@@ -4,15 +4,15 @@ weight: 1
 prev: /guide/photometry
 ---
 
-Stars, galaxies, planets, and even you - everything in the universe emits some sort of radiation. This radiation can be in the form of electromagnetic radiation, such as light, or particles, such as electrons and protons. The study of this radiation is called radiometry. Here, we will be studying about electromagnetic radiation. Electromagnetic radiation is a wave in the electric and magnetic fields, which propagate through space, carrying energy and momentum. These waves can be characterized by a wavelength and frequency. Radiation can be classified on the basis of its wavelength or frequency:
+Stars, galaxies, planets, and even you—everything in the universe emits some sort of radiation. This radiation can be in the form of electromagnetic radiation, such as light, or particles, such as electrons and protons. The study of this radiation is called radiometry. Here, we will be studying electromagnetic radiation. Electromagnetic radiation is a wave in the electric and magnetic fields, which propagate through space, carrying energy and momentum. These waves can be characterized by a wavelength and frequency. Radiation can be classified on the basis of its wavelength or frequency:
 
-- Radio waves: These are used by your radio and TV sets, and are the longest wavelength radiation.
-- Microwaves: These are used in microwave ovens and radar systems.
-- Infrared: These are used in remote controls and thermal imaging.
-- Visible light: This is the light which we can see with our eyes.
-- Ultraviolet: This is what causes sunburns.
-- X-rays: These allow X-ray imaging.
-- Gamma rays: These are the most energetic forms of radiation.
+- Radio waves: Used by your radio and TV sets, and are the longest wavelength radiation.
+- Microwaves: Used in microwave ovens and radar systems.
+- Infrared: Used in remote controls and thermal imaging.
+- Visible light: The light which we can see with our eyes.
+- Ultraviolet: Causes sunburns.
+- X-rays: Allow X-ray imaging.
+- Gamma rays: The most energetic forms of radiation.
 
 A surface which emits radiation isotropically (symmetrically in all directions) is called a Lambertian surface.
 
@@ -26,12 +26,12 @@ The term flux density $F$ (flux and flux density are often used interchangeably 
 
 The flux emitted by a spherically symmetric body, such as a star (power emitted by the star) into a solid angle $\omega$ is $\Phi = \omega r^2 F$, where $F$ is the flux density at a distance $r$. The total flux passing through a closed surface surrounding the source is known as the luminosity $L$. Here, $L = 4\pi r^2 F$.
 
-The luminosity is independent of distance; this gives that the flux density is inversely proportional to the square of the distance from the source.
+The luminosity is independent of distance; this means that the flux density is inversely proportional to the square of the distance from the source.
 
-In astrophysics, we often have to deal with how much energy is being recieved by our telescopes from a star or any other astronomical object. This is where flux and flux density becomes important. For example, the flux density of Sun's radiation on earth is called the solar constant, which is about $1365 \mathrm{\, W \, m^{-2}}$.
+In astrophysics, we often have to deal with how much energy is being received by our telescopes from a star or any other astronomical object. This is where flux and flux density become important. For example, the flux density of the Sun's radiation on Earth is called the solar constant, which is about $1365 \mathrm{\, W \, m^{-2}}$.
 
 {{< callout type="remark" >}}
-If a surface of surface area $A$ receives flux $\Phi$ from radiation, the flux density $F$ at a point is given by
+If a surface of area $A$ receives flux $\Phi$ from radiation, the flux density $F$ at a point is given by
 
 $$\tag{2.1.1} F = \frac{\partial \Phi}{\partial A}$$
 
@@ -39,7 +39,7 @@ If the surface is illuminated uniformly (flux at each point is the same), then
 
 $$F = \frac{\Phi}{A}$$
 
-If the cross sectional area of the radiation beam (projected surface area) is $A_\text{proj}$, and the radiation is hitting the surface at an angle $\theta$ to the normal, then we have the relation $A_\text{proj} = A \cos \theta$. Therefore the flux density due to radiation becomes
+If the cross-sectional area of the radiation beam (projected surface area) is $A_\text{proj}$, and the radiation is hitting the surface at an angle $\theta$ to the normal, then we have the relation $A_\text{proj} = A \cos \theta$. Therefore, the flux density due to radiation becomes
 
 $$\tag{2.1.2} F = \frac{\Phi}{A_\text{proj}} \cos \theta$$
 The factor $\cos \theta$ accounts for the fact that the radiation is not perpendicular to the surface. For a given beam, the flux density is maximum when $\theta = 0$, i.e., when the radiation is perpendicular to the surface.
@@ -51,10 +51,10 @@ Now we will define some more useful quantities related to the flow of radiation.
 
 ### Radiance
 
-Radiance is the radiant flux passing through a given surface, per unit solid angle per unit projected area. Radiance is also called brightness, since this is the quantity that determines how bright an object will appear, independent of its shape, size and other physical properties. It is useful because it indicates how much of the power emitted, reflected, transmitted or received by a surface will be received by an optical system looking at that surface from a specified angle of view.
+Radiance is the radiant flux passing through a given surface, per unit solid angle per unit projected area. Radiance is also called brightness, since this is the quantity that determines how bright an object will appear, independent of its shape, size, and other physical properties. It is useful because it indicates how much of the power emitted, reflected, transmitted, or received by a surface will be received by an optical system looking at that surface from a specified angle of view.
 
 {{< callout type="remark" >}}
-Assume we have some radiation passing through a surface element $dA$. Some of the radiation will leave $dA$ within a solid angle $d \omega$; the angle between $d \omega$ (the direction of outgoing radiation) and the normal to the surface is denoted by $\theta$. If spectral flux or power of radiation with frequency in the range [$\nu$, $\nu + d\nu$] passing through the area is $\Phi_\nu$, then the spectral radiance is defined as
+Assume we have some radiation passing through a surface element $dA$. Some of the radiation will leave $dA$ within a solid angle $d \omega$; the angle between $d \omega$ (the direction of outgoing radiation) and the normal to the surface is denoted by $\theta$. If the spectral flux or power of radiation with frequency in the range [$\nu$, $\nu + d\nu$] passing through the area is $\Phi_\nu$, then the spectral radiance is defined as
 
 $$\tag{2.1.3} B_\nu = \frac{\partial^2 \Phi_\nu}{\partial \omega \, \partial A_\text{proj}}$$
 
@@ -85,7 +85,7 @@ For extended objects, surface brightness $B$ is defined as the flux density per 
 
 $$\tag{2.1.8} B = \frac{F}{\omega}$$
 
-Surface brightness is independent of distance. It is equal to radiance of the object if the object emits isotropically.
+Surface brightness is independent of distance. It is equal to the radiance of the object if the object emits isotropically.
 
 {{< callout type="image" >}}
 {{< svg "photometry/surfbright.svg" "Surface Brightness" "The surface brightness B is the flux received by the observer, divided by the solid angle the object is spread over as seen by the observer" >}}
@@ -125,16 +125,16 @@ The energy density $u$ of the radiation source (measured in units of $\mathrm{J 
 
 $$\tag{2.1.12} \boxed{u = \frac{4 \pi}{c} B}$$
 
-For an isotropic source with energy density $u$, the its internal pressure $P$ is
+For an isotropic source with energy density $u$, its internal pressure $P$ is
 
 $$\tag{2.1.13} P = \frac{1}{3} u = \frac{4\pi}{3c} B$$
 
-{{< tabs items="P1,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P1" >}}
     What is the pressure of radiation from a flux density $F$ falling on a surface which perfectly absorbs all the radiation falling on it? What is the pressure of radiation on a surface which perfectly reflects all the radiation falling on it? Consider the case when the direction of the incoming radiation is perpendicular to the surface.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     The pressure of radiation from a flux density $F$ falling on a surface which perfectly absorbs all the radiation falling on it is
 
     $$P = \frac{F}{c}$$
@@ -264,12 +264,12 @@ If the object is not a perfect blackbody, we can still use the Stefan-Boltzmann 
 
 $$\tag{2.1.26} L = A \epsilon \sigma T^4$$
 
-{{< tabs items="P2,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P2" >}}
     The flux density of a star on Earth is observed to be $F = 10^{-12} \, \mathrm{W \, m^{-2}}$. The star has a parallax of $4 \, \mathrm{mas}$. From spectroscopic measurements, it is found that the star has an effective temperature of $T = 5000 \, \mathrm{K}$. What is the radius of the star?
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     This distance to the star is
 
     $$ d = \frac{1}{\pi} = 250 \, \mathrm{kpc} $$
@@ -346,8 +346,8 @@ The reason eq 2.1.28 and 2.1.30 are different is because the peak of the spectru
 
 Equation 2.1.27 and 2.1.29 are together known as Wien's displacement law.
 
-{{< tabs items="P3,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P3" >}}
     Using Wien's displacement law, determine the peak wavelength of radiation emitted by stars with the following temperatures, and indicate what color they would appear to human eyes:
 
     a) A red dwarf at 3000 K <br>
@@ -355,7 +355,7 @@ Equation 2.1.27 and 2.1.29 are together known as Wien's displacement law.
     c) A blue giant at 25,000 K
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     Using Wien's displacement law: $\lambda_\text{peak} = \frac{b_\lambda}{T}$
 
     **a)** Red dwarf (3000 K):
@@ -429,12 +429,12 @@ The mean energy of the photons emitted by the blackbody is
 
 $$\tag{2.1.34} \langle E \rangle = \frac{u(T)}{n(T)} = \frac{\pi^4}{30 \zeta(3)} kT \approx 2.70 \, kT$$
 
-{{< tabs items="P4,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P4" >}}
     Find the average energy of the cosmic microwave background (CMB) photons. The CMB is a nearly perfect blackbody radiation from the early universe, with a blackbody temperature of 2.7 K.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     The average energy of the CMB photons can be calculated using the relation
 
     $$\langle E \rangle \approx 2.70 kT$$
@@ -459,12 +459,12 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
 
 - The temperature giving the best fit for Planck's law in a wavelength range is the color temperature $T_c$ of the object.
 
-{{< tabs items="P5,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P5" >}}
     Flux densities at the wavelengths $440 \, \mathrm{nm}$ and $550 \, \mathrm{nm}$ are $1.30$ and $1.00 \, \mathrm{W \, m^{-2} \, m^{-1}}$, respectively. Find the colour temperature.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     If the flux densities at wavelengths $\lambda_1$ and $\lambda_2$ are $F_1$ and $F_2$ respectively, the color temperature can be solved from the equation
 
     $$\frac{F_1}{F_2} = \frac{B_\lambda(T_c, \lambda_1)}{B_\lambda(T_c, \lambda_2)} = \left(\frac{\lambda_2}{\lambda_1} \right)^5 \frac{e^{hc/\lambda_2 kT_c} - 1}{e^{hc/\lambda_1 kT_c} - 1}$$
@@ -487,12 +487,12 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
 
 ## Problems
 
-{{< tabs items="P6,Solution,IOAA 2010" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P6" >}}
     Estimate the effective temperature of the photosphere of the Sun using the naked eye colour of the Sun.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     Using Wien's law,
 
     $$
@@ -508,12 +508,12 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P7,Solution,IOAA 2023" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P7" >}}
     The entrance cavity of a particular bolometer is a cone with an opening angle of $30^\circ$, the surface of which has an energy absorption coefficient of $a = 0.99$. Assume that there is no scattering of the incident radiation on the walls of the cavity, only multiple mirror-like (specular) reflections. The bolometer is connected to a cooler which keeps the bolometer cavity surface at practically $0 \, \mathrm{K}$ temperature. The instrument is orbiting at $r = 2 \, \mathrm{AU}$ from the Sun and is pointed directly at the centre of the Solar disk. Calculate the temperature of a black body which would radiate the same amount of energy as the entire bolometer opening does per unit surface area.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     Drawing a diagram, the light entering parallel to the axis of the bolometer reflects six times off of the bolometer walls before escaping back to space. Hence the fraction of energy leaving the bolometer is
 
     $$ S = (1 - a)^6 = 10^{-12}$$
@@ -529,14 +529,16 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
     $$ F \cdot S = \sigma T^4 $$
     $$ \implies T = \left( \frac{L_\odot (1-a)^6}{4 \pi \sigma r^2} \right)^{1/4} = \boxed{0.28 \, \mathrm{K}}$$
     {{< /tab >}}
+
+    {{< tab name="IOAA 2023" >}}{{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P8,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P8" >}}
     Find the size of a spherical grain of dust (density $\rho = 5000 \, \mathrm{kg \, m^{-3}}$) which can remain stationary in space due to radiation pressure from the Sun.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     Let the radius of the grain of dust be $R$.
     The radiation pressure of Sun at a distance $r$ is given by
 
@@ -565,12 +567,12 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P9,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P9" >}}
     Consider a surface of surface area $A$ and reflection coefficient of $\alpha$, that is it reflects a fraction $\alpha$ of the radiation falling on it. The rest of the radiation is absorbed. The surface is illuminated by radiation of flux density $F$, at an angle $\theta$ to the normal. Find the force exerted on the surface by the radiation.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     Let the normal of the surface be pointing along the $z$-axis, the surface being in the $xy$-plane, and the incoming radiation be in the $zx$-plane, making angle $\theta$ with the $z$-axis. The unit vector corresponding to the direction of the incoming radiation is thus $\hat{i} = \sin \theta \,\hat{x} + \cos \theta \, \hat{z}$. Since the radiation is incident at an angle $\theta$, the projected area of the surface in the direction of the radiation is $A_\text{proj} = A \cos \theta$.
 
     The flux density incident on the surface is $F$, and that reflected away is $\alpha F$. The reflected radiation will be in the direction $\hat{r} = -\sin \theta \,\hat{x} + \cos \theta \, \hat{z}$, according to the laws of reflection (the angle between incident ray and the normal is equal to the angle between the reflected ray and the normal, and that the incident ray, reflected ray and normal all lie in a single plane).
@@ -598,12 +600,12 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P10,Solution,NAC 2025" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P10" >}}
     Consider a hypothetical solar sail that starts its trajectory just outside the surface of the Sun and aims to reach Jupiter’s orbit. This is a square sail with a size length of $l = 50 \, \mathrm{m}$, a mass of $m = 2.0 \, \mathrm{kg}$, and a reflectivity of $\eta = 85\%$. The remaining $15\%$ of the photons are absorbed by the sail. In order to simplify the calculations, only take into account the gravity and radiation pressure from the Sun, and assume that the sail is initially stationary with respect to the Sun. Estimate how long it would take for this sail to reach Jupiter’s orbit. Feel free to make reasonable approximations if needed.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     The radiation flux on the sail when it is at a distance $r$ from the Sun is $\frac{L_\odot}{4 \pi r^2}$. Therefore the radiation force acting on the sail is
 
     $$ F_\text{rad} = \frac{L_\odot}{4 \pi r^2} \frac{1}{c} A \, (1 + \eta) $$
@@ -658,14 +660,16 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
 
     Numerically integrating, the time taken to reach Jupiter's orbit is $T \approx 16.7 \, \mathrm{days}$, very close to our crude approximation.
     {{< /tab >}}
+
+    {{< tab name="NAC 2025" >}}{{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P11,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P11" >}}
     Assuming the human body to be a perfect blackbody, estimate the number of photons emitted in a bandwidth 10% wide around wavelength 550 nm (peak emission wavelength of Sun), by a person in their entire life. Make reasonable assumptions.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
 
     Assuming the human body to be a perfect blackbody, its spectral luminosity will be
 
@@ -698,8 +702,8 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P12,Solution,IOAA 2018" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P12" >}}
     The Five-hundred-meter Aperture Spherical radio Telescope (FAST) is a single-dish radio telescope located  in Guizhou Province, China. The physical diameter of the dish is 500 m, but during observations, the  effective diameter of the collecting area is 300 m. Consider observations of the thermal radio emission from the photosphere of the Sun at 3.0 GHz with this  telescope and a receiver with bandwidth 0.3 GHz.
 
     a) Calculate the total energy ($E_\odot$) that the receiver will collect during 1 hour of observation.  <br>
@@ -707,7 +711,7 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
     c) Which one is larger?
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     **a)** Since we are measuring radio frequencies, we can use the Rayleigh-Jeans approximation
 
     $$ B_\nu(T) = \frac{2 \nu^2 kT}{c^2} $$
@@ -736,10 +740,12 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
 
     **c)** Therefore, $\boxed{E' > E_\odot}$
     {{< /tab >}}
+
+    {{< tab name="IOAA 2018" >}}{{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P13,Solution,IOAA 2019" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P13" >}}
     Since the human body is made mostly of water, it is very efficient at absorbing microwave photons.  Assume that an astronaut’s body is a perfect spherical absorber with mass of $m = 60 \,\mathrm{kg}$, and its  average density and heat capacity are the same as for pure water, i.e. $\rho = 1000 \, \mathrm{kg\,m^{-3}}$ and $C = 4200 \mathrm{\,J\,kg^{-1}\,K^{-1}}$.
 
     a) What is the approximate rate, in watts, at which an astronaut in intergalactic space would absorb  radiative energy from the Cosmic Microwave Background (CMB)? The spectral energy  distribution of CMB can be approximated by blackbody radiation of temperature $T_\text{CMB} = 2.728 \,\mathrm{K}$. </br>
@@ -747,7 +753,7 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
     c) Ignoring other energy inputs and outputs, how long would it take for the CMB to raise the astronaut’s temperature by $\Delta T = 1 \, \mathrm{K}$?
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     The radius of the spherical astronaut is
 
     $$\frac{4}{3} \pi r^3 \rho = m \implies r = \left( \frac{3m}{4\pi \rho} \right)^{1/3}$$

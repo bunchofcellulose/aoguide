@@ -3,13 +3,13 @@ title: Magnitude Systems
 weight: 2
 ---
 
-Magnitude is a measure of the brightness of a star, astronomical object or other celestial objects like artificial satellites. We would like to be able to communicate and express how bright an object. For this one could use the luminosity of the object, or the flux recieved by that object. However, these numbers can get very large or very small. As a result, a magnitude scale is used.
+Magnitude is a measure of the brightness of a star, astronomical object, or other celestial objects like artificial satellites. We would like to be able to communicate and express how bright an object is. For this, one could use the luminosity of the object or the flux received from that object. However, these numbers can get very large or very small. As a result, a magnitude scale is used.
 
-Magnitudes are denoted by the unit 'mag', or with a superscript $^m$, although they have no dimensions. The scale is reverse logarithmic: the brighter an object is, the lower its magnitude number. A difference of 1.0 mag in magnitude corresponds to the brightness ratio of $\sqrt[5]{100}$, or about 2.512. For example, a magnitude 2.0 star is 2.512 times brighter than a magnitude 3.0 star, 6.31 times brighter than a magnitude 4.0, and 100 times brighter than a magnitude 7.0 star.
+Magnitudes are denoted by the unit 'mag', or with a superscript $^m$, although they have no dimensions. The scale is reverse logarithmic: the brighter an object is, the lower its magnitude number. A difference of 1.0 mag in magnitude corresponds to a brightness ratio of $\sqrt[5]{100}$, or about 2.512. For example, a magnitude 2.0 star is 2.512 times brighter than a magnitude 3.0 star, 6.31 times brighter than a magnitude 4.0 star, and 100 times brighter than a magnitude 7.0 star.
 
-Apparent magnitude is a measure of the brightness of an object as seen from Earth. It is related to how much flux is recieved from that object to the observer. It is usually denoted by $m$.
+Apparent magnitude is a measure of the brightness of an object as seen from Earth. It is related to how much flux is received from that object by the observer. It is usually denoted by $m$.
 
-Absolute magnitude on the other hand is a measure of the intrinsic brightness of an object, defined as the apparent magnitude it would have if it were located at a distance of 10 parsecs from the observer, without any extinction. The absolute magnitude of a star is directly related to its luminosity. It is usually denoted by $M$.
+Absolute magnitude, on the other hand, is a measure of the intrinsic brightness of an object, defined as the apparent magnitude it would have if it were located at a distance of 10 parsecs from the observer, without any extinction. The absolute magnitude of a star is directly related to its luminosity. It is usually denoted by $M$.
 
 {{< callout type="trivia" >}}
 The Greek astronomer Hipparchus produced a catalogue which noted the apparent brightness of stars in the second century BCE. In the second century CE, the Alexandrian astronomer Ptolemy classified stars on a six-point scale, and originated the term magnitude. To the unaided eye, a more prominent star such as Sirius or Arcturus appears larger than a less prominent star such as Mizar, which in turn appears larger than a truly faint star such as Alcor.
@@ -66,24 +66,24 @@ From this we get
 $$M_1 - M_2 = -5 \log \frac{R_1}{R_2} - 10 \log \frac{T_1}{T_2}$$
 {{< /callout >}}
 
-{{< tabs items="P1,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P1" >}}
     What is the absolute magnitude of the Sun? Apparent magnitude of the sun as seen from Earth is $m_\odot = -26.8^m$.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     Using Pogson's equation,
 
     $$M_\odot = m_\odot + 5 \log \frac{1 \, \mathrm{AU}}{10 \, \mathrm{pc}} = \boxed{4.8^m}$$
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P2,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P2" >}}
     Albireo is a star in the constellation of Cygnus. It is a double and the system has a total magnitude of $3.0^m$. The fainter companion (Albireo B) has a magnitude of $5.1^m$. Find out the apparent magnitude of the brighter component of the double, Albireo A.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     The light which we see coming from a double is the sum of the light from both components. Let $F_0$ be the flux which corresponds to a magnitude of 0. Let $L_A$ and $L_B$ be the luminosities of Albireo A and B, respectively. The total luminosity of the system is thus $L_A + L_B$.
 
     The luminosity of Albireo B can be found using
@@ -158,8 +158,8 @@ where $C_\text{bol}$ is a constant.
 
 By definition, bolometric correction is zero for F5 spectral type stars.
 
-{{< tabs items="P3,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P3" >}}
     Find an expression for the bolometric correction, assuming the visual sensitivity function is given by
 
     $$S_V(\lambda) = \begin{cases} 1 & \text{if } \lambda_1 < \lambda < \lambda_2 \\ 0 & \text{otherwise} \end{cases}$$
@@ -169,7 +169,7 @@ By definition, bolometric correction is zero for F5 spectral type stars.
     Consider the zero point of both the visual and bolometric magnitudes to be the same, i.e. $C_V = C_\text{bol}$. Assume the emitting body emits like a perfect blackbody of temperature $5800 \, \mathrm{K}$.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     The visual magnitude is given by
 
     $$ m_V = -2.5 \log \int_0^\infty F_\lambda S_V(\lambda)\, d\lambda + C_V $$
@@ -263,8 +263,8 @@ Studies show that the ratio of the visual extinction $A_V$ to the $(B-V)$ color 
 
 $$\tag{2.2.10} R = \frac{A_V}{E_{B-V}} \approx 3.1 $$
 
-{{< tabs items="P4,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P4" >}}
     A star's apparent magnitude in the V band is $15.1^m$ and absolute magnitude is equal to $1.3^m$. Extinction of the interstellar medium per kpc is $1^m$.
 
     a) Find the distance to the star. <br>
@@ -272,7 +272,7 @@ $$\tag{2.2.10} R = \frac{A_V}{E_{B-V}} \approx 3.1 $$
     c) If $BC = -0.6^m$ for the star, find its luminosity.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     **a)** The distance modulus is given by
 
     $$m - M = 5 \log \frac{r}{10 \times 10^{-3}} + ar$$
@@ -303,7 +303,7 @@ $$\tag{2.2.10} R = \frac{A_V}{E_{B-V}} \approx 3.1 $$
 
     $$M_\text{bol} = M_V + BC = 1.3^m - 0.6^m = 0.7^m$$
 
-    Comparing with the bolometric magnitude of the sun gives the luminosity of the star
+    Comparing with the bolometric magnitude of the Sun gives the luminosity of the star
 
     $$M_\text{bol} - M_{\odot, \text{bol}} = -2.5 \log \frac{L}{L_\odot}$$
     $$\implies L = L_\odot \cdot 10^{-0.4(M_\text{bol} - M_{\odot, \text{bol}})}$$
@@ -335,12 +335,12 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
 
 ## Problems
 
-{{< tabs items="P5,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P5" >}}
     Vega is known to have an apparent magnitude of about $0$ (in reality it is about $0.03$ and fluctuates). Given that it has an absolute magnitude of about $0.58$, find its distance.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     Using Pogson's equation, we have
 
     $$m - M = 5 \log \frac{r}{10 \, \mathrm{pc}}$$
@@ -356,12 +356,12 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P6,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P6" >}}
     What is the optical thickness of a layer of fog, if the Sun seen through the fog seems as bright as a full moon in a cloudless sky?
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     The apparent magnitudes of the Sun and the Moon are $−26.8$ and $−12.5$, respectively. Thus the total extinction in the cloud must be $A = 14.3$. Since
 
     $$ A = (2.5 \log e) \tau $$
@@ -372,12 +372,12 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P7,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P7" >}}
     Assume that all stars have the same absolute magnitude and stars are evenly distributed in space. Let $N(m)$ be the number of stars brighter than m magnitudes. Find the ratio $N(m + 1)/N(m)$.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     Let the number density of stars be $n$, and their absolute magnitude be $M$. Let the apparent magnitude of the star at a distance $r$ pc from the observer be $m$. $m$ and $r$ are related by the equation
 
     $$ m - M = 5 \log r - 5 $$
@@ -404,14 +404,14 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P8,Solution,IOAA 2012" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P8" >}}
     An old planetary nebula, with a white dwarf (WD) in its center, is located 50 pc away from Earth. Exactly in the same direction, but behind the nebula, lies another WD, identical to the frist, but located at 150 pc from the Earth. Consider that the two WDs have absolute bolometric magnitude +14.2 and intrinsic color indexes $B - V = 0.300$ and $U - V = 0.330$. Extinction occurs in the interstellar medium and in the planetary nebula.
 
     When we measure the color indices for the closer WD (the one who lies at the center of the nebula), we find the values $B - V = 0.327$ and $U - B = 0.038$. In this part of the Galaxy, the interstellar extinction rates are 1.50, 1.23 and 1.00 magnitudes per kiloparsec for the filters U, B and V, respectively. Calculate the color indices as they would be measured for the second star.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     Let $B_0$, $V_0$, $U_0$ be the intrinsic absolute magnitudes of the white dwarf. Let $a_B$, $a_V$, $a_U$ be the interstellar extinction coefficients per kpc. Let $A_{neb,B}$, $A_{neb,V}$, $A_{neb,U}$ be the total extinction for the planetary nebula around the first WD, for light travelling from the centre of the nebula to the edge.
 
     $$(U-B)_0 = (U-V)_0 - (B-V)_0 = 0.330 - 0.300 = 0.030$$
@@ -445,8 +445,8 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P9,Solution,IOAA 2008" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P9" >}}
     A UBV photometric observation of a star gives $U = 8.15$, $B = 8.50$, and $V = 8.14$. Based on the spectral class, one gets the intrinsic colour $(U − B)_0 = −0.45$. If the star is known to have radius of $2.3R_\odot$, absolute bolometric magnitude of $−0.25$, and bolometric correction (BC) of $−0.15$, determine:
 
     a) the intrinsic magnitudes U, B, and V of the star <br>
@@ -456,7 +456,7 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     Note: Take, for the typical interstellar matters, the ratio of total to selective extinction $R_V = 3.2$ and the colour excess in $(B − V)$ to be about 72% of the colour excess in $(U − B)$. 
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     **a)** Let intrinsic magnitudes of the star be $U_0$, $B_0$, and $V_0$ respectively.
 
     $$E_{U-B} = (U-B) - (U - B)_0 = (3.15 - 8.50) - (-0.45) = 0.1$$
@@ -500,12 +500,12 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P10,Solution,IOAA 2012" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P10" >}}
     A pulsar, located 1000 pc far from Earth and 10,000 times more luminous than our Sun, emits radiation only from its two opposite poles, creating a homogeneous emission beam shaped as double cone with opening angle $\alpha = 4^\circ$. Assuming the angle between the rotation axis and the emission axis is $\theta = 30^\circ$, and assuming a random orientation of the pulsar beams in relation to an observer on Earth, what is the probability of detecting the pulses? In case we can see it, what is the apparent bolometric magnitude of the pulsar?
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     As the pulsar rotates, its beam sweeps out a conical surface. The solid angle into which radiation is emitted (by both poles) in one rotation is
 
     $$\begin{align*}
@@ -536,8 +536,8 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P11,Solution,IOAA 2018" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P11" >}}
     A star has an apparent magnitude $m_U = 15.0$ in the U-band. The U-band filter is ideal, i.e., it has perfect (100%) transmission within the band and is completely opaque (0% transmission) outside the band. The  filter is centered at 360 nm, and has a width of 80 nm. It is assumed that the star also has a flat energy spectrum with respect to frequency. The conversion between magnitude, $m$, in any band and flux density, $f$, of a star in Jansky is given by
 
     $$f = 3631 \times 10^{-0.4m} \, \mathrm{Jy}$$
@@ -550,7 +550,7 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     c) In practice, only 20% of U-band photons falling on the primary mirror are detected. How many photons, $N_t$, from the star are detected per second?
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     ****a)**** The U-band is defined as ($360 \pm 40$) nm. Thus, the minimum, maximum and average frequencies of the band are
 
     $$\begin{align*}
@@ -584,10 +584,12 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     $$\implies N_T = 12180 \times 0.5 \times 0.2 \times \left( \frac{2.0}{2} \right)^2 \approx \boxed{3813}$$
 
     {{< /tab >}}
+
+    {{< tab name="IOAA 2016" >}}{{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P12,Solution,IOAA 2018" >}}
-    {{< tab >}}
+{{< tabs>}}
+    {{< tab name="P12" >}}
     The star $\beta$-Doradus is a Cepheid variable star with a pulsation period of 9.84 days. We make a simplifying assumption that the star is brightest when it is most contracted (radius being $R_1$) and it is faintest when it is most expanded (radius being $R_2$). For simplicity, assume that the star maintains its spherical shape and behaves as a perfect black body at every instant during the entire cycle. The bolometric magnitude of the star varies from $3.46$ to $4.08$. From Doppler measurements, we know that during pulsation the stellar surface expands or contracts at an average radial speed of $12.8 \, \mathrm{km \, s^{-1}}$. Over the period of pulsation, the peak of thermal radiation (intrinsic) of the star varies from 531.0 nm to 649.1 nm.
 
     a) Find the ratio of radii of the star in its most contracted and most expanded states ($R_1/R_2$). <br>
@@ -596,7 +598,7 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     d) Find the distance to the star, $D_\text{star}$, in parsecs.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     **a)** The ratio of the fluxes is
 
     $$m_1 - m_2 = -2.5 \log \frac{F_1}{F_2} \implies \frac{F_1}{F_2} = 10^{-0.4(m_1 - m_2)} = 1.77$$
@@ -637,14 +639,16 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     $$\implies D_\text{star} = R_2 T_2^2 \sqrt{\frac{\sigma}{F_2}} = \boxed{298 \, \mathrm{pc}}$$
 
     {{< /tab >}}
+
+    {{< tab name="IOAA 2016" >}}{{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P13,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P13" >}}
     Given the intrinsic $(B-V)$ color index of a star, find its color temperature $T_c$.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     Assuming the star to be a blackbody, the spectral flux density in the Wien approximation of the star is propotional to
 
     $$ F_\lambda \propto \lambda^{-5} e^{-hc/\lambda kT_c} $$

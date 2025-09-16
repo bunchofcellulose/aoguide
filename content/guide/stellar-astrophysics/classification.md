@@ -5,11 +5,13 @@ weight: 2
 
 ## Stellar Spectra
 
-The light coming from a star can be analyzed by splitting it with a prism or diffraction grating into a spectrum, composed of a continuous spectra superimposed with narrow spectral lines. Each line indicates the presence of a particular chemical element or molecule, with the line strength indicating the abundance of that element. Stars can be classified into various classes, depending on their spectra.
+The light coming from a star can be analyzed by splitting it with a prism or diffraction grating into a spectrum, composed of a continuous spectrum superimposed with narrow spectral lines. Each line indicates the presence of a particular chemical element or molecule in the star, with the line strength indicating the abundance of that element. Stars can be classified into various classes, depending on their spectra.
 
 ### Harvard Classification
 
 The Harvard classification is based on lines that are mainly sensitive to the stellar temperature, rather than to gravity or luminosity. Important lines are the hydrogen Balmer lines, the lines of neutral helium, the iron lines, the H and K doublet of ionised calcium at 396.8 and 393.3 nm, the G band due to the CH molecule and some metals around 431 nm, the neutral calcium line at 422.7 nm and the lines of titanium oxide (TiO). The main types in the Harvard classification are denoted by capital letters.
+
+{{< callout type="table" >}}
 
 |Class |$T_\text{e}$ ($\small{K}$)|Color|M ($\small{M_\odot}$)|R ($\small{R_\odot}$)|L ($\small{L_\odot}$)|
 |-|-|-|-|-|-|
@@ -20,6 +22,8 @@ The Harvard classification is based on lines that are mainly sensitive to the st
 |G|5300-6000|Yellowish white|0.8-1.04|0.96-1.15|0.6-1.5|
 |K|3900-5300|Pale yellowish orange|0.45-0.8|0.7-0.96|0.08-0.6|
 |M|2300-3900|Orangish red|0.08-0.45|$\le$ 0.7|$\le$ 0.08|
+
+{{< /callout >}}
 
 The mass (M), radius (R) and luminosity (L) ranges indicated in the table are valid only for main-sequence stars. A common mnemonic to remember the class names is 'Oh Be A Fine Girl Kiss Me (OBAFGKM)'.
 
@@ -90,23 +94,23 @@ The wavelengths of the spectral lines of the pulsating variables change along wi
 
 $$ P \propto \frac{1}{\sqrt{\rho}} $$
 
-- Cephieds: These are pulsating variables named after $\delta$ Cephei. They are population I supergiants of spectral class F-K. Their periods are 1–50 days and their amplitudes, 0.1–2.5 magnitudes. Cephieds are of two types - Type I and Type II. Both types of cephieds follow a relationship between absolute magnitude and pulsating period, called period-luminosity relationship. It can be used to measure distances of stars and nearby galaxies. It reads as follows:
+- **Cephieds**: These are pulsating variables named after $\delta$ Cephei. They are population I supergiants of spectral class F-K. Their periods are 1–50 days and their amplitudes, 0.1–2.5 magnitudes. Cephieds are of two types - Type I and Type II. Both types of cephieds follow a relationship between absolute magnitude and pulsating period, called period-luminosity relationship. It can be used to measure distances of stars and nearby galaxies. It reads as follows:
 
 $$ M_V = A \log P + B $$
 
-- RR Lyrae: Their brightness variations are smaller than those of the cepheids, usually less than a magnitude. Their periods are also shorter, less than a day. RR Lyrae stars are old population II stars. They are very common in the globular star clusters and were therefore previously called cluster variables. The absolute magnitude of all RR Lyrae stars are about $M_V = 0.6 \pm 0.3$. They are all of roughly the same age and mass, and thus represent the same evolutionary phase, where helium is just beginning to burn in the core. Since the absolute magnitudes of the RR Lyrae variables are known, they can be used to determine distances to the globular clusters.
+- **RR Lyrae**: Their brightness variations are smaller than those of the cepheids, usually less than a magnitude. Their periods are also shorter, less than a day. RR Lyrae stars are old population II stars. They are very common in the globular star clusters and were therefore previously called cluster variables. The absolute magnitude of all RR Lyrae stars are about $M_V = 0.6 \pm 0.3$. They are all of roughly the same age and mass, and thus represent the same evolutionary phase, where helium is just beginning to burn in the core. Since the absolute magnitudes of the RR Lyrae variables are known, they can be used to determine distances to the globular clusters.
 
-- Mira Variables: The Mira variables (named after Mira Ceti) are supergiants of spectral classes M, S or C. They are losing gas in a steady stellar wind. Their periods are normally 100–500 days, and for this reason, they are also sometimes called long period variables. The amplitude of the light variations is typically about 6 magnitudes in the visual region. The period of Mira itself is about 330 days and its diameter is about 2 au. At its brightest, Mira has the magnitude 2–4, but at light minimum, it may be down to 12. The effective temperature of the Mira variables is only about 2000 K. Thus 95 % of their radiation is in the infrared, which means that a very small change in temperature can cause a very large change in visual brightness.
+- **Mira Variables**: The Mira variables (named after Mira Ceti) are supergiants of spectral classes M, S or C. They are losing gas in a steady stellar wind. Their periods are normally 100–500 days, and for this reason, they are also sometimes called long period variables. The amplitude of the light variations is typically about 6 magnitudes in the visual region. The period of Mira itself is about 330 days and its diameter is about 2 au. At its brightest, Mira has the magnitude 2–4, but at light minimum, it may be down to 12. The effective temperature of the Mira variables is only about 2000 K. Thus 95 % of their radiation is in the infrared, which means that a very small change in temperature can cause a very large change in visual brightness.
 
 ### Eruptive Variables
 
 In the eruptive variables there are no regular pulsations. Instead sudden outbursts occur in which material is ejected into space. Such stars are divided into two main categories, eruptive and cataclysmic variables. Brightness changes of eruptive variables are caused by sudden eruptions in the chromosphere or corona, the contributions of which are, however, rather small in the stellar scale. These stars are usually surrounded by a gas shell or interstellar matter participating in the eruption.
 
-- Flare Stars: The flarestars are dwarf stars of spectral class M. They are young stars, mostly found in young star clusters and associations. At irregular intervals there are flare outbursts on the surface of the stars similar to those on the Sun. The flares are related to disturbances in the surface magnetic fields. The energy of the outbursts of the flare stars is about the same as in solar flares, but because the stars are much fainter than the Sun, a flare can cause a brightening by up to 4–5 magnitudes. A flare lights up in a few seconds and then fades away in a few minutes.
+- **Flare Stars**: The flarestars are dwarf stars of spectral class M. They are young stars, mostly found in young star clusters and associations. At irregular intervals there are flare outbursts on the surface of the stars similar to those on the Sun. The flares are related to disturbances in the surface magnetic fields. The energy of the outbursts of the flare stars is about the same as in solar flares, but because the stars are much fainter than the Sun, a flare can cause a brightening by up to 4–5 magnitudes. A flare lights up in a few seconds and then fades away in a few minutes.
 
-- R Corona Borealis Type: Stars of the R Coronae Borealis type have “inverse nova” light curves. Their brightness may drop by almost ten magnitudes and stay low for years, before the star brightens to its normal luminosity. For example, R CrB itself is of magnitude 5.8, but may fade to 14.8 magnitudes. The R CrB stars are rich in carbon and the decline is produced when the carbon condenses into a circumstellar dust shell.
+- **R Corona Borealis Type**: Stars of the R Coronae Borealis type have “inverse nova” light curves. Their brightness may drop by almost ten magnitudes and stay low for years, before the star brightens to its normal luminosity. For example, R CrB itself is of magnitude 5.8, but may fade to 14.8 magnitudes. The R CrB stars are rich in carbon and the decline is produced when the carbon condenses into a circumstellar dust shell.
 
-- Novae: The outbursts of all novae are rapid. Within a day or two the brightness rises to a maximum, which may be 7–16 magnitudes brighter than the normal luminosity. This is followed by a gradual decline, which may go on for months or years.
+- **Novae**: The outbursts of all novae are rapid. Within a day or two the brightness rises to a maximum, which may be 7–16 magnitudes brighter than the normal luminosity. This is followed by a gradual decline, which may go on for months or years.
 
 ### Cataclysmic Variables
 
@@ -114,7 +118,13 @@ When a white dwarf is a member of a close binary system, it can accrete mass fro
 
 ### Supernovae
 
-Type Ia supernovae are recognised by the silicon absorption line (615 nm), which is strong in the spectra of young novae. These supernovae originate in binaries consisting of a white dwarf and its companion. In such a close binary material can flow from the companion to the white dwarf until it mass exceeds the Chandrasekhar limit. Then the pressure of the degenerate of the electron gas inside the white dwarf cannot overcome the gravitation and star will collapse. Increase of the density and temperature will ignite an explosive fusion reaction that can destroy the white dwarf. The kinetic energy released in the process is of the order of $10^{44}$ J causing part of the gas to expand even at a velocity of $0.1$c. The origin of the radiation energy (around $10^{42}$ J) is the fission of the radioactive nickel isotope 56 created in the explosion into radioactive cobalt and further into stable iron. The more nickel is produced in the explosion the brighter the supernova shines at its maximum; the absolute magnitude will reach −19 to −20. The shape of the lightcurve depends on the brightness of the supernova: the brighter the supernova the broader the top of the lightcurve. Therefore the maximum brightness of a type Ia supernova can be determined precisely from its lightcurve. This way they can be used as standard candles to determine dimensions of the universe and cosmological parameters
+Type Ia supernovae are recognised by the silicon absorption line (615 nm), which is strong in the spectra of young novae. These supernovae originate in binaries consisting of a white dwarf and its companion.
+
+In such a close binary material can flow from the companion to the white dwarf until it mass exceeds the Chandrasekhar limit (discussed later). As a result, the pressure of the degenerate electron gas inside the white dwarf can no longer overcome the gravitation and star collapses. Increase in the density and temperature ignites an explosive fusion reaction that destroys the white dwarf. The kinetic energy released in the process is of the order of $10^{44}$ J. This enormous burst of energy can cause part of the gas to expand even at a velocity of around $0.1$c.
+
+The origin of this energy (around $10^{42}$ J) is the fission of the radioactive nickel isotope 56 created in the explosion into radioactive cobalt and further into stable iron. The more nickel is produced in the explosion the brighter the supernova shines at its maximum; typically the absolute magnitude reaches −19 to −20.
+
+The shape of the lightcurve depends on the brightness of the supernova: the brighter the supernova the broader the top of the lightcurve. Therefore the maximum brightness of a type Ia supernova can be determined precisely from its lightcurve. This way they can be used as standard candles to determine dimensions of the universe and cosmological parameters
 
 All supernovae except type Ia are caused by the collapse of massive and short lived stars. At the end of its lifespan such a star has an iron core that will collapse under its own gravity after exceeding the Chandrasekhar limit. In the stellar core the matter will reach the density of atomic nuclei and the outer layers bounce back sending an outbound shock wave. The process creates a huge number of neutrinos, which rush to the surrounding space. The outer layers of the star receive a kinetic energy of about $10^{44}$ J, part of which may be released as radiation when the expanding matter hits the material surrounding the star and later the interstellar matter. Typically the supernova itself emits radiation about $10^{42}$ J within a few months after the explosion, reaching an absolute magnitude between −16 and −20 at the maximum. Later the brightness is sustained by the fission of the radioactive nickel 56, born in the explosion, to other elements just as in the case of the type Ia supernovae.
 

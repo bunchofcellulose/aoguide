@@ -6,11 +6,11 @@ weight: 3
 Binary star systems can be classified according to their specific observational characteristics:
 
 - **Optical double**: These stars are not binaries and are not gravitationally bound, but simply two stars that lie along the same line of sight.
-- **Visual Binary**: Both stars in the binary can be resolved independently and it is possible to monitor the motion of each member.
-- **Astrometric binary**: If one of the members is significantly brighter than the other, both the stars may not be observable directly. The existance of the unseen companion can be deduced by observing the oscillatory motion of the visible component.
+- **Visual binary**: Both stars in the binary can be resolved independently, and it is possible to monitor the motion of each member.
+- **Astrometric binary**: If one of the members is significantly brighter than the other, both stars may not be observable directly. The existence of the unseen companion can be deduced by observing the oscillatory motion of the visible component.
 - **Eclipsing binary**: If the orbital plane is located along the line of sight, one star may periodically pass in front of the other, blocking the light of the eclipsed component. The variation in a star's brightness with time is called a lightcurve. Dips in this can be observed to deduce the binary.
-- **Spectrum binary**: If a star has two superimposed, independent and discernable spectra, it can be decomposed into the spectra of the associated binary stars. Due to opposite radial velocity, the two spectra will be oppositely doppler shifted. These are also known as spectroscopic binaries.
-- **Photometric binary**: A periodic variation in the total brightness can be observed caused by the motions of the component stars. Usually these are eclipsing binaries, but can also be ellipsoidal variables - stars which have been distorted into an ellipse by the tidal pull of the other. According to the shape of the lightcurve. they can be grouped into three main types - Algol type, $\beta$ Lyrae type and W Ursae Majoris type.
+- **Spectroscopic binary**: If a star has two superimposed, independent, and discernible spectra, it can be decomposed into the spectra of the associated binary stars. Due to opposite radial velocity, the two spectra will be oppositely Doppler shifted. These are also known as spectroscopic binaries.
+- **Photometric binary**: A periodic variation in the total brightness can be observed, caused by the motions of the component stars. Usually, these are eclipsing binaries, but can also be ellipsoidal variables—stars which have been distorted into an ellipse by the tidal pull of the other. According to the shape of the lightcurve, they can be grouped into three main types: Algol type, $\beta$ Lyrae type, and W Ursae Majoris type.
 
 The mass function of a binary system inclined at an angle $i$, with stars of mass $m_1$ and $m_2$ is defined as
 

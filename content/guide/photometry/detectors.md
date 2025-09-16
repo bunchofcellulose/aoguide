@@ -236,8 +236,8 @@ where $Z$ is a photometric zero point between the standard and instrumental syst
 
 ## Problems
 
-{{< tabs items="P1,Solution,IOAA 2012" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P1" >}}
     An astronomer on Earth observes a globular cluster, which has an angular diameter $\alpha$ and contains $N$ stars, each one with the same absolute magnitude $M_0$, and is at a distance $D$ from the Earth. A biologist is in the center of that cluster.
 
     a) What is the difference between the combined visual magnitudes of all stars observed by the astronomer and the biologist. Consider that the spatial distribution of stars in the cluster is perfectly homogeneous and the biologist is measuring the combined magnitude of the entire cluster. <br>
@@ -245,19 +245,19 @@ where $Z$ is a photometric zero point between the standard and instrumental syst
     c) What would be the difference between the visual magnitudes observed by the two scientists, if the diameter of the feild of view of the biologist is also $\alpha$.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     {{< /tab >}}
 {{< /tabs >}}
 
-{{< tabs items="P2,Solution,IOAA 2017" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P2" >}}
     Supernova SN 1987A was at its brightest with an apparent magnitude of $+3$ on about 15th May  1987 and then faded, finally becoming invisible to the naked eye by 4$^\text{th}$ February 1988. It is  assumed that brightness $B$ varied with time $t$ as an exponential decline, $B(t) = B_0 e^{-t/\tau}$, where $B_0$ and $\tau$ are constant. The maximum apparent magnitude which can be seen by the naked eye is $+6$.
 
     a) Determine $\tau$ in days. <br>
     b) Find the last day that observers could have seen the supernova if they had a 6-inch (15.24cm) telescope with transmission efficiency $\eta = 0.7$. Assume that the average diameter of the human pupil is 0.6 cm.
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     **a)** The time difference in days between 15 May 1987 and 4 February 1988 is 265 days. Since the supernova was last visible to naked eye on 4 February 1988, its apparent magnitude on that day was $m = 6$. Since the flux is propotional to the brightness, using Pogson's equation we have
 
     $$ 6.0 - 3.0 = -2.5 \log \frac{B(t)}{B_0} = 2.5 \frac{t}{\tau} \log e $$

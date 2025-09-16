@@ -5,15 +5,15 @@ weight: 5
 
 ## Gravitational Lensing
 
-Einstein's theory of General Relativity predicts that massive objects can bend the path of light. This effect is known as gravitational lensing. A gravitational lens is matter that bends light from a distant source as it travels towards an observer. This can be a star, black-hole, galaxy or even a cluster of galaxies.
+Einstein's theory of General Relativity predicts that massive objects can bend the path of light. This effect is known as gravitational lensing. A gravitational lens is matter that bends light from a distant source as it travels towards an observer. This can be a star, black hole, galaxy, or even a cluster of galaxies.
 
-Gravitational lensing can be categorized into 3 main types:
+Gravitational lensing can be categorized into three main types:
 
-- Strong lensing is when there are easily visible distortions, such as the formation of Einstein rings, arcs or multiple images of the same source.
+- Strong lensing is when there are easily visible distortions, such as the formation of Einstein rings, arcs, or multiple images of the same source.
 - Weak lensing does not produce arcs or multiple images, but only flattens the shape of the source.
-- Microlensing is when no distortion in shape can be seen but the amount of light recieved from a background object changes.
+- Microlensing is when no distortion in shape can be seen, but the amount of light received from a background object changes.
 
-The impact parameter $\xi$ is the shortest separation between the center of the lens and path of a particular light ray. Here L is the massive object (lens) at a distance $D_L$ from the observer, which bends the light emitted from the source S at a distance $D_S$. The observed images are S$_1$ and S$_2$. Angles $\theta$, $\phi$ and $\beta$ are very  small. The deflection is given by
+The impact parameter $\xi$ is the shortest separation between the center of the lens and the path of a particular light ray. Here, L is the massive object (lens) at a distance $D_L$ from the observer, which bends the light emitted from the source S at a distance $D_S$. The observed images are S$_1$ and S$_2$. Angles $\theta$, $\phi$, and $\beta$ are very small. The deflection is given by
 
 $$\tag{5.5.1} \phi = \frac{4GM}{c^2} \frac{1}{\xi}$$
 
@@ -43,7 +43,7 @@ which gives two solutions for $\theta$, corresponding to the two images formed
 
 $$\tag{5.5.5} \theta = \frac{\beta}{2} \left[1 \pm \sqrt{1 + \frac{4 \theta_E^2}{\beta^2}} \right] $$
 
-A property of gravitational lensing is that the surface brightness of the images formed remains the same, as that of the original object. Thus the apparent brightness of the image is directly propotional to its area. From this we can find out the amplification $\mu$ of light due to gravitational lensing
+A property of gravitational lensing is that the surface brightness of the images formed remains the same as that of the original object. Thus the apparent brightness of the image is directly proportional to its area. From this, we can find out the amplification $\mu$ of light due to gravitational lensing
 
 $$ \mu = \frac{\theta \delta \theta}{\beta \delta \beta} $$
 
@@ -53,11 +53,11 @@ $$\tag{5.5.6} \mu = \left| 1 - \left( \frac{\theta_E}{\theta} \right)^4 \right|^
 
 ## Cosmic Distance Ladder
 
-There are several methods to find distances to celestial objects. Closer objects (moons, planets, sun) require a different technique to find their distance, than distant objects like quasars. The cosmic distance ladder is a succession of methods by which astronomers determine the distances to celestial objects. Each method is built on the previous one, allowing for a more accurate measurement of distance.
+There are several methods to find distances to celestial objects. Closer objects (moons, planets, sun) require a different technique to find their distance than distant objects like quasars. The cosmic distance ladder is a succession of methods by which astronomers determine the distances to celestial objects. Each method is built on the previous one, allowing for a more accurate measurement of distance.
 
 ### Trigonometric Parallax
 
-This is based on the apprent yearly back and forth movement of stars in the sky, caused by the orbital motion of Earth. This can measure distances upto ~30pc.
+This is based on the apparent yearly back and forth movement of stars in the sky, caused by the orbital motion of Earth. This can measure distances up to ~30pc.
 
 ### Statistical Parallax
 
@@ -77,7 +77,7 @@ Cepheid variables display a unique property known as the period-luminosity relat
 
 ### Hubble's Law
 
-Edwin Hubble discovered that galaxies move away from us with velocities propotional to their separation, i.e. that the universe is expanding. In terms of the redshift $z = \Delta \lambda / \lambda$,
+Edwin Hubble discovered that galaxies move away from us with velocities proportional to their separation, i.e. that the universe is expanding. In terms of the redshift $z = \Delta \lambda / \lambda$,
 
 $$\tag{5.5.7} v = cz = H_0 r$$
 
@@ -99,7 +99,7 @@ where $d$ is the distance from the source to the observer. Photons emitted at $B
 
 $$\tag{5.5.9} t_2' = t_2 + \frac{(d^2 + v^2 \delta t^2 \cos^2 \theta)^{1/2}}{c} \approx t_2 + \frac{d}{c}$$
 
-where $v \delta t \ll d$. Therfore the time difference between the two photons is
+where $v \delta t \ll d$. Therefore the time difference between the two photons is
 
 $$\tag{5.5.10} \Delta t = t_2' - t_1' = \delta t (1 - \beta \cos \theta)$$
 
@@ -133,7 +133,7 @@ while the photons are still coupled to the baryonic component. In statistical eq
 
 $$\tag{5.5.14} n_X = g_X \left( \frac{m_X kT}{2 \pi \hbar^2} \right)^{3/2} \, \exp(-\frac{m_X c^2}{kT})$$
 
-when $kT \ll m_X c^2$. Here $g_X$ is the statistical weight of the particle $X$. For electrons, protons and neutrons, $g = 2$. For Hydrogen, $g_H = g_p g_e = 4$.
+when $kT \ll m_X c^2$. Here $g_X$ is the statistical weight of the particle $X$. For electrons, protons, and neutrons, $g = 2$. For Hydrogen, $g_H = g_p g_e = 4$.
 
 Since $m_H \approx m_p$ and defining $Q = (m_p + m_e - m_H)c^2 \approx 13.6 \, \mathrm{eV}$ as the ionization energy, we have
 
@@ -141,7 +141,7 @@ $$\tag{5.5.15} \frac{n_H}{n_e n_p} = \left( \frac{m_e kT}{2 \pi \hbar^2} \right)
 
 This is called the Saha equation.
 
-We define the fraction ionisation $X$ as
+We define the fraction ionization $X$ as
 
 $$\tag{5.5.16} X = \frac{n_p}{n_p + n_H} = \frac{n_e}{n_\text{bary}} = \frac{n_e}{n_\text{bary}}$$
 

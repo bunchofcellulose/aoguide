@@ -34,9 +34,9 @@ Using this, the Friedmann equation can be rewritten as
 
 $$ 1 - \Omega(t) = -\frac{\kappa c^2}{R_0^2 a(t)^2 H(t)^2} $$
 
-The RHS can't change its sign since $\kappa$ is a constant, hence if $\Omega$ was less than 1 at some time, it will always be less than 1. From this relation we also get that by measuring $H_0$ and $\Omega_0$, we can find $\kappa$ and $R \: (= a(t)\, R_0)$.
+The RHS can't change its sign since $\kappa$ is a constant, hence if $\Omega$ was less than 1 at some time, it will always be less than 1. From this relation, we also get that by measuring $H_0$ and $\Omega_0$, we can find $\kappa$ and $R \: (= a(t)\, R_0)$.
 
-From this we can also infer that for a flat universe ($\kappa = 0$), $\Omega(t) = 1 \implies \varepsilon(t) = \varepsilon_\text{c}(t)$, for a positively curved universe ($\kappa = +1$), $\Omega(t) > 1 \implies \varepsilon(t) > \varepsilon_\text{c}(t)$, and for a negatively curved universe ($\kappa = -1$), $\Omega(t) < 1 \implies \varepsilon(t) < \varepsilon_\text{c}(t)$.
+From this, we can also infer that for a flat universe ($\kappa = 0$), $\Omega(t) = 1 \implies \varepsilon(t) = \varepsilon_\text{c}(t)$; for a positively curved universe ($\kappa = +1$), $\Omega(t) > 1 \implies \varepsilon(t) > \varepsilon_\text{c}(t)$; and for a negatively curved universe ($\kappa = -1$), $\Omega(t) < 1 \implies \varepsilon(t) < \varepsilon_\text{c}(t)$.
 {{< /callout >}}
 
 To simplify the notation, we introduce the density parameter related to the curvature $\Omega_\kappa(t)$ as
@@ -47,7 +47,7 @@ Then we can rewrite the Friedmann equation as
 
 $$\tag{5.4.6} \Omega(t) + \Omega_\kappa(t) = 1$$
 
-The sum of all the density parameters in the universe is equal to 1, at all times.
+The sum of all the density parameters in the universe is equal to 1 at all times.
 
 ## Fluid and Acceleration Equation
 
@@ -213,6 +213,8 @@ The proper distance to the object at the time of emission is $d_p(t_e) =\frac{ d
 
 All of this can be summarized into the following tables:
 
+{{< callout type="table" >}}
+
 | Quantity | Empty $\kappa = -1$ | Single Component $\kappa = 0$ |
 |--|--|--|
 | $a(t)$ | $t/t_0$ | $(t/t_0)^{\frac{2}{3(1+w)}}$ |
@@ -225,6 +227,10 @@ All of this can be summarized into the following tables:
 | $1+z$ | $(t_e / t_0)^{-1}$ | $(t_e / t_0)^{-\frac{2}{3(1+w)}}$ |
 | $d_p(t_0)$ | $\frac{c}{H_0} \ln (1+z)$ | $d_\text{hor} \left[ 1 - (1+z)^{-\frac{1+3w}{2}} \right]$ |
 
+{{< /callout >}}
+
+{{< callout type="table" >}}
+
 | Quantity | Matter | Radiation | $\Lambda$ |
 |--|--|--|--|
 | w | $0$ | $\frac{1}{3}$ | $-1$ |
@@ -235,6 +241,8 @@ All of this can be summarized into the following tables:
 | $d_\text{hor}$ | $2 d_\text{H}$ | $d_\text{H}$ | - |
 | $d_\text{EH}$ | - | - | $d_\text{H}$ |
 | $d_p(t_0)$ | $d_\text{hor} \left[ 1 - (1+z)^{-1/2} \right]$ | $d_\text{hor} \left[ 1 - (1+z)^{-1} \right]$ | $d_\text{H} \, z$ |
+
+{{< /callout >}}
 
 A cosmological constant dominated universe is infinitely old, and has an infinite event horizon distance. For an object whose light is being observed at current time having redshift $z$, its proper distance at the time of emission was
 
@@ -256,12 +264,12 @@ Except the Minkowski or cosmological constant dominated universe, each universe 
 
 ## Problems
 
-{{< tabs items="P1,Solution" >}}
-    {{< tab >}}
+{{< tabs >}}
+    {{< tab name="P1" >}}
     Consider a radiation dominated universe, such that $\Omega_r = 1$. Find the number of photons in the observable universe as a function of time, from the big bang
     {{< /tab >}}
 
-    {{< tab >}}
+    {{< tab name="Solution" >}}
     From equation (5.4.23) we get that the energy density as a function of time is
 
     $$ \varepsilon_r(t) = \frac{3 \varepsilon_\text{p}}{32} \left( \frac{t}{t_\text{p}} \right)^{-2} $$
