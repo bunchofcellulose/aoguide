@@ -187,7 +187,7 @@ $$\tag{2.1.17} B_\lambda(T) \approx \frac{2c kT}{\lambda^4}$$
 
 The Rayleigh-Jeans approximation is used often in radio astronomy, where the wavelengths are much larger than the peak wavelength of the blackbody spectrum.
 
-{{< callout type="example" >}}
+{{< callout type="DIY" >}}
 Derive the Rayleigh-Jeans approximation from Planck's law.
 {{< /callout >}}
 

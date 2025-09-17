@@ -63,9 +63,9 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
   <div class="author-info">
     <h4>Akshat Srivastava</h4>
     <p><strong>Founder & Author</strong></p>
-    <p>Hi! I'm a high school student from India who somehow made it into the Indian team for IOAA 2025, and got a gold medal. I love physics, astronomy and math, along with few other subjects (including but not limited to cs, linguistics, chemistry and engineering). I like mathematical rigor in solving problems, and I believe I have been succesfully able to reflect this in the guide. You can reach out to me on my <a href="https://discord.gg/bV8bxvTmzU" target="_blank">Discord server</a>, or dm me at @bunchofcells (I like cucumbers).</p>
+    <p>Hi! I'm a high school student from India and a Gold medalist from IOAA 2025. I love physics, astronomy and math, along with few other subjects (including but not limited to cs, linguistics, chemistry and engineering). I like mathematical rigor in solving problems, and I believe I have been succesfully able to reflect this in the guide. You can reach out to me on my <a href="https://discord.gg/bV8bxvTmzU" target="_blank">Discord server</a>, or dm me at @bunchofcells (I like cucumbers).</p>
     <div class="author-links">
-      <a href="https://bunchofcellulose.github.io" target="_blank">Website</a>
+      <!-- <a href="https://bunchofcellulose.github.io" target="_blank">Website</a> -->
       <a href="https://github.com/bunchofcellulose" target="_blank">GitHub</a>
     </div>
   </div>
@@ -77,9 +77,9 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
     <h4>Adyansh Mishra</h4>
     <p><strong>Editor</strong></p>
     <p>I'm a high school student from India passionate about mathematics, physics, cs, literature, and philosophy (yes its a bit of a weird combo). I was a PROMYS 2025 Alumni, and was the leader of Physics Olympiad Co-operation for BL4S, which was shortlisted. I help make sure our explanations are correct, and most importantly clear! You can contact me at discord at @jardindelys, but do send a cat pic if you decide to :D</p>
-    <div class="author-links">
+    <!-- <div class="author-links">
       <a href="https://github.com/jardin-de-lys" target="_blank">GitHub</a>
-    </div>
+    </div> -->
   </div>
 </div>
 
@@ -104,7 +104,7 @@ Check out the [GitHub repository](https://github.com/bunchofcellulose/aoguide) t
 
 AO Guide is built upon the foundational work of many excellent textbooks, research papers, and educational resources. These books were not written with IOAA in mind, but they're wonderful in general!
 
-### Primary Resources
+### Primary Textbooks
 <div class="simple-list">
 <ul>
 <li><strong>“Astronomy: Principles and Practice”</strong> by A. E. Roy and D. Clarke</li>
@@ -113,8 +113,6 @@ AO Guide is built upon the foundational work of many excellent textbooks, resear
 <li><strong>"Introduction to Cosmology"</strong> by Barbara Ryden</li>
 <li><strong>"Foundations of Astrophysics"</strong> by Barbara Ryden</li>
 <li><strong>"An Introduction to Modern Astrophysics"</strong> by Bradley W. Carroll and Dale A. Ostlie</li>
-<li><strong><a href="https://knzhou.github.io">Kevin Zhou's Physics Olympiad Handouts</a></strong> - Comprehensive problem-solving guides</li>
-<li><strong><a href="https://www.usaaao.guide/handouts">USAAAO Guide</a></strong> - Handouts for USAAAO and IOAA preparation</li>
 </ul>
 </div>
 

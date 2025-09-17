@@ -8,11 +8,11 @@ css: /assets/css/custom.css
   <div class="ao-hero-content">
     <h1 class="ao-title">
       <span class="ao-gradient">AO Guide</span>
-      Your Pathway to Success.
+      Promoting Astronomy Olympiads
     </h1>
     <div style="margin-top: 12rem;"></div>
     <div class="ao-buttons">
-      <a href="/aoguide/guide" class="ao-btn-primary" style="font-size:1.13rem;">Start Learning →</a>
+      <a href="/aoguide/guide" class="ao-btn-primary" style="font-size:1.13rem;">Start Learning</a>
       <a href="/aoguide/about" class="ao-btn-secondary" style="font-size:1.13rem;">About the Guide</a>
     </div>
   </div>
@@ -28,7 +28,7 @@ css: /assets/css/custom.css
   <div class="ao-feature">
     <div class="ao-icon">🌟</div>
     <h3>Comprehensive & Structured</h3>
-    <p>Every topic is covered in depth, from foundational principles to advanced Olympiad techniques. Content is meticulously organized for clarity and progression.</p>
+    <p>Every topic is covered in depth, from foundational principles to advanced concepts. Content is meticulously organized for clarity and progression.</p>
   </div>
   <div class="ao-feature">
     <div class="ao-icon">🧠</div>
@@ -38,12 +38,12 @@ css: /assets/css/custom.css
   <div class="ao-feature">
     <div class="ao-icon">📊</div>
     <h3>Visual & Interactive</h3>
-    <p>High-quality diagrams, step-by-step derivations, and interactive elements help you visualize and internalize complex concepts.</p>
+    <p>High-quality diagrams, step-by-step derivations, and interactive eye-catching elements help you visualize and internalize complex concepts.</p>
   </div>
   <div class="ao-feature">
     <div class="ao-icon">⚡</div>
     <h3>Modern, Fast, and Accessible</h3>
-    <p>Optimized for all devices, with a distraction-free interface and rapid navigation. Always free, always up to date.</p>
+    <p>Optimized for all devices (however, laptop/desktop is recommended), with a distraction-free interface and rapid navigation. Always free, always up to date.</p>
   </div>
   <div class="ao-feature">
     <div class="ao-icon">🤝</div>
@@ -53,7 +53,7 @@ css: /assets/css/custom.css
   <div class="ao-feature">
     <div class="ao-icon">🔍</div>
     <h3>Problem-Solving Focus</h3>
-    <p>Extensive practice problems, worked examples, and exam strategies to sharpen your skills and boost your confidence for competition day.</p>
+    <p>Extensive practice problems, worked examples, and exam strategies to sharpen your skills and boost your confidence.</p>
   </div>
 </div>
 

@@ -218,14 +218,14 @@ details :not(.math) {
 }
 
 /* Light Mode */
-.callout-example {
+.callout-DIY {
     border-color: #fef3c7;
     background-color: #fef9c3;
     color: #854d0e;
 }
   
 /* Dark Mode */
-.dark .callout-example {
+.dark .callout-DIY {
     border-color: rgba(253, 230, 138, 0.3);
     background-color: rgba(161, 98, 7, 0.3);
     color: #fde047;
