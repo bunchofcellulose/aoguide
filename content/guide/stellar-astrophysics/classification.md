@@ -132,9 +132,11 @@ All supernovae except type Ia are caused by the collapse of massive and short li
 
 ### White Dwarfs
 
-When the star runs out of its nuclear fuel, the density in the interior increases, but the temperature does not change much. The electrons become degenerate, and the pressure is mainly due to the pressure of the degenerate electron gas, the pressure due to the ions and radiation being negligible. The star becomes a white dwarf. The radius of a degenerate star is inversely proportional to the cubic root of the mass. Unlike in a normal star the radius decreases as the mass increases. White dwarfs have no internal sources of energy, but further gravitational contraction is prevented by the pressure of the degenerate electron gas. Radiating away the remaining heat, white dwarfs will slowly cool, changing in colour from white to red and finally to black. The maximum mass of a white dwarf is called the Chandrasekhar limit, given by
+When the star runs out of its nuclear fuel, the density in the interior increases, but the temperature does not change much. The electrons become degenerate, and the pressure is mainly due to the pressure of the degenerate electron gas, the pressure due to the ions and radiation being negligible. The star becomes a white dwarf. The radius of a degenerate star is inversely proportional to the cubic root of the mass. Unlike in a normal star the radius decreases as the mass increases. White dwarfs have no internal sources of energy, but further gravitational contraction is prevented by the pressure of the degenerate electron gas. Radiating away the remaining heat, white dwarfs will slowly cool, changing in colour from white to red and finally to black.
 
-$$\tag{5.2.1} M_\text{Ch} \approx 1.4 M_\odot $$
+White dwarfs cannot be more massive than about 1.4 $M_\odot$. If the mass is larger, the electrons become relativistic and the pressure of the degenerate electron gas is no longer able to resist the gravitational attraction. The star will then rapidly contract towards higher densities. The final stable state reached after this collapse will be a neutron star or a black hole, depending on the mass of the star. The maximum mass of a white dwarf is called the Chandrasekhar limit, given by
+
+$$\tag{4.2.1} M_\text{Ch} \approx 1.4 M_\odot $$
 
 ### Neutron Stars
 
@@ -142,9 +144,9 @@ If the mass of a star is large enough, the density of matter may grow even large
 
 Neutron stars are supported against gravity by the pressure of the degenerate neutron gas, just as white dwarfs are supported by electron pressure. The equation of state is the same, except that the electron mass is replaced by the neutron mass, and that the mean molecular weight is defined with respect to the number of free neutrons. Since the gas consists almost entirely of neutrons, the mean molecular weight is approximately one. The typical diameters of neutron stars are about 10 km. Unlike ordinary stars they have a well-defined solid surface. The atmosphere above it is a few centimetres thick. The upper crust is a metallic solid with the density growing rapidly inwards.
 
-- Pulsar: A pulsar is a highly magnetized rotating neutron star that emits beams of electromagnetic radiation out of its magnetic poles. This radiation can be observed only when a beam of emission is pointing toward Earth (similar to the way a lighthouse can be seen only when the light is pointed in the direction of an observer), and is responsible for the pulsed appearance of emission. Neutron stars are very dense and have short, regular rotational periods. This produces a very precise interval between pulses that ranges from milliseconds to seconds for an individual pulsar.
+- **Pulsar**: A pulsar is a highly magnetized rotating neutron star that emits beams of electromagnetic radiation out of its magnetic poles. This radiation can be observed only when a beam of emission is pointing toward Earth (similar to the way a lighthouse can be seen only when the light is pointed in the direction of an observer), and is responsible for the pulsed appearance of emission. Neutron stars are very dense and have short, regular rotational periods. This produces a very precise interval between pulses that ranges from milliseconds to seconds for an individual pulsar.
 
-- Magnetar: A magnetar is a type of neutron star with an extremely powerful magnetic field (~$10^9$ to $10^{11}$ T). The magnetic-field decay powers the emission of high-energy electromagnetic radiation, particularly X-rays and gamma rays. Magnetars are differentiated from other neutron stars by having even stronger magnetic fields, and by rotating more slowly in comparison. Most observed magnetars rotate once every two to ten seconds, whereas typical neutron stars, observed as radio pulsars, rotate one to ten times per second.
+- **Magnetar**: A magnetar is a type of neutron star with an extremely powerful magnetic field (~$10^9$ to $10^{11}$ T). The magnetic-field decay powers the emission of high-energy electromagnetic radiation, particularly X-rays and gamma rays. Magnetars are differentiated from other neutron stars by having even stronger magnetic fields, and by rotating more slowly in comparison. Most observed magnetars rotate once every two to ten seconds, whereas typical neutron stars, observed as radio pulsars, rotate one to ten times per second.
 
 ### Gamma Ray Bursts (GRBs)
 
@@ -164,7 +166,7 @@ In many ways, a black hole acts like an ideal black body, as it reflects no ligh
 
 $$\tag{4.2.3} T_H = \frac{\hbar c^3}{8 \pi GM k_B} $$
 
-A black hole can only have three observable quantities: mass, angular momentum and charge.
+The no hair theorem states that a black hole can only have three observable quantities: mass, angular momentum and charge.
 
 Near the event horizon the different time definitions become significant. An observer falling into a black hole reaches the centre in a finite time, according to his own clock, and does not notice anything special as he passes through the event horizon. However, to a distant observer he never seems to reach the event horizon; his velocity of fall seems to decrease towards zero as he approaches the horizon. The slowing down of time also appears as a decrease in the frequency of light signals. The formula for the gravitational redshift can be written in terms of the Schwarzschild radius as
 

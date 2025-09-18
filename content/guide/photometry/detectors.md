@@ -246,7 +246,60 @@ where $Z$ is a photometric zero point between the standard and instrumental syst
     {{< /tab >}}
 
     {{< tab name="Solution" >}}
+    The physical radius of the cluster is
+
+    $$ R = D \tan \frac{\alpha}{2} \approx D \frac{\alpha}{2} $$
+
+    The stellar density in the cluster is
+
+    $$ \rho = \frac{N}{\frac{4}{3} \pi R^3} = \frac{6N}{\pi D^3 \alpha^3} $$
+
+    For the biologist, the number of stars in a spherical shell at distance $r$ and thickness $dr$ is
+
+    $$ dN = 4 \pi r^2 \rho \, dr = \frac{24 N}{D^3 \alpha^3} r^2 \, dr $$
+
+    Thus the total flux received by the biologist due to the shell is
+
+    $$ dF = \frac{L_0}{4 \pi r^2} dN = \frac{6 N L_0}{\pi D^3 \alpha^3} \, dr $$
+
+    where $L_0$ is the luminosity of each star. Integrating from $r = 0$ to $r = R$, the total flux received by the biologist is
+
+    $$ F_\text{bio} = \int_0^R dF = \frac{6 N L_0}{\pi D^3 \alpha^3} R = \frac{3 N L_0}{\pi D^2 \alpha^2} $$
+
+    Since all stars are almost at the same distance $D$ from the astronomer, the total flux received by the astronomer is
+
+    $$ F_\text{astro} = \frac{N L_0}{4 \pi D^2} $$
+
+    **a)** The difference in magnitudes is given by
+
+    $$ m_\text{astro} - m_\text{bio} = -2.5 \log \frac{F_\text{astro}}{F_\text{bio}} = -2.5 \log \frac{\alpha^2}{12} $$
+    $$ \implies \boxed{m_\text{astro} - m_\text{bio} = 2.5 \log \frac{12}{\alpha^2}} $$
+
+    **b)** Let the diameter of the astronomer's telescope be $D_t$. The flux received by the astronomer using the telescope is
+
+    $$ F_\text{astro, tel} = F_\text{astro} \, \frac{\pi D_t^2}{\pi d_\text{eye}^2} = F_\text{astro} \frac{D_t^2}{d_\text{eye}^2} $$
+
+    where $d_\text{eye}$ is the diameter of the eye pupil, approximately $6 \, \mathrm{mm}$. Setting $F_\text{astro, tel} = F_\text{bio}$, we get
+
+    $$ D_t = \frac{d_\text{eye}}{\alpha} \sqrt{12} $$
+    $$ \implies \boxed{D_t \approx \frac{21 \mathrm{mm}}{\alpha}} $$
+
+    **c)** The solid angle seen by the biologist is
+
+    $$ \Omega = 2 \pi (1 - \cos \frac{\alpha}{2}) \approx \frac{\pi \alpha^2}{4} $$
+
+    Thus the amount of flux received by the biologist now is
+
+    $$ F_\text{bio}' = F_\text{bio} \, \frac{\Omega}{4 \pi} = \frac{\alpha^2}{16} \, F_\text{bio} $$
+
+    The difference in magnitudes is given by
+
+    $$ m_\text{astro} - m_\text{bio}' = -2.5 \log \frac{F_\text{astro}}{F_\text{bio}'} = -2.5 \log \frac{16}{12} $$
+    $$ \implies \boxed{m_\text{astro} - m_\text{bio}' \approx 0.3} $$
+
     {{< /tab >}}
+
+    {{< tab name="IOAA 2012" >}}{{< /tab >}}
 {{< /tabs >}}
 
 {{< tabs >}}
@@ -263,6 +316,17 @@ where $Z$ is a photometric zero point between the standard and instrumental syst
     $$ 6.0 - 3.0 = -2.5 \log \frac{B(t)}{B_0} = 2.5 \frac{t}{\tau} \log e $$
     $$ \implies \boxed{\tau \approx 96 \, \mathrm{days}} $$
 
-    **b)**
+    **b)** First, we find the limiting magnitude of the telescope using equation (2.4.9):
+
+    $$ m_t = 6.0 + 2.5 \log \left( 0.7 \frac{15.24^2}{0.6^2} \right) = 12.6^m $$
+
+    To get the last day the supernova was visible using the telescope, we set $m = 12.6$ and solve for $t$:
+
+    $$ 12.6 - 3.0 = 2.5 \frac{t}{96} \log e $$
+    $$ \implies t \approx 852 \, \mathrm{days} $$
+
+    Thus the last day the supernova was visible using the telescope was approximately 852 days after 15 May 1987, which is around 13 September 1989.
     {{< /tab >}}
+
+    {{< tab name="IOAA 2017" >}}{{< /tab >}}
 {{< /tabs >}}

@@ -443,6 +443,8 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     $$\implies \boxed{(U-B)_2 \approx 0.060}$$
 
     {{< /tab >}}
+
+    {{< tab name="IOAA 2012" >}}{{< /tab >}}
 {{< /tabs >}}
 
 {{< tabs >}}
@@ -453,7 +455,7 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     b) the effective temperature of the star <br>
     c) the distance to the star
 
-    Note: Take, for the typical interstellar matters, the ratio of total to selective extinction $R_V = 3.2$ and the colour excess in $(B − V)$ to be about 72% of the colour excess in $(U − B)$. 
+    Take the ratio of total to selective extinction $R_V = 3.2$ and the colour excess in $(B − V)$ to be about 72% of the colour excess in $(U − B)$. 
     {{< /tab >}}
 
     {{< tab name="Solution" >}}
@@ -498,6 +500,8 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     $$\implies \boxed{r \approx 415 \, \mathrm{pc}}$$
 
     {{< /tab >}}
+
+    {{< tab name="IOAA 2008" >}}{{< /tab >}}
 {{< /tabs >}}
 
 {{< tabs >}}

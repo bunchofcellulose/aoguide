@@ -15,10 +15,19 @@ If you're just beginning, the following order is recommended:
 1. **Positional Astronomy**: Start with the basics of celestial coordinates, timekeeping, and the motion of celestial objects.
 2. **Photometry**: Learn about the tools and techniques used to measure the brightness of celestial objects.
 3. **Celestial Mechanics**: Understand the laws governing the motion of celestial bodies.
-4. **Stellar Physics**: Explore the physics of stars, including their structure and evolution.
-5. **Galactic & Extragalactic Astrophysics**: Study the large-scale structure of the universe, including galaxies and clusters, along with cosmology.
+4. **Stellar Astrophysics**: Explore the physics of stars, including their structure and evolution.
+5. **Galactic and Extragalactic Astrophysics**: Study the large-scale structure of the universe, including galaxies and clusters, along with cosmology.
 
-For those of you who are already familiar with the basics, feel free to jump to any chapter that interests you. Each chapter is designed to be self-contained, so you can learn at your own pace.
+For those of you who are already familiar with the basics, feel free to jump to any chapter that interests you.
+
+The guide goes over pretty much all of the theoretical concepts needed for astronomy olympiads. However, theory is not the only thing asked in olympiads. The IOAA typically has three exams: a theory exam, a data analysis exam, and a practical exam. The guide primarily focuses on the theory part, but it is important to know that the other two parts are equally important. To prepare for the data analysis and practical exams, it is recommended to solve past papers and practice with real data. The resources section at the end of this page contains links to past papers and other useful resources. There are plans to include a section on data analysis and observational astronomy in the future, but to give you a heads up on what they're about:
+
+- **Data Analysis** requires you to read and draw graphs, speedrun your calculator, and interpret data. You will be given a set of data, and you will have to answer questions based on that data. The data can be in the form of tables, graphs, or images. Be prepared to do a lot of calculations, and draw a lot of graphs. A good understanding of statistics is also required.
+- **Practical Skills** can too be broken down into three parts: Telescope handing, Naked eye observation and sky maps. For each of these, be prepared to remember all 88 constellations, all the Messier objects, all the bright stars (with their names, and maybe RA/Dec and magnitudes of a few too), and a good amount of star hopping skills.
+
+  - **Telescope handling** requires you to know how to set up and use a telescope. You will be given a telescope, and you will have to set it up and use it to point at and observe celestial objects. You will also be required to know how to align the telescope, and how to use the different parts of the telescope.
+  - **Naked eye observation** requires you to know how to identify celestial objects using just your eyes. You will typically be given a list of celestial objects, and you will have to identify them in the night sky. A good amount of familiarity with the night sky is required.
+  - **Sky maps** require you to know how to read and interpret sky maps. You will be given a sky map, and you will have to answer questions based on that sky map. This could be to identify constellations, mark deep sky objects, find missing stars, etc. Be prepared to practice a lot of star maps.
 
 ## How the Guide is structured
 
@@ -86,6 +95,7 @@ Most of the sources and references used in writing the guide have been mentioned
 - Kevin Zhou's [Physics Olympiad Handouts](https://knzhou.github.io), mainly M6 and X3
 - [USAAAO Guide](https://www.usaaao.guide/handouts) - Handouts for USAAAO and IOAA preparation
 - This [drive](https://drive.google.com/drive/folders/1gZDmKb3n2vXHpVZMwFaUJ1ukUccCfYKD?usp=sharing) contains all the sources used, and more. Many national and international olympiad papers too are available here.
+- [Blogs](https://physolympacademy.com/blog/) by Armin Hodaei
 
 If you have any other resources that you think would be useful, feel free to share them in the resources channel on our Discord server.
 

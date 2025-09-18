@@ -175,4 +175,4 @@ $$ \frac{I(0, \theta)}{I(0, 0)} = 0.4 + 0.6 \cos \theta = 1 - u (1 - \mu) $$
 
 where $u = 0.6$ is the limb darkening coefficient.
 
-## Compact Stars
+<!-- ## Compact Stars -->

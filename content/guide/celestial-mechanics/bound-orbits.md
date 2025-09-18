@@ -239,6 +239,8 @@ $$\tag{3.2.15} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
 
     $$\frac{dA}{dt} = \frac{h}{2} = \frac{\sqrt{\mu p}}{2} = \frac{\sqrt{4 \pi^2 p}}{2} = \pi \sqrt{p} = \pi \cdot \sqrt{0.98} = \boxed{3.1 \mathrm{\, AU^2/yr}}$$
     {{< /tab >}}
+
+    {{< tab name="IOAA 2007" >}}{{< /tab >}}
 {{< /tabs >}}
 
 {{< tabs >}}
@@ -255,19 +257,73 @@ $$\tag{3.2.15} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
 
     $$ R = \sqrt{R_\oplus h} \approx \boxed{1.79 \times 10^3 \mathrm{\,m}}  $$
     {{< /tab >}}
+
+    {{< tab name="IOAA 2009" >}}{{< /tab >}}
 {{< /tabs >}}
 
 {{< tabs >}}
     {{< tab name="P3" >}}
-    A projectile which starts from the surface of the Earth at the sea level is launched with the initial speed of $v_0 < \sqrt{\frac{2GM_\oplus}{R_\oplus}}$ and the projecting angle (with respect to the local horizon) of $\theta$. Ignore the air resistance.
-    1. The orbit of the projectile is an ellipse. Find its semi-major axis $a$ in units of $R_\oplus$.
-    2. Calculate the highest altitude of the projectile with respect to the Earth surface (in units of $R_\oplus$)
-    3. Find the time of filght for the projectile.
-    4. What is the range of the projectile (surface distance between launching point and falling point) in the units of $R_\oplus$?
-    5. What is the eccentricity $e$ of this elliptical orbit?
+    A projectile which starts from the surface of the Earth at the sea level is launched with the initial speed of $v_0 = \alpha \sqrt{\frac{GM_\oplus}{R_\oplus}}\,$ ($\alpha < \sqrt{2}$) and the projecting angle (with respect to the local horizon) of $\theta$. Ignore the air resistance.
+
+    a) The orbit of the projectile is an ellipse. Find its semi-major axis $a$ in units of $R_\oplus$. <br/>
+    b) What is the eccentricity $e$ of this elliptical orbit? <br/>
+    c) Calculate the highest altitude of the projectile with respect to the Earth surface <br/>
+    d) Find the time of flight for the projectile. <br/>
+    e) What is the range of the projectile (surface distance between launching point and falling point)? <br/>
     {{< /tab >}}
 
     {{< tab name="Solution" >}}
-    Coming Soon
+    **a)** The total energy of the projectile is
+
+    $$ \varepsilon = \frac{1}{2} v_0^2 - \frac{GM_\oplus}{R_\oplus} = -\frac{GM_\oplus}{2a} $$
+
+    Therefore, the semi-major axis is
+
+    $$ \boxed{a = \frac{GM_\oplus R_\oplus}{2GM_\oplus - v_0^2 R_\oplus} = \frac{R_\oplus}{2 - \alpha^2}} $$
+
+    **b)** The angular momentum of the projectile is
+
+    $$ h = R_\oplus v_0 \cos \theta = \sqrt{GM_\oplus a (1 - e^2)} $$
+
+    Thus we get the eccentricity as
+
+    $$
+    \begin{align*}
+    e &= \sqrt{1 - \frac{R_\oplus^2 v_0^2 \cos^2 \theta}{GM_\oplus a}}\\
+    &= \boxed{\sqrt{1 - \frac{\alpha^2 \cos^2 \theta}{2 - \alpha^2}}}
+    \end{align*}
+    $$
+
+    **c)** The apoapsis distance is
+
+    $$ r_a = a(1 + e) = \frac{R_\oplus}{2 - \alpha^2} \left( 1 + \sqrt{1 - \frac{\alpha^2 \cos^2 \theta}{2 - \alpha^2}} \right) $$
+
+    Therefore, the highest altitude of the projectile with respect to the Earth surface is
+
+    $$ \boxed{h = R_\oplus \left[ \frac{1}{2 - \alpha^2} \left( 1 + \sqrt{1 - \frac{\alpha^2 \cos^2 \theta}{2 - \alpha^2}} \right) - 1 \right]} $$
+
+    **d)** To find the time of flight, we find the mean anamoly at the launch and landing points. The eccentric anomaly at the launch point is
+
+    $$\cos E_0 = 1 - \frac{r}{a} = 1 - \frac{R_\oplus}{a} = 1 - (2 - \alpha^2) = \alpha^2 - 1$$
+
+    The mean anamoly at the launch point is
+
+    $$M_0 = E_0 - e \sin E_0 = \cos^{-1}(\alpha^2 - 1) - e \sqrt{2 \alpha^2 - \alpha^4}$$
+
+    The eccentric anomaly at the landing point is simply $E_1 = 2\pi - E_0$, and the mean anamoly at the landing point is just $M_1 = 2\pi - M_0$. Therefore, the time of flight is
+
+    $$t = \frac{P}{2 \pi} (M_1 - M_0) = P\left(1 - \frac{M_0}{\pi}\right) $$
+    $$\boxed{t = \sqrt{\frac{R_\oplus^3}{GM_\oplus}} \frac{2}{(2 - \alpha^2)^{3/2}} \left[ \pi - \cos^{-1}(\alpha^2 - 1) + e \sqrt{2 \alpha^2 - \alpha^4} \right]} $$
+
+    **e)** The get the range of the projectile, we need to find the true anamoly at the launching and landing points. The true anamoly at the launch point is
+
+    $$ \theta_0 = 2 \tan^{-1} \left( \sqrt{\frac{1 + e}{1 - e}} \tan \frac{E_0}{2} \right) = 2 \tan^{-1} \left( \sqrt{\frac{1 + e}{1 - e}} \sqrt{\frac{2 - \alpha^2}{\alpha^2}} \right) $$
+
+    The true anamoly at the landing point is $\theta_1 = 2\pi - \theta_0$. Thus the range of the projectile is
+
+    $$\boxed{R = 2 R_\oplus \left[ \pi - 2\tan^{-1} \left( \sqrt{\frac{1 + e}{1 - e}} \sqrt{\frac{2 - \alpha^2}{\alpha^2}} \right) \right]} $$
+
     {{< /tab >}}
+
+    {{< tab name="IOAA 2009 (Adapted)" >}}{{< /tab >}}
 {{< /tabs >}}
