@@ -29,11 +29,9 @@ When the source is perfectly aligned with the lens ($\beta = 0$), a ring-like im
 
 $$\tag{5.5.3} \theta_E = \sqrt{\frac{4GM}{c^2} \frac{D_S - D_L}{D_S D_L}}$$
 
-<br>
-
-![Einstein Ring](ring.png "Einstein Ring")
-
-<br>
+{{< callout type="image" >}}
+{{< png "gal/ring.png" "Einstein Ring" "An example of an Einstein ring formed by gravitational lensing." >}}
+{{< /callout >}}
 
 Using $\theta_E$, equation (5.5.2) can be rewritten as
 

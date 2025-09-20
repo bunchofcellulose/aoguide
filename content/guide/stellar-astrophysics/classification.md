@@ -69,7 +69,9 @@ The spectra of some stars differ from what one would expect on the basis of thei
 
 The Hertzsprung–Russell diagram or HR diagram is a scatter plot of stars showing the relationship between the stars' absolute magnitudes or luminosities and their stellar classifications or effective temperatures.
 
-![HR-diagram](HRDiagram.png)
+{{< callout type="image" >}}
+{{< png "stellar/HRDiagram.png" "Hertzsprung-Russell Diagram" "The Hertzsprung-Russell diagram showing the relationship between stellar classifications and luminosities" >}}
+{{< /callout >}}
 
 The empirical mass-luminosity relation states
 

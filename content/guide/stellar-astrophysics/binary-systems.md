@@ -34,6 +34,10 @@ Close to each star, surfaces of equal gravitational potential are approximately 
 
 $L_1$ is the gravitational capture equilibrium point. It is a gravity cut-off point of the binary star system. It is at the lowest potential of all Lagrange points. When a star "exceeds its Roche lobe", its surface extends out beyond its Roche lobe and the material which lies outside the Roche lobe can "fall off" into the other object's Roche lobe via the first Lagrangian point. In binary evolution this is referred to as mass transfer via Roche-lobe overflow.
 
+{{< callout type="image" >}}
+{{< svg "stellar/rochelobe.svg" "Roche Lobe" "The Roche lobe is the region around a star in a binary system within which orbiting material is gravitationally bound to that star." >}}
+{{< /callout >}}
+
 Consider a binary system with two stars of masses $M_1$ and $M_2$, having orbital separation $a$. Approximation of the lobe (of $M_1$) as a sphere of radius $r_1$ with mass ratio $q = M_1 / M_2$ is given by the Eggleton formula:
 
 $$\tag{4.3.2} \frac{r_1}{a} = \frac{0.49 q^{2/3}}{0.6q^{2/3} + \ln (1 + q^{1/3})} $$

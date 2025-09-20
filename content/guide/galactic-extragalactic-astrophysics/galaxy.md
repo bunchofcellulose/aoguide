@@ -30,7 +30,9 @@ The Hubble classification scheme is a system used to classify galaxies based on 
 - **Spiral Barred galaxies (SB)**: These galaxies have a central bar-shaped structure that extends from the nucleus to the spiral arms. They are classified in the same way as normal spiral galaxies, with the addition of the "SB" prefix. These can be further classified as SBa, SBb and SBc, where SBa has tightly wound spiral arms and a large central bulge, SBb has moderately wound spiral arms and a medium-sized central bulge, and SBc has loosely wound spiral arms and a small central bulge.
 - **Irregular galaxies (Irr)**: These galaxies do not fit into any of the above categories and have an irregular shape. They are often rich in gas and dust and are typically associated with active star formation.
 
-![Hubble Classification](hubble.png "Hubble Classification")
+{{< callout type="image" >}}
+{{< png "gal/hubble.png" "Hubble Classification" "The Hubble classification scheme for galaxies, famously known for its tuning fork diagram" >}}
+{{< /callout >}}
 
 {{< callout type="remark" >}}
 A few more classifications, which are not part of the OG hubble classification are:
@@ -68,7 +70,9 @@ For quasars, the part of the quasar that is varying in brightness must be smalle
 
 The Milky Way is a barred spiral galaxy or type SBbc or SBc that is home to our solar system. It is composed of several components, including the galactic bulge, disk, and halo. The galactic bulge is a dense and bright region of stars located at the center of the galaxy. The disk is a flat region that contains most of the galaxy's stars and gas, a few kiloparsecs thick. The stars found in the disk are relatively younger. The halo is a spherical region that surrounds the galaxy and contains globular clusters, older and redder stars, and dark matter. It is almost spherical.
 
-![Milky Way](milkyway.png "Milky Way")
+{{< callout type="image" >}}
+{{< png "gal/milkyway.png" "Milky Way" "Structure of our Milky Way galaxy" >}}
+{{< /callout >}}
 
 Sun's orbital speed around the galactic center is around 220 km/s, and is at a distance of about 8.5 kpc from the galactic center.
 

@@ -67,7 +67,7 @@ This is a DIY callout box. It contains exercises or problems for the reader to s
 
 <br/>
 
-Every chapter contains in-text problems, as well as problems at the end of the chapter. These problems are designed to test your understanding of the concepts covered in the chapter (They can be hard, so don't be discouraged if you find them challenging!). The solutions to these problems are presented in the solutions tab of the problem box.
+Many chapters contain in-text problems, as well as problems at the end of the chapter (It takes a lot of time and effort to make problems, so please be patient! We will add problems for every chapter). These problems are designed to test your understanding of the concepts covered in the chapter (They can be hard, so don't be discouraged if you find them challenging!).
 
 {{< tabs >}}
     {{< tab name="P1" >}}
@@ -96,6 +96,7 @@ Most of the sources and references used in writing the guide have been mentioned
 - [USAAAO Guide](https://www.usaaao.guide/handouts) - Handouts for USAAAO and IOAA preparation
 - This [drive](https://drive.google.com/drive/folders/1gZDmKb3n2vXHpVZMwFaUJ1ukUccCfYKD?usp=sharing) contains all the sources used, and more. Many national and international olympiad papers too are available here.
 - [Blogs](https://physolympacademy.com/blog/) by Armin Hodaei
+- [OAC](https://onlineastro.org) - the Online Astronomy Competition
 
 If you have any other resources that you think would be useful, feel free to share them in the resources channel on our Discord server.
 

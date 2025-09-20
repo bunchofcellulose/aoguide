@@ -174,7 +174,9 @@ Lunar eclipses can be classified into several types:
 
 - A total lunar eclipse occurs when the Moon passes through the Earth's umbra, while a partial lunar eclipse occurs when only part of the Moon passes through the umbra. When the Moon is inside the umbral region, it appears blood red, due to the scattering of sunlight through the Earth's atmosphere. This is often referred to as a "blood moon." If you were lucky enough, you might have seen the blood moon during the total lunar eclipse of September 7, 2025.
 
-![7 September 2025 Lunar Eclipse](792025.png "Total Lunar Eclipse of 7 September 2025. Photo captured by the Sri Lankan team of IOAA 2025")
+{{< callout type="image" >}}
+{{< png "pos/792025.png" "7 September 2025 Lunar Eclipse" "Total Lunar Eclipse of 7 September 2025. Photo captured by the Sri Lankan team of IOAA 2025" >}}
+{{< /callout >}}
 
 - A penumbral lunar eclipse occurs when the Moon passes through the Earth's penumbra, causing a subtle shading on the Moon's surface.
 - A partial lunar eclipse occurs when only a portion of the Moon passes through the Earth's umbra.

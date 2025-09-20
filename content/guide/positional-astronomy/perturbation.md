@@ -20,6 +20,10 @@ $$\tag{1.4.1} \implies R = k \tan \zeta$$
 
 where $k = n_0 - 1$ is called the constant of refraction. It depends on the atmospheric conditions. At STP conditions, $k \approx 60.3''$.
 
+{{< callout type="image" >}}
+{{< svg "pos/refraction.svg" "Refraction" "The bending of light as it passes through the Earth's atmosphere, causing the apparent position of celestial objects to differ from their true position." >}}
+{{< /callout >}}
+
 This is a good approximation for $z < 45^\circ$, and fairly accurate for $z < 70^\circ$. For zenith angle close to $90^\circ$, the refraction angle is around $35'$, and is called horizontal refraction. It lengthens the time of sunrise and sunset, and causes the Sun to appear above the horizon even when it has already set.
 
 ## Aberration
@@ -31,6 +35,10 @@ The angle of aberration is given by
 $$\tag{1.4.2} \alpha = \frac{v}{c} \sin \theta \equiv \kappa \sin \theta$$
 
 where $v$ is the speed of Earth in its orbit, $c$ is the speed of light, and $\theta$ is the angle between the direction of motion of Earth and the direction of the celestial object. Here $\kappa \approx 20.496''$ is called the constant of aberration for Earth.
+
+{{< callout type="image" >}}
+{{< svg "pos/aberration.svg" "Aberration" "Here ϕ is the angle θ - α, where α = (v/c) sin θ is the angle of aberration. θ is the angle between the direction of motion of Earth and the direction of the celestial object." >}}
+{{< /callout >}}
 
 The rotation of Earth too produces a small effect, but it is negligible compared to the effect of Earth's orbital motion. The total aberration is the vector sum of the aberration due to the Earth's motion in its orbit and the aberration due to the Earth's rotation. The aberration due to Earth's rotation, called diurnal aberration, is given by
 

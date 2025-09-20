@@ -84,6 +84,9 @@ H_0 \qquad & 70.1 & & \mathrm{km\,s^{-1}\,Mpc^{-1}} \quad & \text{Hubble constan
 \varepsilon \qquad & 23^\circ\,26'\,21.4'' & & & \text{Obliquity of the ecliptic} \\
 \zeta \qquad & -34' & & & \text{Refraction at horizon} \\
 \text{Jy} \qquad & 1 & \times 10^{-26} \quad & \mathrm{W\,m^{-2}\,Hz^{-1}} \quad & \text{Jansky} \\
+d_\text{MW-And} \qquad & 0.7 & & \mathrm{Mpc} \quad & \text{Milky Way-Andromeda distance} \\
+A \qquad & 15 & & \mathrm{km\,s^{-1}\,kpc^{-1}} & \text{Oort constants} \\
+B \qquad & 20 && \mathrm{km\,s^{-1}\,kpc^{-1}} &\\
 \end{aligned}
 $$
 
