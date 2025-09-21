@@ -111,6 +111,10 @@ The zero point of galactic longitude $l$ is defined as the direction towards the
 
 The easiest way to transform between coordinate systems is to draw a spherical diagram and apply the identities of spherical trigonometry.
 
+{{< callout type="image" >}}
+{{< svg "pos/coords.svg" "Coordinate Systems" "Illustration of the different celestial coordinate systems. (Source: Wikipedia)" >}}
+{{< /callout >}}
+
 ### Horizontal and Equatorial
 
 To interconvert between horizontal coordinates $(a, A)$ and equatorial coordinates $(h, \delta)$, given the observer's latitude $\phi$, we use the following identities:

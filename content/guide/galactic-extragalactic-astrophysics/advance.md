@@ -89,15 +89,21 @@ It occurs usually when the source itself is moving at relativistic speeds, in a 
 
 Superluminal motion is most often observed in two opposing jets emanating from the core of a star or black hole. In this case, one jet is moving away from and one towards the Earth. If Doppler shifts are observed in both sources, the velocity and the distance can be determined independently of other observations.
 
-Consider at time $t_1$, the source is at $B_1$ and at time $t_2 = t_1 + \delta t$ it moves to $B_2$. Then the photons emitted at $B_1$ at time $t_1$ are detected by the observer at
+Consider at time $t_1$, the source is at $A$ and at time $t_2 = t_1 + \delta t$ it moves to $B$. Then the photons emitted at $A$ at time $t_1$ are detected by the observer at
 
-$$\tag{5.5.8} t_1' = t_1 + \frac{d + v \delta t \cos \theta}{c}$$
+$$\tag{5.5.8} t_1' = t_1 + \frac{D_L + v \delta t \cos \theta}{c}$$
 
-where $d$ is the distance from the source to the observer. Photons emitted at $B_2$ at time $t_2$ are detected at
+where $D_L$ is the distance from the source to the observer.
 
-$$\tag{5.5.9} t_2' = t_2 + \frac{(d^2 + v^2 \delta t^2 \cos^2 \theta)^{1/2}}{c} \approx t_2 + \frac{d}{c}$$
+{{< callout type="image" >}}
+{{< svg "gal/superluminal.svg" "Superluminal Motion" "Superluminal motion is the apparent faster-than-light motion observed in some radio galaxies." >}}
+{{< /callout >}}
 
-where $v \delta t \ll d$. Therefore the time difference between the two photons is
+Photons emitted at $B$ at time $t_2$ are detected at
+
+$$\tag{5.5.9} t_2' = t_2 + \frac{(D_L^2 + v^2 \delta t^2 \cos^2 \theta)^{1/2}}{c} \approx t_2 + \frac{D_L}{c}$$
+
+where $v \delta t \ll D_L$. Therefore the time difference between the two photons is
 
 $$\tag{5.5.10} \Delta t = t_2' - t_1' = \delta t (1 - \beta \cos \theta)$$
 

@@ -125,12 +125,14 @@ $$\tag{3.4.6} \tan \lambda = \frac{Y}{X}\,, \qquad \qquad \sin \beta = \frac{Z}{
 
 {{< tabs >}}
     {{< tab name="P1" >}}
-    [Long Questions, problem 2](https://usaaao.org/wp-content/uploads/2023/09/second_exam_2023-1.pdf) - An interesting problem related to an interstellar comet.h
+    [Long Questions, problem 2](https://usaaao.org/wp-content/uploads/2023/09/second_exam_2023-1.pdf) - An interesting problem related to an interstellar comet.
     {{< /tab >}}
 
-    {{< tab name="Solution" >}} 
+    {{< tab name="Solution" >}}
     [Solution](https://usaaao.org/wp-content/uploads/2023/09/second_exam_2023_sols-1.pdf)
     {{< /tab >}}
+
+    {{< tab name="NAC 2023" >}}{{< /tab >}}
 {{< /tabs >}}
 
 {{< tabs >}}

@@ -63,6 +63,11 @@ Readings in sidereal time and mean solar time can be interconverted by scaling w
 $$\text{ST} \cdot 365.2422 = \text{MST} \cdot 366.2422$$
 
 This shows that one sidereal day is approximately $23^h 56^m 4.1^s$ in mean solar time. The reason for this is that the Earth has to rotate a little more than one full rotation for the Sun to return to the same position in the sky, due to the Earth's motion in its orbit around the Sun.
+
+{{< callout type="image" >}}
+{{< png "pos/sidereal.png" "Sidereal Time" "The difference in sidereal time and solar time arises due to the Earth's rotation and its orbit around the Sun." >}}
+{{< /callout >}}
+
 {{< /callout >}}
 
 ## Civil Time

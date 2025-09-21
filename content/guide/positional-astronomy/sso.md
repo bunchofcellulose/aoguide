@@ -146,6 +146,10 @@ The Moon goes through a cycle of phases as it orbits the Earth. The phases are d
 - **Third Quarter**: The whole of the east half of the Moon is illuminated. It has a phase of 0.5. The most prominent features visible now are the Copernicus crater and the Aristarchus crater.
 - **Waning Crescent**: A small sliver of the Moon's illuminated side is again visible, this time on the east side, decreasing until it reaches the New Moon phase again.
 
+{{< callout type="image" >}}
+{{< png "pos/moonphases.png" "Phases of the Moon" "The different phases of the Moon as it orbits the Earth." >}}
+{{< /callout >}}
+
 From new moon to new moon, the Moon takes about 29.5 days, which is known as a synodic month. The synodic month is longer than the sidereal month (27.3 days) due to the Earth's motion around the Sun.
 
 A Metonic cycle is a period of 19 years after which the phases of the Moon repeat on the same days of the year. This is because 19 years are almost equal to 235 lunar months, which is why the lunar calendar is often based on a Metonic cycle.
@@ -159,6 +163,10 @@ Even though the Moon is tidally locked, we can see a bit more than half of its s
 **Libration in latitude**: This is caused by the tilt of the Moon's axis—the tilt between its rotation axis and orbital axis. As the Moon orbits the Earth, we can see slightly more of its northern or southern hemisphere at different times. The amplitude of this libration is about 6.5 degrees.
 
 **Diurnal libration**: This is caused by the observer's position on the Earth's surface. As the Earth rotates, the observer's position changes, allowing them to see slightly more of the Moon's surface at different times of the day. The amplitude of this libration is about 1 degree.
+
+{{< callout type="image" >}}
+{{< gif "pos/libration.gif" "Libration of the Moon" "The libration of the Moon allows us to see slightly more than half of its surface. (Source: Wikipedia)" >}}
+{{< /callout >}}
 
 ### Eclipses
 

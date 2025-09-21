@@ -1,0 +1,10 @@
+{{- $filename := .Get 0 -}}
+{{- $alt := .Get 1 | default "" -}}
+{{- $caption := .Get 2 | default "" -}}
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="{{ (printf "assets/images/%s" $filename) | relURL }}" alt="{{ $alt }}" style="max-width: 100%; height: auto;" />
+  {{- if $caption }}
+    <div style="margin-top: 0.5rem; font-style: italic; text-align: center;">{{ $caption }}</div>
+  {{- end }}
+</div>

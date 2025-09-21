@@ -94,9 +94,11 @@ Most of the sources and references used in writing the guide have been mentioned
 - [Celestial Sphere](https://bunchofcellulose.github.io/celestialsphere/) - A webapp to play with spherical diagrams
 - Kevin Zhou's [Physics Olympiad Handouts](https://knzhou.github.io), mainly M6 and X3
 - [USAAAO Guide](https://www.usaaao.guide/handouts) - Handouts for USAAAO and IOAA preparation
-- This [drive](https://drive.google.com/drive/folders/1gZDmKb3n2vXHpVZMwFaUJ1ukUccCfYKD?usp=sharing) contains all the sources used, and more. Many national and international olympiad papers too are available here.
+- This [Drive](https://drive.google.com/drive/folders/1gZDmKb3n2vXHpVZMwFaUJ1ukUccCfYKD?usp=sharing) contains all the sources used, and more. Many national and international olympiad papers too are available here.
 - [Blogs](https://physolympacademy.com/blog/) by Armin Hodaei
 - [OAC](https://onlineastro.org) - the Online Astronomy Competition
+- [Handouts for observational astronomy](https://github.com/Rajit13/Star-Maps-101-and-Practices) by Fahim Rajit Hossain
+- Astronomy Olympiad Discord Server ([AODS](https://discord.gg/cuVC54FksD)) - a community of astronomy enthusiasts and olympiad participants. Great place to ask questions, share resources, and connect with others who share your interest in astronomy.
 
 If you have any other resources that you think would be useful, feel free to share them in the resources channel on our Discord server.
 

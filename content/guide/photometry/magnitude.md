@@ -198,6 +198,16 @@ By definition, bolometric correction is zero for F5 spectral type stars.
     {{< /tab >}}
 {{< /tabs >}}
 
+## Lightcurve
+
+A lightcurve is a plot of brightness versus time for a celestial object, such as a star.
+
+{{< callout type="image" >}}
+{{< png "pos/lightcurve.png" "Lightcurve" "A lightcurve is a plot of brightness versus time for a celestial object, such as a star." >}}
+{{< /callout >}}
+
+Tracking the lightcurve of a star can provide information about its properties. For example, periodic dips in brightness can indicate the presence of an exoplanet orbiting the star, as the planet passes in front of the star and blocks some of its light. Variations in brightness can also indicate changes in the star's activity, such as flares or pulsations.
+
 ## Extended Objects
 
 For extended objects (which are not point-like), the total magnitude can be obtained by summing up the luminosity over the area of the object. The apparent magnitude of an extended object is defined as the magnitude of a point source that would produce the same total flux as the extended object.
