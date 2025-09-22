@@ -19,9 +19,13 @@ $$\tag{3.7.2} A^2 = m^2 k^2 + 2mEL^2 $$
 
 where E is the total energy of the system.
 
+{{< callout type="image" >}}
+{{< svg "celmech/lrl.svg" "Laplace-Runge-Lenz Vector" "The Laplace-Runge-Lenz vector is a constant of motion for central force problems. (Source: Wikipedia)" >}}
+{{< /callout >}}
+
 ### Trajectory of the momentum vector
 
-The conservation of the LRL vector $\mathbf{A}$ and angular momentum vector $\mathbf{L}$ is useful in showing that the momentum vector $\mathbf{p}$ moves on a circle under an inverse-square central force.
+The conservation of the LRL vector $\mathbf{A}$ and angular momentum vector $\mathbf{L}$ is useful in showing that the momentum vector $\mathbf{p}$ moves on a circle under an inverse-square central force. The trajectory of the momentum vector $\mathbf{p}$ is called a hodograph.
 
 $$ mk \hat{\mathbf{r}} = \mathbf{p} \times \mathbf{L} - \mathbf{A} $$
 
@@ -32,6 +36,10 @@ Choosing $\mathbf{L}$ along the $z$-axis, and the major semiaxis as the $x$-axis
 $$\tag{3.7.3} p_x^2 + \left( p_y - \frac{A}{L} \right)^2 = \left( \frac{mk}{L} \right)^2 $$
 
 Thus, the momentum vector $\mathbf{p}$ is confined to a circle of radius $mk/L$ centered on $(0,\, A/L)$. For unbounded orbits, $A > mk$ and hence the circle does not intersect the $p_x$-axis.
+
+{{< callout type="image" >}}
+{{< svg "celmech/hodograph.svg" "Hodograph" "The hodograph is a useful tool for visualizing the momentum vector in central force problems. (Source: Wikipedia)" >}}
+{{< /callout >}}
 
 ### Precession of LRL vector under a perturbed potential
 
@@ -81,9 +89,11 @@ $$ m\ddot{r} - \frac{L^2}{m r^3} = - \frac{dV}{dr} $$
 
 Substituting $u = 1/r$ and simplifying, we get
 
-$$\tag{3.7.7} \frac{d^2 u}{d \theta^2} + u = -\frac{m}{L^2} \frac{d}{du} V(u) $$
+$$\tag{3.7.7} \boxed{\frac{d^2 u}{d \theta^2} + u = -\frac{m}{L^2} \frac{d}{du} V(u)} $$
 
-This is the orbit equation. For an inverse square force having potential $V(r) = -k/r = -ku$, the orbit equation $u(\theta)$ is given by
+This is the orbit equation. Also referred to as Binet's equation, it describes the shape of the orbit $r(\theta)$ of a particle moving under a central force. If the shape of the trajectory is known, the force law can be determined by solving for $V(u)$.
+
+For an inverse square force having potential $V(r) = -k/r = -ku$, the orbit equation $u(\theta)$ is given by
 
 $$\tag{3.7.8} \frac{d^2 u}{d \theta^2} + u = -\frac{km}{L^2} $$
 
@@ -92,6 +102,20 @@ This is, again, the equation of a conic section. The solution $u(\theta)$ is
 $$ u = \frac{mk}{L^2} \left( 1 + e \cos (\theta - \theta_0) \right) $$
 
 where $e$ (the eccentricity) and $\theta_0$ (the phase offset) are constants of integration.
+
+{{< callout type="remark" >}}
+Let us clarify what bound, closed and stable orbits mean
+
+- A **bound** orbit is one where the total energy $E < 0$. The particle cannot escape to infinity, and will always remain within a certain distance from the center of force.
+- A **closed** orbit is one where the particle returns to its initial position after a finite period of time. Closed orbits are a subset of bound orbits, but not all bound orbits are closed. For example, in an inverse-square law force, elliptical orbits are closed, but parabolic and hyperbolic orbits are not.
+- A **stable** orbit is one where small perturbations to the particle's position or velocity do not lead to large deviations from the original orbit. In other words, if the particle is slightly displaced from its orbit, it will oscillate around the original orbit rather than diverging away from it. Stability is a more general concept that can apply to both bound and unbound orbits.
+
+Now, as it turns out, there exist only two types of central force potentials that produce closed orbits for all bound particles: the inverse-square law potential ($V(r) \propto -1/r$) and the radial harmonic oscillator potential ($V(r) \propto r^2$). This result is known as Bertrand's theorem.
+
+As far as stability is concerned, all closed orbits must be stable to begin with. Hence, the inverse square law and radial harmonic oscillator potentials produce stable closed orbits.
+
+Aside from these two, there are also closed circular orbits in any central force potential, but these are not stable in general. (in a potential $V(r) \propto r^n$, circular orbits are stable only if $n > -2$)
+{{< /callout >}}
 
 ### Precession of apasis in General Relativity
 
@@ -128,6 +152,10 @@ The period of the ellipse is not $2 \pi$, and hence precesses at a rate of
 $$ \Delta \varphi = \frac{2 \pi}{1 - \alpha} \approx 2\pi (1 + \alpha) = \frac{2\pi G^2 M^2 m^2}{c^2L^2} $$
 
 which matches the result which we obtained via the precession of the LRL vector. This apsidal precession is prominent in the orbit of Mercury.
+
+{{< callout type="image" >}}
+{{< gif "celmech/precession.gif" "Precession of apsis in General Relativity" "The apsis of the orbit precesses over time if considering effects of general relativity. (Source: Wikipedia)" >}}
+{{< /callout >}}
 
 ## Orbits in General Relativity
 

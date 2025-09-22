@@ -3,6 +3,8 @@ title: Orbital Maneuvers
 weight: 6
 ---
 
+Orbital maneuvers are the use of propulsion systems to change the orbit of a spacecraft. Orbital maneuvers are used to transfer a spacecraft from one orbit to another, to change the orientation of the orbit, or to change the speed of the spacecraft. The most common type of orbital maneuver is the Hohmann transfer orbit, which is used to transfer a spacecraft between two circular orbits of different altitudes around a central body. Other types of orbital maneuvers include bi-elliptic transfers, gravity assists, and plane changes. A wonderful resource to learn more about orbital mechanics are [this book](https://colorado.pressbooks.pub/introorbitalmechanics/) and [this thing](https://orbital-mechanics.space/intro.html).
+
 ## Delta-v
 
 Delta-v ($\Delta v$) is a measure of the impulse per unit of spacecraft mass that is needed to perform a maneuver. It is a scalar that has the units of speed. In the abscence of external forces, the Delta-v is equal to the change in velocity of the spacecraft.
@@ -31,6 +33,10 @@ When applying Delta-v in the direction of the velocity the specific orbital ener
 ## Hohmann Tranfer Orbital Maneuver
 
 The Hohmann transfer orbit is an orbital maneuver used to transfer a spacecraft between two orbits of different altitudes around a central body. The initial and target orbits are both circular and coplanar. The maneuver is accomplished by placing the craft into an elliptical transfer orbit that is tangential to both the initial and target orbits. The maneuver uses two impulsive engine burns: the first establishes the transfer orbit, and the second adjusts the orbit to match the target. The Hohmann maneuver often uses the lowest possible amount of impulse (which consumes a proportional amount of delta-v, and hence propellant).
+
+{{< callout type="image" >}}
+{{< svg "celmech/hohmann.svg" "Hohmann Transfer Orbit" "The Hohmann transfer orbit is an orbital maneuver used to transfer a spacecraft between two orbits of different altitudes around a central body. (Source: Wikipedia)" >}}
+{{< /callout >}}
 
 ### Transfer between circular coplanar orbits
 

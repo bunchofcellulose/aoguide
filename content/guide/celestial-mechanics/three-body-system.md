@@ -39,6 +39,10 @@ Tidal force is the difference in gravitational attraction between different poin
 - spaghettification of objects near black holes
 - tidal heating of moons and planets
 
+{{< callout type="image" >}}
+{{< png "celmech/tidal.png" "Tidal interaction between two galaxies" "Tidal interaction between a larger galaxy and its smaller companion. (Source: Wikipedia)" >}}
+{{< /callout >}}
+
 Tidal acceleration does not require rotation or orbiting bodies; for example, the body may be freefalling in a straight line under the influence of a gravitational field while still being influenced by (changing) tidal acceleration.
 
 Consider a body of mass $M$, kept at a distance $r$ from a spherical body of radius $R$. Define
@@ -124,6 +128,10 @@ For Earth, this is approximately $0.01 \mathrm{\,AU}$. The derivation of the hil
 ## Lagrange Points
 
 In the restricted three body problem, the third body can remain at rest relative to the primaries at certain points. There are five such points, called Lagrange points. The Lagrange points are denoted $L_1$, $L_2$, $L_3$, $L_4$, and $L_5$. The points $L_1$, $L_2$ and $L_3$ are unstable, and lie on the line joining the two primaries. The points $L_4$ and $L_5$ are stable, and lie at the vertices of an equilateral triangle with the two primaries. When seen in a rotating reference frame, a body kept at one of the Lagrange points matches the angular velocity of the two co-orbiting primaries, allowing it to remain stationary relative to them. At the Lagrange points, the net gravitational force acting on the third body is equal to the centrifugal force acting on it. The barycenter is defined to be center of mass of the three-body system, which is also the center of rotation of the three-body system.
+
+{{< callout type="image" >}}
+{{< png "celmech/lagrange.png" "Lagrange Points" "The Lagrange points are positions in space where the gravitational forces of two large bodies balance the centripetal force felt by a smaller object. (Source: Wikipedia)" >}}
+{{< /callout >}}
 
 Asteroids and comets are often found at the Lagrange points of the Sun and Jupiter. The Lagrange points are also used for placing satellites in orbit. Asteroids found around Jupiter's $L_4$ and $L_5$ points are called Trojan asteroids.
 

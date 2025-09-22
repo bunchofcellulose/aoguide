@@ -18,6 +18,11 @@ menu:
       weight: 5
       params:
         type: search
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/bunchofcellulose/aoguide"
+      params:
+        icon: github
 
 markup:
   goldmark:
