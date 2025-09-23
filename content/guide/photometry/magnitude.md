@@ -331,6 +331,10 @@ Earth's atmosphere also causes extinction. The observed magnitude $m$ depends on
 
 $$\tag{2.2.11} \boxed{X = \sec z} $$
 
+{{< callout type="image" >}}
+{{< svg "photometry/extinction.svg" "Atmospheric Extinction" "Atmospheric extinction due to airmass" >}}
+{{< /callout >}}
+
 This approximation holds good for $z \lesssim 70^\circ$.
 
 The increase in magnitude is

@@ -64,7 +64,7 @@ $$\tag{2.1.4} B = \int_0^{\infty} B_\nu \, d\nu $$
 {{< /callout >}}
 
 {{< callout type="image" >}}
-{{< svg "photometry/radiance.svg" "Radiance" "The radiance B is related to the energy passing through a surface element dA into a solid angle dω, in a direction θ (source: Fundamental Astronomy)" >}}
+{{< svg "photometry/radiance.svg" "Radiance" "The radiance B is related to the energy passing through a surface element dA into a solid angle dω, in a direction θ" >}}
 {{< /callout >}}
 
 The flux density is related to the spectral radiance as

@@ -18,7 +18,7 @@ The altitude is positive above the horizon and negative below it, ranging from $
 The azimuth $A$ of a point $X$ is the angle between the north cardinal point and the projection of the point $X$ onto the horizontal plane. The azimuth starts from $0^\circ$ at the north point and increases eastwards: $90^\circ$ at the east point, $180^\circ$ at the south point, and $270^\circ$ at the west point. In the southern hemisphere, azimuth is measured from the south point eastwards.
 
 {{< callout type="image" >}}
-{{< svg "pos/altaz.svg" "Altitude-Azimuth Coordinate System" "The altitude-azimuth coordinate system is based on the observer's local horizon." >}}
+{{< svg "pos/altaz.svg" "Altitude-Azimuth Coordinate System" "The altitude-azimuth coordinate system is based on the observer's local horizon. (Source: Wikipedia)" >}}
 {{< /callout >}}
 
 The coordinates of a point in the horizontal coordinate system are given by the pair $(a, A)$, where $a$ is the altitude and $A$ is the azimuth. These change with the observer's location and the time of observation.

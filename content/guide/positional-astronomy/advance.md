@@ -63,7 +63,7 @@ A few values of the equation of time are tabulated below (at epoch J2000):
 {{< /callout >}}
 
 {{< callout type="image" >}}
-{{< svg "pos/eot.svg" "Equation of Time" "The equation of time illustrates the discrepancy between solar time and clock time throughout the year." >}}
+{{< svg "pos/eot.svg" "Equation of Time" "The equation of time illustrates the discrepancy between solar time and clock time throughout the year. (Source: Wikipedia)" >}}
 {{< /callout >}}
 
 ## Path of a Stick's Shadow

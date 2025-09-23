@@ -124,15 +124,19 @@ It fluctuates around $-1^s$.
 
 ## Correction for observer's altitude
 
-If the observer is at some altitude $h$ above the sea level, the observer's horizon will no longer be a straight line. The observer will be able to see more than half of the sky at any given time, due to the curvature of the Earth. This leads to change in rise and set times of celestial objects.
+If the observer is at some altitude $h$ above the sea level, the observer's horizon will no longer be a straight line. The observer will be able to see more than half of the sky at any given time, due to the curvature of the Earth. This leads to change in rise and set times of celestial objects, and also affects the observed altitude of celestial objects.
 
-The dip of the horizon $\delta$ is defined as the angle between the true horizontal and the line of sight to the horizon. It is given by
+The dip of the horizon $\theta$ is defined as the angle between the true horizontal and the line of sight to the horizon. It is given by
 
-$$\tag{1.4.7} \cos \delta = \frac{R_\oplus}{R_\oplus + h} \implies \delta \approx \sqrt{\frac{2 h}{R_\oplus}}$$
+$$\tag{1.4.7} \cos \theta = \frac{R_\oplus}{R_\oplus + h} \implies \theta \approx \sqrt{\frac{2 h}{R_\oplus}}$$
 
-The horizon distance $d_h$ is defined as the distance to the point (along the surface of the Earth) where a horizontal line from the observer's eye intersects the sea level. It is given by
+{{< callout type="image" >}}
+{{< svg "pos/horizon.svg" "Horizon for observer at an altitude" "The visible horizon of an observer at some altitude EA differs from the true horizon. The angle θ is the dip of the horizon." >}}
+{{< /callout >}}
 
-$$\tag{1.4.8} d_h = R_\oplus \delta \approx \sqrt{2 h R_\oplus}$$
+The horizon distance $d_h$ is defined as the distance to the point along the surface of the Earth, where a horizontal line from the observer's eye intersects the sea level (the arc length AB in the figure). It is given by
+
+$$\tag{1.4.8} d_h = R_\oplus \theta \approx \sqrt{2 h R_\oplus}$$
 
 If $h$ is measured in meters,
 

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by MetaPost 1.202 on 2010.03.29:2151 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="428.9" height="374.99" version="1.1" viewBox="0 0 428.9 374.99">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+<!-- Original BoundingBox: -212.99936 -187.49289 215.90514 187.4929 -->
+ <defs>
+  <g id="GLYPHcmmi10_11" transform="scale(.00995)">
+   <path d="m477-236c0-157-93-206-167-206-137 0-269 143-269 284 0 93 60 169 162 169 63 0 135-23 211-84 13 53 46 84 91 84 53 0 84-55 84-71 0-7-6-10-12-10-7 0-10 3-13 10-18 49-54 49-56 49-31 0-31-78-31-102 0-21 0-23 10-35 94-118 115-234 115-235 0-2-1-10-12-10-10 0-10 3-15 21-18 63-51 139-98 198m-67 75c-88 77-165 88-205 88-60 0-90-45-90-109 0-49 26-157 58-208 47-73 101-92 136-92 99 0 99 131 99 209 0 37 0 95 2 112" fill-rule="evenodd"/>
+  </g>
+  <g id="GLYPHcmmi10_34" transform="scale(.00995)">
+   <path d="m141-227c33 14 62 14 86 14 26 0 81 0 81-31 0-24-35-27-73-27-21 0-56 2-93 19-23-12-40-31-40-58 0-61 98-97 188-97 16 0 52 0 92 28 11 8 13 10 20 10 13 0 27-13 27-27 0-19-61-57-129-57-115 0-223 67-223 143 0 43 36 68 40 71-59 33-91 89-91 135 0 65 57 126 163 126 132 0 188-88 188-103 0-6-5-10-11-10-5 0-8 4-10 7-14 23-38 60-158 60-61 0-146-15-146-86 0-34 28-87 89-117m33-13c23-8 44-9 61-9 25 0 29 1 47 6-15 7-17 8-55 8-22 0-34 0-53-5" fill-rule="evenodd"/>
+  </g>
+ </defs>
+ <g fill="none" stroke="#FFF8E7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99626">
+  <path d="m269.69 187.49c0-31.311-25.382-56.693-56.693-56.693s-56.693 25.382-56.693 56.693c0 31.311 25.382 56.693 56.693 56.693s56.693-25.382 56.693-56.693z"/>
+  <path d="m326.39 187.49c0-62.621-50.765-113.39-113.39-113.39-62.621 0-113.39 50.765-113.39 113.39 0 62.621 50.765 113.39 113.39 113.39 62.621 0 113.39-50.765 113.39-113.39z"/>
+  <path d="m383.08 187.49c0-93.932-76.147-170.08-170.08-170.08-93.932 0-170.08 76.147-170.08 170.08 0 93.932 76.147 170.08 170.08 170.08 93.932 0 170.08-76.147 170.08-170.08z"/>
+  <path d="m219.24 17.414c0-3.4442-2.792-6.2362-6.2362-6.2362s-6.2362 2.792-6.2362 6.2362 2.792 6.2362 6.2362 6.2362 6.2362-2.792 6.2362-6.2362z"/>
+ </g>
+ <path d="m206.76 17.414h12.472c0-3.4442-2.792-6.2362-6.2362-6.2362s-6.2362 2.792-6.2362 6.2362z"/>
+ <path d="m219.24 130.8c0-3.4442-2.792-6.2362-6.2362-6.2362s-6.2362 2.792-6.2362 6.2362 2.792 6.2362 6.2362 6.2362 6.2362-2.792 6.2362-6.2362z" fill="none" stroke="#FFF8E7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99626"/>
+ <path d="m206.76 130.8h12.472c0-3.4442-2.792-6.2362-6.2362-6.2362s-6.2362 2.792-6.2362 6.2362z"/>
+ <path d="m219.24 357.57c0-3.4442-2.792-6.2362-6.2362-6.2362s-6.2362 2.792-6.2362 6.2362 2.792 6.2362 6.2362 6.2362 6.2362-2.792 6.2362-6.2362z" fill="none" stroke="#FFF8E7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99626"/>
+ <path d="m219.24 357.57h-12.472c0 3.4442 2.792 6.2362 6.2362 6.2362s6.2362-2.792 6.2362-6.2362z"/>
+ <path d="m219.24 244.19c0-3.4442-2.792-6.2362-6.2362-6.2362s-6.2362 2.792-6.2362 6.2362c0 3.4442 2.792 6.2362 6.2362 6.2362s6.2362-2.792 6.2362-6.2362z" fill="none" stroke="#FFF8E7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99626"/>
+ <path d="m219.24 244.19h-12.472c0 3.4442 2.792 6.2362 6.2362 6.2362s6.2362-2.792 6.2362-6.2362z"/>
+ <path d="m220.09 300.88c0-3.9138-3.1728-7.0866-7.0866-7.0866s-7.0866 3.1728-7.0866 7.0866 3.1728 7.0866 7.0866 7.0866 7.0866-3.1728 7.0866-7.0866z" fill="none" stroke="#FFF8E7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99626"/>
+ <path d="m170.14 215.84c0-3.4442-2.792-6.2362-6.2362-6.2362-3.4442 0-6.2362 2.792-6.2362 6.2362 0 3.4442 2.792 6.2362 6.2362 6.2362 3.4442 0 6.2362-2.792 6.2362-6.2362z" fill="none" stroke="#FFF8E7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99626"/>
+ <path d="m167.02 221.24-6.2362-10.801c-2.9827 1.7221-4.0047 5.5361-2.2826 8.5188 1.7221 2.9827 5.5361 4.0047 8.5188 2.2826z"/>
+ <path d="m268.33 215.84c0-3.4442-2.792-6.2362-6.2362-6.2362-3.4442 0-6.2362 2.792-6.2362 6.2362 0 3.4442 2.792 6.2362 6.2362 6.2362 3.4442 0 6.2362-2.792 6.2362-6.2362z" fill="none" stroke="#FFF8E7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99626"/>
+ <path d="m265.22 210.44-6.2362 10.801c2.9827 1.7221 6.7967 0.70012 8.5188-2.2826s0.70012-6.7967-2.2826-8.5188z"/>
+ <path d="m92.465 300.88c0-3.4442-2.792-6.2362-6.2362-6.2362-3.4442 0-6.2362 2.792-6.2362 6.2362s2.792 6.2362 6.2362 6.2362c3.4442 0 6.2362-2.792 6.2362-6.2362z" fill="none" stroke="#FFF8E7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99626"/>
+ <path d="m90.387 305.53-8.315-9.2964c-2.5672 2.2961-2.7868 6.2386-0.49072 8.8057 2.2961 2.5672 6.2386 2.7868 8.8057 0.49072z"/>
+ <path d="m346.01 300.88c0-3.4442-2.792-6.2362-6.2362-6.2362-3.4442 0-6.2362 2.792-6.2362 6.2362s2.792 6.2362 6.2362 6.2362c3.4442 0 6.2362-2.792 6.2362-6.2362z" fill="none" stroke="#FFF8E7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99626"/>
+ <path d="m343.93 296.23-8.315 9.2964c2.5672 2.2961 6.5096 2.0764 8.8057-0.49072 2.2961-2.5672 2.0764-6.5096-0.49072-8.8057z"/>
+ <g fill="none" stroke="#FFF8E7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+  <path d="m217.53 187.49c0-2.5048-2.0306-4.5354-4.5354-4.5354-2.5049 0-4.5354 2.0306-4.5354 4.5354 0 2.5049 2.0306 4.5354 4.5354 4.5354 2.5048 0 4.5354-2.0306 4.5354-4.5354z" stroke-width=".99626"/>
+  <g stroke-width=".5">
+   <path d="m211.17 180.65 1.8342-10.163 1.8342 10.163"/>
+   <path d="m207.99 182.48-3.493-9.7184 6.6699 7.8842"/>
+   <path d="m206.15 185.66-7.8842-6.6699 9.7184 3.493"/>
+   <path d="m206.15 189.33-10.163-1.8342 10.163-1.8342"/>
+   <path d="m207.99 192.5-9.7184 3.493 7.8842-6.6699"/>
+   <path d="m211.17 194.34-6.6699 7.8842 3.493-9.7184"/>
+   <path d="m214.83 194.34-1.8342 10.163-1.8342-10.163"/>
+   <path d="m218.01 192.5 3.493 9.7184-6.6699-7.8842"/>
+   <path d="m219.84 189.33 7.8842 6.6699-9.7184-3.493"/>
+   <path d="m219.84 185.66 10.163 1.8342-10.163 1.8342"/>
+   <path d="m218.01 182.48 9.7184-3.493-7.8842 6.6699"/>
+   <path d="m214.83 180.65 6.6699-7.8842-3.493 9.7184"/>
+   <path d="m211.17 180.65 1.8342-10.163 1.8342 10.163"/>
+  </g>
+  <path d="m134.2 334.79c0-3.4442-2.792-6.2362-6.2362-6.2362-3.4442 0-6.2362 2.792-6.2362 6.2362s2.792 6.2362 6.2362 6.2362c3.4442 0 6.2362-2.792 6.2362-6.2362z" stroke-width=".99626"/>
+ </g>
+ <path d="m133.36 337.9-10.801-6.2362c-1.7221 2.9827-0.70012 6.7967 2.2826 8.5188 2.9828 1.7221 6.7967 0.70012 8.5188-2.2826z"/>
+ <g fill="none" stroke="#FFF8E7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".99626">
+  <g stroke-dasharray="3 3">
+   <path d="m213 17.414v340.16"/>
+   <path d="m86.229 300.88h253.54"/>
+   <path d="m163.9 215.84 49.098 85.039 49.098-85.039"/>
+   <path d="m213 187.49-85.039 147.29 85.039-33.907"/>
+  </g>
+  <path d="m154.29 324.29c-2.3589-5.9162-6.6413-10.866-12.157-14.05"/>
+  <path d="m213 281.04c-14.028 0-23.627 14.16-18.431 27.191"/>
+ </g>
+ <g transform="translate(153.1 314.25)">
+  <use xlink:href="#GLYPHcmmi10_11"/>
+ </g>
+ <g transform="translate(188 286.02)">
+  <use xlink:href="#GLYPHcmmi10_34"/>
+ </g>
+ <g stroke="#FFF8E7" stroke-width=".5">
+  <path d="m105.86 26.25 11.338 11.338" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
+  <path d="m113.51 36.057 3.6955 1.5307-1.5307-3.6955z"/>
+  <path d="m80.438 46.538 51.023 51.023" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
+  <path d="m127.76 96.03 3.6956 1.5307-1.5307-3.6956z"/>
+  <path d="m55.122 75.603 96.376 96.376" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
+  <path d="m147.8 170.45 3.6949 1.5304-1.5304-3.6948z"/>
+ </g>
+ <g fill="#EAEAEA" font-family="Arial" font-size="9.675px" letter-spacing=".22px" stroke-width="5.5818" word-spacing="0px">
+  <g text-anchor="middle">
+   <switch style="line-height:1"><text x="212.84279" y="7.6163859" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg19-ca" systemLanguage="ca"><tspan x="212.95279" y="7.6163859" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg1-ca">Conjunció</tspan></text><text x="212.84279" y="7.6163859" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg19"><tspan x="212.95279" y="7.6163859" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg1">Conjunction</tspan></text></switch>
+   <switch style="line-height:1"><text x="212.84279" y="373.06863" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg20-ca" systemLanguage="ca"><tspan x="212.95279" y="373.06863" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg2-ca">Oposició</tspan></text><text x="212.84279" y="373.06863" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg20"><tspan x="212.95279" y="373.06863" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg2">Opposition</tspan></text></switch>
+   <switch style="line-height:1"><text x="232.64879" y="315.45517" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg21-ca" systemLanguage="ca"><tspan x="232.75879" y="315.45517" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg3-ca">Terra</tspan></text><text x="232.64879" y="315.45517" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg21"><tspan x="232.75879" y="315.45517" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg3">Earth</tspan></text></switch>
+   <switch style="line-height:1"><text x="384.33585" y="315.58121" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg22-ca" systemLanguage="ca"><tspan x="384.44586" y="315.58121" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg4-ca">Quadratura occidental</tspan></text><text x="384.33585" y="315.58121" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg22"><tspan x="384.44586" y="315.58121" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg4">Western quadrature</tspan></text></switch>
+   <switch style="line-height:1"><text x="43.213436" y="315.58121" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg23-ca" systemLanguage="ca"><tspan x="43.323437" y="315.58121" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg5-ca">Quadratura oriental</tspan></text><text x="43.213436" y="315.58121" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg23"><tspan x="43.323437" y="315.58121" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg5">Eastern quadrature</tspan></text></switch>
+  </g>
+  <switch style="line-height:1"><text x="269.88812" y="206.9386" style="line-height:1" xml:space="preserve" id="trsvg24-ca" systemLanguage="ca"><tspan x="269.88812" y="206.9386" id="trsvg6-ca">Gran allargament</tspan><tspan x="269.88812" y="216.61363" id="trsvg7-ca">occidental</tspan></text><text x="269.88812" y="206.9386" style="line-height:1" xml:space="preserve" id="trsvg24"><tspan x="269.88812" y="206.9386" id="trsvg6">Greatest western</tspan><tspan x="269.88812" y="216.61363" id="trsvg7">  elongation</tspan></text></switch>
+  <switch style="line-height:1"><text x="156.31538" y="206.9386" text-align="end" text-anchor="end" style="line-height:1" xml:space="preserve" id="trsvg25-ca" systemLanguage="ca"><tspan x="156.53539" y="206.9386" text-align="end" id="trsvg8-ca">Gran allargament</tspan><tspan x="159.43869" y="216.61363" text-align="end" id="trsvg9-ca">oriental</tspan></text><text x="156.31538" y="206.9386" text-align="end" text-anchor="end" style="line-height:1" xml:space="preserve" id="trsvg25"><tspan x="156.53539" y="206.9386" text-align="end" id="trsvg8">Greatest eastern</tspan><tspan x="159.43869" y="216.61363" text-align="end" id="trsvg9">elongation   </tspan></text></switch>
+  <g text-anchor="middle">
+   <switch style="line-height:1"><text x="212.84279" y="120.2313" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg26-ca" systemLanguage="ca"><tspan x="212.95279" y="120.2313" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg10-ca">Conjunció superior</tspan></text><text x="212.84279" y="120.2313" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg26"><tspan x="212.95279" y="120.2313" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg10">Superior conjunction</tspan></text></switch>
+   <switch style="line-height:1"><text x="228.7164" y="168.27167" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg27-ca" systemLanguage="ca"><tspan x="228.8264" y="168.27167" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg11-ca">Sol</tspan></text><text x="228.7164" y="168.27167" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg27"><tspan x="228.8264" y="168.27167" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" text-align="center" text-anchor="middle" id="trsvg11">Sun</tspan></text></switch>
+   <switch style="line-height:1"><text x="213.26411" y="224.30576" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg28-ca" systemLanguage="ca"><tspan x="213.37411" y="224.30576" text-align="center" id="trsvg12-ca">Conjunció</tspan><tspan x="213.37411" y="233.98079" text-align="center" id="trsvg13-ca">inferior</tspan></text><text x="213.26411" y="224.30576" text-align="center" style="line-height:1" xml:space="preserve" id="trsvg28"><tspan x="213.37411" y="224.30576" text-align="center" id="trsvg12">Inferior</tspan><tspan x="213.37411" y="233.98079" text-align="center" id="trsvg13">conjunction</tspan></text></switch>
+  </g>
+  <g>
+   <switch style="line-height:1"><text x="24.524187" y="66.387192" style="line-height:1" xml:space="preserve" id="trsvg29-ca" systemLanguage="ca"><tspan x="24.524187" y="66.387192" id="trsvg14-ca">Òrbita inferior</tspan><tspan x="24.524187" y="76.062233" id="trsvg15-ca">del planeta</tspan></text><text x="24.524187" y="66.387192" style="line-height:1" xml:space="preserve" id="trsvg29"><tspan x="24.524187" y="66.387192" id="trsvg14">Inferior-planet</tspan><tspan x="24.524187" y="76.062233" id="trsvg15"> orbit</tspan></text></switch>
+   <switch style="line-height:1"><text x="91.596001" y="11.04479" style="line-height:1" xml:space="preserve" id="trsvg30-ca" systemLanguage="ca"><tspan x="91.596001" y="11.04479" id="trsvg16-ca">Òrbita superior</tspan><tspan x="91.596001" y="20.71983" id="trsvg17-ca">del planeta</tspan></text><text x="91.596001" y="11.04479" style="line-height:1" xml:space="preserve" id="trsvg30"><tspan x="91.596001" y="11.04479" id="trsvg16">Superior-planet</tspan><tspan x="91.596001" y="20.71983" id="trsvg17"> orbit</tspan></text></switch>
+   <switch style="line-height:1"><text x="52.693489" y="41.380322" style="line-height:1" xml:space="preserve" id="trsvg31-ca" systemLanguage="ca"><tspan x="52.693489" y="41.380322" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" id="trsvg18-ca">Òrbita terrestre</tspan></text><text x="52.693489" y="41.380322" style="line-height:1" xml:space="preserve" id="trsvg31"><tspan x="52.693489" y="41.380322" fill="#EAEAEA" letter-spacing=".22px" stroke-width="5.5818" id="trsvg18">Earth's orbit</tspan></text></switch>
+  </g>
+ </g>
+</svg>

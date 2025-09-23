@@ -103,6 +103,10 @@ where $\phi$ is the phase angle. The phase can vary from 0 (new—the planet app
 
 For interior planets, a phase of 0 corresponds to inferior conjunction, a phase of 0.5 corresponds to greatest elongation, and a phase of 1 corresponds to superior conjunction.
 
+{{< callout type="image" >}}
+{{< svg "pos/planetconfig.svg" "Planetary Configurations" "Planetary Configurations (Source: Wikipedia)" >}}
+{{< /callout >}}
+
 ### Retrograde Motion
 
 Retrograde motion is the apparent backward motion of a planet as observed from Earth. This occurs when the Earth overtakes a planet in its orbit, causing the planet to appear to move in the opposite direction against the background stars.
@@ -110,6 +114,10 @@ Retrograde motion is the apparent backward motion of a planet as observed from E
 The period of retrograde motion varies for each planet and can last for a few weeks to months. The retrograde motion of a planet can be predicted based on its orbital period and the relative positions of the Earth and the planet.
 
 Retrograde motion for exterior planets occurs when the planet is near the opposition point in its orbit, with the opposition occurring in the middle of the retrograde loop. The points when the apparent motion of the planet changes from direct to retrograde and vice versa are called stationary points.
+
+{{< callout type="image" >}}
+{{< gif "pos/retrograde.gif" "Retrograde Motion of Planets" "The retrograde motion of planets occurs when Earth overtakes them in their orbits. (Source: Wikipedia)" >}}
+{{< /callout >}}
 
 ### Synodic Period
 

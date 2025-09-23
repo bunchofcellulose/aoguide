@@ -20,6 +20,8 @@ If you're just beginning, the following order is recommended:
 
 For those of you who are already familiar with the basics, feel free to jump to any chapter that interests you.
 
+The index page of each unit lists several resources to read from in the Recommended Reading section. If you find something confusing or hard to understand in the guide (let us know!), we highly recommend checking out the resources listed there. They are a great way to get a different perspective on the topic and can help clarify any doubts you may have.
+
 The guide goes over pretty much all of the theoretical concepts needed for astronomy olympiads. However, theory is not the only thing asked in olympiads. The IOAA typically has three exams: a theory exam, a data analysis exam, and a practical exam. The guide primarily focuses on the theory part, but it is important to know that the other two parts are equally important. To prepare for the data analysis and practical exams, it is recommended to solve past papers and practice with real data. The resources section at the end of this page contains links to past papers and other useful resources. There are plans to include a section on data analysis and observational astronomy in the future, but to give you a heads up on what they're about:
 
 - **Data Analysis** requires you to read and draw graphs, speedrun your calculator, and interpret data. You will be given a set of data, and you will have to answer questions based on that data. The data can be in the form of tables, graphs, or images. Be prepared to do a lot of calculations, and draw a lot of graphs. A good understanding of statistics is also required.
