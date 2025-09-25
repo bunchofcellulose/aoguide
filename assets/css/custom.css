@@ -359,15 +359,29 @@ details :not(.math) {
   justify-content: center;
 }
 
+/* Smooth transition zone between hero and content */
+.ao-transition-zone {
+  position: relative;
+  height: 10vh;
+  background: linear-gradient(to bottom, 
+    rgba(0,0,0,0) 0%, 
+    rgba(0,0,0,0.02) 30%, 
+    rgba(0,0,0,0.05) 60%, 
+    rgba(0,0,0,0.1) 100%);
+  z-index: 0;
+}
+
 /* Section titles */
 .ao-section-title {
   font-family: 'Futura-Bold';
   font-size: 2.8rem;
-  margin-top: 2.5rem;
+  margin-top: 0rem;
   margin-bottom: 1.2rem;
   font-weight: 100;
   text-align: center;
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 /* Features grid */
@@ -379,6 +393,37 @@ details :not(.math) {
   gap: 2.5rem;
   margin: 2.5rem 0;
   align-items: stretch;
+  position: relative;
+  z-index: 1;
+}
+
+/*a backdrop to features section for better merging */ 
+.ao-features::before {
+  content: '';
+  position: absolute;
+  top: -5rem;
+  left: -5vw;
+  right: -5vw;
+  bottom: -5rem;
+  background: linear-gradient(to bottom,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,0.02) 20%,
+    rgba(255,255,255,0.05) 40%,
+    rgba(255,255,255,0.08) 60%,
+    rgba(255,255,255,0.1) 80%,
+    rgba(255,255,255,0.12) 100%);
+  z-index: -1;
+  border-radius: 50px;
+}
+
+.dark .ao-features::before {
+  background: linear-gradient(to bottom,
+    rgba(0,0,0,0) 0%,
+    rgba(0,0,0,0.02) 20%,
+    rgba(0,0,0,0.05) 40%,
+    rgba(0,0,0,0.08) 60%,
+    rgba(0,0,0,0.1) 80%,
+    rgba(0,0,0,0.12) 100%);
 }
 
 /* Features and topics grid cards - smaller width for 3-in-row fit */
@@ -655,7 +700,7 @@ details :not(.math) {
   left: 49%;
   transform: translateX(-50%);
   width: 100vw;
-  height: calc(100% + 25vh);
+  height: calc(100% + 60vh);
   background-image: url('/aoguide/assets/images/start/bg.png');
   background-size: cover;
   background-position: center;
@@ -663,6 +708,18 @@ details :not(.math) {
   filter: brightness(0.6);
   z-index: -1;
   pointer-events: none;
+  mask: linear-gradient(to bottom, 
+    rgba(0,0,0,1) 0%, 
+    rgba(0,0,0,1) 70%, 
+    rgba(0,0,0,0.8) 80%, 
+    rgba(0,0,0,0.4) 90%, 
+    rgba(0,0,0,0) 100%);
+  -webkit-mask: linear-gradient(to bottom, 
+    rgba(0,0,0,1) 0%, 
+    rgba(0,0,0,1) 70%, 
+    rgba(0,0,0,0.8) 80%, 
+    rgba(0,0,0,0.4) 90%, 
+    rgba(0,0,0,0) 100%);
 }
 
 .ao-hero-content {
