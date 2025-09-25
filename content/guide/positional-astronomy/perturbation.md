@@ -74,6 +74,10 @@ $$\tag{1.4.5} d = \frac{1}{\pi}$$
 
 gives the distance $d$ in units of parsecs. More precisely, one parsec is defined as the distance at which an object has an stellar parallax of one arcsecond.
 
+{{< callout type="image" >}}
+{{< svg "pos/parallax.svg" "Parallax effect" "The apparent shift of a nearby star against the background of more distant stars due to the Earth's motion around the Sun." >}}
+{{< /callout >}}
+
 {{< callout type="trivia" >}}
 Stellar parallaxes are so small that they were unobservable until the 19th century, and their apparent absence was used as a scientific argument against heliocentrism during the early modern age. The first experiment to measure parallax was conducted by James Bradley in 1729, but he ended up discovering the aberration of light and nutation of Earth's axis instead. The first successful measurement of stellar parallax was made by Friedrich Bessel in 1838, who measured the parallax of the star 61 Cygni to be $0.3''$, using a device called a heliometer.
 {{< /callout >}}

@@ -92,6 +92,8 @@ It has been observed that in the region outside sun's orbital radius, the orbita
 
 {{< /callout >}}
 
+### Oort Equations
+
 The Local Standard of Rest (LSR) is the reference frame in which the mean velocity of the stars in the solar neighborhood is zero. The velocity of the individual stars relative to the LSR is called the peculiar velocity of the star. The point towards which the Sun is moving relative to the LSR is called the solar apex. The opposite point on the celestial sphere is called the solar antapex. Sun's velocity with respect to the LSR is around 20 km/s, with the apex being located in the constellation Hercules.
 
 Let the sun's orbital speed and orbital radius be $V_\odot$ and $R_\odot$ respectively. For a star in the galactic plane at galactic longitude $l$ and distance $r$ from the sun, its relative velocity with respect to sun is given by
@@ -114,6 +116,10 @@ $$
 A + B &= -\frac{dV}{dR} \Big|_{r=R_\odot} \\ A-B &= \frac{V_\odot}{R_\odot} = \omega_0\\
 \end{aligned}
 $$
+
+{{< callout type="image" >}}
+{{< svg "gal/oort.svg" "Relative motion of a star in the galaxy" "The Oort equations describe the relative motion of a star in the galaxy." >}}
+{{< /callout >}}
 
 ### ISM
 
