@@ -397,35 +397,6 @@ details :not(.math) {
   z-index: 1;
 }
 
-/*a backdrop to features section for better merging */ 
-.ao-features::before {
-  content: '';
-  position: absolute;
-  top: -5rem;
-  left: -5vw;
-  right: -5vw;
-  bottom: -5rem;
-  background: linear-gradient(to bottom,
-    rgba(255,255,255,0) 0%,
-    rgba(255,255,255,0.02) 20%,
-    rgba(255,255,255,0.05) 40%,
-    rgba(255,255,255,0.08) 60%,
-    rgba(255,255,255,0.1) 80%,
-    rgba(255,255,255,0.12) 100%);
-  z-index: -1;
-  border-radius: 50px;
-}
-
-.dark .ao-features::before {
-  background: linear-gradient(to bottom,
-    rgba(0,0,0,0) 0%,
-    rgba(0,0,0,0.02) 20%,
-    rgba(0,0,0,0.05) 40%,
-    rgba(0,0,0,0.08) 60%,
-    rgba(0,0,0,0.1) 80%,
-    rgba(0,0,0,0.12) 100%);
-}
-
 /* Features and topics grid cards - smaller width for 3-in-row fit */
 .ao-feature {
   display: flex;
