@@ -58,13 +58,19 @@ params:
   navbar:
     displayTitle: true
     # displayLogo: true
-    # logo:
-    #   path: images/logo.svg
-    #   dark: images/logo-dark.svg
-    #   # width: 40
-    #   # height: 20
-    #   # link: /
+    logo:
+      path: logo.svg
+      dark: logo.svg
+      # width: 40
+      # height: 20
+      # link: /
     width: wide
+
+  favicon:
+    favicon: /favicon.ico
+    favicon16x16: /favicon-16x16.png
+    favicon32x32: /favicon-32x32.png
+    appleTouchIcon: /apple-touch-icon.png
 
   page:
     # full (100%), wide (90rem), normal (1280px)
