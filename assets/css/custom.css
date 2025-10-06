@@ -672,7 +672,7 @@ details :not(.math) {
   transform: translateX(-50%);
   width: 100vw;
   height: calc(100% + 60vh);
-  background-image: url('/aoguide/assets/images/start/bg.webp');
+  background-image: url('/aoguide/assets/images/start/bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
