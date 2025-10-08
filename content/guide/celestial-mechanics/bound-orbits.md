@@ -6,9 +6,12 @@ weight: 2
 Having finished Kepler's laws, you might ask why we need to study the two-body problem any further at all.
 Well, the idea is similar to why, after learning Coulomb's law, we still devote a fair amount of time to learning further electrostatics.
 
-The answer is simply practical application. It is much easier to derive some results regarding the system and use them to make our lives easier when solving problems. For instance, you could, theoretically, now that you know $r(\theta)$, figure out $r(t)$ without any of the tools we discuss below, but it would be a much more daunting task.
+The answer is simply practical application. 
+It is much easier to derive some results regarding the system and use them to make our lives easier when solving problems. 
+For instance, you could, theoretically, now that you know $r(\theta)$, figure out $r(t)$ without any of the tools we discuss below, but it would be a much more daunting task.
 
-Anyway, we are still only considering the problem of a two-body system, but we'll primarily work with bound orbits and see what we can do with them.
+Anyway, we are still only considering the problem of a two-body system, but we'll primarily work with bound orbits and see what we can do with them. We'll also consider secondary effects of gravity, that
+we've largely ignored in our body is a point mass model.
 
 As we proved in chapter 3.1, *all* bound orbits are elliptical. Therefore, a fair amount of the following discussion is going to rely on some knowledge of ellipses. You should have ideally finished reading the Wikipedia page or used an equivalent resource.
 
@@ -213,6 +216,139 @@ This is the mass function of the binary system. The mass function can be used to
 
 $$\tag{3.2.15} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
 
+Note that for such a binary system, the angular velocities of the two masses about the centre of mass are same. To show this, note that the centripetal force is gravity, so we get that,
+$$
+M\omega^2 r_1 = \frac{GmM}{R^2}
+$$
+where $r_1$ is the distance of $M$ from the centre. Since the centre is the centre of mass, using $m_1r_1 = m_2r_2$, we get that $m/r_1 = (M + m)/R$ which gives us the angular velocity
+for the body, as:
+$$ \omega = \sqrt{ \frac{G(M + m)}{R^3} } $$
+A similar derivation for the other primary will give you the same angular velocity. 
+
+## Tidal Forces
+
+In all of our prior discussions we worked with the ideal model of a body being a point object. This is all fine, because
+we were analysing the motion of such bodies, and it is very much the case that they're much smaller than their trajectories.
+
+However, there are secondary effects that arise when we consider the body to be an actual, extended body. For example,
+the tides on earth. In general, Tidal force is the difference in gravitational attraction
+between different points on a body, causing the body to be pulled unevenly and as a result
+are being stretched towards the source of attraction.
+
+Phenomenon caused by tidal forces include:
+
+- Ocean tides and solid-earth tides
+- Tidal locking
+- Breaking apart of celestial bodies and formation of ring systems within the Roche limit
+- Spaghettification of objects near black holes
+- Tidal heating of moons and planets
+
+{{< callout type="image" >}}
+{{< png "celmech/tidal.png" "Tidal interaction between two galaxies" "Tidal interaction between a larger galaxy and its smaller companion. (Source: Wikipedia)" >}}
+{{< /callout >}}
+
+Tidal acceleration does not require rotation or orbiting bodies;
+for example, the body may be freefalling in a straight line under the influence of a gravitational
+field while still being influenced by (changing) tidal acceleration. The only condition is of course, that it is in
+a gravitational field. Similar effects arise from other forces, but we don't really care about them.
+
+{{< callout type="image" >}}
+{{< svg "celmech/tides.svg" "Tides" "The Tidal Effect. Dashed lines show the variation of field." >}}
+{{< /callout >}}
+
+Let's try to calculate this apparent effect. Consider a spherical body of radius $R$, kept at a distance $r$
+from a body of mass $M$. Define
+
+- $\mathbf{s}$ as the position vector of mass $m$ on the surface of the sphere relative to the massive body $M$
+- $\mathbf{R}$ as the position vector of mass $m$ relative to the center of mass of the sphere
+- $\mathbf{r}$ as the position vector of the sphere relative to the massive body $M$
+
+Since the sphere accelerates towards the massive body $M$ with $\mathbf{a} = -\frac{GM}{r^2} \hat{\mathbf{r}}$, the force on mass $m$
+(as seen by an observer on the body) is given by:
+
+$$\mathbf{F}_\text{net} = -\frac{GMm}{s^2} \hat{\mathbf{s}} + \frac{GMm}{r^2} \hat{\mathbf{r}} + \sum \mathbf{F}_\text{other} $$
+
+The last term is of little relevance, it persists in the absence of $M$ while
+the first two terms arise from the presence of M — the combination of these two additional terms is known as
+the tidal force $\mathbf{F}_\text{tidal}$, and the acceleration caused is called the
+tidal acceleration $\mathbf{a}_\text{tidal}$.
+
+$$\tag{3.5.3} \mathbf{a}_\text{tidal} = -GM \left( \frac{\hat{\mathbf{s}}}{s^2} - \frac{\hat{\mathbf{r}}}{r^2} \right) $$
+
+Since $\mathbf{s} = \mathbf{r} + \mathbf{R}$,
+
+$$ \mathbf{a}_\text{tidal} = -GM \left( \frac{\mathbf{r} + \mathbf{R}}{|\mathbf{r} + \mathbf{R}|^3} - \frac{\mathbf{r}}{r^3} \right) $$
+
+Usually $r \gg R$, so we can take few approximations (essentially the ones we take to find the field of a dipole),
+which finally give
+
+$$\tag{3.5.4} \boxed{ \mathbf{a}_\text{tidal} \approx -\frac{GM}{r^3} \left[ \mathbf{R} - 3\, ( \hat{\mathbf{r}} \cdot \mathbf{R} )\, \hat{\mathbf{r}} \right] } $$
+
+Consider a cartesian coordinate system with its origin at the center of the sphere, the $x$-axis pointing towards the massive body, and $y$-axis oriented such that $\mathbf{R}$ lies in the $xy$-plane. If the angle $\theta$ is the angle between the $x$-axis and the vector $\mathbf{R}$, the tidal acceleration experienced by $m$ is
+
+$$\tag{3.5.5} \boxed{\mathbf{a}_\text{tidal} = \frac{GMR}{r^3} (2\cos \theta \, \hat{\mathbf{i}} - \sin \theta \, \hat{\mathbf{j}}) }$$
+
+We see that when $\mathbf{R}$ and $\mathbf{r}$ are parallel, i.e. $m$ lies on the line joining $M$ and the center of the sphere, the tidal acceleration is
+
+$$\mathbf{a}_\text{tidal} = -2\frac{GM \mathbf{R}}{r^3}$$
+
+When $\mathbf{R}$ and $\mathbf{r}$ are perpendicular, i.e. $m$ lies on the line perpendicular to the line joining $M$ and the center of the sphere, the tidal acceleration is
+
+$$\mathbf{a}_\text{tidal} = -\frac{GM \mathbf{R}}{r^3}$$
+
+The tidal acceleration is maximum when $\mathbf{R}$ and $\mathbf{r}$ are parallel, and minimum when they are perpendicular.
+
+{{< callout type="image" >}}
+{{< svg "celmech/tidal_effect.svg" "Tidal Effect" "The tidal effect (shown in red) due to the moon and sun on the Earth, and the gravitational effect (shown in blue) due to the moon. S points towards the position of the moon, and O is the centre of the Earth. (Source: Wikipidea)" >}}
+{{< /callout >}}
+
+## Roche Limit
+
+You might question that if the oceans did experience tidal forces, why don't they simply break away? The answer is that Earth's own
+gravity stops that from happening. It is held together by its own gravity. Of course, if the tidal acceleration was greater than
+the gravitational force the body exerts upon itself, the body would disintegrate. In fact, there is a specific distance at which this
+happens, which depends on the various parameters of the primary body which causes the tidal acceleration, and the secondary body
+held together by its own gravity (think the Sun and Earth for examples).
+
+The Roche limit or Roche radius is the distance from a massive primary body within which a second body held together only by its own gravity,
+will disintegrate due to tidal forces. The Roche limit typically applies to a satellite's disintegrating due to tidal forces induced by its primary, the body around which it orbits.
+
+Let $R_M$, $\rho_M$ and $M_M$ be the radius, density and mass of the primary (larger) body and $R_m$, $\rho_m$ and $M_m$ be the radius, density and mass of the satellite.
+The satellite is at a distance $d$ from the primary. For the satellite to be held together by its own gravity, the tidal force must be less than the gravitational force acting on the
+satellite. We get the Roche limit when these two interactions are equal.
+
+$$ 2 \frac{GM_M R_m m'}{d^3} = \frac{GM_m m'}{R_m^2} $$
+
+where $m'$ is a mass closest to the primary body, on the satellite's surface. This gives
+
+$$\tag{3.5.6} \boxed{ d = R_m \left( \frac{2M_M}{M_m} \right)^{1/3} = R_M \left( \frac{2 \rho_M}{\rho_m} \right)^{1/3}} $$
+
+If we decrease the distance further, the tidal forces overpower the forces that hold together the body. We in particular care about
+the force at $m'$ being overpowered because it is the point closest to the primary.
+
+The above expression is for a rigid satellite. For a fluid satellite,
+$$ d \approx 2.44\, R_M \left( \frac{\rho_M}{\rho_m} \right)^{1/3} $$
+
+{{< tabs >}}
+{{< tab name="P1" >}}
+Consider the satellite to be tidally locked to the primary body, such that the same side of the satellite always faces the primary. Find the Roche limit for such a satellite.
+{{< /tab >}}
+
+    {{< tab name="Solution" >}}
+    Here along with the tidal forces and the planet's gravitational force, we also have the centrifugal force acting on the satellite. For the mass $m'$ on the surface of the satellite to remain in equilibrium, we must have
+
+    $$ 2 \frac{GM_M R_m m'}{d^3} + m' \omega^2 R_m = \frac{GM_m m'}{R_m^2} $$
+
+    where $\omega$ is the angular velocity of the satellite. The angular velocity is given by
+
+    $$ \omega = \sqrt{ \frac{GM_M}{d^3} } $$
+
+    Substituting this into the equation, we get
+
+    $$ d = R_m \left( \frac{3 M_M}{M_m} \right)^{1/3} = R_M \left( \frac{3 \rho_M}{\rho_m} \right)^{1/3} $$
+    {{< /tab >}}
+{{< /tabs >}}
+
 ## Problems
 
 {{< tabs >}}
@@ -327,3 +463,4 @@ $$\tag{3.2.15} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
 
     {{< tab name="IOAA 2009 (Adapted)" >}}{{< /tab >}}
 {{< /tabs >}}
+
