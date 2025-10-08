@@ -18,9 +18,9 @@ css: /assets/css/custom.css
   </div>
 </div>
 
----
+<div class="ao-transition-zone"></div>
 
-<div style="margin-top: 15rem;"></div>
+<div style="margin-top: 8rem;"></div>
 
 <h2 class="ao-section-title">Why This Guide?</h2>
 
