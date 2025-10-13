@@ -104,7 +104,7 @@ $$
 
 From this we get that
 
-$$ M \propto R^\frac{n-1}{3n-1} $$
+$$ M \propto R^\frac{n-3}{n-1} $$
 
 The average density of the star is
 
