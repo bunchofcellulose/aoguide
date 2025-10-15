@@ -1,5 +1,6 @@
 ---
 title: Guide
+next: /guide/resources
 sidebar:
   open: true
 cascade:
@@ -7,6 +8,10 @@ cascade:
 ---
 
 Welcome to the AO Guide! To navigate the guide, use the sidebar on the left. You can also search for topics using the search bar at the top right. A table containing all useful constants is provided on the rightmost tab of the top bar.
+
+## Prerequisites
+
+The guide assumes that the reader has a basic understanding of high school level mathematics and physics. Familiarity with calculus and basic mechanics is required. We have tried to keep the guide mathematically rigorous, however, we have made sure all necessary concepts are explained in detail.
 
 ## How to start your journey
 
@@ -25,11 +30,14 @@ The index page of each unit lists several resources to read from in the Recommen
 The guide goes over pretty much all of the theoretical concepts needed for astronomy olympiads. However, theory is not the only thing asked in olympiads. The IOAA typically has three exams: a theory exam, a data analysis exam, and a practical exam. The guide primarily focuses on the theory part, but it is important to know that the other two parts are equally important. To prepare for the data analysis and practical exams, it is recommended to solve past papers and practice with real data. The resources section at the end of this page contains links to past papers and other useful resources. There are plans to include a section on data analysis and observational astronomy in the future, but to give you a heads up on what they're about:
 
 - **Data Analysis** requires you to read and draw graphs, speedrun your calculator, and interpret data. You will be given a set of data, and you will have to answer questions based on that data. The data can be in the form of tables, graphs, or images. Be prepared to do a lot of calculations, and draw a lot of graphs. A good understanding of statistics is also required.
-- **Practical Skills** can too be broken down into three parts: Telescope handing, Naked eye observation and sky maps. For each of these, be prepared to remember all 88 constellations, all the Messier objects, all the bright stars (with their names, and maybe RA/Dec and magnitudes of a few too), and a good amount of star hopping skills.
+- **Observational Skills** can too be broken down into three parts: Telescope handing, Naked eye observation and sky maps. For each of these, be prepared to remember all 88 constellations, all the Messier objects, all the bright stars (with their names, and maybe RA/Dec and magnitudes of a few too), and a good amount of star hopping skills.
 
   - **Telescope handling** requires you to know how to set up and use a telescope. You will be given a telescope, and you will have to set it up and use it to point at and observe celestial objects. You will also be required to know how to align the telescope, and how to use the different parts of the telescope.
   - **Naked eye observation** requires you to know how to identify celestial objects using just your eyes. You will typically be given a list of celestial objects, and you will have to identify them in the night sky. A good amount of familiarity with the night sky is required.
   - **Sky maps** require you to know how to read and interpret sky maps. You will be given a sky map, and you will have to answer questions based on that sky map. This could be to identify constellations, mark deep sky objects, find missing stars, etc. Be prepared to practice a lot of star maps.
+
+  A really awesome resource for practical skills is the [Handouts for observational astronomy](
+  https://drive.google.com/file/d/1GDPwgeQk6_nbJR7JFHPchNQPbi-NUwAh/view?usp=sharing), written by Ayush Tiwari, an IOAA 2025 participant from Nepal. It covers everything you need to know about observation, from start to finish.
 
 ## How the Guide is structured
 
@@ -80,29 +88,6 @@ Many chapters contain in-text problems, as well as problems at the end of the ch
     Ask for ideas on our discord server!
     {{< /tab >}}
 {{< /tabs >}}
-
-## Prerequisites
-
-The guide assumes that the reader has a basic understanding of high school level mathematics and physics. Familiarity with calculus and basic mechanics is required. We have tried to keep the guide mathematically rigorous, however, we have made sure all necessary concepts are explained in detail.
-
-## Resources
-
-Most of the sources and references used in writing the guide have been mentioned in the About page. Here are some additional resources that you may find useful:
-
-- Sean Ken M. Galanza's amazing [astronomy handouts](https://drive.google.com/drive/folders/1i7HR025iR4HO7PHhx7RmDCRa5aRi14hX?usp=sharing)
-- [Astronomy Olympiad Archives](https://mega.nz/folder/3ZBWDbTL#U8-utZdSD-6URDjXS1t9Ag) by Stefan Ivanov
-- [Astroarena](https://astroarena.github.io/astroarena/index.html) - Contains all pre 2020 IOAA papers
-- [Official IOAA Website](https://ioaastrophysics.org)
-- [Celestial Sphere](https://bunchofcellulose.github.io/celestialsphere/) - A webapp to play with spherical diagrams
-- Kevin Zhou's [Physics Olympiad Handouts](https://knzhou.github.io), mainly M6 and X3
-- [USAAAO Guide](https://www.usaaao.guide/handouts) - Handouts for USAAAO and IOAA preparation
-- This [Drive](https://drive.google.com/drive/folders/1gZDmKb3n2vXHpVZMwFaUJ1ukUccCfYKD?usp=sharing) contains all the sources used, and more. Many national and international olympiad papers too are available here.
-- [Blogs](https://physolympacademy.com/blog/) by Armin Hodaei
-- [OAC](https://onlineastro.org) - the Online Astronomy Competition
-- [Handouts for observational astronomy](https://github.com/Rajit13/Star-Maps-101-and-Practices) by Fahim Rajit Hossain
-- Astronomy Olympiad Discord Server ([AODS](https://discord.gg/cuVC54FksD)) - a community of astronomy enthusiasts and olympiad participants. Great place to ask questions, share resources, and connect with others who share your interest in astronomy.
-
-If you have any other resources that you think would be useful, feel free to share them in the resources channel on our Discord server.
 
 ## Contributing to the Guide
 

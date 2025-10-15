@@ -18,8 +18,13 @@ menu:
       weight: 5
       params:
         type: search
-    - name: GitHub
+    - name: Discord
       weight: 6
+      url: "https://discord.gg/bV8bxvTmzU"
+      params:
+        icon: discord
+    - name: GitHub
+      weight: 7
       url: "https://github.com/bunchofcellulose/aoguide"
       params:
         icon: github

@@ -114,7 +114,7 @@ Let the instant at which the body was at periapsis be $\tau$. We define the mean
 $$\tag{3.2.6} M = n (t - \tau) $$
 
 {{< callout type="image" >}}
-{{< svg "celmech/Mean_anomaly_diagram.svg" "Mean and True Anomaly" "Mean and True Anomaly" >}}
+{{< svg "celmech/anomaly.svg" "Mean and True Anomaly" "Mean, Eccentric and True Anomaly" >}}
 {{< /callout >}}
 
 As it turns out, our equations become much neater if we ignore the true anamoly, and insteard work with the *eccentric anomaly*.
