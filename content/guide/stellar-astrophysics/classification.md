@@ -65,7 +65,7 @@ The spectra of some stars differ from what one would expect on the basis of thei
 - In the S stars, the normal lines of titanium, scandium and vanadium oxide are replaced with oxides of heavier elements, zirconium, yttrium and barium. A large fraction of the S stars are irregular variables. The name of the C stars refers to carbon. The metal oxide lines are almost completely absent in their spectra; instead, various carbon compounds ($\small{\ce{CN}}$, $\small{\ce{C2}}$, $\small{\ce{CH}}$) are strong. The abundance of carbon relative to oxygen is 4–5 times greater in the C stars than in normal stars. The C stars are divided into two groups, hotter R stars and cooler N stars.
 - Another type of giant stars with abundance anomalies are the barium stars. The lines of barium, strontium, rare earths and some carbon compounds are strong in their spectra. Apparently nuclear reaction products have been mixed up to the surface in these stars.
 
-## Hertzsprung-Russel Diagram
+## Hertzsprung-Russell Diagram
 
 The Hertzsprung–Russell diagram or HR diagram is a scatter plot of stars showing the relationship between the stars' absolute magnitudes or luminosities and their stellar classifications or effective temperatures.
 
