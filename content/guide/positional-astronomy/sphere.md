@@ -71,6 +71,16 @@ $$
 \end{align*}
 $$
 
+These can be proven easily. Suppose $A'B'$ intersect great circle $BC$ at a point $D$, and $A'C'$ intersect great circle BC at point a $E$. We get
+
+$$A' + a = DE + BC = DC + BE = \pi / 2 + \pi / 2 = \pi$$
+
+So, $A' = \pi - a$. The other relations can be proved similarly. Note:
+
+1. $A' = DE$ because $A'$ is the pole of great circle $DE$
+2. $DC = \pi /2$ because $C$ is the pole of great circle $A'D$ (polar triangle of a polar triangle is the original triangle.)
+3. $BE = \pi / 2$ because $B$ is the pole of great circle $A'E$ (polar triangle of a polar triangle is the original triangle.)
+
 Therefore, if any identity is proved for the triangle $ABC$, then we can immediately derive a second identity by applying the first identity to the polar triangle by making the above substitutions. Similarly, the identities for a quadrantal triangle (one where a side is $90^\circ$) can be derived from those for a right-angled triangle (one where an angle is $90^\circ$). Thus, we get two additional identities:
 
 - The Law of Cosines for angles:
@@ -211,7 +221,7 @@ The horizon is the great circle defined by the cardinal points $NWSEN$. The cele
 {{< tabs >}}
     {{< tab name="P2" >}}
 
-    Find the distance along the great circle between two points on the Earth, having coordinates $(\phi, \lambda_1)$ and $(\phi, \lambda_2)$.
+    Find the distance along the great circle between two points on the Earth, having coordinates $(\phi_1, \lambda_1)$ and $(\phi_2, \lambda_2)$.
 
     {{< /tab >}}
 
