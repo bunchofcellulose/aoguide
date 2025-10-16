@@ -17,7 +17,13 @@ The impact parameter $\xi$ is the shortest separation between the center of the 
 
 $$\tag{5.5.1} \phi = \frac{4GM}{c^2} \frac{1}{\xi}$$
 
-where $M$ is the mass of the lens. From the diagram, we have that $\xi = \theta D_L$, and
+where $M$ is the mass of the lens.
+
+{{< callout type="image" >}}
+{{< svg "gal/lensing.svg" "Gravitational Lensing" "Gravitational lensing by a massive object" >}}
+{{< /callout >}}
+
+From the diagram, we have that $\xi = \theta D_L$, and
 
 $$ \beta D_S = \theta D_S - \phi (D_S - D_L) $$
 

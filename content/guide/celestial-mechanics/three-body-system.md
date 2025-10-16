@@ -3,21 +3,14 @@ title: Three Body Systems
 weight: 5
 ---
 
-We now move on to the three body problem. Given the state of the system initially (i.e the positions 
-and velocities of three point masses) orbiting each other in space, we wish to calculate the subsequent
-trajectory using newton's laws of motion and gravitation. As it turns out, this is a much harder
-task than the two body problems, and a closed form solution doesn't really exist.
-
+We now move on to the three body problem. Given the state of the system initially (i.e the positions and velocities of three point masses) orbiting each other in space, we wish to calculate the subsequent trajectory using newton's laws of motion and gravitation. As it turns out, this is a much harder task than the two body problems, and a closed form solution doesn't really exist.
 
 When three bodies orbit each other, the resulting dynamical system is chaotic for most initial conditions. 
-Because there are no solvable equations for most three-body systems, the only way to predict
-the motions of the bodies is to estimate them using numerical methods.
+Because there are no solvable equations for most three-body systems, the only way to predict the motions of the bodies is to estimate them using numerical methods.
 
-However, there is still some analysis we can do. In particular, there are a class of problems called the *restricted three body problems*, which are much easier to analyze 
-theoretically. Two massive bodies, called primaries, orbit each other in a circular orbit, and a third body of negligible mass moves under 
-the influence of the two massive bodies. The third body does not affect the motion of the two massive bodies. 
+However, there is still some analysis we can do. In particular, there are a class of problems called the *restricted three body problems*, which are much easier to analyze theoretically. Two massive bodies, called primaries, orbit each other in a circular orbit, and a third body of negligible mass moves under the influence of the two massive bodies. The third body does not affect the motion of the two massive bodies.
 
-Anyway, there do exist some special configurations, for which solutions to the three body problem are known:
+Anyway, there do exist some special configurations, for which solutions to the three body problem are known. Two of them are:
 
 - **Lagrange points**: This is a solution to the restricted three body problem. Five points exist in the orbital plane of two massive bodies, where a third body can be placed and remain in a stable position relative to the two massive bodies. The Lagrange points are denoted $L_1$, $L_2$, $L_3$, $L_4$, and $L_5$. The $L_4$ and $L_5$ points are stable, while the others are unstable.
 - **8 shaped orbit**: This is a solution to the full three body problem. Three bodies of equal masses can orbit each other in a figure-eight pattern. This solution is known as the Chenciner–Montgomery orbit. The total angular momentum of such a system is zero, and the three bodies lie in a plane.
@@ -26,33 +19,28 @@ Anyway, there do exist some special configurations, for which solutions to the t
 
 One very important theorem, that has is useful even beyond astrophysics is the virial theorem.
 Suppose we have a system of $n$ point masses $m_i$ with position vectors $\mathbf{r}_i$ and
-velocities $\mathbf{v}_i$, where the only force of consideration is gravity. 
+velocities $\mathbf{v}_i$, where the only force of consideration is gravity.
 
 For the theorem to hold, we make two assumptions about our system:
+
 1. The time averages of the total kinetic energy and the total potential energy are well-defined.
 2. The velocities and positions of all particles are bounded (they don't shoot off to infinity).
 
 The time average of $\xi$ over some time interval $[0, \tau]$, denoted as $\lang \xi \rang$, is:
-$$
-\lang \xi \rang = \frac{1}{\tau} \int_0^\tau \xi(t)\; dt
-$$
+
+$$\lang \xi \rang = \frac{1}{\tau} \int_0^\tau \xi(t)\; dt$$
+
 It is worth thinking about this definition for a moment.
 
-
 The virial theorem then states that over a large time period, we have:
+
 $$\tag{3.5.1} \boxed{2 \, \lang K \rang + \lang U \rang = 0 }$$
+
 where $K$ and $U$ are the kinetic and (gravitational) potential energies of the system, respectively.
 
-The theorem is quite magical in nature, you get a relation between kinetic and potential energies out
-of nowhere! Just for a sanity check, noting that the assumptions work for the case of a closed two body system
-(for example, one with a circular orbit), let's try to check if this result holds true.
+The theorem is quite magical in nature, you get a relation between kinetic and potential energies out of nowhere! Just for a sanity check, noting that the assumptions work for the case of a closed two body system (for example, one with a circular orbit), let's try to check if this result holds true.
 
-Consider the case of a light particle of mass $m$ orbiting a heavy one $M$ in a circular orbit (in particular, the velocity
-of the heavy particle is near zero and thus is its kinetic energy, because $M \gg m$). The potential energy is simply
-$-GmM/r$ where $r$ is the radius of the orbit. For the kinetic energy, note that the 
-gravitational force acting on the smaller mass is the centripetal force, so that
-${mv^2}/{r} = GmM/r^2 \implies v^2 = GM/r$, so that $K  = GMm/2r$, thus $2 \, \lang K \rang + \lang U \rang = 0$ as 
-expected!
+Consider the case of a light particle of mass $m$ orbiting a heavy one $M$ in a circular orbit (in particular, the velocity of the heavy particle is near zero and thus is its kinetic energy, because $M \gg m$). The potential energy is simply $-GmM/r$ where $r$ is the radius of the orbit. For the kinetic energy, note that the  gravitational force acting on the smaller mass is the centripetal force, so that ${mv^2}/{r} = GmM/r^2 \implies v^2 = GM/r$, so that $K  = GMm/2r$, thus $2 \, \lang K \rang + \lang U \rang = 0$ as expected!
 
 Now let's prove the theorem. We define the virial of the system, $A$ as:
 
@@ -63,30 +51,18 @@ where $K$ is the total kinetic energy of the system, and $F_i$ is the force on t
 
 $$ \lang \dot{A} \rang = \frac{1}{\tau} \int_0^\tau \dot{A} dt = \frac{A(\tau) - A(0)}{\tau} = 2\, \lang K \rang + \lang \sum_{i=1}^n \mathbf{F}_i \cdot \mathbf{r}_i\rang  $$
 
-By our first assumption, the time averages of the kinetic and potential energy are well defined so the equality holds. By our
-second assumption, $A$ remains finite, so as $\tau \rightarrow \infty$, $\{A(\tau) - A(0)\}/{\tau} \rightarrow 0$. For 
-gravitational forces, $\sum_{i=1}^n \mathbf{F}_i \cdot \mathbf{r}_i = U$, hence we get that
-$2 \lang K \rang + \lang U \rang = 0 $. 
+By our first assumption, the time averages of the kinetic and potential energy are well defined so the equality holds. By our second assumption, $A$ remains finite, so as $\tau \rightarrow \infty$, $\{A(\tau) - A(0)\}/{\tau} \rightarrow 0$. For  gravitational forces, $\sum_{i=1}^n \mathbf{F}_i \cdot \mathbf{r}_i = U$, hence we get that
+$2 \lang K \rang + \lang U \rang = 0 $.
 
-Although the theorem is only true for bounded systems, it is often the case that in astrophysics 
-our system is not bounded. For example, a galaxy will occasionally fling stars into 
-the vastness of space, making their position unbounded as a function of time. 
-This process of "boiling off" is very important in the long run. But it's very slow, 
-so the conditions of the virial theorem seem to be "approximately true" in the short run. 
+Although the theorem is only true for bounded systems, it is often the case that in astrophysics  our system is not bounded. For example, a galaxy will occasionally fling stars into the vastness of space, making their position unbounded as a function of time. This process of "boiling off" is very important in the long run. But it's very slow, so the conditions of the virial theorem seem to be "approximately true" in the short run.
 
-Most people go ahead and use it without worrying about this subtlety. 
-To justify this, we should modify the above argument by averaging not over an infinite time, 
-but a finite time. This time should be long compared to the time it takes stars to go around the galaxy, 
-while still short compared to the time it takes for them to boil off. Then we'll approximately get
-$2 \, \lang K \rang + \lang U \rang = 0$.
+Most people go ahead and use it without worrying about this subtlety. To justify this, we should modify the above argument by averaging not over an infinite time, but a finite time. This time should be long compared to the time it takes stars to go around the galaxy, while still short compared to the time it takes for them to boil off. Then we'll approximately get $2 \, \lang K \rang + \lang U \rang = 0$.
 
-
-{{< callout type="why" >}}
+{{< callout type="math" >}}
 {{% details title="General Virial Theorem" closed="true" %}}
 
 You can extend the theorem to systems with potential energy $U$ of the form $\alpha r^n$, where $r$ is
-the distance between two bodies. This is of course, the potential energy of a central force, 
-$\mathbf{F} = n\alpha r^{n-1} \mathbf{\hat{r}}$. We also swept the calculation of $\sum_{i=1}^n \mathbf{F}_i \cdot \mathbf{r}_i = U$
+the distance between two bodies. This is of course, the potential energy of a central force, $\mathbf{F} = n\alpha r^{n-1} \mathbf{\hat{r}}$. We also swept the calculation of $\sum_{i=1}^n \mathbf{F}_i \cdot \mathbf{r}_i = U$
 under the rug, which we'll deal with in general now.
 
 We assume there are no external forces on the system. Then, the force on a single particle $\mathbf{F}_k$ 
