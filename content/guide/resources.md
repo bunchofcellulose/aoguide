@@ -19,8 +19,8 @@ Most of the textbooks used in writing the guide have been mentioned in the About
 
 ### Observation
 
-- [Handouts for observational astronomy](https://drive.google.com/file/d/1GDPwgeQk6_nbJR7JFHPchNQPbi-NUwAh/view?usp=sharing) by Ayush Tiwari
-- [Handouts for observational astronomy](https://github.com/Rajit13/Star-Maps-101-and-Practices) by Fahim Rajit Hossain
+- [A Practical Handout for Olympiad](https://drive.google.com/drive/u/6/folders/158MAxU6U2O_d_oUsVKrWfBywN4i5arN1) by Ayush Tiwari
+- [Star Maps 101 and Practices](https://github.com/Rajit13/Star-Maps-101-and-Practices) by Fahim Rajit Hossain
 - [Learn the Sky](https://www.youtube.com/@learnthesky) - A YouTube channel with videos on finding constellations, planets and navigating the sky.
 - [Sky Academy](https://play.google.com/store/apps/details?id=digital.dong.skyacademy&hl=en_IN) - An android app which you can use to learn constellations, stars and messier objects.
 - Stellarium [Mobile App](https://play.google.com/store/apps/details?id=com.noctuasoftware.stellarium_free&hl=en_IN) and [Desktop App](https://stellarium.org/) - A planetarium software that shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope.

@@ -56,6 +56,49 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
 <div class="about-section">
 <div class="section-content">
 
+<div class="section-title">References & Sources</div>
+
+AO Guide is built upon the foundational work of many excellent textbooks, research papers, and educational resources. These books were not written with IOAA in mind, but they're wonderful in general!
+
+### Primary Textbooks
+<div class="simple-list">
+<ul>
+<li><strong>“Astronomy: Principles and Practice”</strong> by A. E. Roy and D. Clarke</li>
+<li><strong>"Fundamental Astronomy"</strong> by Hannu Karttunen et al.</li>
+<li><strong>"Fundamentals of Astronomy"</strong> by Flavio Salvati</li>
+<li><strong>"Introduction to Cosmology"</strong> by Barbara Ryden</li>
+<li><strong>"Foundations of Astrophysics"</strong> by Barbara Ryden</li>
+<li><strong>"An Introduction to Modern Astrophysics"</strong> by Bradley W. Carroll and Dale A. Ostlie</li>
+</ul>
+</div>
+
+### Data Sources
+<div class="simple-list">
+<ul>
+<li><strong>International Astronomical Union (IAU)</strong> - Official constants and definitions</li>
+<li><strong>Wikipedia</strong></li>
+<li><strong>CODATA</strong> - Fundamental physical constants</li>
+</ul>
+</div>
+
+### Problem Sources
+<div class="simple-list">
+<ul>
+<li><strong>Previous IOAA Problems</strong> (2007-2024) - Official competition problems and solutions</li>
+<li><strong>National Astronomy Olympiads</strong> - Problems from various countries' national competitions</li>
+<li><strong>Physics Competitions</strong> - Adapted problems from IPhO, national physics olympiads, and physics contests</li>
+<li><strong>Other Astronomy Competitions</strong> - Problems from regional astronomy contests and university-level competitions</li>
+<li><strong>Original Problems</strong> - Custom problems designed specifically for IOAA preparation by us</li>
+<li><strong>Research Literature</strong> - Adapted problems from peer-reviewed journals</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div class="about-section">
+<div class="section-content">
+
 <div class="section-title">The People Behind This</div>
 
 <div class="author-card">
@@ -100,49 +143,6 @@ Check out the [GitHub repository](https://github.com/bunchofcellulose/aoguide) t
 <div class="about-section">
 <div class="section-content">
 
-<div class="section-title">References & Sources</div>
-
-AO Guide is built upon the foundational work of many excellent textbooks, research papers, and educational resources. These books were not written with IOAA in mind, but they're wonderful in general!
-
-### Primary Textbooks
-<div class="simple-list">
-<ul>
-<li><strong>“Astronomy: Principles and Practice”</strong> by A. E. Roy and D. Clarke</li>
-<li><strong>"Fundamental Astronomy"</strong> by Hannu Karttunen et al.</li>
-<li><strong>"Fundamentals of Astronomy"</strong> by Flavio Salvati</li>
-<li><strong>"Introduction to Cosmology"</strong> by Barbara Ryden</li>
-<li><strong>"Foundations of Astrophysics"</strong> by Barbara Ryden</li>
-<li><strong>"An Introduction to Modern Astrophysics"</strong> by Bradley W. Carroll and Dale A. Ostlie</li>
-</ul>
-</div>
-
-### Data Sources
-<div class="simple-list">
-<ul>
-<li><strong>International Astronomical Union (IAU)</strong> - Official constants and definitions</li>
-<li><strong>Wikipedia</strong></li>
-<li><strong>CODATA</strong> - Fundamental physical constants</li>
-</ul>
-</div>
-
-### Problem Sources
-<div class="simple-list">
-<ul>
-<li><strong>Previous IOAA Problems</strong> (2007-2024) - Official competition problems and solutions</li>
-<li><strong>National Astronomy Olympiads</strong> - Problems from various countries' national competitions</li>
-<li><strong>Physics Competitions</strong> - Adapted problems from IPhO, national physics olympiads, and physics contests</li>
-<li><strong>Other Astronomy Competitions</strong> - Problems from regional astronomy contests and university-level competitions</li>
-<li><strong>Original Problems</strong> - Custom problems designed specifically for IOAA preparation by us</li>
-<li><strong>Research Literature</strong> - Adapted problems from peer-reviewed journals</li>
-</ul>
-</div>
-
-</div>
-</div>
-
-<div class="about-section">
-<div class="section-content">
-
 <div class="section-title">Thanks to Everyone Who Made This Possible!</div>
 
 There were a lot of people and institutions that helped create this. Its not possible to credit all of them, and we're sorry if we missed you, we do really appreciate your contribution. Huge thanks to:
@@ -156,13 +156,18 @@ There were a lot of people and institutions that helped create this. Its not pos
 1. **Hugo** – For making our website fast and beautiful
 2. **Hextra Theme** – For the gorgeous design foundation that makes everything look professional
 3. **KaTeX** – For making our math equations look crisp and readable
-4. **GitHub** – For hosting everything and making collaboration so easy
+4. **GitHub** – For making collaboration so easy
+5. **Vercel** – For reliable, fast, and hassle-free website hosting
+6. **Name.com** – For domain registration and DNS management
 
 ### Our Amazing Community
 1. **IOAA alumni and participants** – For sharing problems, giving feedback, and helping us improve constantly
 2. **Astronomy teachers and mentors** – For reviewing our content and making sure we're not leading anyone astray
 3. **Open source contributors** – For helping with code, bug fixes, and feature improvements
 4. **Early users and beta testers** – For putting up with our mistakes and helping us make this actually useful
+
+### Special Thanks
+1. **Madhav Gupta** – For invaluable help with mobile compatibility, CSS improvements, and hosting the website
 
 </div>
 </div>

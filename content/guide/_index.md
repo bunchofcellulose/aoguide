@@ -36,8 +36,7 @@ The guide goes over pretty much all of the theoretical concepts needed for astro
   - **Naked eye observation** requires you to know how to identify celestial objects using just your eyes. You will typically be given a list of celestial objects, and you will have to identify them in the night sky. A good amount of familiarity with the night sky is required.
   - **Sky maps** require you to know how to read and interpret sky maps. You will be given a sky map, and you will have to answer questions based on that sky map. This could be to identify constellations, mark deep sky objects, find missing stars, etc. Be prepared to practice a lot of star maps.
 
-  A really awesome resource for practical skills is the [Handouts for observational astronomy](
-  https://drive.google.com/file/d/1GDPwgeQk6_nbJR7JFHPchNQPbi-NUwAh/view?usp=sharing), written by Ayush Tiwari, an IOAA 2025 participant from Nepal. It covers everything you need to know about observation, from start to finish.
+  A really awesome resource for observation skills is [A Practical Handout for Olympiad](https://drive.google.com/drive/u/6/folders/158MAxU6U2O_d_oUsVKrWfBywN4i5arN1), written by Ayush Tiwari, an IOAA 2025 participant from Nepal. It covers everything you need to know about observation, from start to finish.
 
 ## How the Guide is structured
 
