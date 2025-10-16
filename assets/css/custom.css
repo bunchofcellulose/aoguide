@@ -50,6 +50,12 @@
     height: 10px;
 }
 
+/* Prevent horizontal overflow - but allow sticky positioning */
+html {
+    overflow-x: clip;
+    max-width: 100vw;
+}
+
 /* Make bold text really bold */
 .content strong, 
 .content b {
@@ -122,6 +128,38 @@ details :not(.math) {
     font-weight: 400 !important;
     font-family: 'Futura', 'Arial', sans-serif;
 }
+
+/* ========================================
+   KaTeX/Math Overflow Fixes for Mobile
+   ======================================== */
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+    /* Only apply horizontal overflow to display math blocks on mobile */
+    .katex-display {
+        max-width: 100% !important;
+        overflow-x: auto !important;
+        overflow-y: clip !important;
+        -webkit-overflow-scrolling: touch;
+        font-size: 0.95em !important;
+    }
+    
+    .katex {
+        font-size: 0.9em !important;
+        overflow: visible !important;
+    }
+}
+
+/* Tablets and smaller devices */
+@media (max-width: 1024px) {
+    .katex-display {
+        overflow-x: auto !important;
+        overflow-y: clip !important;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+
 
 /* Problem tab button (first tab) */
 .hextra-tabs-toggle:nth-child(1) {
@@ -424,9 +462,9 @@ details :not(.math) {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 500px;
-  min-width: 580px;
-  max-width: 500px;
+  width: 100%;
+  min-width: 280px;
+  max-width: 100%;
   min-height: 400px;
   box-sizing: border-box;
   background: #fff;
@@ -668,7 +706,7 @@ details :not(.math) {
   content: '';
   position: absolute;
   top: -10vh;
-  left: 49%;
+  left: 50%;
   transform: translateX(-50%);
   width: 100vw;
   height: calc(100% + 60vh);
