@@ -1,42 +1,42 @@
 @font-face {
     font-family: 'Futura';
-    src: url('/aoguide/assets/fonts/futura/Futura Book font.ttf') format('truetype');
+    src: url('/assets/fonts/futura/Futura Book font.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Futura-Bold';
-    src: url('/aoguide/assets/fonts/futura/futura medium bt.ttf') format('truetype');
+    src: url('/assets/fonts/futura/futura medium bt.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/aoguide/assets/fonts/Roboto/Roboto-ExtraBold.ttf') format('truetype');
+    src: url('/assets/fonts/Roboto/Roboto-ExtraBold.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Courier-Prime';
-    src: url('/aoguide/assets/fonts/courier-prime/Courier Prime Bold.ttf') format('truetype');
+    src: url('/assets/fonts/courier-prime/Courier Prime Bold.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Riesling';
-    src: url('/aoguide/assets/fonts/riesling.ttf') format('truetype');
+    src: url('/assets/fonts/riesling.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Dune Rise';
-    src: url('/aoguide/assets/fonts/dune_rise/Dune_Rise.ttf') format('truetype');
+    src: url('/assets/fonts/dune_rise/Dune_Rise.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Baskerville';
-    src: url('/aoguide/assets/fonts/Baskerville/Baskerville-Italic.ttf') format('truetype');
+    src: url('/assets/fonts/Baskerville/Baskerville-Italic.ttf') format('truetype');
     font-display: swap;
 }
 
@@ -672,7 +672,7 @@ details :not(.math) {
   transform: translateX(-50%);
   width: 100vw;
   height: calc(100% + 60vh);
-  background-image: url('/aoguide/assets/images/start/bg.png');
+  background-image: url('/assets/images/start/bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -43,7 +43,7 @@ It is expected to continue burning hydrogen in its core for another $5$ billion 
 The Sun is a Population I star, meaning it has a relatively high metallicity compared to older stars. 
 It is located in the Orion Arm of the Milky Way galaxy, about 26,000 light-years from the galactic center.
 
-The Sun has an absolute magnitude of $+4.83$ and an apparent magnitude of about $-26.74$ (recall [magnitude systems!](https://bunchofcellulose.github.io/aoguide/guide/photometry/magnitude/))
+The Sun has an absolute magnitude of $+4.83$ and an apparent magnitude of about $-26.74$ (recall [magnitude systems!](https://bunchofcellulose.github.io/guide/photometry/magnitude/))
 making it the brightest object in the Earth's sky. 
 Its surface temperature is approximately $5,778$ K, and it emits light primarily in the visible spectrum, with significant amounts of ultraviolet and infrared radiation.
 

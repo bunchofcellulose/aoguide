@@ -12,8 +12,8 @@ css: /assets/css/custom.css
     </h1>
     <div style="margin-top: 12rem;"></div>
     <div class="ao-buttons">
-      <a href="/aoguide/guide" class="ao-btn-primary" style="font-size:1.13rem;">Start Learning</a>
-      <a href="/aoguide/about" class="ao-btn-secondary" style="font-size:1.13rem;">About the Guide</a>
+      <a href="/guide" class="ao-btn-primary" style="font-size:1.13rem;">Start Learning</a>
+      <a href="/about" class="ao-btn-secondary" style="font-size:1.13rem;">About the Guide</a>
     </div>
   </div>
 </div>
@@ -62,7 +62,7 @@ css: /assets/css/custom.css
 <h2 class="ao-section-title">Master Every Domain</h2>
 
 <div class="ao-topics">
-  <a class="ao-topic" href="/aoguide/guide/positional-astronomy" style="background-image:url('./assets/images/start/celestial-sphere.png');">
+  <a class="ao-topic" href="/guide/positional-astronomy" style="background-image:url('./assets/images/start/celestial-sphere.png');">
     <div>
       <div class="ao-topic-header">
         Positional Astronomy
@@ -70,7 +70,7 @@ css: /assets/css/custom.css
       <p>Master celestial coordinate systems, timekeeping, and the art of mapping the sky—essential for precise astronomical observation and navigation.</p>
     </div>
   </a>
-  <a class="ao-topic" href="/aoguide/guide/photometry" style="background-image:url('./assets/images/start/star.png');">
+  <a class="ao-topic" href="/guide/photometry" style="background-image:url('./assets/images/start/star.png');">
     <div>
       <div class="ao-topic-header">
         Photometry
@@ -78,7 +78,7 @@ css: /assets/css/custom.css
       <p>Explore the measurement of light from celestial objects, magnitude systems, filters, and the techniques that reveal the universe's brightness and color.</p>
     </div>
   </a>
-  <a class="ao-topic" href="/aoguide/guide/celestial-mechanics" style="background-image:url('./assets/images/start/precession.png');">
+  <a class="ao-topic" href="/guide/celestial-mechanics" style="background-image:url('./assets/images/start/precession.png');">
     <div>
       <div class="ao-topic-header">
         Celestial Mechanics
@@ -86,7 +86,7 @@ css: /assets/css/custom.css
       <p>Understand the gravitational dynamics of planets, moons, and artificial satellites. Analyze orbits, perturbations, and the mathematics of celestial motion.</p>
     </div>
   </a>
-  <a class="ao-topic" href="/aoguide/guide/stellar-astrophysics" style="background-image:url('./assets/images/start/sun.png');">
+  <a class="ao-topic" href="/guide/stellar-astrophysics" style="background-image:url('./assets/images/start/sun.png');">
     <div>
       <div class="ao-topic-header">
         Stellar Astrophysics
@@ -94,7 +94,7 @@ css: /assets/css/custom.css
       <p>Delve into the structure, evolution, and end states of stars. From nuclear fusion to supernovae, uncover the physics powering the cosmos' luminous engines.</p>
     </div>
   </a>
-  <a class="ao-topic" href="/aoguide/guide/galactic-extragalactic-astrophysics/" style="background-image:url('./assets/images/start/galaxy.png');">
+  <a class="ao-topic" href="/guide/galactic-extragalactic-astrophysics/" style="background-image:url('./assets/images/start/galaxy.png');">
     <div>
       <div class="ao-topic-header">
         Galactic & Extragalactic Astrophysics
@@ -102,7 +102,7 @@ css: /assets/css/custom.css
       <p>Investigate the structure, dynamics, and evolution of galaxies and clusters. Explore dark matter, AGN, and the vast landscape beyond the Milky Way.</p>
     </div>
   </a>
-  <a class="ao-topic" href="/aoguide/guide/galactic-extragalactic-astrophysics/" style="background-image:url('./assets/images/start/cosmology.png');">
+  <a class="ao-topic" href="/guide/galactic-extragalactic-astrophysics/" style="background-image:url('./assets/images/start/cosmology.png');">
     <div>
       <div class="ao-topic-header">
         Cosmology
@@ -110,7 +110,7 @@ css: /assets/css/custom.css
       <p>Trace the history and fate of the universe, from the Big Bang to cosmic acceleration. Grasp the large-scale structure and fundamental questions of cosmology.</p>
     </div>
   </a>
-  <!-- <a class="ao-topic" href="/aoguide/guide/data-analysis" style="background-image:url('./assets/images/start/lightcurve.png');">
+  <!-- <a class="ao-topic" href="/guide/data-analysis" style="background-image:url('./assets/images/start/lightcurve.png');">
     <div>
       <div class="ao-topic-header">
         Data Analysis
@@ -118,7 +118,7 @@ css: /assets/css/custom.css
       <p>Develop essential skills in analyzing astronomical data, interpreting results, and applying statistical methods to real-world problems.</p>
     </div>
   </a>
-  <a class="ao-topic" href="/aoguide/guide/observation" style="background-image:url('./assets/images/start/sky.png');">
+  <a class="ao-topic" href="/guide/observation" style="background-image:url('./assets/images/start/sky.png');">
     <div>
       <div class="ao-topic-header">
         Observation
