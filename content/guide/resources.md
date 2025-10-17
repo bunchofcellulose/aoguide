@@ -45,4 +45,5 @@ If you have any other resources that you think would be useful, feel free to sha
 {{< cards >}}
   {{< card link="/assets/advice/IND1.pdf" title="🇮🇳 India" subtitle="Akarsh Raj Sahay, IOAA 2023" icon="trending-up" >}}
   {{< card link="/assets/advice/NEP1.pdf" title="🇳🇵 Nepal" subtitle="Osish Niraula, IOAA 2024 & 2025" icon="support" >}}
+  {{< card link="/assets/advice/ROU1.pdf" title="🇷🇴 Romania" subtitle="Teodor Bichir, IOAA 2024 & 2025" icon="support" >}}
 {{< /cards >}}

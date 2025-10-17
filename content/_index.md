@@ -2,6 +2,8 @@
 toc: false
 layout: hextra-home
 css: /assets/css/custom.css
+sidebar:
+  exclude: true
 ---
 
 <div class="ao-hero">

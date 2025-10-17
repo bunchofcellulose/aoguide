@@ -126,6 +126,8 @@ AO Guide is built upon the foundational work of many excellent textbooks, resear
   </div>
 </div>
 
+A special thanks to <strong>Madhav Gupta</strong> for helping with mobile compatibility, CSS improvements, and hosting the website.
+
 <div class="subsection-title">Want to Help Out?</div>
 
 This project is way bigger than just the two of us, and we'd love your help! Whether you're a fellow student who's found a mistake, an educator with suggestions, or just someone who loves astronomy:
@@ -165,9 +167,6 @@ There were a lot of people and institutions that helped create this. Its not pos
 2. **Astronomy teachers and mentors** – For reviewing our content and making sure we're not leading anyone astray
 3. **Open source contributors** – For helping with code, bug fixes, and feature improvements
 4. **Early users and beta testers** – For putting up with our mistakes and helping us make this actually useful
-
-### Special Thanks
-1. **Madhav Gupta** – For invaluable help with mobile compatibility, CSS improvements, and hosting the website
 
 </div>
 </div>
