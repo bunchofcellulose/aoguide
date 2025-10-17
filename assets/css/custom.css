@@ -442,9 +442,9 @@ details :not(.math) {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 380px;
-  min-width: 380px;
-  max-width: 380px  ;
+  width: 100%;
+  min-width: 280px;
+  max-width: 100%;
   min-height: 200px;
   box-sizing: border-box;
   background: #fff;
