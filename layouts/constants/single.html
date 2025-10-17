@@ -24,24 +24,23 @@
   }
   
   .constants-container {
-    display: flex;
-    gap: 4rem;
+    display: block;
     width: 100%;
-    max-width: 95vw;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
   }
   
-  .constants-column {
-    flex: 1;
-    min-width: 45%;
-  }
-  
-  .constants-column h2 {
+  .constants-container h2 {
     font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
+    margin-top: 3rem;
     text-align: center;
+  }
+  
+  .constants-container h2:first-of-type {
+    margin-top: 0;
   }
   /* Dark mode support */
   @media (prefers-color-scheme: dark) {
@@ -53,11 +52,11 @@
       color: var(--text-secondary, #94a3b8);
     }
     
-    .constants-column h2 {
+    .constants-container h2 {
       color: var(--text-color, #f1f5f9);
     }
     
-    .constants-column .katex-display {
+    .constants-container .katex-display {
       border-bottom-color: #374151;
     }
   }
@@ -70,11 +69,11 @@
     color: var(--text-secondary, #94a3b8);
   }
   
-  .dark .constants-column h2 {
+  .dark .constants-container h2 {
     color: var(--text-color, #f1f5f9);
   }
   
-  .dark .constants-column .katex-display {
+  .dark .constants-container .katex-display {
     border-bottom-color: #374151;
   }
   
@@ -100,6 +99,10 @@
     
     .constants-subtitle {
       font-size: 1rem;
+    }
+    
+    .constants-container h2 {
+      font-size: 1.5rem;
     }
   }
 </style>
