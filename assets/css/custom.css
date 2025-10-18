@@ -297,6 +297,75 @@ details :not(.math) {
     color: #b0e2ff; /* Light Sky Blue */
 }
 
+.callout .svg-callout-container {
+  flex: 1 1 auto;
+}
+
+.svg-callout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.svg-callout-scroll {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-gutter: stable;
+  padding-bottom: 0.5rem;
+  touch-action: pan-x;
+}
+
+.svg-callout-scroll svg,
+.svg-callout-scroll img {
+  flex-shrink: 0;
+  width: auto;
+  height: auto;
+  max-width: none;
+  min-width: 560px;
+}
+
+@media (max-width: 640px) {
+  .svg-callout-scroll svg,
+  .svg-callout-scroll img {
+    min-width: 480px;
+  }
+}
+
+.svg-callout-caption {
+  font-style: italic;
+  text-align: center;
+}
+
+/* Additional wrapper for fine-grained control */
+.svg-inner {
+  display: inline-block; /* allow intrinsic sizing */
+  width: max-content;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.svg-callout-scroll {
+  contain: paint layout; /* helps with overscroll on mobile */
+}
+
+/* Limit very tall SVGs so they don't push content off-screen vertically */
+.svg-callout-scroll svg {
+  max-height: 70vh;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  .svg-callout-scroll svg {
+    max-height: 60vh;
+  }
+}
+
 /* Light Mode */
 .callout-trivia {
     border-color: #e879f9; /* Bright magenta */
