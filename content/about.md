@@ -126,7 +126,8 @@ AO Guide is built upon the foundational work of many excellent textbooks, resear
   </div>
 </div>
 
-A special thanks to <strong>Madhav Gupta</strong> for helping with mobile compatibility, CSS improvements, and hosting the website.
+A special thanks to <strong>Madhav Gupta</strong><a href="https://github.com/Madhav2609/" target="_blank"> (@Madhav2609)</a> for helping with mobile compatibility, CSS improvements, and hosting the website.
+
 
 <div class="subsection-title">Want to Help Out?</div>
 
