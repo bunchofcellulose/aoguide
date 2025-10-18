@@ -164,13 +164,13 @@ html {
 /* Base KaTeX styling for all screen sizes */
 .katex-display {
   text-align: center;
-  margin: var(--spacing-md) auto;
-  padding: var(--spacing-sm) 0;
-  overflow-x: auto;
+  margin: var(--spacing-sm) auto;
+  padding: var(--spacing-s) 0;
+  overflow-x: visible;
   overflow-y: visible;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
-  max-width: 100%;
+  max-width: 120%;
 }
 
 .katex-display > .katex {
@@ -191,6 +191,8 @@ html {
     font-size: 0.9em;
     justify-content: flex-start;
     padding: var(--spacing-xs) var(--spacing-sm);
+    overflow-x: auto;
+    max-width: 110%;
   }
   
   .katex-display > .katex {
@@ -203,6 +205,8 @@ html {
 @media (max-width: 1024px) {
   .katex-display {
     font-size: 0.95em;
+    overflow-x: auto;
+    max-width: 100%;
   }
 }
 
@@ -259,7 +263,7 @@ details :not(.math) {
 
 .hextra-tabs-toggle {
   margin-right: var(--spacing-xs);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
   transition: all var(--transition-fast);
 }
 
@@ -686,14 +690,14 @@ details :not(.math) {
 
 .ao-features {
   font-family: var(--font-primary);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--min-card-width), 1fr));
   gap: 2.5rem;
   margin: 2.5rem 0;
   align-items: stretch;
   position: relative;
   z-index: 1;
+  justify-items: center;
 }
 
 .ao-feature,
@@ -881,6 +885,26 @@ details :not(.math) {
 }
 
 /* ============================
+   Desktop Grid Optimizations
+   ============================ */
+
+@media (min-width: 1200px) {
+  .ao-features {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: var(--container-max-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .ao-topics {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: var(--container-max-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ============================
    Mobile Responsive Styles
    ============================ */
 
@@ -896,7 +920,8 @@ details :not(.math) {
   }
   
   .ao-gradient {
-    font-size: 8rem;
+    font-size: 4rem;
+    
   }
   
   .ao-visual {
@@ -912,19 +937,63 @@ details :not(.math) {
   .ao-section-title {
     font-size: var(--font-size-3xl);
   }
+  
+  /* Grid responsive adjustments */
+  .ao-features {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+  
+  .ao-topics {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+  
+  /* Table responsive adjustments */
+  .content table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .content table th,
+  .content table td {
+    font-size: 0.85rem;
+    padding: 0.7em 0.5em;
+    white-space: normal;
+    word-wrap: break-word;
+    min-width: 100px;
+    max-width: 200px;
+    vertical-align: top;
+    line-height: 1.2;
+  }
+}
+
+/* Tablet responsive adjustments */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .ao-features {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-xl);
+  }
+  
+  .ao-topics {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-xl);
+  }
 }
 
 @media (max-width: 480px) {
   .ao-title {
-    font-size: var(--font-size-5xl);
+    font-size: var(--font-size-2xl);
   }
   
   .ao-gradient {
-    font-size: 6rem;
+    font-size: 4.5rem;
   }
   
   .ao-section-title {
-    font-size: var(--font-size-3xl);
+    font-size: var(--font-size-2xl);
   }
 }
 
@@ -933,15 +1002,14 @@ details :not(.math) {
    ============================ */
 
 .ao-topics {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--min-card-width), 1fr));
   gap: 2.5rem;
   margin: 3.5rem 0 0;
   align-items: stretch;
-  overflow-x: visible;
   text-decoration: none;
   text-align: center;
+  justify-items: center;
 }
 
 .ao-topics-row + .ao-topics-row {
