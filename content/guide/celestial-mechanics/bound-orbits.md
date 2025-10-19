@@ -66,10 +66,10 @@ $$\tag{3.2.3} \implies \boxed{v^2 = \mu \left( \frac{2}{r} - \frac{1}{a} \right)
 
 This gives us the velocity of the smaller body at a distance $r$ from the larger body. From here you can see that the velocity is maximum at periapsis and minimum at apoapsis, because it roughly depends on $1/\sqrt{r}$. The velocity at periapsis is then (using the expression for $r_p$ that we found earlier):
 
-$$v_p = \sqrt{\mu \left( \frac{2}{r_p} - \frac{1}{a} \right)} = \sqrt{\frac{\mu}{a} \left( \frac{1+e}{1-e} \right)} $$
+$$\tag{3.2.4} v_p = \sqrt{\mu \left( \frac{2}{r_p} - \frac{1}{a} \right)} = \sqrt{\frac{\mu}{a} \left( \frac{1+e}{1-e} \right)} $$
 
 And the velocity at apoapsis is:
-$$v_a = \sqrt{\mu \left( \frac{2}{r_a} - \frac{1}{a} \right)} = \sqrt{\frac{\mu}{a} \left( \frac{1-e}{1+e} \right)} $$
+$$\tag{3.2.5} v_a = \sqrt{\mu \left( \frac{2}{r_a} - \frac{1}{a} \right)} = \sqrt{\frac{\mu}{a} \left( \frac{1-e}{1+e} \right)} $$
 
 You can see that they're sort of very symmmetric, if we multiply or divide them, one of the term cancels out! This
 gives us some very nice relations:
@@ -79,7 +79,7 @@ $$ v_p v_a = \frac{\mu}{a}\,, \qquad \qquad \frac{v_p}{v_a} = \frac{1+e}{1-e} $$
 As something you should always do when you have a formula with a parameter you can vary, we can ask what the limiting cases of this are. Since $e$ is bound between $0$ and $1$, let's see what we can do. $e \to 1$ is not really a nice case, for one the orbit becomes unbound, and everything diverges. On the other hand, we can talk about $e = 0$ precisely!
 
 In the case of a circular orbit, we have $e = 0$. The body therefore moves with a *constant speed* $v_c$, called the circular velocity, given by
-$$\tag{3.2.4} v_c = \sqrt{\frac{\mu}{a}} $$
+$$\tag{3.2.6} v_c = \sqrt{\frac{\mu}{a}} $$
 
 For the body to escape the gravitational influence of the larger body and become unbound, the total energy of the system must become more than or equal to 0. We can see this through the conservation of energy. Let the initial velocity be $v$. Finally, we need the velocity to
 be just non-zero to find the minimum velocity. Note that far away, the potential energy goes to $0$. Pairing this up
@@ -91,9 +91,9 @@ $$
 $$
 
 Thus for the smaller body to escape, the minimum velocity needed is:
-$$\tag{3.2.5} v_e = \sqrt{\frac{2\mu}{r}} = \sqrt{2} v_c$$
+$$\tag{3.2.7} v_e = \sqrt{\frac{2\mu}{r}} = \sqrt{2} v_c$$
 
-From eqn. $(3.1.13)$, the time period of the circular orbit is:
+From eqn. $(3.1.13)$, the time period of the orbit is:
 $$ P = 2 \pi \sqrt{\frac{a^3}{\mu}} $$
 
 ## Kepler's Equation
@@ -108,10 +108,10 @@ the periapsis occurs at $\theta = 0$. So the true anomaly, stated in another man
 If we can somehow find the true anomaly as a function of time, our job is essentially done because we already know $r(\theta)$.
 
 The idea that we use here is to use a *fictious* circular body (this is closely related to the fact that elliptical motion is a superposition of two independent circular motions). The mean motion $n$ is defined as
-$$n \overset{\text{def}}{\equiv} \frac{2 \pi}{P}$$
+$$\tag{3.2.8} n \overset{\text{def}}{\equiv} \frac{2 \pi}{P}$$
 
 Let the instant at which the body was at periapsis be $\tau$. We define the mean anomaly $M$ as the *angular distance* from the periapsis which a fictitious body would have if it moved in a circle of radius $a$ (the semi-major axis length). At any instant in time $t$, it is clearly given by:
-$$\tag{3.2.6} M = n (t - \tau) $$
+$$\tag{3.2.9} M = n (t - \tau) $$
 
 {{< callout type="image" >}}
 {{< svg "celmech/anomaly.svg" "Mean and True Anomaly" "Mean, Eccentric and True Anomaly" >}}
@@ -128,14 +128,14 @@ $$ \cos E = \frac{x}{a}\,, \qquad \qquad \sin E = \frac{y}{b} $$
 
 As a consequence, since $r = x^2 + y^2$, and $b^2 = a^2(1-e^2)$ we get that the distance of the smaller body from the larger body (foci of the ellipse) is given by
 
-$$ r = a (1 - \cos E) $$
+$$\tag{3.2.10} r = a (1 - \cos E) $$
 
 Now since $\mathbf{r}(\theta) = r(\cos\theta \hat{\mathbf{{i}}} + \sin\theta \hat{\mathbf{j}})$, comparing it with expression for $x$ and $y$ that we have, we get that the eccentric anamoly $E$ and true anamoly are related by
 $$ \cos \theta = \frac{a}{r} (\cos E - e) \qquad \qquad \sin \theta = \frac{b}{r} \sin E $$
 
 so that
 
-$$\tag{3.2.7} \tan \frac{\theta}{2} = \sqrt{\frac{1+e}{1-e}} \tan \frac{E}{2}.$$
+$$\tag{3.2.11} \tan \frac{\theta}{2} = \sqrt{\frac{1+e}{1-e}} \tan \frac{E}{2}.$$
 
 {{< callout type="image" >}}
 {{< svg "celmech/Eccentric_Anomaly.svg" "Eccentric Anomaly" "Eccentric Anomaly, The Point P is at (x,y). Reproduced from Katturnen et al., Fundamental Astronomy" >}}
@@ -152,13 +152,13 @@ $$
 
 We then equate these to find the relation between the mean anamoly $M$ and the eccentric anamoly $E$ as
 
-$$\tag{3.2.8} M = E - e \sin E $$
+$$\tag{3.2.12} M = E - e \sin E $$
 
 This is called Kepler's equation. It is a *transcendental equation*, and we can solve it using numerical methods.
 
 Using an infinite series expansion, we can solve it exactly:
 
-$$ E = M + e \sin M + \frac{e^2}{2} \sin 2M + \frac{e^3}{6} \sin 3M + \ldots $$
+$$E = M + e \sin M + \frac{e^2}{2} \sin 2M + \frac{e^3}{6} \sin 3M + \ldots $$
 
 Using this and the relations we found, the true anamoly (if you so want) and distance from focus too can be obtained in terms of infinite series expansion, given by
 
@@ -181,11 +181,11 @@ Consider a binary system having two bodies of masses $m_1$ and $m_2$ moving in b
 
 The semi-major axes $a$ are related by the center of mass relation,
 
-$$\tag{3.2.9} m_1 a_1 = m_2 a_2 = ma \implies a = a_1 + a_2 $$
+$$\tag{3.2.13} m_1 a_1 = m_2 a_2 = ma \implies a = a_1 + a_2 $$
 
 Similarily, in the center of mass frame, the speeds $v$ are related by
 
-$$\tag{3.2.10} m_1 v_1 = m_2 v_2 = m v \implies v = v_1 + v_2$$
+$$\tag{3.2.14} m_1 v_1 = m_2 v_2 = m v \implies v = v_1 + v_2$$
 
 When an elliptical orbit is projected onto a plane, it produces another ellipse. However, the foci of the original ellipse does not project onto the foci of the observed ellipse.
 
@@ -193,7 +193,7 @@ Consider a binary system at a distance $r$ from us, inclined at an angle $i$, wh
 
 $$ m_1 \alpha_1 = m_2 \alpha_2 = m \alpha \implies \alpha = \alpha_1 + \alpha_2$$
 $$ m_1 \tilde{\alpha}_1 = m_2 \tilde{\alpha}_2 = m \tilde{\alpha} \implies \tilde{\alpha} = \tilde{\alpha_1} + \tilde{\alpha_2} $$
-$$\tag{3.2.11} \tilde{\alpha} = \alpha \cos i $$
+$$\tag{3.2.15} \tilde{\alpha} = \alpha \cos i $$
 
 The true semi-major axis $a$ is given by
 
@@ -201,29 +201,30 @@ $$a = r \alpha = r \tilde{\alpha} \cos i$$
 
 Hence Kepler's third law can be written as
 
-$$\tag{3.2.12} m_1 + m_2 = \frac{4\pi^2}{G} \frac{a^3}{P^2} = \frac{4\pi^2}{G} \left( \frac{r}{\cos i} \right)^3 \frac{\tilde{\alpha}^3}{P^2}$$
+$$\tag{3.2.16} m_1 + m_2 = \frac{4\pi^2}{G} \frac{a^3}{P^2} = \frac{4\pi^2}{G} \left( \frac{r}{\cos i} \right)^3 \frac{\tilde{\alpha}^3}{P^2}$$
 
 Usually, for a binary system, only the radial velocity of the bodies can be measured. If the trajectory of the binary system is circular, the radial velocity is given by $v = \frac{2 \pi a}{T}$. The maximum radial velocity observed is $v_r = v \sin i$
 
 $$ a = a_1 + a_2 = \frac{P}{2 \pi} (v_1 + v_2) = \frac{P}{2 \pi \sin i} (v_{1r} + v_{2r}) $$
-$$\tag{3.2.13} \implies m_1 + m_2 = \frac{P}{2 \pi G} \frac{(v_{1r} + v_{2r})^3}{\sin^3 i} $$
+$$\tag{3.2.17} \implies m_1 + m_2 = \frac{P}{2 \pi G} \frac{(v_{1r} + v_{2r})^3}{\sin^3 i} $$
 
 If only one velocity ($v_{1r}$) is observable, $v_{2r}$ can be obtained using $m_1 v_{1r} = m_2 v_{2r}$. Putting this into the equation above, we get
 
-$$\tag{3.2.14} \boxed{ \frac{m_2^3}{(m_1 + m_2)^2} \sin^3 i = \frac{P}{2 \pi G} v_{1r}^3 } $$
+$$\tag{3.2.18} \boxed{ \frac{m_2^3}{(m_1 + m_2)^2} \sin^3 i = \frac{P}{2 \pi G} v_{1r}^3 } $$
 
 This is the mass function of the binary system. The mass function can be used to determine the mass of the secondary body if the mass of the primary body is known. The mass function can also be used to determine the inclination of the orbit if the masses of both bodies are known. It also sets a lower limit on the mass of $m_2$:
 
-$$\tag{3.2.15} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
+$$\tag{3.2.19} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
 
 Note that for such a binary system, the angular velocities of the two masses about the centre of mass are same. To show this, note that the centripetal force is gravity, so we get that,
 $$
 M\omega^2 r_1 = \frac{GmM}{R^2}
 $$
-where $r_1$ is the distance of $M$ from the centre. Since the centre is the centre of mass, using $m_1r_1 = m_2r_2$, we get that $m/r_1 = (M + m)/R$ which gives us the angular velocity
-for the body, as:
-$$ \omega = \sqrt{ \frac{G(M + m)}{R^3} } $$
-A similar derivation for the other primary will give you the same angular velocity. 
+where $r_1$ is the distance of $M$ from the centre. Since the centre is the centre of mass, using $m_1r_1 = m_2r_2$, we get that $m/r_1 = (M + m)/R$ which gives us the angular velocity for the body, as:
+
+$$\tag{3.2.20} \omega = \sqrt{ \frac{G(M + m)}{R^3} } $$
+
+A similar derivation for the other primary will give you the same angular velocity.
 
 ## Tidal Forces
 
@@ -273,7 +274,7 @@ the first two terms arise from the presence of M — the combination of these tw
 the tidal force $\mathbf{F}_\text{tidal}$, and the acceleration caused is called the
 tidal acceleration $\mathbf{a}_\text{tidal}$.
 
-$$\tag{3.5.3} \mathbf{a}_\text{tidal} = -GM \left( \frac{\hat{\mathbf{s}}}{s^2} - \frac{\hat{\mathbf{r}}}{r^2} \right) $$
+$$\tag{3.2.21} \mathbf{a}_\text{tidal} = -GM \left( \frac{\hat{\mathbf{s}}}{s^2} - \frac{\hat{\mathbf{r}}}{r^2} \right) $$
 
 Since $\mathbf{s} = \mathbf{r} + \mathbf{R}$,
 
@@ -282,11 +283,11 @@ $$ \mathbf{a}_\text{tidal} = -GM \left( \frac{\mathbf{r} + \mathbf{R}}{|\mathbf{
 Usually $r \gg R$, so we can take few approximations (essentially the ones we take to find the field of a dipole),
 which finally give
 
-$$\tag{3.5.4} \boxed{ \mathbf{a}_\text{tidal} \approx -\frac{GM}{r^3} \left[ \mathbf{R} - 3\, ( \hat{\mathbf{r}} \cdot \mathbf{R} )\, \hat{\mathbf{r}} \right] } $$
+$$\tag{3.2.22} \boxed{ \mathbf{a}_\text{tidal} \approx -\frac{GM}{r^3} \left[ \mathbf{R} - 3\, ( \hat{\mathbf{r}} \cdot \mathbf{R} )\, \hat{\mathbf{r}} \right] } $$
 
 Consider a cartesian coordinate system with its origin at the center of the sphere, the $x$-axis pointing towards the massive body, and $y$-axis oriented such that $\mathbf{R}$ lies in the $xy$-plane. If the angle $\theta$ is the angle between the $x$-axis and the vector $\mathbf{R}$, the tidal acceleration experienced by $m$ is
 
-$$\tag{3.5.5} \boxed{\mathbf{a}_\text{tidal} = \frac{GMR}{r^3} (2\cos \theta \, \hat{\mathbf{i}} - \sin \theta \, \hat{\mathbf{j}}) }$$
+$$\tag{3.2.23} \boxed{\mathbf{a}_\text{tidal} = \frac{GMR}{r^3} (2\cos \theta \, \hat{\mathbf{i}} - \sin \theta \, \hat{\mathbf{j}}) }$$
 
 We see that when $\mathbf{R}$ and $\mathbf{r}$ are parallel, i.e. $m$ lies on the line joining $M$ and the center of the sphere, the tidal acceleration is
 
@@ -321,7 +322,7 @@ $$ 2 \frac{GM_M R_m m'}{d^3} = \frac{GM_m m'}{R_m^2} $$
 
 where $m'$ is a mass closest to the primary body, on the satellite's surface. This gives
 
-$$\tag{3.5.6} \boxed{ d = R_m \left( \frac{2M_M}{M_m} \right)^{1/3} = R_M \left( \frac{2 \rho_M}{\rho_m} \right)^{1/3}} $$
+$$\tag{3.2.24} \boxed{ d = R_m \left( \frac{2M_M}{M_m} \right)^{1/3} = R_M \left( \frac{2 \rho_M}{\rho_m} \right)^{1/3}} $$
 
 If we decrease the distance further, the tidal forces overpower the forces that hold together the body. We in particular care about
 the force at $m'$ being overpowered because it is the point closest to the primary.

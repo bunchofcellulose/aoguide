@@ -107,7 +107,7 @@ using our previous derivation.
 The Hill sphere is the region around a celestial body where its own gravity (compared to other nearby bodies) is the dominant force in attracting satellites. It is also known as the Roche sphere.
 If a less massive body $m$ orbits a (more) massive body $M$ ($M \ll m$), and has an instantaneous distance $a$ from $M$, then its hill radius (at that instant) is
 
-$$\tag{3.5.7} \boxed{ R_H \approx a \left( \frac{m}{3(M + m)} \right)^{1/3} } $$
+$$\tag{3.5.3} \boxed{ R_H \approx a \left( \frac{m}{3(M + m)} \right)^{1/3} } $$
 
 For Earth, this is approximately $0.01 \mathrm{\,AU}$. The derivation of the hill radius is similar to that of the $L_1$ and $L_2$ Lagrange points.
 
@@ -144,7 +144,7 @@ M\omega^2 r_1 = \frac{GmM}{R^2}
 $$
 where $r_1$ is the distance of $M$ from the centre. Since the centre is the centre of mass, we get that $m/r_1 = (M + m)/R$ which gives us the angular velocity
 for the body, as:
-$$ \omega = \sqrt{ \frac{G(M + m)}{R^3} } $$
+$$\tag{3.5.4} \omega = \sqrt{ \frac{G(M + m)}{R^3} } $$
 A similar derivation for the other primary will give you the same angular velocity.
 
 
@@ -152,23 +152,23 @@ A similar derivation for the other primary will give you the same angular veloci
 
 The $L_1$ point lies between the two primaries, and its distance $r$ from the small primary is given by
 
-$$ \frac{GM}{(R-r)^2} - \frac{Gm}{r^2} = \left( \frac{m}{M + m} R - r \right) \omega^2 $$
+$$\tag{3.5.5} \frac{GM}{(R-r)^2} - \frac{Gm}{r^2} = \left( \frac{m}{M + m} R - r \right) \omega^2 $$
 
 by balancing centrifugal forces, and noting that the term on the right hand in parentheses the distance of $L_1$ from centre of mass. 
 This turns out to be a quintic on expanding. Analytic solutions are as such not possible, but we can find $L_1$ using numerical methods.
 
 If $M \gg m$, then $L_1$ and $L_2$ are approximately at the same distance $r$ from the smaller primary, equal to the hill radius, given by
-$$\tag{3.5.8} r \approx R \sqrt[3]{\frac{m}{M+m}} $$
+$$\tag{3.5.6} r \approx R \sqrt[3]{\frac{m}{M+m}} $$
 
 ### L <sub>2</sub>
 
 The $L_2$ point lies on the opposite side of the larger primary, and its distance $r$ from the smaller primary is given by
 
-$$ \frac{GM}{(R+r)^2} + \frac{Gm}{r^2} = \left( \frac{m}{M + m} R + r \right) \omega^2 $$
+$$\tag{3.5.7} \frac{GM}{(R+r)^2} + \frac{Gm}{r^2} = \left( \frac{m}{M + m} R + r \right) \omega^2 $$
 
 Again, if $M \gg m$, then $L_1$ and $L_2$ are approximately at the same distance $r$ from the smaller primary, equal to the hill radius, given by
 
-$$ r \approx R \sqrt[3]{\frac{m}{M+m}} $$
+$$\tag{3.5.8} r \approx R \sqrt[3]{\frac{m}{M+m}} $$
 
 <br>
 
@@ -188,11 +188,11 @@ Therefore it is necessary for a spacecraft parked at $L_2$, to follow a Lissajou
 
 The $L_3$ point lies on the opposite side of the smaller primary, and its distance $r$ from the orbit of the smaller primary is given by
 
-$$ \frac{GM}{(R-r)^2} + \frac{Gm}{(2R-r)^2} = \left( \frac{m}{M + m} R + R - r \right) \omega^2 $$
+$$\tag{3.5.9} \frac{GM}{(R-r)^2} + \frac{Gm}{(2R-r)^2} = \left( \frac{m}{M + m} R + R - r \right) \omega^2 $$
 
 If $M \gg m$, then
 
-$$\tag{3.5.9} r \approx \frac{7}{12}\frac{m}{M+m}R $$
+$$\tag{3.5.10} r \approx \frac{7}{12}\frac{m}{M+m}R $$
 
 ### L <sub>4</sub> and L <sub>5</sub>
 
@@ -245,7 +245,7 @@ A spin orbit resonance is where the spin period of the planet is connected to th
 
 The n-body problem is the problem of predicting the individual motions of a group of celestial objects interacting with each other gravitationally. It consists of n point mass $m_i$, with position vectors $\mathbf{r}_i$ and velocities $\mathbf{v}_i$. The equations of motion are given by
 
-$$ \ddot{\mathbf{r}}_i = \sum_{\substack{j=0 \\ j \neq i}}^{n} \frac{G m_i m_j}{|\mathbf{r}_j - \mathbf{r}_j|^3} (\mathbf{r}_j - \mathbf{r}_i) $$
+$$\tag{3.5.11} \ddot{\mathbf{r}}_i = \sum_{\substack{j=0 \\ j \neq i}}^{n} \frac{G m_i m_j}{|\mathbf{r}_j - \mathbf{r}_j|^3} (\mathbf{r}_j - \mathbf{r}_i) $$
 
 There is no general closed form solution for $n >2$.
 

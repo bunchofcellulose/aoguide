@@ -11,21 +11,21 @@ As we proved in chapter 3.1, trajectories having energy greater than or equal to
 
 A parabola is a conic section with eccentricity equal to 1. The *vertex point* is the point of closest approach and is closest to the focus. If the distance to the *focus* from the vertex of the parabola is $r_p = a$, the length of the semi-latus rectum is $p = 2a$. The equation of the parabolic trajectory is then:
 
-$$r = \frac{2a}{1 + \cos \theta}$$
+$$\tag{3.3.1} r = \frac{2a}{1 + \cos \theta}$$
 
 The angular momentum of such a trajectory is $h = \sqrt{2 \mu a}$ from eqn. $(3.1.10)$. Because the total energy of a parabolic trajectory is zero, the potential energy must cancel out the kinetic energy. Using this we get that the velocity at any point, at a distance $r$ from the focus, is equal to the escape velocity (if it was moving in a circle of radius $r$):
 
-$$v = \sqrt{\frac{2\mu}{r}}$$
+$$\tag{3.3.2} v = \sqrt{\frac{2\mu}{r}}$$
 
 The velocity at the point of closest approach is
 
-$$v_p = \sqrt{\frac{2\mu}{r_p}} = \sqrt{\frac{2\mu}{a}}$$
+$$\tag{3.3.3} v_p = \sqrt{\frac{2\mu}{r_p}} = \sqrt{\frac{2\mu}{a}}$$
 
 ## Hyperbolic trajectory
 
 A hyperbola is a conic section with eccentricity greater than 1. The *vertex point* is the point of closest approach and is closest to the focus. Let the semi-major axis of the hyperbola be $a$. By convention, we define it to be a negative quantity. This is done so that the equations match with those of an elliptical orbit. The distance of vertex from focus is
 
-$$ r_p = (-a) (e - 1) = a(1-e) $$
+$$\tag{3.3.4} r_p = (-a) (e - 1) = a(1-e) $$
 
 The semi-latus rectum is
 
@@ -39,29 +39,29 @@ Both of which are identical to the formulas for ellipses. We see that the true a
 
 The angular momentum of the system is $h = \sqrt{\mu a (1 - e^)}$, and the total energy is given by $\varepsilon = -\frac{\mu}{2a}$. Note that the energy is positive, due to $a$ being negative. The velocity of the body at a distance $r$ from the focus is given by
 
-$$v^2 = \mu \left( \frac{2}{r} + \frac{1}{a} \right)$$
+$$\tag{3.3.5} v^2 = \mu \left( \frac{2}{r} + \frac{1}{a} \right)$$
 
 The velocity at the point of closest approach is
 
-$$v_p = \sqrt{\mu \left( \frac{2}{r_p} + \frac{1}{a} \right)} = \sqrt{\frac{\mu}{a} \left( \frac{1+e}{1-e} \right)}$$
+$$\tag{3.3.6} v_p = \sqrt{\mu \left( \frac{2}{r_p} + \frac{1}{a} \right)} = \sqrt{\frac{\mu}{a} \left( \frac{1+e}{1-e} \right)}$$
 
 The velocity at infinity is
 
-$$v_\infty = \sqrt{\frac{\mu}{a} \left( \frac{1-e}{1+e} \right)}$$
+$$\tag{3.3.7} v_\infty = \sqrt{\frac{\mu}{a} \left( \frac{1-e}{1+e} \right)}$$
 
 ## Variants of Kepler's Equation
 
 In a parabolic trajectory, Barker's equation relates the time of flight $t$ to the true anamoly $\theta$. If the time of periapsis is $\tau$, then
 
-$$t - \tau = \sqrt{\frac{2a^3}{\mu}} \left( \tan \frac{\theta}{2} + \frac{1}{3} \tan^3 \frac{\theta}{2} \right)$$
+$$\tag{3.3.8} t - \tau = \sqrt{\frac{2a^3}{\mu}} \left( \tan \frac{\theta}{2} + \frac{1}{3} \tan^3 \frac{\theta}{2} \right)$$
 
 In a hyperbolic trajectory, the hyperbolic Kepler's equation relates the mean anamoly $M$ to the hyperbolic anamoly $H$:
 
-$$M = e \sinh H - H$$
+$$\tag{3.3.9} M = e \sinh H - H$$
 
 where the mean anamoly is defined as $M = \sqrt{\frac{\mu}{-a^3}} (t - \tau)$. The true anamoly and hyperbolic anamoly are related by
 
-$$\tan \frac{\theta}{2} = \sqrt{\frac{e + 1}{e - 1}} \tanh \frac{H}{2}$$
+$$\tag{3.3.10} \tan \frac{\theta}{2} = \sqrt{\frac{e + 1}{e - 1}} \tanh \frac{H}{2}$$
 
 ## Radial trajectories
 

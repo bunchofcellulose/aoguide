@@ -62,6 +62,7 @@ The Euler angles are three angles used to describe the orientation of a coordina
 The transformation between the two coordinate systems is given by the following equations:
 
 $$
+\tag{3.4.1}
 \begin{bmatrix} X \\ Y \\ Z \end{bmatrix} =
 \begin{bmatrix}
 \cos\Omega & -\sin\Omega & 0 \\
@@ -81,11 +82,10 @@ $$
 \begin{bmatrix} x \\ y \\ z \end{bmatrix}
 $$
 
-$$\tag{3.4.1}$$ <br/>
-
 and
 
 $$
+\tag{3.4.2}
 \begin{bmatrix} x \\ y \\ z \end{bmatrix} =
 \begin{bmatrix}
 \cos\Omega & \sin\Omega & 0 \\
@@ -104,8 +104,6 @@ $$
 \end{bmatrix}
 \begin{bmatrix} X \\ Y \\ Z \end{bmatrix}
 $$
-
-$$\tag{3.4.2}$$  <br/>
 
 If the orbiting body is at a distance $r$, having true anamoly $\theta$, its coordinates are $x = r \cos \theta$, $y = r \sin \theta$ and $z = 0$. Therefore, the coordinates of the orbiting body in the reference frame are given by
 

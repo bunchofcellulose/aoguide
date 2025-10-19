@@ -39,6 +39,8 @@ The shortest distance between two points on the surface of a sphere is along a g
 
 ### Spherical Trigonometry
 
+Here is an excellent resource on [spherical trigonometry](https://mathworld.wolfram.com/SphericalTrigonometry.html). The proofs of the formulae given below in the guide are omitted for brevity; they can be found in the above reference.
+
 Often we are interested in finding the sides or angles of spherical triangles. We use spherical trigonometry to find these. The most commonly used identities are the following:
 
 - The Law of Cosines:
@@ -53,6 +55,8 @@ Often we are interested in finding the sides or angles of spherical triangles. W
 - The Four Parts Formula:
 
     $$\tag{1.1.6} \boxed{\cos a \cos C = \sin a \cot b - \sin C \cot B}$$
+
+    An easy way to remember is the following: "The cosine of the inner side times the cosine of the inner angle equals the s**in**e of the **in**ner side times the c**ot**angent of the **ot**her side minus the s**in**e of the **in**ner angle times the c**ot**angent of the **ot**her angle."
 
 When the sides are small, the spherical triangle can be approximated by a plane triangle. In this case, the formulas for spherical trigonometry reduce to the familiar formulas of plane trigonometry.
 
@@ -96,13 +100,15 @@ The spherical excess of a spherical triangle is defined as
 
 $$\tag{1.1.10} E = A + B + C - \pi$$
 
-Using the spherical excess, we can find the area of the spherical triangle:
+The spherical excess is always positive for a spherical triangle, and is zero for a plane triangle. The area of a spherical triangle is given by
 
 $$\tag{1.1.11} \text{Area} = E \cdot R^2$$
 
-where $R$ is the radius of the sphere. The radius is often taken to be unity, in which case the area is simply the spherical excess. Recalling the definition of a solid angle, we conclude that the spherical excess is also the solid angle subtended by the spherical triangle at the center of the sphere. An important result is the spherical excess of a right-angled spherical triangle, which is given by
+where $R$ is the radius of the sphere. This theorem is known as Girard's theorem.
 
-$$\tag{1.1.12} \tan \frac{1}{2} E = \tan \frac{a}{2} \tan \frac{b}{2}$$
+The radius is often taken to be unity, in which case the area is simply the spherical excess. Recalling the definition of a solid angle, we conclude that the spherical excess is also the solid angle subtended by the spherical triangle at the center of the sphere. An important result is the spherical excess of a right-angled spherical triangle, which is given by
+
+$$\tag{1.1.12} \tan \frac{1}{2} E = \tan \frac{1}{2}a \, \tan \frac{1}{2}b$$
 
 ## Geometry of the Earth
 
@@ -162,15 +168,15 @@ The bearing angle is defined as the angle between the north direction and the di
 
 The celestial sphere is an imaginary sphere of infinite radius, concentric with the Earth, on which all celestial objects appear to be projected. The Earth is at the center and the celestial objects are at the surface of the sphere. This is a useful tool as it allows us to represent the positions of celestial objects on a two-dimensional surface, without considering their distances from the observer.
 
+The celestial equator is the projection of the Earth's equator onto the celestial sphere. It divides the celestial sphere into the northern and southern hemispheres. The poles of the celestial equator are the north and south celestial poles.
+
 For an observer, the point on the celestial sphere directly overhead is called the zenith, while the point directly below is called the nadir. The line connecting the zenith and nadir is called the zenith-nadir line. The horizon is the great circle on the celestial sphere that is perpendicular to the zenith-nadir line. This is the boundary where the sky appears to meet the Earth, and it defines the limits of the observer's view of the celestial sphere. The points where the celestial equator intersects the horizon are defined as the east and west cardinal points.
 
-The celestial meridian or local meridian of an observer is a great circle on the celestial sphere that passes through the zenith, nadir, and the north and south celestial poles. The points where the celestial equator intersects the meridian are defined as the north and south cardinal points. The prime vertical is defined as the great circle passing through the zenith, nadir, and the east and west cardinal points.
+The celestial meridian or local meridian of an observer is a great circle on the celestial sphere that passes through the zenith, nadir, and the north and south celestial poles. The points where the horizon intersects the meridian are defined as the north and south cardinal points. The prime vertical is defined as the great circle passing through the zenith, nadir, and the east and west cardinal points.
 
 The celestial sphere and all the objects on it (stars, galaxies, etc.) appear to rotate westwards around the Earth once nearly every 24 hours. This apparent motion is due to the rotation of the Earth on its axis. However, to the observer it makes no difference whether it is the Earth that is rotating on its axis, or if the celestial sphere is rotating around the Earth. The point about which the celestial sphere appears to rotate is called the celestial pole. This is the projection of Earth's axis of rotation onto the celestial sphere. The two celestial poles are the north celestial pole (NCP) and the south celestial pole (SCP).
 
 The north celestial pole is the point about which the sky seems to rotate clockwise. It is easily recognizable in the sky as it is very close to the bright star Polaris, which because of this is also known as the north star or pole star. The south celestial pole is located in the southern hemisphere opposite to the north celestial pole. It does not have a bright star associated with it; however, one can approximately locate it by finding $\sigma$ Octantis (IAU name Polaris Australis), a faint star in the constellation Octans.
-
-The celestial equator is the projection of the Earth's equator onto the celestial sphere. It divides the celestial sphere into the northern and southern hemispheres. The poles of the celestial equator are the north and south celestial poles.
 
 The Sun, when projected onto the celestial sphere, appears to move along a great circle in the course of a year. This great circle on which the Sun moves is called the ecliptic. The ecliptic is tilted at an angle of approximately $23.5^\circ$ to the celestial equator, which is due to the tilt of the Earth's axis of rotation relative to its orbit around the Sun. The Sun's motion along the ecliptic is slow, much slower than the rotation of the celestial sphere, and thus the Sun can approximately be considered as a fixed point on the celestial sphere for short periods of time.
 
