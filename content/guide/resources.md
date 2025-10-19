@@ -45,5 +45,44 @@ If you have any other resources that you think would be useful, feel free to sha
 {{< cards >}}
   {{< card link="/assets/advice/IND1.pdf" title="🇮🇳 India" subtitle="Akarsh Raj Sahay, IOAA 2023" icon="trending-up" >}}
   {{< card link="/assets/advice/NEP1.pdf" title="🇳🇵 Nepal" subtitle="Osish Niraula, IOAA 2024 & 2025" icon="support" >}}
-  {{< card link="/assets/advice/ROU1.pdf" title="🇷🇴 Romania" subtitle="Teodor Bichir, IOAA 2024 & 2025" icon="support" >}}
+  {{< card link="/assets/advice/ROU1.pdf" title="🇷🇴 Romania" subtitle="Teodor Bichir, IOAA 2024 & 2025" icon="document" >}}
+  {{< card link="/assets/advice/SGP1.pdf" title="🇸🇬 Singapore" subtitle="Wang Jun Min, IOAA 2025" icon="flag" >}}
+  {{< card link="/assets/advice/BGL1.pdf" title="🇧🇩 Bangladesh" subtitle="Sheikh Hasin Abrar Alvi, IOAA 2024" icon="academic-cap" >}}
 {{< /cards >}}
+
+If you have represented your country in IOAA and would like to contribute a similar advice document for future participants from your country, please reach out to us on our [Discord server](https://discord.gg/bV8bxvTmzU).
+
+## References & Sources
+
+AO Guide is built upon the foundational work of many excellent textbooks, research papers, and educational resources. These books were not written with IOAA in mind, but they're wonderful in general!
+
+### Primary Textbooks
+
+- [Astronomy: Principles and Practice](https://drive.google.com/file/d/1LBJJhPa87_UqNKCdONRnhYcKN_B12iz5/view?usp=sharing) by A. E. Roy and D. Clarke
+- [Fundamental Astronomy](https://drive.google.com/file/d/1jAAtkF0YCrT3Fm9B4I2kxez393olF_iy/view?usp=sharing) by Hannu Karttunen et al.
+- [Fundamentals of Astronomy](https://drive.google.com/file/d/15bDhuOIYbaz2CmQemkBOSsJuuQPXRJdL/view?usp=sharing) by Flavio Salvati
+- [Introduction to Cosmology](https://drive.google.com/file/d/1EU9BMWuDMEkYaPJGurBBH4JUUrz4RIOD/view?usp=sharing) by Barbara Ryden
+- [Foundations of Astrophysics](https://drive.google.com/file/d/16I3sen7AG04qKWSP_nJ0A7mziUKnMhfE/view?usp=sharing) by Barbara Ryden
+- [An Introduction to Modern Astrophysics](https://drive.google.com/file/d/1V12rbls_OdmsxS4HSG2sudghqPZ54Wfz/view?usp=sharing) by Bradley W. Carroll and Dale A. Ostlie
+- [A Problem book in Astronomy and Astrophysics](https://drive.google.com/file/d/1gFn2rYAE5QMrge7B0cz1x4K12mr2Ca1s/view?usp=sharing) by Aniket Sule
+
+### Data Sources
+
+- [International Astronomical Union (IAU)](https://www.iau.org) - Constants and definitions
+- [Wikipedia](https://www.wikipedia.org) - For general reference and quick lookups (always cross-verify with primary sources)
+- [CODATA](https://physics.nist.gov/cuu/pdf/wall_2022.pdf) - Fundamental physical constants
+
+A [list of useful constants](/guide/resources/#constants-list) is provided at the end of the page.
+
+### Problem Sources
+
+- Previous IOAA Problems (2007-2025) - Official competition problems and solutions
+- National Astronomy Olympiads - Problems from various countries' national competitions
+- Physics Competitions - Adapted problems from IPhO, national physics olympiads, and physics contests
+- Other Astronomy Competitions - Problems from regional astronomy contests and university-level competitions
+- Original Problems - Custom problems designed specifically for IOAA preparation by us
+- Research Literature - Adapted problems from peer-reviewed journals
+
+## Constants List
+
+{{< pdf "/assets/constants.pdf" >}}
