@@ -5,8 +5,6 @@ type: constants
 toc: false
 ---
 
-<div class="constants-column">
-
 ## Physical Constants
 
 $$
@@ -41,10 +39,6 @@ g \qquad & 9.80665 & & \mathrm{m\,s^{-2}} \quad & \text{Standard gravity on Eart
 \text{atm} \qquad & 1.01325 & \times 10^{5} \quad & \mathrm{Pa} \quad & \text{Standard atmosphere} \\
 \end{aligned}
 $$
-
-</div>
-
-<div class="constants-column">
 
 ## Astronomical Constants
 
@@ -89,5 +83,3 @@ A \qquad & 15 & & \mathrm{km\,s^{-1}\,kpc^{-1}} & \text{Oort constants} \\
 B \qquad & 20 && \mathrm{km\,s^{-1}\,kpc^{-1}} &\\
 \end{aligned}
 $$
-
-</div>

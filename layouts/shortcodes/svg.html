@@ -5,15 +5,17 @@
 {{- $staticPath := printf "static/assets/images/%s" $filename -}}
 
 {{- if fileExists $staticPath }}
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <div style="display: flex; justify-content: center;">
-      {{- $content := readFile $staticPath -}}
-      {{- /* Strip XML prolog and DOCTYPE before embedding */ -}}
-      {{- $content = replaceRE `(?s)^\s*(<\?xml[^>]*\?>|<!DOCTYPE[^>]*>)\s*` "" $content -}}
-      {{ $content | safeHTML }}
-    </div>
+  <div class="svg-callout-container">
+      <div class="svg-callout-scroll">
+        <div class="svg-inner">
+          {{- $content := readFile $staticPath -}}
+          {{- /* Strip XML prolog and DOCTYPE before embedding */ -}}
+          {{- $content = replaceRE `(?s)^\s*(<\?xml[^>]*\?>|<!DOCTYPE[^>]*>)\s*` "" $content -}}
+          {{ $content | safeHTML }}
+        </div>
+      </div>
     {{- if $caption }}
-      <div style="margin-top: 0.5rem; font-style: italic; text-align: center;">{{ $caption }}</div>
+      <div class="svg-callout-caption">{{ $caption }}</div>
     {{- end }}
   </div>
 {{- else }}
