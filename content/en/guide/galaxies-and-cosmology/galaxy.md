@@ -1,7 +1,7 @@
 ---
 title: Galaxies
 weight: 1
-prev: /guide/galactic-extragalactic-astrophysics/
+prev: /guide/galaxies-and-cosmology/
 ---
 
 Galaxies are huge groups of stars, gas, dust, and dark matter bound together by gravity. Typically, they contain billions to trillions of stars, along with their planetary systems and interstellar gas and dust. Galaxies can range in size from dwarfs with just a few billion stars to the largest galaxies known, which can contain one hundred trillion stars or more.

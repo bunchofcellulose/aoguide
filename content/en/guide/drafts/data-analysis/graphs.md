@@ -1,7 +1,7 @@
 ---
 title: Graphs
 weight: 1
-prev: /guide/data-analysis/
+prev: /guide/drafts/data-analysis/
 ---
 
 ## Drawing Graphs

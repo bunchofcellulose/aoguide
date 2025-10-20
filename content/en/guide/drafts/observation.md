@@ -3,8 +3,6 @@ title: Observational Astronomy
 weight: 8
 prev: N
 next: N
-sidebar:
-  exclude: true
 ---
 
 ## Zodiac

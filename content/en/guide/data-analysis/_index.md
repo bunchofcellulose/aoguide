@@ -1,15 +1,15 @@
 ---
 title: Data Analysis
 weight: 7
-next: /guide/data-analysis/graphs
+next: N
 prev: N
-sidebar:
-  exclude: true
 ---
 
 Data analysis is the process of inspecting, cleaning, transforming, and modeling data with the goal of discovering useful information, drawing conclusions, and supporting decision-making. It involves various techniques and tools to analyze data sets to summarize their main characteristics, often with visual methods.
 
-The questions asked in data analysis asked in olympiads focus mainly on:
+This unit is still under progress.
+
+<!-- The questions asked in data analysis asked in olympiads focus mainly on:
 
 - Computing data
 - Plotting graphs
@@ -22,4 +22,4 @@ In this unit, we will cover:
 - Statistics
 - Error analysis
 - Regression
-- Types of distributions
+- Types of distributions -->

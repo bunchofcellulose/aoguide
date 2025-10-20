@@ -5,26 +5,42 @@ theme: hextra
 
 menu:
   main:
-    - name: Guide
+    - identifier: guide
+      name: Guide
       pageRef: /guide
       weight: 1
-    - name: About
-      url: /about
+    - identifier: about
+      name: About
+      pageRef: /about
       weight: 2
-    - name: Search
+    - identifier: search
+      name: Search
       weight: 3
       params:
         type: search
-    - name: Discord
+    - identifier: discord
+      name: Discord
       weight: 4
       url: "https://discord.gg/bV8bxvTmzU"
       params:
         icon: discord
-    - name: GitHub
+    - identifier: github
+      name: GitHub
       weight: 5
       url: "https://github.com/bunchofcellulose/aoguide"
       params:
         icon: github
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    contentDir: content/en
+    weight: 1
+  # it:
+  #   languageName: Italiano
+  #   contentDir: content/it
+  #   weight: 2
 
 markup:
   goldmark:

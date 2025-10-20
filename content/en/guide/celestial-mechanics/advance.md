@@ -117,6 +117,45 @@ As far as stability is concerned, all closed orbits must be stable to begin with
 Aside from these two, there are also closed circular orbits in any central force potential, but these are not stable in general. (in a potential $V(r) \propto r^n$, circular orbits are stable only if $n > -2$)
 {{< /callout >}}
 
+{{< tabs >}}
+{{< tab name="P1" >}}
+Daniel, a strange guy, finds a strange force as well. He finds it to be a central force proportional to $r^n$, where $r$ is the distance from the source of the force to the body affected by it (perhaps, think of it as a strange type of “gravity”). What value of $n$ could make it such that closed, stable, nearly circular orbits can occur by bodies under the influence of this force (that is, orbits without precession each period)?
+
+$$\text{A.} \: 10 \qquad\qquad \text{B.} \: 11 \qquad\qquad \text{C.} \: 12 \qquad\qquad \text{D.} \: 13$$
+{{< /tab >}}
+
+{{< tab name="Solution" >}}
+A central force proportional to $r^n$ would give a potential of the form
+
+$$ V = k r^{n + 1} = k u^{-n - 1} $$
+
+Using the binet equation,
+
+$$ u'' + u = \frac{mk(n+1)}{L^2} u^{-n - 2} $$
+
+Let the radius of a circular orbit be $u_0$. For a circular orbit, $u'' = 0$, which gives
+
+$$ u_0^{n + 3} = \frac{mk(n+1)}{L^2} $$
+
+To check for stability, we perturb the orbit a little. Substituting $u = u_0 + \eta$ and linearizing (ignoring quadratic and higher order terms), we get
+
+$$ \eta'' + \eta = \frac{mk(n+1)}{L^2} (u_0^{-n - 2} \eta - (n + 2) u_0^{-n - 1} \eta) $$
+
+This gives a linear equation for $\eta$, which can be analyzed for stability.
+
+$$ \eta'' + (n + 3) \eta = 0 $$
+
+This is an equation for a simple harmonic motion. Thus for small perturbations, the orbit oscillates about the circular orbit with frequency $\sqrt{n + 3}$. Therefore, for stability, we need $n + 3 > 0 \implies n > -3$.
+
+For the orbit to be closed, we must have that the frequency of oscillation is a rational multiple of the orbital frequency. The orbital frequency is 1 (since $\theta$ increases by $2\pi$ in one orbit), and the oscillation frequency is $\sqrt{n + 3}$. Therefore, for closed orbits, $\sqrt{n + 3}$ must be a rational number.
+
+The only option which satisfies both these conditions is $\textbf{D. 13}$.
+
+{{< /tab >}}
+
+{{< tab name="OAC Open 2025" >}}{{< /tab >}}
+{{< /tabs >}}
+
 ### Precession of apasis in General Relativity
 
 The orbit equation in general relativity is given by

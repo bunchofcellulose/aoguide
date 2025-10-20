@@ -1,7 +1,7 @@
 ---
-title: Galactic and Extragalactic Astrophysics
+title: Galaxies and Cosmology
 weight: 6
-next: /guide/galactic-extragalactic-astrophysics/galaxy/
+next: /guide/galaxies-and-cosmology/galaxy/
 ---
 
 Galactic physics is the study of the structure, dynamics, and evolution of galaxies. It deals with the formation and evolution of galaxies, their components (such as stars, gas, dust, and dark matter), and the interactions between galaxies. Extragalactic astrophysics extends this study to the universe beyond our Milky Way galaxy, including the study of galaxy clusters, superclusters, and the large-scale structure of the universe.
