@@ -62,7 +62,7 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
   <img src="https://github.com/bunchofcellulose.png" alt="Akshat Srivastava" class="author-avatar">
   <div class="author-info">
     <h4>Akshat Srivastava</h4>
-    <p><strong>Founder & Author</strong></p>
+    <p><strong>Creator & Author</strong></p>
     <p>Hi! I'm a high school student from India and a Gold medalist from IOAA 2025. I love physics, astronomy and math, along with few other subjects (including but not limited to cs, linguistics, chemistry and engineering). I like mathematical rigor in solving problems, and I believe I have been succesfully able to reflect this in the guide. You can reach out to me on my <a href="https://discord.gg/bV8bxvTmzU" target="_blank">Discord server</a>, or dm me at @bunchofcells (I like cucumbers).</p>
     <div class="author-links">
       <!-- <a href="https://bunchofcellulose.github.io" target="_blank">Website</a> -->
@@ -72,7 +72,7 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
 </div>
 
 <div class="author-card">
-  <img src="https://github.com/jardin-de-lys.png" alt="Adyansh Mishra" class="author-avatar">
+  <img src="https://github.com/jardin-de-lys.png" alt="Lilian" class="author-avatar">
   <div class="author-info">
     <h4>Lilian</h4>
     <p><strong>Editor</strong></p>
@@ -82,6 +82,9 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
     </div> -->
   </div>
 </div>
+
+A special thanks to <strong>Madhav Gupta</strong><a href="https://github.com/Madhav2609/" target="_blank"> (@Madhav2609)</a> for helping with mobile compatibility, CSS improvements, and hosting the website.
+
 
 <div class="subsection-title">Want to Help Out?</div>
 
@@ -100,63 +103,22 @@ Check out the [GitHub repository](https://github.com/bunchofcellulose/aoguide) t
 <div class="about-section">
 <div class="section-content">
 
-<div class="section-title">References & Sources</div>
-
-AO Guide is built upon the foundational work of many excellent textbooks, research papers, and educational resources. These books were not written with IOAA in mind, but they're wonderful in general!
-
-### Primary Textbooks
-<div class="simple-list">
-<ul>
-<li><strong>“Astronomy: Principles and Practice”</strong> by A. E. Roy and D. Clarke</li>
-<li><strong>"Fundamental Astronomy"</strong> by Hannu Karttunen et al.</li>
-<li><strong>"Fundamentals of Astronomy"</strong> by Flavio Salvati</li>
-<li><strong>"Introduction to Cosmology"</strong> by Barbara Ryden</li>
-<li><strong>"Foundations of Astrophysics"</strong> by Barbara Ryden</li>
-<li><strong>"An Introduction to Modern Astrophysics"</strong> by Bradley W. Carroll and Dale A. Ostlie</li>
-</ul>
-</div>
-
-### Data Sources
-<div class="simple-list">
-<ul>
-<li><strong>International Astronomical Union (IAU)</strong> - Official constants and definitions</li>
-<li><strong>Wikipedia</strong></li>
-<li><strong>CODATA</strong> - Fundamental physical constants</li>
-</ul>
-</div>
-
-### Problem Sources
-<div class="simple-list">
-<ul>
-<li><strong>Previous IOAA Problems</strong> (2007-2024) - Official competition problems and solutions</li>
-<li><strong>National Astronomy Olympiads</strong> - Problems from various countries' national competitions</li>
-<li><strong>Physics Competitions</strong> - Adapted problems from IPhO, national physics olympiads, and physics contests</li>
-<li><strong>Other Astronomy Competitions</strong> - Problems from regional astronomy contests and university-level competitions</li>
-<li><strong>Original Problems</strong> - Custom problems designed specifically for IOAA preparation by us</li>
-<li><strong>Research Literature</strong> - Adapted problems from peer-reviewed journals</li>
-</ul>
-</div>
-
-</div>
-</div>
-
-<div class="about-section">
-<div class="section-content">
-
 <div class="section-title">Thanks to Everyone Who Made This Possible!</div>
 
 There were a lot of people and institutions that helped create this. Its not possible to credit all of them, and we're sorry if we missed you, we do really appreciate your contribution. Huge thanks to:
 
 ### Educational Institutions
 1. **Homi Bhabha Centre for Science Education (HBCSE)** – For creating such an amazing olympiad culture in India and giving us opportunities we never thought we'd have
-2. **International Board of IOAA** – For organizing IOAA and making astronomy education a global priority
+2. **IOAA** – For organizing the international olympiad and making astronomy education a global priority
 3. **National Olympiad Committees worldwide** – For maintaining high standards and sharing resources with the community
 
 ### The Tech That Powers This
 1. **Hugo** – For making our website fast and beautiful
 2. **Hextra Theme** – For the gorgeous design foundation that makes everything look professional
 3. **KaTeX** – For making our math equations look crisp and readable
-4. **GitHub** – For hosting everything and making collaboration so easy
+4. **GitHub** – For making collaboration so easy
+5. **Vercel** – For reliable, fast, and hassle-free website hosting
+6. **Name.com** – For domain registration and DNS management
 
 ### Our Amazing Community
 1. **IOAA alumni and participants** – For sharing problems, giving feedback, and helping us improve constantly
