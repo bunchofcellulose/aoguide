@@ -453,16 +453,22 @@ details :not(.math) {
   flex-shrink: 0;
   width: auto;
   height: auto;
-  max-width: none;
-  min-width: var(--svg-min-width-desktop);
+  min-width: 100%;
   max-height: var(--svg-max-height-desktop);
 }
 
 .svg-inner {
-  display: inline-block;
-  width: max-content;
-  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: max-content;
   box-sizing: border-box;
+}
+
+.svg-inner svg {
+  width: auto;
+  height: auto;
+  min-width: 100%;
 }
 
 .svg-callout-caption {
