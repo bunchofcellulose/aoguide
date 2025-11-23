@@ -85,4 +85,6 @@ A [list of useful constants](/guide/resources/#constants-list) is provided at th
 
 ## Constants List
 
+<div style="margin-top: 2rem;"></div>
+
 {{< pdf "/assets/constants.pdf" >}}

@@ -30,7 +30,7 @@
   /* Common measurements */
   --min-card-width: 280px;
   --min-card-height-feature: 200px;
-  --min-card-height-topic: 400px;
+  --min-card-height-topic: 280px;
   --min-hero-element: 340px;
   --svg-min-width-desktop: 560px;
   --svg-min-width-mobile: 480px;
@@ -171,6 +171,9 @@ html {
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
   max-width: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .katex-display > .katex {
@@ -188,16 +191,17 @@ html {
 /* Mobile-specific adjustments */
 @media (max-width: 768px) {
   .katex-display {
-    font-size: 0.9em;
+    font-size: 0.85em;
     justify-content: flex-start;
     padding: var(--spacing-xs) var(--spacing-sm);
     overflow-x: auto;
-    max-width: 110%;
+    max-width: 100%;
   }
   
   .katex-display > .katex {
-    font-size: 0.9em;
+    font-size: 0.85em;
     min-width: max-content;
+    max-width: 80%;
   }
 }
 
@@ -449,16 +453,22 @@ details :not(.math) {
   flex-shrink: 0;
   width: auto;
   height: auto;
-  max-width: none;
-  min-width: var(--svg-min-width-desktop);
+  min-width: 100%;
   max-height: var(--svg-max-height-desktop);
 }
 
 .svg-inner {
-  display: inline-block;
-  width: max-content;
-  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: max-content;
   box-sizing: border-box;
+}
+
+.svg-inner svg {
+  width: auto;
+  height: auto;
+  min-width: 100%;
 }
 
 .svg-callout-caption {
@@ -599,6 +609,7 @@ details :not(.math) {
   font-family: var(--font-display);
   text-align: center;
   width: 100%;
+  word-spacing: 100vw;
 }
 
 .ao-buttons {
@@ -741,7 +752,16 @@ details :not(.math) {
   color: white;
 }
 
-.ao-feature h3,
+.ao-feature h3 {
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  color: var(--color-primary);
+  letter-spacing: 0.01em;
+  margin-bottom: var(--spacing-lg);
+  transition: color var(--transition-normal);
+  text-align: center;
+}
+
 .ao-topic-header h3 {
   font-size: var(--font-size-xl);
   font-weight: 800;
@@ -856,6 +876,35 @@ details :not(.math) {
   font-size: 1.13rem;
   margin-bottom: 1.3rem;
   color: #e5e7eb;
+}
+
+
+.ao-cta .ao-btn-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; 
+  width: auto; 
+}
+
+.ao-cta .ao-btn-cta {
+  flex-direction: column;
+  gap: 0.4rem;
+  text-align: center;
+  padding: 10px 22px;
+  min-width: 180px;
+}
+
+.ao-cta .ao-btn-cta svg {
+  display: block;
+  margin: 0 auto;
+  width: 1.6em;
+  height: 1.6em;
+}
+
+.ao-cta .ao-btn-cta span {
+  display: block;
+  line-height: 1.1;
 }
 
 /* Badges */
@@ -989,11 +1038,18 @@ details :not(.math) {
   }
   
   .ao-gradient {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
   
   .ao-section-title {
     font-size: var(--font-size-2xl);
+  }
+}
+
+@media (max-width: 350px) {
+  .ao-gradient {
+    font-size: 2.8rem;
+    letter-spacing: -0.02em;
   }
 }
 
@@ -1039,4 +1095,38 @@ details :not(.math) {
 /* Remove body background if present */
 body::before {
   display: none;
+}
+
+/* ============================
+   PDF Viewer Styling
+   ============================ */
+
+.hextra-pdf {
+  border: 2px solid rgba(99, 102, 241, 0.3);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+  position: relative;
+  width: 100%;
+}
+
+.hextra-pdf:hover {
+  border-color: rgba(99, 102, 241, 0.5);
+  box-shadow: var(--shadow-lg);
+}
+
+.hextra-pdf iframe {
+  display: block;
+  border-radius: var(--radius-lg);
+}
+
+.dark .hextra-pdf {
+  border-color: rgba(99, 102, 241, 0.4);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.dark .hextra-pdf:hover {
+  border-color: rgba(99, 102, 241, 0.6);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
