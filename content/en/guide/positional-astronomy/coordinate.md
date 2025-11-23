@@ -18,7 +18,7 @@ The altitude is positive above the horizon and negative below it, ranging from $
 The azimuth $A$ of a point $X$ is the angle between the north cardinal point and the projection of the point $X$ onto the horizontal plane. The azimuth starts from $0^\circ$ at the north point and increases eastwards: $90^\circ$ at the east point, $180^\circ$ at the south point, and $270^\circ$ at the west point. In the southern hemisphere, azimuth is measured from the south point eastwards.
 
 {{< callout type="image" >}}
-{{< svg "pos/altaz.svg" "Altitude-Azimuth Coordinate System" "The altitude-azimuth coordinate system is based on the observer's local horizon. (Source: Wikipedia)" >}}
+{{< svg "pos/horizontal.svg" "Altitude-Azimuth Coordinate System" "The altitude-azimuth coordinate system is based on the observer's local horizon." >}}
 {{< /callout >}}
 
 The coordinates of a point in the horizontal coordinate system are given by the pair $(a, A)$, where $a$ is the altitude and $A$ is the azimuth. These change with the observer's location and the time of observation.
@@ -40,6 +40,10 @@ The Earth rotates $360^\circ$ in $24$ hours, so the hour angle increases by $15^
 The hour angle of a point changes with the observer's location and the time of observation. This is because the hour angle is defined with respect to the observer's meridian. To remove this dependence, the right ascension (RA) is introduced.
 
 We first define the equinoxes: the equinoxes are the two points where the ecliptic intersects the celestial equator. The vernal equinox ♈︎ (also known as the first point of Aries) is the point where the Sun (moving along the ecliptic) crosses the celestial equator from south to north. The autumnal equinox ♎︎ (also known as the first point of Libra) is the point where the Sun crosses the celestial equator from north to south. These two points are fixed on the celestial sphere and do not depend on the observer's location or the time of observation.
+
+{{< callout type="image" >}}
+{{< svg "pos/equatorial.svg" "Equatorial Coordinate System" "The equatorial coordinate system is based on the celestial equator." >}}
+{{< /callout >}}
 
 The right ascension $\alpha$ of a point $X$ is the angle between the vernal equinox and the projection of the point $X$ onto the celestial equator. The right ascension starts from the vernal equinox at $0^h$ and increases eastwards (opposite to the direction of increasing hour angle): $6^h$ at the summer solstice, $12^h$ at the autumnal equinox, and $18^h$ at the winter solstice.
 
@@ -92,6 +96,10 @@ The ecliptic longitude $\lambda$ of a point $X$ is the angle between the vernal 
 The ecliptic latitude $\beta$ of a point $X$ is the angle between the point and the ecliptic plane. The ecliptic latitude is positive northwards from the ecliptic plane and ranges from $-90^\circ$ at the south ecliptic pole to $90^\circ$ at the north ecliptic pole.
 
 The ecliptic coordinates of a point are given by the pair $(\lambda, \beta)$, where $\lambda$ is the ecliptic longitude and $\beta$ is the ecliptic latitude. These coordinates do not depend on the location of the observer or the time of observation, as they are defined with respect to the ecliptic plane and the vernal equinox, which are fixed points on the celestial sphere. This coordinate system is particularly useful for describing the positions of objects in the solar system, as their orbits are generally close to the ecliptic plane.
+
+{{< callout type="image" >}}
+{{< svg "pos/ecliptic.svg" "Ecliptic Coordinate System" "The ecliptic coordinate system is based on the ecliptic plane." >}}
+{{< /callout >}}
 
 The geocentric ecliptic coordinates are the ecliptic coordinates of a point as seen from the center of the Earth, while the heliocentric ecliptic coordinates are the ecliptic coordinates of a point as seen from the center of the Sun. The two coordinate systems are equal only if the object is very far away. The geocentric coordinates, moreover, depend on Earth's position in its orbit around the Sun, while the heliocentric coordinates do not.
 

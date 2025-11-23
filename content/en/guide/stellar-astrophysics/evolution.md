@@ -71,7 +71,7 @@ $$\tag{5.4.2} M_J = \frac{4}{3} \pi \lambda_J^3 \rho = \sqrt{ \frac{375}{4 \pi} 
 
 ## Strömgren Sphere
 
-If a hot star is embedded in a region of uniform density gas, then it will be surrounded by a sphere of almost completely ionized hydrogen. At the surface of the sphere (~1 photon mean free path thick), th ionized fraction of hydrogen frops from nearly 1 to nearly 0. Let the rate of ionization be $Q$. This is the rate at which the central stat is producing photons with $h \nu > 13.6 \, \mathrm{eV}$.
+If a hot star is embedded in a region of uniform density gas, then it will be surrounded by a sphere of almost completely ionized hydrogen. At the surface of the sphere (~1 photon mean free path thick), the ionized fraction of hydrogen drops from nearly 1 to nearly 0. Let the rate of ionization be $Q$. This is the rate at which the central star is producing photons with $h \nu > 13.6 \, \mathrm{eV}$.
 
 $$\tag{5.4.3} Q_* = \int_{\nu_0}^{\infty} \frac{L_\nu}{h \nu}\, d\nu$$
 
