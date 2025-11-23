@@ -878,6 +878,35 @@ details :not(.math) {
   color: #e5e7eb;
 }
 
+
+.ao-cta .ao-btn-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; 
+  width: auto; 
+}
+
+.ao-cta .ao-btn-cta {
+  flex-direction: column;
+  gap: 0.4rem;
+  text-align: center;
+  padding: 10px 22px;
+  min-width: 180px;
+}
+
+.ao-cta .ao-btn-cta svg {
+  display: block;
+  margin: 0 auto;
+  width: 1.6em;
+  height: 1.6em;
+}
+
+.ao-cta .ao-btn-cta span {
+  display: block;
+  line-height: 1.1;
+}
+
 /* Badges */
 .ao-badge-core,
 .ao-badge-advanced,
