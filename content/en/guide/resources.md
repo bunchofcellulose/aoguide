@@ -17,9 +17,10 @@ Most of the textbooks used in writing the guide have been mentioned in the About
 - [Celestial Sphere](https://bunchofcellulose.github.io/celestialsphere/) - A webapp to play with spherical diagrams
 - Astronomy Olympiad Discord Server ([AODS](https://discord.gg/cuVC54FksD)) - a community of astronomy enthusiasts and olympiad participants. Great place to ask questions, share resources, and connect with others who share your interest in astronomy.
 
-### Observation
+### Practical
 
 - [A Practical Handout for Olympiad](https://drive.google.com/drive/u/6/folders/158MAxU6U2O_d_oUsVKrWfBywN4i5arN1) by Ayush Tiwari
+- [Data Analysis Handouts](https://drive.google.com/drive/folders/1CgIIxjSIAUOQv-DeLyvS4bZsv4IQ2wGr) by Ayush Tiwari
 - [Star Maps 101 and Practices](https://github.com/Rajit13/Star-Maps-101-and-Practices) by Fahim Rajit Hossain
 - [Learn the Sky](https://www.youtube.com/@learnthesky) - A YouTube channel with videos on finding constellations, planets and navigating the sky.
 - [Sky Academy](https://play.google.com/store/apps/details?id=digital.dong.skyacademy&hl=en_IN) - An android app which you can use to learn constellations, stars and messier objects.
@@ -35,7 +36,7 @@ Most of the textbooks used in writing the guide have been mentioned in the About
 - [AstroSandbox](https://astrosandbox.com/eng) - A website founded by Ukrainian IOAA participants, gives lectures, organizes events, manages clubs, composes our own astronomy tasks, as well as collects existing problems from Olympiads and public sources.
 - [USAAAO](https://usaaao.org/resources/past-exams/) Archives - First Round and NAC papers of USA's astronomy olympiad
 - [SAO](https://drive.google.com/drive/folders/1fVdcMhwshartqgcSSFr2O37m2NEpnciU) Archives - Singapore Astronomy Olympiad past papers
-- [INAO](https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/) Archives - India National Astronomy Olympiad past papers
+- [INAO](https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/) Archives - Indian National Astronomy Olympiad past papers
 - [OAAO](https://oaaoinfo.org) - the Online Astronomy and Astrophysics Olympiad
 
 If you have any other resources that you think would be useful, feel free to share them in the resources channel on our Discord server.

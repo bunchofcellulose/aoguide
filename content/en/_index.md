@@ -104,13 +104,12 @@ sidebar:
       <p>Explore the formation, evolution, and large-scale structure of galaxies, as well as the fundamental questions of cosmology. Explore the universe's history, from the Big Bang to today.</p>
     </div>
   </a>
-  <a class="ao-topic" href="/guide/data-analysis" style="background-image:url('/assets/images/start/lightcurve.png');">
+  <a class="ao-topic" href="/guide/practical" style="background-image:url('/assets/images/start/lightcurve.png');">
     <div>
       <div class="ao-topic-header">
-        Data Analysis
+        Practical Astronomy
       </div>
-      <p>Develop essential skills in analyzing astronomical data, interpreting results, and applying statistical methods to real-world problems.</p>
-      <p>(Coming Soon)</p>
+      <p>Develop essential skills in analyzing astronomical data, interpreting results, and applying statistical methods to real-world problems. Learn to navigate the sky, spot constellations, and conduct observations.</p>
     </div>
   </a>
 </div>

@@ -9,13 +9,11 @@ toc: false
 
 <div class="section-title">About AO Guide</div>
 
-Hey, thanks for dropping by! We're grateful to have you here. Let's talk a bit about why we built AO Guide. 
+Hey, thanks for dropping by! We're grateful to have you here. Let's talk a bit about why we built AO Guide.
 
 When we were preparing for astronomy olympiads, we found ourselves (and others) jumping between massive textbooks (that had way more info than we needed), scattered handouts from random websites, and outdated materials that didn't really capture what IOAA was all about. It was honestly pretty overwhelming. Its understandable, they weren't really designed for IOAA in mind, but we wanted to fix this.
 
-Therefore we built AO Guide. Its not a textbook or another handout, the main goal of AO Guide is to be 
-*complete* and *concise*. That doesn't mean its just short, dry text without any motivation, we have actively
-tried to do the exact opposite; but that it contains a lot more of what is needed for the olympiads.
+Therefore we built AO Guide. Its not a textbook or another handout, the main goal of AO Guide is to be *complete* and *concise*. That doesn't mean its just short, dry text without any motivation, we have actively tried to do the exact opposite; but that it contains a lot more of what is needed for the olympiads.
 
 <div class="subsection-title">What We're Really Trying to Do</div>
 
@@ -29,9 +27,9 @@ We wanted to create something that we wish we had when we started our olympiad j
 
 <div class="subsection-title">Why This Exists</div>
 
-Astronomy and astrophysics are incredible subjects that we really do love. But preparing for olympiads caused us a lot of frustations, and not for a lack of trying. Most textbooks were either too advanced, or woefully incomplete for IOAA. 
+Astronomy and astrophysics are incredible subjects that we really do love. But preparing for olympiads caused us a lot of frustations, and not for a lack of trying. Most textbooks were either too advanced, or woefully incomplete for IOAA.
 
-It was because of this frustation that we decided to write AO Guide. We don't really benefit much from it, its free for you to use and modify afterall! But honestly, just allowing for a far smoother way to learn for the next person who wanted to get into astronomy is quite rewarding in itself :) 
+It was because of this frustation that we decided to write AO Guide. We don't really benefit much from it, its free for you to use and modify afterall! But honestly, just allowing for a far smoother way to learn for the next person who wanted to get into astronomy is quite rewarding in itself :)
 
 Olympiads aren't about memorizing formulas (though you do really need some of them). It's about really understanding how things work, being able to think through problems step by step, and having the confidence to tackle something you've never seen before. That's what we're trying to help you build, we have a plethora of problems with solutions for you to go through!
 
@@ -59,7 +57,7 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
 <div class="section-title">The People Behind This</div>
 
 <div class="author-card">
-  <img src="https://github.com/bunchofcellulose.png" alt="Akshat Srivastava" class="author-avatar">
+  <img src="/assets/images/start/akshat.png" class="author-avatar">
   <div class="author-info">
     <h4>Akshat Srivastava</h4>
     <p><strong>Creator & Author</strong></p>
@@ -84,7 +82,6 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
 </div>
 
 A special thanks to <strong>Madhav Gupta</strong><a href="https://github.com/Madhav2609/" target="_blank"> (@Madhav2609)</a> for helping with mobile compatibility, CSS improvements, and hosting the website.
-
 
 <div class="subsection-title">Want to Help Out?</div>
 
