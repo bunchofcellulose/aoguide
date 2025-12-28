@@ -106,7 +106,7 @@ $$
 but since the COM does not experience a net force, $\mathbf{\dot{R}}$ is constant, so we might as well discard it. Then our modified energy becomes,
 
 $$
-E \to \frac{1}{2} m v^2 - \mu \frac{m}{r^2}
+E \to \frac{1}{2} m v^2 - \mu \frac{m}{r}
 $$
 which is an invariant because the gravitational force is conservative. Alternatively, $\mathbf{\dot{R}}$ is just 0 in the com frame, so the energy in the COM frame is simply this.
 

@@ -190,7 +190,7 @@ Consider a binary system at a distance $r$ from us, inclined at an angle $i$, wh
 
 $$ m_1 \alpha_1 = m_2 \alpha_2 = m \alpha \implies \alpha = \alpha_1 + \alpha_2$$
 $$ m_1 \tilde{\alpha}_1 = m_2 \tilde{\alpha}_2 = m \tilde{\alpha} \implies \tilde{\alpha} = \tilde{\alpha_1} + \tilde{\alpha_2} $$
-$$\tag{3.2.15} \tilde{\alpha} = \alpha \cos i $$
+$$\tag{3.2.15} \alpha = \tilde{\alpha} \cos i $$
 
 The true semi-major axis $a$ is given by
 

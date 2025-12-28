@@ -10,17 +10,21 @@ Most of the textbooks used in writing the guide have been mentioned in the About
 ### General
 
 - This [Drive](https://drive.google.com/drive/folders/1gZDmKb3n2vXHpVZMwFaUJ1ukUccCfYKD?usp=sharing) contains all the sources used, and more. Many national and international olympiad papers too are available here.
-- Sean Ken M. Galanza's amazing [astronomy handouts](https://drive.google.com/drive/folders/1i7HR025iR4HO7PHhx7RmDCRa5aRi14hX?usp=sharing)
+- A really awesome and comprehensive [resource for IOAA](https://daniellee271828.github.io/ioaa_note_en.pdf) by former Hong Kong IOAA team members. Can be followed alongside the guide for a different perspective on topics.
+- Sean Ken M. Galanza's [astronomy handouts](https://drive.google.com/drive/folders/1i7HR025iR4HO7PHhx7RmDCRa5aRi14hX?usp=sharing)
 - Kevin Zhou's [Physics Olympiad Handouts](https://knzhou.github.io), mainly M6 and X3
 - [USAAAO Guide](https://www.usaaao.guide/handouts) - Handouts for USAAAO and IOAA preparation
+- Astronomy Olympiad Discord Server's [POTD Archive](https://rajit13.github.io/website_docs/Astro_POTD.pdf) by Fahim Rajit Hossain
 - [Blogs](https://physolympacademy.com/blog/) by Armin Hodaei
 - [Celestial Sphere](https://bunchofcellulose.github.io/celestialsphere/) - A webapp to play with spherical diagrams
 - Astronomy Olympiad Discord Server ([AODS](https://discord.gg/cuVC54FksD)) - a community of astronomy enthusiasts and olympiad participants. Great place to ask questions, share resources, and connect with others who share your interest in astronomy.
+- [BDOAA Preparation Material](https://drive.google.com/drive/folders/0BxnDs515DNddbWg1VTBRZktZODA?resourcekey=0-evWmK0fkUFSEv7l4icX5OQ)
+- [CAAO Preparation Material](https://caao.ca/wp-content/uploads/2023/02/CAAO-tutorial.pdf)
+- Kaiwen's orz [astronomy notes](https://apochrome.notion.site/Astronomy-c2080a4c5b464868a99f5cddec3e0bbb)
 
 ### Practical
 
-- [A Practical Handout for Olympiad](https://drive.google.com/drive/u/6/folders/158MAxU6U2O_d_oUsVKrWfBywN4i5arN1) by Ayush Tiwari
-- [Data Analysis Handouts](https://drive.google.com/drive/folders/1CgIIxjSIAUOQv-DeLyvS4bZsv4IQ2wGr) by Ayush Tiwari
+- [Practical Handouts for Olympiad](https://drive.google.com/drive/u/0/folders/1Nft4B755uvtxfaSGLp2ZsVuHQGZ9pEt-) by Ayush Tiwari. Covers all aspects of data analysis and most observation skills required for IOAA.
 - [Star Maps 101 and Practices](https://github.com/Rajit13/Star-Maps-101-and-Practices) by Fahim Rajit Hossain
 - [Learn the Sky](https://www.youtube.com/@learnthesky) - A YouTube channel with videos on finding constellations, planets and navigating the sky.
 - [Sky Academy](https://play.google.com/store/apps/details?id=digital.dong.skyacademy&hl=en_IN) - An android app which you can use to learn constellations, stars and messier objects.

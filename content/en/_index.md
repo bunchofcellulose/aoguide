@@ -12,7 +12,7 @@ sidebar:
       <span class="ao-gradient">AO Guide</span>
       Promoting Astronomy Olympiads
     </h1>
-    <div style="margin-top: 12rem;"></div>
+    <div style="margin-top: 15rem;"></div>
     <div class="ao-buttons">
       <a href="/guide" class="ao-btn-primary" style="font-size:1.13rem;">Start Learning</a>
       <a href="/about" class="ao-btn-secondary" style="font-size:1.13rem;">About the Guide</a>
