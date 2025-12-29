@@ -63,8 +63,7 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
     <p><strong>Creator & Author</strong></p>
     <p>Hi! I'm a high school student from India and a Gold medalist from IOAA 2025. I love physics, astronomy and math, along with few other subjects (including but not limited to cs, linguistics, chemistry and engineering). I like mathematical rigor in solving problems, and I believe I have been succesfully able to reflect this in the guide. You can reach out to me on my <a href="https://discord.gg/bV8bxvTmzU" target="_blank">Discord server</a>, or dm me at @bunchofcells (I like cucumbers).</p>
     <div class="author-links">
-      <!-- <a href="https://bunchofcellulose.github.io" target="_blank">Website</a> -->
-      <a href="https://github.com/bunchofcellulose" target="_blank">GitHub</a>
+      <a href="https://bunchofcellulose.github.io" target="_blank">Website</a>
     </div>
   </div>
 </div>
@@ -75,9 +74,6 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
     <h4>Lilian</h4>
     <p><strong>Editor</strong></p>
     <p>I'm a high school student from India passionate about mathematics, physics, cs, literature, and philosophy (yes its a bit of a weird combo). I was a PROMYS 2025 Alumni, and was the leader of Physics Olympiad Co-operation for BL4S, which was shortlisted. I help make sure our explanations are correct, and most importantly clear! You can contact me at discord at @jardindelys, but do send a cat pic if you decide to :D</p>
-    <!-- <div class="author-links">
-      <a href="https://github.com/jardin-de-lys" target="_blank">GitHub</a>
-    </div> -->
   </div>
 </div>
 
