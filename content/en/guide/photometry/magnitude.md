@@ -74,7 +74,7 @@ $$M_1 - M_2 = -5 \log \frac{R_1}{R_2} - 10 \log \frac{T_1}{T_2}$$
     {{< tab name="Solution" >}}
     Using Pogson's equation,
 
-    $$M_\odot = m_\odot + 5 \log \frac{1 \, \mathrm{AU}}{10 \, \mathrm{pc}} = \boxed{4.8^m}$$
+    $$M_\odot = m_\odot - 5 \log \frac{1 \, \mathrm{AU}}{10 \, \mathrm{pc}} = \boxed{4.8^m}$$
     {{< /tab >}}
 {{< /tabs >}}
 
@@ -289,9 +289,9 @@ $$\tag{2.2.10} R = \frac{A_V}{E_{B-V}} \approx 3.1 $$
 
     Where $r$ is measured in kpc, and $a = 1^m \, \mathrm{kpc^{-1}}$. Substituting the values, we get
 
-    $$3.8 = \log r + r$$
+    $$3.8 = 5 \log r + r$$
 
-    Solving it numerically, we get $\boxed{r \approx 3.28 \, \mathrm{kpc}}$.
+    Solving it numerically, we get $\boxed{r \approx 2.14 \, \mathrm{kpc}}$.
 
     **b)** The intrinsic color index is given by
 
@@ -299,15 +299,15 @@ $$\tag{2.2.10} R = \frac{A_V}{E_{B-V}} \approx 3.1 $$
 
     We can use the relation between $A_V$ and $E_{B-V}$ to find the color excess. The extinction in visual band is
 
-    $$A_V = ar = 3.28^m$$
+    $$A_V = ar = 2.14^m$$
 
     Hence the color excess is
 
-    $$E_{B-V} = \frac{A_V}{R} \approx 1.06^m$$
+    $$E_{B-V} = \frac{A_V}{R} \approx 0.69^m$$
 
     Thus the intrinsic color index of the star is
 
-    $$\boxed{(B-V)_0 = 1.6^m - 1.06^m = 0.54^m}$$
+    $$\boxed{(B-V)_0 = 1.6^m - 0.69^m = 0.91^m}$$
 
     **c)** The bolometric magnitude of the star is
 
@@ -320,7 +320,7 @@ $$\tag{2.2.10} R = \frac{A_V}{E_{B-V}} \approx 3.1 $$
 
     The absolute bolometric magnitude of the Sun is $4.75^m$. Thus we get that the luminosity of the star is
 
-    $$\boxed{L \approx 41.7 L_\odot}$$
+    $$\boxed{L \approx 41.7 \, L_\odot}$$
 
     {{< /tab >}}
 {{< /tabs >}}
@@ -475,21 +475,23 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     {{< tab name="Solution" >}}
     **a)** Let intrinsic magnitudes of the star be $U_0$, $B_0$, and $V_0$ respectively.
 
-    $$E_{U-B} = (U-B) - (U - B)_0 = (3.15 - 8.50) - (-0.45) = 0.1$$
+    $$E_{U-B} = (U-B) - (U - B)_0 = (8.15 - 8.50) - (-0.45) = 0.1$$
 
-    Since $E_{U-B} = 0.72 \, E_{B-V}$, $E_{B-V} = \frac{0.1}{0.72} = 0.14$.
+    Since $E_{B-V} = 0.72 \, E_{U-B}$,
+
+    $$E_{B-V} = 0.72 \cdot 0.1 = 0.072$$
 
     Using the relation $A_V = R_V \, E_{B-V}$, we get
 
-    $$A_V = 3.2 \cdot 0.14 = 0.45$$
-    $$\therefore \boxed{V_0 = V + A_V = 7.69}$$
+    $$A_V = 3.2 \cdot 0.072 \approx 0.23$$
+    $$\therefore \boxed{V_0 = V - A_V = 8.14 - 0.23 = 7.91}$$
 
     The intrinsic $B_0$ and $U_0$ color can be found using
 
-    $$(B-V)_0 = (B-V) - E_{B-V} = (8.50 - 8.14) - 0.14 = 0.22$$
+    $$(B-V)_0 = (B-V) - E_{B-V} = (8.50 - 8.14) - 0.072 = 0.288$$
     $$\begin{align*}
-    \implies &\boxed{B_0 = V_0 + (B-V)_0 = 7.91}
-    \\ &\boxed{U_0 = B_0 + (U-B)_0 = 7.46}
+    \implies &\boxed{B_0 = V_0 + (B-V)_0 = 8.20}
+    \\ &\boxed{U_0 = B_0 + (U-B)_0 = 7.75}
     \end{align*}$$
 
     **b)** Comparing the star's bolometric magnitude to that of the Sun,
@@ -499,19 +501,20 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
     \\ \implies &M_{\odot, \text{bol}} - M_\text{bol} = 5 \log \frac{R}{R_\odot} + 10 \log \frac{T}{T_\odot}
     \end{align*}$$
 
-    Substituting the values, we get
+    Substituting the values ($M_{\odot, \text{bol}} \approx 4.75$), we get
 
-    $$\boxed{T = 2.07 T_\odot = 12000 \, \mathrm{K}}$$
+    $$4.75 - (-0.25) = 5 \log 2.3 + 10 \log \frac{T}{T_\odot}$$
+    $$\implies \boxed{T = 2.08 T_\odot \approx 12000 \, \mathrm{K}}$$
 
     **c)** The absolute visual magnitude can be found using the bolometric correction
 
-    $$M_V = M_\text{bol} + BC = -0.25 + (-0.15) = -0.40$$
+    $$M_V = M_\text{bol} - BC = -0.25 - (-0.15) = -0.10$$
 
-    Hence the distance can be found
+    Hence the distance can be found with $V_0$ (intrinsic apparent magnitude)
 
-    $$m_V - M_V = 5 \log \frac{r}{10 \, \mathrm{pc}}$$
-    $$\implies 7.69 - (-0.40) = 5 \log \frac{r}{10}$$
-    $$\implies \boxed{r \approx 415 \, \mathrm{pc}}$$
+    $$V_0 - M_V = 5 \log \frac{r}{10 \, \mathrm{pc}}$$
+    $$\implies 7.91 - (-0.10) = 5 \log \frac{r}{10}$$
+    $$\implies \boxed{r \approx 400 \, \mathrm{pc}}$$
 
     {{< /tab >}}
 
@@ -533,7 +536,7 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
 
     To detect the pulsar, Earth must lie inside this solid angle. Hence the probability is
 
-    $$p = \frac{\Omega}{4 \pi} = 2 \sin \theta \sin \frac{\alpha}{4} \approx \boxed{0.035}$$
+    $$p = \frac{\Omega}{4 \pi} = 2 \sin \theta \sin \frac{\alpha}{2} \approx \boxed{0.035}$$
 
     The pulsar emits radiation into a cone having solid angle
 
@@ -598,8 +601,8 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
 
     **c)** Equating the number of photons,
     
-    $$N_T \times 1 \, \mathrm{m} = N_0 \times 0.5 \times 0.2 \times A_t$$
-    $$\implies N_T = 12180 \times 0.5 \times 0.2 \times \left( \frac{2.0}{2} \right)^2 \approx \boxed{3813}$$
+    $$N_T \times 1 \, \mathrm{m^2} = N_0 \times 0.5 \times 0.2 \times \pi \left( \frac{2.0}{2} \right)^2 \mathrm{m^2}$$
+    $$\implies N_T = 12180 \times 0.5 \times 0.2 \times \pi \approx \boxed{3826}$$
 
     {{< /tab >}}
 
@@ -673,12 +676,12 @@ Since $k$ depends on the wavelength, the color index is also affected by atmosph
 
     The color index is defined as
 
-    $$ (B-V) = -2.5 \log \left( \frac{F_B}{F_V} \right) $$
-    $$\implies (B-V) = -2.5 \log \left( \frac{\lambda_B^{-5} e^{-hc/\lambda_B kT_c}}{\lambda_V^{-5} e^{-hc/\lambda_V kT_c}} \right) $$
-    $$\implies (B-V) = 12.5 \log \left( \frac{\lambda_B^5}{\lambda_V^5} \right) + 2.5 \frac{hc}{kT_c} \left( \frac{1}{\lambda_B} - \frac{1}{\lambda_V} \right) $$
-    $$\implies T_c = \frac{hc}{k} \cdot \frac{2.5 \left( \frac{1}{\lambda_B} - \frac{1}{\lambda_V} \right)}{(B-V) + 2.5 \log \left( \frac{\lambda_B^5}{\lambda_V^5} \right)}$$
+    $$ (B-V) = -2.5 \log \left( \frac{F_B}{F_V} \right) + C $$
+    $$\implies (B-V) = -2.5 \log \left( \frac{\lambda_B^{-5} e^{-hc/\lambda_B kT_c}}{\lambda_V^{-5} e^{-hc/\lambda_V kT_c}} \right) + C $$
+    $$\implies (B-V) = 2.5 \log \left( \frac{\lambda_B}{\lambda_V} \right)^5 + 2.5 \frac{hc}{kT_c} \log e \left( \frac{1}{\lambda_B} - \frac{1}{\lambda_V} \right) + C $$
+    $$\implies T_c = \frac{hc}{k} \log e \cdot \frac{2.5 \left( \frac{1}{\lambda_B} - \frac{1}{\lambda_V} \right)}{(B-V) - 12.5 \log \left( \frac{\lambda_B}{\lambda_V} \right) - C}$$
 
-    Substituting the values $\lambda_B = 440 \, \mathrm{nm}$ and $\lambda_V = 550 \, \mathrm{nm}$, we get
+    Using the given wavelengths $\lambda_B = 440 \, \mathrm{nm}$ and $\lambda_V = 550 \, \mathrm{nm}$, the term $-12.5 \log (\lambda_B/\lambda_V) \approx 1.21$. Assuming standard zero-point calibration, we get the approximate relation:
 
     $$\boxed{T_c \approx \frac{7000 \mathrm{K}}{(B-V) + 0.47}}$$
     {{< /tab >}}

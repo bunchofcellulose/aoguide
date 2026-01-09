@@ -272,7 +272,7 @@ $$\tag{2.1.26} L = A \epsilon \sigma T^4$$
     {{< tab name="Solution" >}}
     This distance to the star is
 
-    $$ d = \frac{1}{\pi} = 250 \, \mathrm{kpc} $$
+    $$ d = \frac{1}{\pi} = 250 \, \mathrm{pc} $$
 
     The flux density of the star is given by
 
@@ -522,9 +522,9 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
 
     $$ F = \frac{L_\odot}{4 \pi r^2} $$
 
-    The flux density absorbed by the bolometer is thus $F \cdot S$.
+    The flux density leaving (reflecting from) the bolometer is thus $F \cdot S$.
 
-    The bolometer must emit the same amount of energy it absorbs to remain in thermal equillibrium. Thus
+    We equate this flux to that of a blackbody to find the effective temperature:
 
     $$ F \cdot S = \sigma T^4 $$
     $$ \implies T = \left( \frac{L_\odot (1-a)^6}{4 \pi \sigma r^2} \right)^{1/4} = \boxed{0.28 \, \mathrm{K}}$$
