@@ -69,7 +69,7 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
 </div>
 
 <div class="author-card">
-  <img src="https://github.com/jardin-de-lys.png" alt="Lilian" class="author-avatar">
+  <img src="/assets/images/start/lilian.png" alt="Lilian" class="author-avatar">
   <div class="author-info">
     <h4>Lilian</h4>
     <p><strong>Editor</strong></p>
