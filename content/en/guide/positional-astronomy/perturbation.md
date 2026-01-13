@@ -7,9 +7,9 @@ When observing celestial objects, several factors can affect the observed positi
 
 ## Refraction
 
-Earth's atmosphere is not homogeneous, and its density decreases with altitude. The refractive index of air is slightly greater than 1, and it decreases with altitude. As light enters the Earth's atmosphere from space, it bends towards the normal due to the increase in refractive index. This bending of light causes the apparent position of celestial objects to be different from their true position, and the observed altitude of an celestial object to be slightly higher than its true altitude. The amount of refraction depends on the altitude of the object and the atmospheric conditions, such as temperature and pressure. Altitude is always (except very close to zenith) increased by refraction.
+Earth's atmosphere is not homogeneous, and its density decreases with altitude. The refractive index of air is slightly greater than 1, and it decreases with altitude. As light enters the Earth's atmosphere from space, it bends towards the normal due to the increase in refractive index. This bending of light causes the apparent position of celestial objects to be different from their true position, and the observed altitude of a celestial object to be slightly higher than its true altitude. The amount of refraction depends on the altitude of the object and the atmospheric conditions, such as temperature and pressure. Altitude is always (except very close to zenith) increased by refraction.
 
-For low zenith angles (high altitudes), the atmosphere can be modelled as a stack of parallel layers of air, each having refractive index $n_i$. Let the true zenith angle of the object be $z$ and apparent zenith angle be $\zeta$. Using snell's law, we get that
+For low zenith angles (high altitudes), the atmosphere can be modelled as a stack of parallel layers of air, each having refractive index $n_i$. Let the true zenith angle of the object be $z$ and apparent zenith angle be $\zeta$. Using Snell's law, we get that
 
 $$\sin z = n_{k} \sin z_{k} = n_{k-1} \sin z_{k-1} = \ldots = n_{1} \sin z_{1} = n_0 \sin \zeta$$
 
@@ -116,7 +116,7 @@ The tropical year - the time interval between successive passages of sun through
 
 ## Nutation
 
-Moon's orbital plane is tilted with respect to the eliptic, resulting in precession of its orbital plane with a period of about 18.6 years. This causes the ecliptic to oscillate slightly, resulting in a small oscillation of the celestial poles and equinoxes, called nutation.
+Moon's orbital plane is tilted with respect to the ecliptic, resulting in precession of its orbital plane with a period of about 18.6 years. This causes the ecliptic to oscillate slightly, resulting in a small oscillation of the celestial poles and equinoxes, called nutation.
 
 The nutation is superimposed on the precession of the equinoxes, and has a maximum amplitude of about $9.2''$, i.e. nutation leads to change in ecliptic obliquity of Earth with a period of about 18.6 years, with a maximum amplitude of about $9.2''$.
 

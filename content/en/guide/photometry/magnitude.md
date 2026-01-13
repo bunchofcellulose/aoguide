@@ -216,7 +216,7 @@ Thus the total amount of light from a galaxy of $12^m$ would be the same as that
 
 For a comet, the total magnitude is the combined magnitude of the coma and the nucleus.
 
-The surface brightness $S$ quantifies the apparent brightness of flux density per unit angular area of the spatially extended obejct. For an object with total magnitude $m$ extended over a visual area $A \mathrm{\: arcsec^2}$, its surface brightness is defined as
+The surface brightness $S$ quantifies the apparent brightness of flux density per unit angular area of the spatially extended object. For an object with total magnitude $m$ extended over a visual area $A \mathrm{\: arcsec^2}$, its surface brightness is defined as
 
 $$\tag{2.2.4} \boxed{S = m + 2.5 \log A} $$
 
@@ -226,13 +226,13 @@ Surface brightness is measured in units of $\mathrm{mag \,/\, arcsec^{2}}$. This
 
 ### ISM
 
-If the space between the observer and the radiating source is not empty and is filled with interstellar medium (ISM), which consists of gas and dust. As light passes through the ISM, some of the it will be absorbed or scattered. This reduction of intensity of light in the direction of propagation is called extinction.
+The space between the observer and the radiating source is often not empty and is filled with interstellar medium (ISM), which consists of gas and dust. As light passes through the ISM, some of it will be absorbed or scattered. This reduction of intensity of light in the direction of propagation is called extinction.
 
 Suppose a star is radiating a flux $L_0$ into a solid angle $\omega$. The flux will decrease with distance because of extinction
 
 $$\tag{2.2.5} dL = - \alpha L \, dr $$
 
-The opacity $\alpha$ quantifies how effectively the medium can obsecure radiation. For vacuum, $\alpha = 0$. The dimensionless quanitity $\tau$, called the optical thickness or optical depth, is defined as
+The opacity $\alpha$ quantifies how effectively the medium can obscure radiation. For vacuum, $\alpha = 0$. The dimensionless quantity $\tau$, called the optical thickness or optical depth, is defined as
 
 $$\tag{2.2.6} d\tau = \alpha \, {dr} $$
 

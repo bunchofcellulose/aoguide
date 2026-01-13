@@ -151,13 +151,13 @@ $$\tag{2.1.13} P = \frac{1}{3} u = \frac{4\pi}{3c} B$$
 
 ### What is a Blackbody?
 
-A blackbody is an object that does not reflect or scatter any radiation falling on it, but absorbs all the radiation falling on it completely. It emits radiation evenly in all directions and at all wavelengths. Kirchoff's definition of a blackbody is an ideal body that neither reflects any light nor allows it to pass through. The emissivity $\epsilon$ of a body is defined as the ratio of the radiation emitted by the body to the radiation emitted by a blackbody of the same shape at the same temperature. The emissivity $\epsilon$ of a blackbody is 1, while that of a perfect reflector is 0. The emissivity of a real body lies between 0 and 1.
+A blackbody is an object that does not reflect or scatter any radiation falling on it, but absorbs all the radiation falling on it completely. It emits radiation evenly in all directions and at all wavelengths. Kirchhoff's definition of a blackbody is an ideal body that neither reflects any light nor allows it to pass through. The emissivity $\epsilon$ of a body is defined as the ratio of the radiation emitted by the body to the radiation emitted by a blackbody of the same shape at the same temperature. The emissivity $\epsilon$ of a blackbody is 1, while that of a perfect reflector is 0. The emissivity of a real body lies between 0 and 1.
 
 $$\tag{2.1.14} \epsilon = \frac{B}{B_\text{blackbody}}$$
 
 where $B$ is the radiance of the body and $B_\text{blackbody}$ is the radiance of a blackbody at the same temperature.
 
-Kirchoff's law states that the emissivity of a body is equal to its absorptivity $a$. This means that a good absorber is also a good emitter. So, a perfect absorber (like a blackbody) is also a perfect emitter.
+Kirchhoff's law states that the emissivity of a body is equal to its absorptivity $a$. This means that a good absorber is also a good emitter. So, a perfect absorber (like a blackbody) is also a perfect emitter.
 
 Examples of blackbodies include stars (which closely approximate blackbody spectra), the cosmic microwave background (a nearly perfect blackbody from the early universe), and laboratory setups like a cavity with a small hole that traps radiation.
 

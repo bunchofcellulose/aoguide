@@ -10,7 +10,7 @@ Before that, however, let's have a look over some terminology that we'll commonl
 
 {{< svg "celmech/orbital-elements.svg" "Orbital elements illustration" "Orbital Elements (source: Wikipedia)" >}}
 
-- **Reference plane**: plane used as a reference to define orbital elements. The reference plane is typically taken to be the ecliptic (the plain containing the orbit) or the equator.
+- **Reference plane**: plane used as a reference to define orbital elements. The reference plane is typically taken to be the ecliptic (the plane containing the orbit) or the equator.
 - **Reference direction (♈︎)**: direction in the reference plane used to define the orbital elements. The reference direction is typically taken to be the vernal equinox
 - **Node**: intersection of the orbiting body's orbital plane with the reference plane.
 - **Ascending node (☊)**: point at which the orbiting body crosses the reference plane from below to above.
@@ -33,7 +33,7 @@ Two parameter are required to describe the size and shape of the orbit. These ar
 
 ---
 
-Three parameters are required to descrive the orientation of the orbit. These are:
+Three parameters are required to describe the orientation of the orbit. These are:
 
 - **Inclination $i$**: vertical tilt of the ellipse with respect to the reference plane, measured at the ascending node. Inclinations from $90^\circ$ to $180^\circ$ are typically used to denote retrograde orbits.[^1]
 - **Longitude of the ascending node $\Omega$**: describes the angle from the ascending node of the orbit (☊ in the diagram) to the reference frame's reference direction (♈︎ in the diagram). This is measured in the reference plane. This is clearly undefined for perfectly coplanar orbits, but is often set to zero instead by convention.
@@ -105,7 +105,7 @@ $$
 $$
 <div style="text-align: right; margin-top: -1rem; margin-bottom: 1rem;">(3.4.2)</div>
 
-If the orbiting body is at a distance $r$, having true anamoly $\theta$, its coordinates are $x = r \cos \theta$, $y = r \sin \theta$ and $z = 0$. Therefore, the coordinates of the orbiting body in the reference frame are given by
+If the orbiting body is at a distance $r$, having true anomaly $\theta$, its coordinates are $x = r \cos \theta$, $y = r \sin \theta$ and $z = 0$. Therefore, the coordinates of the orbiting body in the reference frame are given by
 
 $$
 \begin{align}
@@ -149,7 +149,7 @@ $$\tag{3.4.6} \tan \lambda = \frac{Y}{X}\,, \qquad \qquad \sin \beta = \frac{Z}{
     - $i = 20^\circ$
     - $\Omega = 130^\circ$
 
-    Note that since there is no periapsis (the orbit is circular), we can't determine $\omega$. Instead, we use the ascending node as a reference point, and set $\omega = M = \tau = 0$ there. The orbital period of the satellite is $P = a^{3/2} = 0.465 \mathrm{\,yr}$, which gives the mean motion $n = 0.03701 \mathrm{\,day^{-1}}$. Writing eqn 3.4.3 to 3.4.5 at a later time when the mean anamoly (which is equal to the true anamoly) is $M$,
+    Note that since there is no periapsis (the orbit is circular), we can't determine $\omega$. Instead, we use the ascending node as a reference point, and set $\omega = M = \tau = 0$ there. The orbital period of the satellite is $P = a^{3/2} = 0.465 \mathrm{\,yr}$, which gives the mean motion $n = 0.03701 \mathrm{\,day^{-1}}$. Writing eqn 3.4.3 to 3.4.5 at a later time when the mean anomaly (which is equal to the true anomaly) is $M$,
 
     $$
     \begin{aligned}
@@ -193,7 +193,7 @@ $$\tag{3.4.6} \tan \lambda = \frac{Y}{X}\,, \qquad \qquad \sin \beta = \frac{Z}{
 
     $$d = \sqrt{(X - X_\oplus)^2 + (Y - Y_\oplus)^2 + (Z - Z_\oplus)^2} = \boxed{0.439 \mathrm{\, AU}}$$
 
-    2. The mean anamoly after 140 days is $M = nt = 5.182 = 296.9^\circ$. The position of the satellite at this time is given by
+    2. The mean anomaly after 140 days is $M = nt = 5.182 = 296.9^\circ$. The position of the satellite at this time is given by
 
     $$
     \begin{aligned}
@@ -222,7 +222,7 @@ $$\tag{3.4.6} \tan \lambda = \frac{Y}{X}\,, \qquad \qquad \sin \beta = \frac{Z}{
     \end{aligned}
     $$
 
-    Substituing the values for $\beta$, $\lambda$ and $\epsilon$, we get
+    Substituting the values for $\beta$, $\lambda$ and $\epsilon$, we get
 
     $$\boxed{ \alpha = 69.46^\circ\,, \quad \delta = 3.26^\circ }$$
 

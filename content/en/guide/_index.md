@@ -30,7 +30,7 @@ The index page of each unit lists several resources to read from in the Recommen
 The guide goes over pretty much all of the theoretical concepts needed for astronomy olympiads. However, theory is not the only thing asked in olympiads. The IOAA has three exams: a theory exam, a data analysis exam, and an observation exam (usually split into several exams). The guide primarily focuses on the theory part, but it is important to know that the other two parts are equally important, carrying 25% of the total points each (50% theory, 25% data analysis and 25% observation). The resources page contains links to past papers and other useful resources.
 
 - **Data Analysis** requires you to read and draw graphs, speedrun your calculator, and interpret data. You will be given a set of data, and you will have to answer questions based on that data. The data can be in the form of tables, graphs, or images. Be prepared to do a lot of calculations, and draw a lot of graphs. A good understanding of statistics is also required.
-- **Observational Skills** can too be broken down into three parts: Telescope handing, Naked eye observation and sky maps. For each of these, be prepared to remember all 88 constellations, all the Messier objects, all the bright stars (with their names, and maybe RA/Dec and magnitudes of a few too), and a good amount of star hopping skills.
+- **Observational Skills** can too be broken down into three parts: Telescope handling, Naked eye observation and sky maps. For each of these, be prepared to remember all 88 constellations, all the Messier objects, all the bright stars (with their names, and maybe RA/Dec and magnitudes of a few too), and a good amount of star hopping skills.
 
   - **Telescope handling** requires you to know how to set up and use a telescope. You will be given a telescope, and you will have to set it up and use it to point at and observe celestial objects. You will also be required to know how to align the telescope, and how to use the different parts of the telescope.
   - **Naked eye observation** requires you to know how to identify celestial objects using just your eyes. You will typically be given a list of celestial objects, and you will have to identify them in the night sky. A good amount of familiarity with the night sky is required.
@@ -57,7 +57,7 @@ This is a trivia callout box. It contains interesting facts or historical contex
 {{< /callout >}}
 
 {{< callout type="math" >}}
-This is a math callout box. It shows complex mathematical derivations require to arrive at an equation.
+This is a math callout box. It shows complex mathematical derivations required to arrive at an equation.
 {{< /callout >}}
 
 {{< callout type="table" >}}

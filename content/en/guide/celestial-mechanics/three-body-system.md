@@ -3,7 +3,7 @@ title: Three Body Systems
 weight: 5
 ---
 
-We now move on to the three body problem. Given the state of the system initially (i.e the positions and velocities of three point masses) orbiting each other in space, we wish to calculate the subsequent trajectory using newton's laws of motion and gravitation. As it turns out, this is a much harder task than the two body problems, and a closed form solution doesn't really exist.
+We now move on to the three body problem. Given the state of the system initially (i.e the positions and velocities of three point masses) orbiting each other in space, we wish to calculate the subsequent trajectory using newton's laws of motion and gravitation. As it turns out, this is a much harder task than the two-body problem, and a closed form solution doesn't really exist.
 
 When three bodies orbit each other, the resulting dynamical system is chaotic for most initial conditions. 
 Because there are no solvable equations for most three-body systems, the only way to predict the motions of the bodies is to estimate them using numerical methods.
@@ -17,7 +17,7 @@ Anyway, there do exist some special configurations, for which solutions to the t
 
 ## Virial Theorem
 
-One very important theorem, that has is useful even beyond astrophysics is the virial theorem.
+One very important theorem, that is useful even beyond astrophysics is the virial theorem.
 Suppose we have a system of $n$ point masses $m_i$ with position vectors $\mathbf{r}_i$ and
 velocities $\mathbf{v}_i$, where the only force of consideration is gravity.
 
@@ -105,11 +105,11 @@ using our previous derivation.
 ## Hill Sphere
 
 The Hill sphere is the region around a celestial body where its own gravity (compared to other nearby bodies) is the dominant force in attracting satellites. It is also known as the Roche sphere.
-If a less massive body $m$ orbits a (more) massive body $M$ ($M \ll m$), and has an instantaneous distance $a$ from $M$, then its hill radius (at that instant) is
+If a less massive body $m$ orbits a (more) massive body $M$ ($M \ll m$), and has an instantaneous distance $a$ from $M$, then its Hill radius (at that instant) is
 
 $$\tag{3.5.3} \boxed{ R_H \approx a \left( \frac{m}{3(M + m)} \right)^{1/3} } $$
 
-For Earth, this is approximately $0.01 \mathrm{\,AU}$. The derivation of the hill radius is similar to that of the $L_1$ and $L_2$ Lagrange points.
+For Earth, this is approximately $0.01 \mathrm{\,AU}$. The derivation of the Hill radius is similar to that of the $L_1$ and $L_2$ Lagrange points.
 
 ## Lagrange Points
 
@@ -157,7 +157,7 @@ $$\tag{3.5.5} \frac{GM}{(R-r)^2} - \frac{Gm}{r^2} = \left( \frac{m}{M + m} R - r
 by balancing centrifugal forces, and noting that the term on the right hand in parentheses the distance of $L_1$ from centre of mass. 
 This turns out to be a quintic on expanding. Analytic solutions are as such not possible, but we can find $L_1$ using numerical methods.
 
-If $M \gg m$, then $L_1$ and $L_2$ are approximately at the same distance $r$ from the smaller primary, equal to the hill radius, given by
+If $M \gg m$, then $L_1$ and $L_2$ are approximately at the same distance $r$ from the smaller primary, equal to the Hill radius, given by
 $$\tag{3.5.6} r \approx R \sqrt[3]{\frac{m}{M+m}} $$
 
 ### L <sub>2</sub>
@@ -176,7 +176,7 @@ We can also write this relation as
 
 $$ \frac{m}{r^3} \approx \frac{M}{R^3} $$
 
-Now, since $F_\text{tidal} \propto {M}/{R^3}$, we find that the tidal effect of the smaller primary at the $L_1$ or at the $L_2$ point is about three times of that the larger primary. 
+Now, since $F_\text{tidal} \propto {M}/{R^3}$, we find that the tidal effect of the smaller primary at the $L_1$ or at the $L_2$ point is about three times of that of the larger primary. 
 We can also write the relation as
 $$ \rho_2 \alpha_2^3 \approx 3 \rho_1 \alpha_1^3 $$
 where $\rho$ is the density of the primary and $\alpha$ is its angular size, as seen from $L_1$ or $L_2$. 
@@ -239,13 +239,13 @@ A binary resonance ratio should be interpreted as the ratio of number of orbits 
 
 A mean-motion orbital resonance occurs when two bodies have periods of revolution that are a simple integer ratio of each other.
 
-A spin orbit resonance is where the spin period of the planet is connected to the orbital period by a simple ratio. For circular orbits, only such resonance possible is 1:1, where the planet is tidally locked to the star. For elliptical orbits, other resonances are possible. Mercury has a spin orbit resonance or 3:2 with the sun, where it rotates three times on its axis for every two revolutions around the sun.
+A spin-orbit resonance is where the spin period of the planet is connected to the orbital period by a simple ratio. For circular orbits, only such resonance possible is 1:1, where the planet is tidally locked to the star. For elliptical orbits, other resonances are possible. Mercury has a spin-orbit resonance or 3:2 with the sun, where it rotates three times on its axis for every two revolutions around the sun.
 
 ## n-body problem
 
-The n-body problem is the problem of predicting the individual motions of a group of celestial objects interacting with each other gravitationally. It consists of n point mass $m_i$, with position vectors $\mathbf{r}_i$ and velocities $\mathbf{v}_i$. The equations of motion are given by
+The n-body problem is the problem of predicting the individual motions of a group of celestial objects interacting with each other gravitationally. It consists of n point masses $m_i$, with position vectors $\mathbf{r}_i$ and velocities $\mathbf{v}_i$. The equations of motion are given by
 
-$$\tag{3.5.11} \ddot{\mathbf{r}}_i = \sum_{\substack{j=0 \\ j \neq i}}^{n} \frac{G m_i m_j}{|\mathbf{r}_j - \mathbf{r}_j|^3} (\mathbf{r}_j - \mathbf{r}_i) $$
+$$\tag{3.5.11} \ddot{\mathbf{r}}_i = \sum_{\substack{j=0 \\ j \neq i}}^{n} \frac{G m_i m_j}{|\mathbf{r}_j - \mathbf{r}_i|^3} (\mathbf{r}_j - \mathbf{r}_i) $$
 
 There is no general closed form solution for $n >2$.
 

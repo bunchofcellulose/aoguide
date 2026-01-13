@@ -42,7 +42,7 @@ To simplify the algebra, we define the reduced mass $m$ of the two-body system a
 
 $$\tag{3.1.2} m = \frac{m_1 m_2}{m_1 + m_2} $$
 
-such that $Mm = m_1 m_2$. Recommended, we define the gravitational parameter $\mu$ as
+such that $Mm = m_1 m_2$. Conveniently, we define the gravitational parameter $\mu$ as
 
 $$\tag{3.1.3} \mu = G M = G (m_1 + m_2) $$
 
@@ -108,7 +108,7 @@ but since the COM does not experience a net force, $\mathbf{\dot{R}}$ is constan
 $$
 E \to \frac{1}{2} m v^2 - \mu \frac{m}{r}
 $$
-which is an invariant because the gravitational force is conservative. Alternatively, $\mathbf{\dot{R}}$ is just 0 in the com frame, so the energy in the COM frame is simply this.
+which is an invariant because the gravitational force is conservative. Alternatively, $\mathbf{\dot{R}}$ is just 0 in the COM frame, so the energy in the COM frame is simply this.
 
 We define the specific angular momentum and specific energy as
 
@@ -148,7 +148,7 @@ You can derive the magnitude by taking the dot product with itself, and subbing 
 
 I can't quite give you a motivation for the eccentricity vector, there is *some* rhyme or reason to it, but justifying it is a great task in itself, so I must ask you to take my word for this.
 
-The magnitude of the eccentricity vector (as we'll see in a bit), determins the eccentricity of a planetary orbit, but this is sadly not very apparent from our definition, although suggestive from its name.
+The magnitude of the eccentricity vector (as we'll see in a bit), determines the eccentricity of a planetary orbit, but this is sadly not very apparent from our definition, although suggestive from its name.
 
 ## First Law
 
@@ -156,7 +156,7 @@ Kepler's first law of planetary motion states that the orbit of a planet is an e
 
 First, we can ask what the solutions for the trajectories of particles in such a system are. Also we'll be using properties of ellipse somewhat freely for the next sections, so if you aren't familiar with them, I'd recommend reading this [wikipedia page](https://en.wikipedia.org/wiki/Ellipse). The sections of importance are mostly the cartesian co-ordinates one, and metric properties.
 
-To do this we define a new quantity (we don't necessarily need it, but its very useful later, so I might as well define it here), we call the angle between the eccentricity vector and the position vector the *true anamoly*, $\theta$. We can use this to take the dot product:
+To do this we define a new quantity (we don't necessarily need it, but its very useful later, so I might as well define it here), we call the angle between the eccentricity vector and the position vector the *true anomaly*, $\theta$. We can use this to take the dot product:
 
 $$ \mathbf{r} \cdot \mathbf{e} = r e \cos \theta = \mathbf{r} \cdot \left( -\frac{\mathbf{h} \times \dot{\mathbf{r}}}{\mu} - \frac{\mathbf{r}}{r} \right) = \frac{h^2}{\mu} - r$$
 
@@ -180,7 +180,7 @@ The individual trajectories of the two bodies in the center of mass frame is the
 
 $$ r_1 = \frac{m_2}{M} \frac{h^2 / \mu}{1 + e \cos \theta} \,, \qquad \qquad r_2 = \frac{m_1}{M} \frac{h^2 / \mu}{1 + e \cos \theta} $$
 
-Of course because the centre of mass is fixed, the trajectories of the two bodies however will be oriented opposite to each other in our frame, with an angle of $\pi$ radian between them, to keep the center of mass fixed.
+Of course because the center of mass is fixed, the trajectories of the two bodies however will be oriented opposite to each other in our frame, with an angle of $\pi$ radian between them, to keep the center of mass fixed.
 
 We can actually determine the energy of the system can by just the eccentricity $e$ and length of semi-latus rectum $p$ of the trajectory. Consider the dot product, $\mathbf{e} \cdot \mathbf{e} = ||\mathbf{e}||^2$, using the
 magnitude of the eccentricity vector:

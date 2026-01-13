@@ -13,7 +13,7 @@ and the corresponding potential energy $V(r) = -k/r$, the **super** useful Lapla
 
 $$\tag{3.7.1} \boxed{ \mathbf{A} = \mathbf{p} \times \mathbf{L} - m k \hat{\mathbf{r}} } $$
 
-$\mathbf{p}$ and $\mathbf{L}$ are the linear and angular momentum of the particle at any instant, and $\hat{\mathbf{r}}$ is the unit vector pointing from the center of mass to the particle. The constant parameter k describes the strength of the central force; it is equal to $GMm$ for gravitational forces. The LRL vector is a scaled version of the eccentricity vector, $\mathbf{A} = mk \mathbf{e}$, and hence is a constant of motion. The magntidue of the LRL vector is
+$\mathbf{p}$ and $\mathbf{L}$ are the linear and angular momentum of the particle at any instant, and $\hat{\mathbf{r}}$ is the unit vector pointing from the center of mass to the particle. The constant parameter k describes the strength of the central force; it is equal to $GMm$ for gravitational forces. The LRL vector is a scaled version of the eccentricity vector, $\mathbf{A} = mk \mathbf{e}$, and hence is a constant of motion. The magnitude of the LRL vector is
 
 $$\tag{3.7.2} A^2 = m^2 k^2 + 2mEL^2 $$
 
@@ -63,7 +63,7 @@ The rate of precession is therefore given by
 
 $$\tag{3.7.4} \dot{\varphi} = \frac{m}{AT} \int_0^{2 \pi} \frac{d}{du} h(u) d \theta $$
 
-If the perturbation is small, the orbit during one revolution can be approximated as keplerian
+If the perturbation is small, the orbit during one revolution can be approximated as Keplerian
 
 $$ u = \frac{mk}{L^2} \left[ 1 + \frac{A}{mk} \cos \theta \right] $$
 
@@ -83,7 +83,7 @@ The energy of a particle of mass $m$ moving in a central potential $V(r)$ is
 
 $$E = \frac{1}{2}mv^2 + V(r) = \frac{1}{2}m(\dot{r}^2 + r^2 \dot{\theta}^2) + V(r)$$
 
-Differentiating with respect to time, and substituting the $L = mr^2 \dot{\theta}$, we get the equaiton of motion of the particle
+Differentiating with respect to time, and substituting the $L = mr^2 \dot{\theta}$, we get the equation of motion of the particle
 
 $$ m\ddot{r} - \frac{L^2}{m r^3} = - \frac{dV}{dr} $$
 

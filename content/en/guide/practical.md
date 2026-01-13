@@ -15,4 +15,4 @@ Data analysis is the process of inspecting, cleaning, transforming, and modeling
 
 Olympiad participants are required to perform observational tasks, such as identifying constellations, using telescopes, or marking objects on star maps. These tasks require a good understanding of the night sky and the ability to use various tools and techniques for observation.
 
-Two great resources for mastery of both of these are the handouts of Ayush Tiwari and past Hong Kong IOAA team members, linked in the resources page.
+Two great resources for mastery of both of these are the handouts of Ayush Tiwari and past Hong Kong IOAA team members, linked in the resources page. For Observational Astronomy, Fahim's "Star Maps 101 and Practices" is also a great resource. Additionally, there is a pdf containing plethora of star maps for your practice in the Drive linked on the resources page.

@@ -31,7 +31,7 @@ $$\tag{2.4.3} \frac{d \theta}{d s} = \frac{1}{F} $$
 
 ## Resolving Power
 
-The resolving power of a telescope is its ability to separate objects with small angle between them. The fundamental limit for a telescope to separate objects which are apparently close together is the theoretical resolving power of the instruments. It is the least angular separation between two stars for them to appear resolved. For a circular aperture,
+The resolving power of a telescope is its ability to separate objects with small angles between them. The fundamental limit for a telescope to separate objects which are apparently close together is the theoretical resolving power of the instrument. It is the least angular separation between two stars for them to appear resolved. For a circular aperture,
 
 $$\tag{2.4.4} \theta \approx 1.22 \frac{\lambda}{D} $$
 
@@ -97,7 +97,7 @@ where $D = 2R$ is the diameter of the aperture. This is the theoretical resolvin
 {{< /callout >}}
 
 {{< callout type="remark" >}}
-Telescopes whose resolving power is limited by the theoretical resolving power are called diffraction limited. Usually Earth based telescopes are not diffraction limited, but seeing limited, which is a phenomenon caused by the atmosphere.
+Telescopes whose resolving power is limited by the theoretical resolving power are called diffraction limited. Usually Earth-based telescopes are not diffraction limited, but seeing limited, which is a phenomenon caused by the atmosphere.
 
 Seeing is the degradation of images caused by the turbulence in the Earth's atmosphere, that may be visible as blurring, twinkling or variable distortion of images. The diameter of the seeing disk is defined as the FWHM (full width at half maximum) of its optical intensity. A seeing of 1'' means that the smallest resolvable detail in an image are blurred out to a disk of 1 arcsecond in diameter. The seeing disk is the image of a point source, such as a star, as seen through the atmosphere. The seeing disk is typically about 1-2'' in diameter for good observing conditions.
 

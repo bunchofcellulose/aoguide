@@ -39,7 +39,7 @@ The shortest distance between two points on the surface of a sphere is along a g
 
 ### Spherical Trigonometry
 
-Here is an excellent resource on [spherical trigonometry](https://mathworld.wolfram.com/SphericalTrigonometry.html). The proofs of the formulae given below in the guide are omitted for brevity; they can be found in the above reference.
+Here is an excellent resource on [spherical trigonometry](https://mathworld.wolfram.com/SphericalTrigonometry.html). The proofs of the formulas given below in the guide are omitted for brevity; they can be found in the above reference.
 
 Often we are interested in finding the sides or angles of spherical triangles. We use spherical trigonometry to find these. The most commonly used identities are the following:
 

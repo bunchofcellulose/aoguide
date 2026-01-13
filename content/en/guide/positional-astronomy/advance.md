@@ -43,7 +43,7 @@ From this, we can conclude that the altitude difference between the lowest and h
 
 You can explore the analemma using [all](https://mtirado.com/blog/demystifying-the-analemma/) [these](https://mtirado.com/resources/analemma-calc/) [interactive](https://benlansdell.github.io/analemma/) [demos](https://alokm.com/astro/analemmagenerator.html).
 
-A detailed explanation of the equation of time is avaiable at the [wikipedia page](https://en.wikipedia.org/wiki/Equation_of_time). The analemma is not just observed for the Sun, but also for other celestial bodies like the Moon and planets. The analemma of the Moon, called the lunar analemma, looks just like that of the Sun, but is more elongated due to the higher eccentricity of the Moon's orbit.
+A detailed explanation of the equation of time is available at the [wikipedia page](https://en.wikipedia.org/wiki/Equation_of_time). The analemma is not just observed for the Sun, but also for other celestial bodies like the Moon and planets. The analemma of the Moon, called the lunar analemma, looks just like that of the Sun, but is more elongated due to the higher eccentricity of the Moon's orbit.
 
 A few values of the equation of time are tabulated below (at epoch J2000):
 
@@ -51,7 +51,7 @@ A few values of the equation of time are tabulated below (at epoch J2000):
 
 | Point | Value | Date |
 |-|-|-|
-|minimum|$-14^m 15^2$|11 February|
+|minimum|$-14^m 15^s$|11 February|
 |zero|$0^m 0^s$|15 April|
 |maximum|$3^m 41^s$|14 May|
 |zero|$0^m 0^s$|13 June|

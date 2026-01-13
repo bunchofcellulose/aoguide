@@ -126,9 +126,9 @@ $$\tag{2.6.19} \implies m = V(1, \alpha) + 5 \log \frac{dr}{a^2} $$
 
 At $\alpha = 0^\circ$, $p = \left( \frac{dr}{aR} \right)^2 10^{-0.4 (m - m_0)}$ where $m_0 = m(\alpha = 0^\circ)$ is the apparent magnitude.
 
-### Thermal Equillibrium
+### Thermal Equilibrium
 
-If a slowly rotating planet is in thermal equillibrium, the temperature of the planet is given by
+If a slowly rotating planet is in thermal equilibrium, the temperature of the planet is given by
 
 $$ 2\pi R^2 \sigma T^4 = \frac{4\pi R_s^2 \sigma T_s^4}{4\pi r^2} \cdot \pi R^2 \cdot (1 - A) $$
 
@@ -136,4 +136,4 @@ If the planet rotates fast, the temperature is given by
 
 $$ 4\pi R^2 \sigma T^4 = \frac{4\pi R_s^2 \sigma T_s^4}{4\pi r^2} \cdot \pi R^2 \cdot (1 - A)$$
 
-where $T$ is the temperature of the planet, $A$ is the planet's bond albedo, $T_s$ is the temperature of the star, $R$ is the radius of the planet, $R_s$ is the radius of the star and $r$ is the distance between them.
+where $T$ is the temperature of the planet, $A$ is the planet's Bond albedo, $T_s$ is the temperature of the star, $R$ is the radius of the planet, $R_s$ is the radius of the star and $r$ is the distance between them.

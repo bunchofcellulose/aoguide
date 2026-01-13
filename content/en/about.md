@@ -11,9 +11,9 @@ toc: false
 
 Hey, thanks for dropping by! We're grateful to have you here. Let's talk a bit about why we built AO Guide.
 
-When we were preparing for astronomy olympiads, we found ourselves (and others) jumping between massive textbooks (that had way more info than we needed), scattered handouts from random websites, and outdated materials that didn't really capture what IOAA was all about. It was honestly pretty overwhelming. Its understandable, they weren't really designed for IOAA in mind, but we wanted to fix this.
+When we were preparing for astronomy olympiads, we found ourselves (and others) jumping between massive textbooks (that had way more info than we needed), scattered handouts from random websites, and outdated materials that didn't really capture what IOAA was all about. It was honestly pretty overwhelming. It's understandable, they weren't really designed with IOAA in mind, but we wanted to fix this.
 
-Therefore we built AO Guide. Its not a textbook or another handout, the main goal of AO Guide is to be *complete* and *concise*. That doesn't mean its just short, dry text without any motivation, we have actively tried to do the exact opposite; but that it contains a lot more of what is needed for the olympiads.
+Therefore, we built AO Guide. It's not a textbook or another handout, the main goal of AO Guide is to be *complete* and *concise*. That doesn't mean it's just short, dry text without any motivation, we have actively tried to do the exact opposite; but that it contains a lot more of what is needed for the olympiads.
 
 <div class="subsection-title">What We're Really Trying to Do</div>
 
@@ -27,9 +27,9 @@ We wanted to create something that we wish we had when we started our olympiad j
 
 <div class="subsection-title">Why This Exists</div>
 
-Astronomy and astrophysics are incredible subjects that we really do love. But preparing for olympiads caused us a lot of frustations, and not for a lack of trying. Most textbooks were either too advanced, or woefully incomplete for IOAA.
+Astronomy and astrophysics are incredible subjects that we really do love. But preparing for olympiads caused us a lot of frustrations, and not for a lack of trying. Most textbooks were either too advanced, or woefully incomplete for IOAA.
 
-It was because of this frustation that we decided to write AO Guide. We don't really benefit much from it, its free for you to use and modify afterall! But honestly, just allowing for a far smoother way to learn for the next person who wanted to get into astronomy is quite rewarding in itself :)
+It was because of this frustration that we decided to write AO Guide. We don't really benefit much from it, it's free for you to use and modify after all! But honestly, just allowing for a far smoother way to learn for the next person who wanted to get into astronomy is quite rewarding in itself :)
 
 Olympiads aren't about memorizing formulas (though you do really need some of them). It's about really understanding how things work, being able to think through problems step by step, and having the confidence to tackle something you've never seen before. That's what we're trying to help you build, we have a plethora of problems with solutions for you to go through!
 
@@ -61,7 +61,7 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
   <div class="author-info">
     <h4>Akshat Srivastava</h4>
     <p><strong>Creator & Author</strong></p>
-    <p>Hi! I'm a high school student from India and a Gold medalist from IOAA 2025. I love physics, astronomy and math, along with few other subjects (including but not limited to cs, linguistics, chemistry and engineering). I like mathematical rigor in solving problems, and I believe I have been succesfully able to reflect this in the guide. You can reach out to me on my <a href="https://discord.gg/bV8bxvTmzU" target="_blank">Discord server</a>, or dm me at @bunchofcells (I like cucumbers).</p>
+    <p>Hi! I'm a high school student from India and a Gold medalist from IOAA 2025. I love physics, astronomy and math, along with few other subjects (including but not limited to cs, linguistics, chemistry and engineering). I like mathematical rigor in solving problems, and I believe I have been successfully able to reflect this in the guide. You can reach out to me on my <a href="https://discord.gg/bV8bxvTmzU" target="_blank">Discord server</a>, or dm me at @bunchofcells (I like cucumbers).</p>
     <div class="author-links">
       <a href="https://bunchofcellulose.github.io" target="_blank">Website</a>
     </div>
@@ -73,7 +73,7 @@ Olympiads aren't about memorizing formulas (though you do really need some of th
   <div class="author-info">
     <h4>Lilian</h4>
     <p><strong>Editor</strong></p>
-    <p>I'm a high school student from India passionate about mathematics, physics, cs, literature, and philosophy (yes its a bit of a weird combo). I was a PROMYS 2025 Alumni, and was the leader of Physics Olympiad Co-operation for BL4S, which was shortlisted. I help make sure our explanations are correct, and most importantly clear! You can contact me at discord at @jardindelys, but do send a cat pic if you decide to :D</p>
+    <p>I'm a high school student from India passionate about mathematics, physics, cs, literature, and philosophy (yes it's a bit of a weird combo). I was a PROMYS 2025 Alumni, and was the leader of Physics Olympiad Co-operation for BL4S, which was shortlisted. I help make sure our explanations are correct, and most importantly clear! You can contact me on discord at @jardindelys, but do send a cat pic if you decide to :D</p>
   </div>
 </div>
 

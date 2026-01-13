@@ -7,7 +7,7 @@ next: N
 
 Most of the textbooks used in writing the guide have been mentioned in the About page. Here are some additional resources that you may find useful:
 
-### General
+## General
 
 - This [Drive](https://drive.google.com/drive/folders/1gZDmKb3n2vXHpVZMwFaUJ1ukUccCfYKD?usp=sharing) contains all the sources used, and more. Many national and international olympiad papers too are available here.
 - A really awesome and comprehensive [resource for IOAA](https://daniellee271828.github.io/ioaa_note_en.pdf) by former Hong Kong IOAA team members. Can be followed alongside the guide for a different perspective on topics.
@@ -22,16 +22,16 @@ Most of the textbooks used in writing the guide have been mentioned in the About
 - [CAAO Preparation Material](https://caao.ca/wp-content/uploads/2023/02/CAAO-tutorial.pdf)
 - Kaiwen's orz [astronomy notes](https://apochrome.notion.site/Astronomy-c2080a4c5b464868a99f5cddec3e0bbb)
 
-### Practical
+## Practical
 
 - [Practical Handouts for Olympiad](https://drive.google.com/drive/u/0/folders/1Nft4B755uvtxfaSGLp2ZsVuHQGZ9pEt-) by Ayush Tiwari. Covers all aspects of data analysis and most observation skills required for IOAA.
 - [Star Maps 101 and Practices](https://github.com/Rajit13/Star-Maps-101-and-Practices) by Fahim Rajit Hossain
 - [Learn the Sky](https://www.youtube.com/@learnthesky) - A YouTube channel with videos on finding constellations, planets and navigating the sky.
-- [Sky Academy](https://play.google.com/store/apps/details?id=digital.dong.skyacademy&hl=en_IN) - An android app which you can use to learn constellations, stars and messier objects.
+- [Sky Academy](https://play.google.com/store/apps/details?id=digital.dong.skyacademy&hl=en_IN) - An android app which you can use to learn constellations, stars and Messier objects.
 - Stellarium [Mobile App](https://play.google.com/store/apps/details?id=com.noctuasoftware.stellarium_free&hl=en_IN) and [Desktop App](https://stellarium.org/) - A planetarium software that shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope.
 - [BAAO Observational Handouts](https://drive.google.com/drive/folders/141B0qiKer2hnpNKzf0yNuLKOqcTA2Cpf)
 
-### Competitions and Olympiad Archives
+## Competitions and Olympiad Archives
 
 - [OAC](https://onlineastro.org) - the Online Astronomy Competition
 - [Official IOAA Website](https://ioaastrophysics.org)

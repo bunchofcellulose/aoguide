@@ -8,7 +8,7 @@ Well, the idea is similar to why, after learning Coulomb's law, we still devote 
 
 The answer is simply practical application. It is much easier to derive some results regarding the system and use them to make our lives easier when solving problems. For instance, you could, theoretically, now that you know $r(\theta)$, figure out $r(t)$ without any of the tools we discuss below, but it would be a much more daunting task.
 
-Anyway, we are still only considering the problem of a two-body system, but we'll primarily work with bound orbits and see what we can do with them. We'll also consider secondary effects of gravity, that we've largely ignored in our body is a point mass model.
+Anyway, we are still only considering the problem of a two-body system, but we'll primarily work with bound orbits and see what we can do with them. We'll also consider secondary effects of gravity, that we've largely ignored in our point-mass model.
 
 As we proved in chapter 3.1, *all* bound orbits are elliptical. Therefore, a fair amount of the following discussion is going to rely on some knowledge of ellipses. You should have ideally finished reading the Wikipedia page or used an equivalent resource.
 
@@ -68,7 +68,7 @@ $$\tag{3.2.4} v_p = \sqrt{\mu \left( \frac{2}{r_p} - \frac{1}{a} \right)} = \sqr
 And the velocity at apoapsis is:
 $$\tag{3.2.5} v_a = \sqrt{\mu \left( \frac{2}{r_a} - \frac{1}{a} \right)} = \sqrt{\frac{\mu}{a} \left( \frac{1-e}{1+e} \right)} $$
 
-You can see that they're sort of very symmmetric, if we multiply or divide them, one of the term cancels out! This
+You can see that they're sort of very symmetric, if we multiply or divide them, one of the term cancels out! This
 gives us some very nice relations:
 
 $$ v_p v_a = \frac{\mu}{a}\,, \qquad \qquad \frac{v_p}{v_a} = \frac{1+e}{1-e} $$
@@ -82,7 +82,7 @@ For the body to escape the gravitational influence of the larger body and become
 be just non-zero to find the minimum velocity. Note that far away, the potential energy goes to $0$. Pairing this up
 with the fact that $K = mv^2/2$ is going to be $0$ for the minimum velocity, we get that the total energy must be $0$.
 
-So the *escape veloctiy* is such that the total energy is $0$. Using the expression for total energy from Kepler's Laws, and since initially the seperation between the bodies is $r$;
+So the *escape velocity* is such that the total energy is $0$. Using the expression for total energy from Kepler's Laws, and since initially the separation between the bodies is $r$;
 $$
 0 = \frac{1}{2}mv_e^2 - \mu\frac{m}{r^2} \implies v_e = \sqrt{\frac{2\mu}{r}}
 $$
@@ -104,7 +104,7 @@ $$
 the periapsis occurs at $\theta = 0$. So the true anomaly, stated in another manner, measures the angle from the periapsis.
 If we can somehow find the true anomaly as a function of time, our job is essentially done because we already know $r(\theta)$.
 
-The idea that we use here is to use a *fictious* circular body (this is closely related to the fact that elliptical motion is a superposition of two independent circular motions). The mean motion $n$ is defined as
+The idea that we use here is to use a *fictitious* circular body (this is closely related to the fact that elliptical motion is a superposition of two independent circular motions). The mean motion $n$ is defined as
 $$\tag{3.2.8} n \overset{\text{def}}{\equiv} \frac{2 \pi}{P}$$
 
 Let the instant at which the body was at periapsis be $\tau$. We define the mean anomaly $M$ as the *angular distance* from the periapsis which a fictitious body would have if it moved in a circle of radius $a$ (the semi-major axis length). At any instant in time $t$, it is clearly given by:
@@ -114,20 +114,20 @@ $$\tag{3.2.9} M = n (t - \tau) $$
 {{< svg "celmech/anomaly.svg" "Mean and True Anomaly" "Mean, Eccentric and True Anomaly" >}}
 {{< /callout >}}
 
-As it turns out, our equations become much neater if we ignore the true anamoly, and insteard work with the *eccentric anomaly*.
-We defined the eccentric anamoly $E$ as the eccentric angle of the smaller body in its elliptical orbit (see the figure). In cartesian coordinates with the center of the ellipse being at origin, the equation of the ellipse becomes
+As it turns out, our equations become much neater if we ignore the true anomaly, and instead work with the *eccentric anomaly*.
+We defined the eccentric anomaly $E$ as the eccentric angle of the smaller body in its elliptical orbit (see the figure). In cartesian coordinates with the center of the ellipse being at origin, the equation of the ellipse becomes
 
 $$ \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 $$
 
-The eccentric anamoly $E$ in terms of these coordinates is given by
+The eccentric anomaly $E$ in terms of these coordinates is given by
 
 $$ \cos E = \frac{x}{a}\,, \qquad \qquad \sin E = \frac{y}{b} $$
 
 As a consequence, since $r = x^2 + y^2$, and $b^2 = a^2(1-e^2)$ we get that the distance of the smaller body from the larger body (foci of the ellipse) is given by
 
-$$\tag{3.2.10} r = a (1 - \cos E) $$
+$$\tag{3.2.10} r = a (1 - e \cos E) $$
 
-Now since $\mathbf{r}(\theta) = r(\cos\theta \hat{\mathbf{{i}}} + \sin\theta \hat{\mathbf{j}})$, comparing it with expression for $x$ and $y$ that we have, we get that the eccentric anamoly $E$ and true anamoly are related by
+Now since $\mathbf{r}(\theta) = r(\cos\theta \hat{\mathbf{{i}}} + \sin\theta \hat{\mathbf{j}})$, comparing it with expression for $x$ and $y$ that we have, we get that the eccentric anomaly $E$ and true anomaly are related by
 $$ \cos \theta = \frac{a}{r} (\cos E - e) \qquad \qquad \sin \theta = \frac{b}{r} \sin E $$
 
 so that
@@ -142,12 +142,12 @@ Using Kepler's second law, the total area covered by the smaller body in the sha
 $$
 A = \pi ab \frac{t - \tau}{P} = \frac{1}{2}ab M
 $$
-when it is present at the eccentric angle $E$. Also, since an ellipse is a rescaling of a circle, the area is $b/a$ times the area of $FP'X$. Thus one obtains from someone geometry that the area of $FPX$ is:
+when it is present at the eccentric angle $E$. Also, since an ellipse is a rescaling of a circle, the area is $b/a$ times the area of $FP'X$. Thus one obtains from some geometry that the area of $FPX$ is:
 $$
 A = \frac{1}{2}ab(E - e\sin E)
 $$
 
-We then equate these to find the relation between the mean anamoly $M$ and the eccentric anamoly $E$ as
+We then equate these to find the relation between the mean anomaly $M$ and the eccentric anomaly $E$ as
 
 $$\tag{3.2.12} M = E - e \sin E $$
 
@@ -157,7 +157,7 @@ Using an infinite series expansion, we can solve it exactly:
 
 $$E = M + e \sin M + \frac{e^2}{2} \sin 2M + \frac{e^3}{6} \sin 3M + \ldots $$
 
-Using this and the relations we found, the true anamoly (if you so want) and distance from focus too can be obtained in terms of infinite series expansion, given by
+Using this and the relations we found, the true anomaly (if you so want) and distance from focus too can be obtained in terms of infinite series expansion, given by
 
 $$
 \begin{align*}
@@ -190,11 +190,11 @@ Consider a binary system at a distance $r$ from us, inclined at an angle $i$, wh
 
 $$ m_1 \alpha_1 = m_2 \alpha_2 = m \alpha \implies \alpha = \alpha_1 + \alpha_2$$
 $$ m_1 \tilde{\alpha}_1 = m_2 \tilde{\alpha}_2 = m \tilde{\alpha} \implies \tilde{\alpha} = \tilde{\alpha_1} + \tilde{\alpha_2} $$
-$$\tag{3.2.15} \alpha = \tilde{\alpha} \cos i $$
+$$\tag{3.2.15} \tilde{\alpha} = \alpha \cos i $$
 
 The true semi-major axis $a$ is given by
 
-$$a = r \alpha = r \tilde{\alpha} \cos i$$
+$$a = r \alpha = r \frac{\tilde{\alpha}}{\cos i}$$
 
 Hence Kepler's third law can be written as
 
@@ -297,7 +297,7 @@ $$\mathbf{a}_\text{tidal} = -\frac{GM \mathbf{R}}{r^3}$$
 The tidal acceleration is maximum when $\mathbf{R}$ and $\mathbf{r}$ are parallel, and minimum when they are perpendicular.
 
 {{< callout type="image" >}}
-{{< svg "celmech/tidal_effect.svg" "Tidal Effect" "The tidal effect (shown in red) due to the moon and sun on the Earth, and the gravitational effect (shown in blue) due to the moon. S points towards the position of the moon, and O is the centre of the Earth. (Source: Wikipidea)" >}}
+{{< svg "celmech/tidal_effect.svg" "Tidal Effect" "The tidal effect (shown in red) due to the moon and sun on the Earth, and the gravitational effect (shown in blue) due to the moon. S points towards the position of the moon, and O is the centre of the Earth. (Source: Wikipedia)" >}}
 {{< /callout >}}
 
 ## Roche Limit
@@ -436,24 +436,24 @@ Consider the satellite to be tidally locked to the primary body, such that the s
 
     $$ \boxed{h = R_\oplus \left[ \frac{1}{2 - \alpha^2} \left( 1 + \sqrt{1 - \frac{\alpha^2 \cos^2 \theta}{2 - \alpha^2}} \right) - 1 \right]} $$
 
-    **d)** To find the time of flight, we find the mean anamoly at the launch and landing points. The eccentric anomaly at the launch point is
+    **d)** To find the time of flight, we find the mean anomaly at the launch and landing points. The eccentric anomaly at the launch point is
 
     $$\cos E_0 = 1 - \frac{r}{a} = 1 - \frac{R_\oplus}{a} = 1 - (2 - \alpha^2) = \alpha^2 - 1$$
 
-    The mean anamoly at the launch point is
+    The mean anomaly at the launch point is
 
     $$M_0 = E_0 - e \sin E_0 = \cos^{-1}(\alpha^2 - 1) - e \sqrt{2 \alpha^2 - \alpha^4}$$
 
-    The eccentric anomaly at the landing point is simply $E_1 = 2\pi - E_0$, and the mean anamoly at the landing point is just $M_1 = 2\pi - M_0$. Therefore, the time of flight is
+    The eccentric anomaly at the landing point is simply $E_1 = 2\pi - E_0$, and the mean anomaly at the landing point is just $M_1 = 2\pi - M_0$. Therefore, the time of flight is
 
     $$t = \frac{P}{2 \pi} (M_1 - M_0) = P\left(1 - \frac{M_0}{\pi}\right) $$
     $$\boxed{t = \sqrt{\frac{R_\oplus^3}{GM_\oplus}} \frac{2}{(2 - \alpha^2)^{3/2}} \left[ \pi - \cos^{-1}(\alpha^2 - 1) + e \sqrt{2 \alpha^2 - \alpha^4} \right]} $$
 
-    **e)** The get the range of the projectile, we need to find the true anamoly at the launching and landing points. The true anamoly at the launch point is
+    **e)** To get the range of the projectile, we need to find the true anomaly at the launching and landing points. The true anomaly at the launch point is
 
     $$ \theta_0 = 2 \tan^{-1} \left( \sqrt{\frac{1 + e}{1 - e}} \tan \frac{E_0}{2} \right) = 2 \tan^{-1} \left( \sqrt{\frac{1 + e}{1 - e}} \sqrt{\frac{2 - \alpha^2}{\alpha^2}} \right) $$
 
-    The true anamoly at the landing point is $\theta_1 = 2\pi - \theta_0$. Thus the range of the projectile is
+    The true anomaly at the landing point is $\theta_1 = 2\pi - \theta_0$. Thus the range of the projectile is
 
     $$\boxed{R = 2 R_\oplus \left[ \pi - 2\tan^{-1} \left( \sqrt{\frac{1 + e}{1 - e}} \sqrt{\frac{2 - \alpha^2}{\alpha^2}} \right) \right]} $$
 
