@@ -105,7 +105,7 @@ using our previous derivation.
 ## Hill Sphere
 
 The Hill sphere is the region around a celestial body where its own gravity (compared to other nearby bodies) is the dominant force in attracting satellites. It is also known as the Roche sphere.
-If a less massive body $m$ orbits a (more) massive body $M$ ($M \ll m$), and has an instantaneous distance $a$ from $M$, then its Hill radius (at that instant) is
+If a less massive body $m$ orbits a (much more) massive body $M$ ($M \gg m$), and has an instantaneous distance $a$ from $M$, then its Hill radius (at that instant) is
 
 $$\tag{3.5.3} \boxed{ R_H \approx a \left( \frac{m}{3(M + m)} \right)^{1/3} } $$
 
