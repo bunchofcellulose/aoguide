@@ -2,6 +2,7 @@
 title: Stellar Astrophysics
 next: /guide/stellar-astrophysics/structure
 weight: 5
+comments: false
 ---
 
 Stellar Physics is the branch of astrophysics that studies the physical and chemical properties of stars, including their formation, evolution, and eventual fate. It encompasses a wide range of topics, from the nuclear processes that power stars to the effects of stellar winds and magnetic fields. Stellar astrophysics is crucial for understanding the lifecycle of stars, which in turn influences the chemical evolution of galaxies and the universe as a whole.

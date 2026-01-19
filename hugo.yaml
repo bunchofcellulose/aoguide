@@ -69,6 +69,23 @@ params:
     math:
     enable: true
 
+  comments:
+    enable: true
+    type: giscus
+    giscus:
+      repo: "bunchofcellulose/aoguide"
+      repoId: "R_kgDOOU_R6A"
+      category: "General"
+      categoryId: "DIC_kwDOOU_R6M4C1Jfj"
+      mapping: "pathname"
+      strict: 0
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition: "bottom"
+      theme: "preferred_color_scheme"
+      lang: "en"
+      loading: "lazy"
+
   katex:
     enable: true
     base: "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/"

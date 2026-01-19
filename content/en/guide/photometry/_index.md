@@ -1,6 +1,7 @@
 ---
 title: Photometry
 weight: 3
+comments: false
 next: /guide/photometry/radiometry
 ---
 

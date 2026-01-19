@@ -2,6 +2,7 @@
 toc: false
 layout: hextra-home
 css: /assets/css/custom.css
+comments: false
 sidebar:
   exclude: true
 ---
@@ -29,33 +30,33 @@ sidebar:
 <div class="ao-features" style="text-align:center;">
   <div class="ao-feature">
     <div class="ao-icon">🌟</div>
-    <h3>Comprehensive & Structured</h3>
-    <p>Every topic is covered in depth, from foundational principles to advanced concepts. Content is meticulously organized for clarity and progression.</p>
+    <h3>Structured Curriculum</h3>
+    <p>Navigate a logical path from basics to advanced astrophysics. We cover the entire Olympiad syllabus with a focus on connecting distinct topics.</p>
   </div>
   <div class="ao-feature">
     <div class="ao-icon">🧠</div>
-    <h3>Conceptual Rigor</h3>
-    <p>We emphasize understanding, not memorization. Each section is crafted to build intuition and analytical thinking, preparing you for both theory and application.</p>
+    <h3>Deep Understanding</h3>
+    <p>Move beyond formula sheets. We emphasize the physical reasoning and mathematical derivations essential for solving novel problems in competition.</p>
   </div>
   <div class="ao-feature">
     <div class="ao-icon">📊</div>
-    <h3>Visual & Interactive</h3>
-    <p>High-quality diagrams, step-by-step derivations, and interactive eye-catching elements help you visualize and internalize complex concepts.</p>
+    <h3>Visual Learning</h3>
+    <p>High-quality illustrations and interactive diagrams transform abstract coordinate systems and celestial mechanics into clear, intuitive mental models.</p>
   </div>
   <div class="ao-feature">
     <div class="ao-icon">⚡</div>
-    <h3>Modern, Fast, and Accessible</h3>
-    <p>Optimized for all devices (however, laptop/desktop is recommended), with a distraction-free interface and rapid navigation. Always free, always up to date.</p>
+    <h3>Modern & Open</h3>
+    <p>A fast, distraction-free reading experience that's completely free. We utilize modern web tech to make learning as frictionless as possible.</p>
   </div>
   <div class="ao-feature">
     <div class="ao-icon">🤝</div>
-    <h3>Community-Driven</h3>
-    <p>Built with feedback and contributions from top Olympiad students and mentors. Your suggestions and insights help shape the content.</p>
+    <h3>By Students, For Students</h3>
+    <p>Written by past Olympiad participants who understand the challenge. The guide evolves based on real feedback from the community.</p>
   </div>
   <div class="ao-feature">
     <div class="ao-icon">🔍</div>
-    <h3>Problem-Solving Focus</h3>
-    <p>Extensive practice problems, worked examples, and exam strategies to sharpen your skills and boost your confidence.</p>
+    <h3>Practice Oriented</h3>
+    <p>Theory serves application. We integrate worked examples and problem-solving strategies specifically designed for the Olympiad format.</p>
   </div>
 </div>
 
@@ -69,7 +70,7 @@ sidebar:
       <div class="ao-topic-header">
         Positional Astronomy
       </div>
-      <p>Master celestial coordinate systems, timekeeping, and the art of mapping the sky—essential for precise astronomical observation and navigation.</p>
+      <p>The foundation of observation. Coordinate systems, timekeeping, and spherical astronomy—everything needed to locate and track objects in the sky.</p>
     </div>
   </a>
   <a class="ao-topic" href="/guide/photometry" style="background-image:url('/assets/images/start/star.png');">
@@ -77,7 +78,7 @@ sidebar:
       <div class="ao-topic-header">
         Photometry
       </div>
-      <p>Explore the measurement of light from celestial objects, magnitude systems, filters, and the techniques that reveal the universe's brightness and color.</p>
+      <p>The science of measuring light. Understand magnitudes, filters, and indices, and how we quantify the energy received from distant celestial sources.</p>
     </div>
   </a>
   <a class="ao-topic" href="/guide/celestial-mechanics" style="background-image:url('/assets/images/start/precession.png');">
@@ -85,7 +86,7 @@ sidebar:
       <div class="ao-topic-header">
         Celestial Mechanics
       </div>
-      <p>Understand the gravitational dynamics of planets, moons, and artificial satellites. Analyze orbits, perturbations, and the mathematics of celestial motion.</p>
+      <p>Gravity in action. From Kepler’s laws to orbital perturbations, master the dynamics that govern the motion of planets, satellites, and binary systems.</p>
     </div>
   </a>
   <a class="ao-topic" href="/guide/stellar-astrophysics" style="background-image:url('/assets/images/start/sun.png');">
@@ -93,7 +94,7 @@ sidebar:
       <div class="ao-topic-header">
         Stellar Astrophysics
       </div>
-      <p>Delve into the structure, evolution, and end states of stars. From nuclear fusion to supernovae, uncover the physics powering the cosmos' luminous engines.</p>
+      <p>Inside the stars. A deep dive into stellar structure, nuclear energy generation, and the life cycles of stars from formation to compact remnants.</p>
     </div>
   </a>
   <a class="ao-topic" href="/guide/galaxies-and-cosmology/" style="background-image:url('/assets/images/start/galaxy.png');">
@@ -101,7 +102,7 @@ sidebar:
       <div class="ao-topic-header">
         Galaxies and Cosmology
       </div>
-      <p>Explore the formation, evolution, and large-scale structure of galaxies, as well as the fundamental questions of cosmology. Explore the universe's history, from the Big Bang to today.</p>
+      <p>The large-scale universe. Study galactic structure and evolution, and explore the expansion history, composition, and fate of the cosmos.</p>
     </div>
   </a>
   <a class="ao-topic" href="/guide/practical" style="background-image:url('/assets/images/start/lightcurve.png');">
@@ -109,7 +110,7 @@ sidebar:
       <div class="ao-topic-header">
         Practical Astronomy
       </div>
-      <p>Develop essential skills in analyzing astronomical data, interpreting results, and applying statistical methods to real-world problems. Learn to navigate the sky, spot constellations, and conduct observations.</p>
+      <p>Essential skills for the field. Data analysis, statistics, telescope techniques, and star charts for the observational component of the Olympiad.</p>
     </div>
   </a>
 </div>

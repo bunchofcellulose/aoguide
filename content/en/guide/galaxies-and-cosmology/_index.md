@@ -1,6 +1,7 @@
 ---
 title: Galaxies and Cosmology
 weight: 6
+comments: false
 next: /guide/galaxies-and-cosmology/galaxy/
 ---
 

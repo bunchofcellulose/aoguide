@@ -2,6 +2,7 @@
 title: Celestial Mechanics
 next: /guide/celestial-mechanics/keplers-laws
 weight: 4
+comments: false
 ---
 
 Celestial mechanics is the branch of astronomy that deals with the motions of objects in outer space. It primarily focuses on the gravitational interactions between celestial bodies, such as planets, moons, asteroids, and comets. The field is essential for understanding the orbits of these bodies, predicting their positions in the sky, and studying phenomena such as tides and eclipses.

@@ -1,6 +1,7 @@
 ---
 title: Guide
 next: /guide/resources
+comments: false
 sidebar:
   open: true
 cascade:
@@ -91,3 +92,5 @@ Many chapters contain in-text problems, as well as problems at the end of the ch
 The guide is a living document, and is constantly being updated and improved. If you have any suggestions or feedback, please feel free to reach out to us on our [Discord server](https://discord.gg/bV8bxvTmzU). We highly welcome any explanations, derivations, or diagrams that you think would improve the guide. If you find any errors or typos, please let us know so we can fix them. Constructive criticism is always appreciated!
 
 The [github repository](https://github.com/bunchofcellulose/aoguide) for the guide is public, and you can create issues or pull requests if you want to contribute directly.
+
+You can use the comment section at the bottom of the page to discuss the content, post extra resources, and report typos. For longer discussions, please join our Discord server.

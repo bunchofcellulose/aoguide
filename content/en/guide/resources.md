@@ -3,6 +3,7 @@ title: Resources
 weight: 1
 prev: /guide/
 next: N
+comments: false
 ---
 
 Most of the textbooks used in writing the guide have been mentioned in the About page. Here are some additional resources that you may find useful:
@@ -48,6 +49,7 @@ If you have any other resources that you think would be useful, feel free to sha
 ## Country-specific Advice
 
 {{< cards >}}
+  {{< card link="https://bunchofcells.vercel.app/blog/indian-astronomy-olympiads" title="🇮🇳 India" subtitle="Akshat Srivastava, IOAA 2025" icon="trending-up" >}}
   {{< card link="/assets/advice/IND1.pdf" title="🇮🇳 India" subtitle="Akarsh Raj Sahay, IOAA 2023" icon="trending-up" >}}
   {{< card link="/assets/advice/NEP1.pdf" title="🇳🇵 Nepal" subtitle="Osish Niraula, IOAA 2024 & 2025" icon="support" >}}
   {{< card link="/assets/advice/ROU1.pdf" title="🇷🇴 Romania" subtitle="Teodor Bichir, IOAA 2024 & 2025" icon="document" >}}
