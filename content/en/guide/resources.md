@@ -3,7 +3,6 @@ title: Resources
 weight: 1
 prev: /guide/
 next: N
-comments: false
 ---
 
 Most of the textbooks used in writing the guide have been mentioned in the About page. Here are some additional resources that you may find useful:
@@ -29,6 +28,7 @@ Most of the textbooks used in writing the guide have been mentioned in the About
 - [Star Maps 101 and Practices](https://github.com/Rajit13/Star-Maps-101-and-Practices) by Fahim Rajit Hossain
 - [Learn the Sky](https://www.youtube.com/@learnthesky) - A YouTube channel with videos on finding constellations, planets and navigating the sky.
 - [Sky Academy](https://play.google.com/store/apps/details?id=digital.dong.skyacademy&hl=en_IN) - An android app which you can use to learn constellations, stars and Messier objects.
+- [Stellar Guesser](https://stellarguesser.github.io/) - a tool for learning the sky in a game-like manner which I used to go from not knowing anything more than like 4 Messier objects and about 12 stars to knowing all the Messier and Caldwell objects and more than 70 stars well within the accuracy required for IOAA.
 - Stellarium [Mobile App](https://play.google.com/store/apps/details?id=com.noctuasoftware.stellarium_free&hl=en_IN) and [Desktop App](https://stellarium.org/) - A planetarium software that shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope.
 - [BAAO Observational Handouts](https://drive.google.com/drive/folders/141B0qiKer2hnpNKzf0yNuLKOqcTA2Cpf)
 

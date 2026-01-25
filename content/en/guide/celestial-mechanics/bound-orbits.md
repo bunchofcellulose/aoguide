@@ -215,11 +215,11 @@ $$\tag{3.2.19} m_2 \geq \frac{P}{2 \pi G} v_{1r}^3 $$
 
 Note that for such a binary system, the angular velocities of the two masses about the centre of mass are same. To show this, note that the centripetal force is gravity, so we get that,
 $$
-M\omega^2 r_1 = \frac{GmM}{R^2}
+m_1 \omega^2 r_1 = \frac{G m_1 m_2}{r^2}
 $$
-where $r_1$ is the distance of $M$ from the centre. Since the centre is the centre of mass, using $m_1r_1 = m_2r_2$, we get that $m/r_1 = (M + m)/R$ which gives us the angular velocity for the body, as:
+where $r_1$ is the distance of $M$ from the centre. Since the centre is the centre of mass, using $m_1r_1 = m_2r_2$, we get that $mr_1 = mr$ which gives us the angular velocity for the body, as:
 
-$$\tag{3.2.20} \omega = \sqrt{ \frac{G(M + m)}{R^3} } $$
+$$\tag{3.2.20} \omega = \sqrt{ \frac{GM}{r^3} } $$
 
 A similar derivation for the other primary will give you the same angular velocity.
 
