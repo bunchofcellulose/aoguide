@@ -144,7 +144,7 @@ $$\tag{1.4.8} d_h = R_\oplus \theta \approx \sqrt{2 h R_\oplus}$$
 
 If $h$ is measured in meters,
 
-$$\delta \approx 1.93' \sqrt{h}$$
+$$\theta \approx 1.93' \sqrt{h}$$
 $$d_h \approx 3.57 \sqrt{h} \,\, \mathrm{km}$$
 
 ## Proper Motion
