@@ -350,7 +350,7 @@ Consider the satellite to be tidally locked to the primary body, such that the s
 ## Problems
 
 {{< tabs >}}
-    {{< tab name="P1" >}}
+    {{< tab name="P2" >}}
     A Sun-orbiting periodic comet is the farthest at $31.5 \mathrm{\,AU}$ and the closest at $0.5 \mathrm{\,AU}$. What is the orbital period of this comet? What is the area (in $\mathrm{AU^2/yr}$) swept by the line joining the comet and the Sun?
     {{< /tab >}}
 
@@ -378,7 +378,7 @@ Consider the satellite to be tidally locked to the primary body, such that the s
 {{< /tabs >}}
 
 {{< tabs >}}
-    {{< tab name="P2" >}}
+    {{< tab name="P3" >}}
     Estimate the radius of a planet that a man can escape its gravitation by jumping vertically. Assume density of the planet and the Earth are the same.
     {{< /tab >}}
 
@@ -396,7 +396,7 @@ Consider the satellite to be tidally locked to the primary body, such that the s
 {{< /tabs >}}
 
 {{< tabs >}}
-    {{< tab name="P3" >}}
+    {{< tab name="P4" >}}
     A projectile which starts from the surface of the Earth at the sea level is launched with the initial speed of $v_0 = \alpha \sqrt{\frac{GM_\oplus}{R_\oplus}}\,$ ($\alpha < \sqrt{2}$) and the projecting angle (with respect to the local horizon) of $\theta$. Ignore the air resistance.
 
     a) The orbit of the projectile is an ellipse. Find its semi-major axis $a$ in units of $R_\oplus$. <br/>
@@ -460,4 +460,50 @@ Consider the satellite to be tidally locked to the primary body, such that the s
     {{< /tab >}}
 
     {{< tab name="IOAA 2009 (Adapted)" >}}{{< /tab >}}
+{{< /tabs >}}
+
+{{< tabs >}}
+    {{< tab name="P5" >}}
+    Objects falling into a black hole experience immense tidal forces and thus break up like a spaghetti. Spaghettification is the vertical stretching and horizontal compression of objects into long thin shapes in a very strong, non-homogeneous gravitational field, such as that of a black hole. Assume a neutral non-spinning black hole of mass $M$. The gravitational field around it is described by the Schwarzschild metric, the radius of the event horizon being $r_s = 2GM / c^2$. In the following discussion, however, we will consider that gravity follows Newton's laws. Assume a non-rotating star of mass $m$ and radius $r_{m}$ orbits the black hole in a circular orbit at a distance $r$. It is known that there is no stable circular orbit for $r < 3r_s$, and there is no circular orbit for $r < 1.5 r_s$.
+
+    a) The nearest distance to which the star can approach the black hole before being torn apart due to tidal forces is known as its Roche limit. Find the Roche limit $r_\text{Roche}$ for the star as a function of $\eta = M/m$ and $r_m$. Introduce a dimensionless variable $\alpha = r_\text{Roche} / r_m$. <br/>
+
+    b) After the previous subpart, it is hard to let go of the star. No star deserves to be spaghettified! What bounds must $r_\text{Roche}$ obey for the star to \textbf{never} face such a fate. <br/>
+
+    c) What needs to be the minimum mass of the black hole $M$ for the condition obtained in the previous subpart to hold? Introduce a dimensionless variable $\beta = 2Gm/r_m c^2$. Find a relation between $\alpha$ and $\beta$. <br/>
+
+    d) What are the bounds on $\beta$? Plot the graph with $\alpha$ on the y-axis and $\beta$ on the x-axis. You will find that each value of $\beta$ corresponds to 2 intervals for $\alpha$. What is the physical interpretation of this?
+    {{< /tab >}}
+
+    {{< tab name="Solution" >}}
+    **a)** The tidal force experienced by a particle on the surface of the star must be just enough for the star's gravity to balance it out. The distance at which this occurs gives us the Roche limit.
+
+    $$ \frac{GM}{(r - r_m)^2} - \frac{GM}{r^2} = \frac{Gm}{r_m^2} $$
+
+    Substituting $\eta$ and $\alpha$, the relation we get is
+
+    $$ \frac{\alpha^2}{(1 - 1/\alpha)^{-2} - 1} = \eta $$
+
+    There is no closed-form solution for $\alpha (\eta)$, however it can be solved numerically. We get $r_\text{Roche} = \alpha (\eta) \, r_m$.
+
+    **b)** For the star to never spaghettify, we must have $r_\text{Roche} < r_s$, or the Roche limit must lie inside the event horizon. (The star gets eaten as a whole, instead of becoming noodles.)
+
+    **c)** $r_\text{Roche} < r_s \implies \alpha r_m < 2 GM/c^2 \implies \alpha < \beta \eta$.
+
+    Substituting this inequality into the the relation between $\alpha$ and $\eta$, one gets
+
+    $$ \beta > \frac{1}{\alpha} [(1-1/\alpha)^{-2} - 1] $$
+
+    The mass of the star is $M = \eta m > \frac{\beta}{\alpha} m$. Thus the minimum mass is $M_\text{min} = \frac{\alpha}{\beta} m$.
+
+    **d)** Since $\beta$ is defined as the ratio of the star's Schwarzschild radius to its actual radius, we must have $0 < \beta \leq 1$. The graph $\alpha$ vs $\beta$ looks like the following:
+
+    {{< callout type="image" >}}
+    {{< png "celmech/ab.png" "">}}
+    {{< /callout >}}
+
+    The first interval $(\alpha_1, \infty)$ is the interval of $\alpha$ when the black hole lies outside the star. The second interval $(0.5, \alpha_0)$ corresponds to $r_\text{Roche} < r_m$ ($\alpha_0 < 1$ for all $\beta$), which is when the black hole's center lies inside the star, in which case the star still gets engulfed without spaghettifying. The interval $(0, 0.5)$, while satisfying the inequality, is non-physical, since $\alpha <0.5$ would imply $\eta < 0$.
+
+    The unshaded area in the graph corresponds to $\alpha$, and thus $r_\text{Roche}$ and $M$, when the star undergoes spaghettification.
+    {{< /tab >}}
 {{< /tabs >}}
