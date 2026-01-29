@@ -472,7 +472,7 @@ Consider the satellite to be tidally locked to the primary body, such that the s
 
     c) What needs to be the minimum mass of the black hole $M$ for the condition obtained in the previous subpart to hold? Introduce a dimensionless variable $\beta = 2Gm/r_m c^2$. Find a relation between $\alpha$ and $\beta$. <br/>
 
-    d) What are the bounds on $\beta$? Plot the graph with $\alpha$ on the y-axis and $\beta$ on the x-axis. You will find that each value of $\beta$ corresponds to 2 intervals for $\alpha$. What is the physical interpretation of this?
+    d) What are the bounds on $\beta$ and $\alpha$? Plot the graph with $\alpha$ on the y-axis and $\beta$ on the x-axis. You will find that each value of $\beta$ corresponds to 2 intervals for $\alpha$. What is the physical interpretation of this?
     {{< /tab >}}
 
     {{< tab name="Solution" >}}
@@ -496,14 +496,14 @@ Consider the satellite to be tidally locked to the primary body, such that the s
 
     The mass of the star is $M = \eta m > \frac{\beta}{\alpha} m$. Thus the minimum mass is $M_\text{min} = \frac{\alpha}{\beta} m$.
 
-    **d)** Since $\beta$ is defined as the ratio of the star's Schwarzschild radius to its actual radius, we must have $0 < \beta \leq 1$. The graph $\alpha$ vs $\beta$ looks like the following:
+    **d)** Since $\beta$ is defined as the ratio of the star's Schwarzschild radius to its actual radius, we must have $0 < \beta \leq 1$. Furthurmore, for $\eta >0$, we must have $\alpha > 0.5$. The graph $\alpha$ vs $\beta$ looks like the following:
 
     {{< callout type="image" >}}
     {{< png "celmech/ab.png" "">}}
     {{< /callout >}}
 
-    The first interval $(\alpha_1, \infty)$ is the interval of $\alpha$ when the black hole lies outside the star. The second interval $(0.5, \alpha_0)$ corresponds to $r_\text{Roche} < r_m$ ($\alpha_0 < 1$ for all $\beta$), which is when the black hole's center lies inside the star, in which case the star still gets engulfed without spaghettifying. The interval $(0, 0.5)$, while satisfying the inequality, is non-physical, since $\alpha <0.5$ would imply $\eta < 0$.
+    The first interval $(\alpha_1, \infty)$ is the interval of $\alpha$ when the black hole lies outside the star. The second interval $(0.5, \alpha_0)$ corresponds to $r_\text{Roche} < r_m$, which is when the black hole's center lies inside the star, in which case the star still gets engulfed without spaghettifying.
 
-    The unshaded area in the graph corresponds to $\alpha$, and thus $r_\text{Roche}$ and $M$, when the star undergoes spaghettification.
+    The unshaded area in the graph between the two intervals corresponds to $\alpha$, and thus $r_\text{Roche}$ and $M$, when the star undergoes spaghettification.
     {{< /tab >}}
 {{< /tabs >}}
