@@ -98,12 +98,12 @@ $$ \frac{\tan^2 \delta}{\cos^2 \phi} y^2 = x^2 (1 - \tan^2 \phi \tan^2 \delta) -
 
 which is the equation of a conic section. The type of conic section depends on the values of $\phi$ and $\delta$.
 
-- Circle: $\phi = \frac{\pi}{2}$
-- Line: $\delta = 0$
-- Point: $\delta = \frac{\pi}{2}$
-- Ellipse: $\phi + \delta > \frac{\pi}{2}$
-- Parabola: $\phi + \delta = \frac{\pi}{2}$
-- Hyperbola: $\phi + \delta < \frac{\pi}{2}$
+- Circle: $\phi = \frac{\pi}{2}$, or when the observer is at pole
+- Line: $\delta = 0$, or when sun is on the celestial equator
+- Point: $\delta = \frac{\pi}{2}$, or when the sun (hypothetically) is at the pole
+- Ellipse: $\phi + \delta > \frac{\pi}{2}$, or when the sun is circumpolar
+- Parabola: $\phi + \delta = \frac{\pi}{2}$, or when the sun just grazes the horizon at midnight
+- Hyperbola: $\phi + \delta < \frac{\pi}{2}$, or when the sun is not circumpolar
 
 If $\phi = \delta$, the Sun passes through the zenith at noon, and there is no shadow.
 
