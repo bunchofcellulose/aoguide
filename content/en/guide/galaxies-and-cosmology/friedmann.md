@@ -21,7 +21,7 @@ The present value of the Hubble parameter (at $t = t_0$) is called the Hubble co
 
 We define the critical energy density $\varepsilon_\text{c}$ as the energy density of a flat universe ($\kappa = 0$). It is equal to
 
-$$\tag{5.4.3} \varepsilon_\text{c}(t) = \frac{3 H(t)^2}{8 \pi G}$$
+$$\tag{5.4.3} \varepsilon_\text{c}(t) = \frac{3 c^2 H(t)^2}{8 \pi G}$$
 
 The current observed value of the critical energy density is $\varepsilon_{\text{c},0} \approx 5.2 \mathrm{\,GeV\,m^{-3}}$.
 
