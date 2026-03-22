@@ -143,7 +143,7 @@ where $a$ is the equatorial radius and $b$ is the polar radius. The flattening o
 
 The geodetic latitude $\phi$ and the geocentric latitude $\theta$ are related to each other by the ellipticity $f$ as follows:
 
-$$\tag{1.1.14} \tan \phi = (1 - f)^2 \, \tan \theta$$
+$$\tag{1.1.14} \tan \theta = (1 - f)^2 \, \tan \phi$$
 {{< /callout >}}
 
 Two locations having the same latitude are said to be on the same parallel of latitude, while two locations having the same longitude are said to be on the same meridian. The distance between two points on the same parallel of latitude is called their departure, given by

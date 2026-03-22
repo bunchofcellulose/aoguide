@@ -23,6 +23,30 @@ where E is the total energy of the system.
 {{< svg "celmech/lrl.svg" "Laplace-Runge-Lenz Vector" "The Laplace-Runge-Lenz vector is a constant of motion for central force problems. (Source: Wikipedia)" >}}
 {{< /callout >}}
 
+{{< tabs >}}
+{{< tab name="P1" >}}
+Two satellites orbit Earth on the same plane along elliptic paths of eccentricities $e_1$ and $e_2$ respectively. The angle between their major axes is $\alpha$. The rate at which a line segment connecting a satellite and the Earth’s centre sweeps out an area is $L_1$ and $L_2$ respectively. What is the maximal relative velocity of the satellites? Provide also a simplified answer for $\alpha=90^\circ$ and $L_1=L_2$. The ratio of the orbital periods of the satellites is an irrational number. Earth’s mass is denoted by $M$, and the gravitational constant by $G$.
+{{< /tab >}}
+
+{{< tab name="Solution" >}}
+The solution by [Sainavaneet](https://physicscup.ee/wp-content/uploads/2024/P4-best/3.Sainaveet.pdf) uses the LRL vector to find the maximum relative velocity of the two satellites.
+{{< /tab >}}
+
+{{< tab name="Physics Cup – TalTech 2024" >}}{{< /tab >}}
+{{< /tabs >}}
+
+{{< tabs >}}
+{{< tab name="P2" >}}
+At two different points in its orbit, a comet has velocities $\vec{v}_1$ and $\vec{v}_2$. If (i) $\vec{v}_1$ and $\vec{v}_2$ are orthogonal and (ii) $|\vec{v}_1| = 2|\vec{v}_2|$, what is the smallest possible eccentricity of the orbit?
+{{< /tab >}}
+
+{{< tab name="Solution" >}}
+Refer to [Lotus Chen](https://physicscup.ee/wp-content/uploads/PC2021/P2/1.-Physics-Cup-2021-Problem-2-Lotus-Chen.pdf)'s neat solution using the LRL vector.
+{{< /tab >}}
+
+{{< tab name="Physics Cup – TalTech 2021" >}}{{< /tab >}}
+{{< /tabs >}}
+
 ### Trajectory of the momentum vector
 
 The conservation of the LRL vector $\mathbf{A}$ and angular momentum vector $\mathbf{L}$ is useful in showing that the momentum vector $\mathbf{p}$ moves on a circle under an inverse-square central force. The trajectory of the momentum vector $\mathbf{p}$ is called a hodograph.
@@ -40,6 +64,18 @@ Thus, the momentum vector $\mathbf{p}$ is confined to a circle of radius $mk/L$ 
 {{< callout type="image" >}}
 {{< svg "celmech/hodograph.svg" "Hodograph" "The hodograph is a useful tool for visualizing the momentum vector in central force problems. (Source: Wikipedia)" >}}
 {{< /callout >}}
+
+{{< tabs >}}
+{{< tab name="P3" >}}
+A satellite orbits a planet. At point $A$, its speed is $v_1$. At point $B$, its speed is $v_2$ and its velocity vector forms a right angle with the velocity vector at point $A$. At point $C$, the velocity is exactly opposite to the velocity at point $A$, with a magnitude of $v_3$. Find the eccentricity of the orbit. Also determine the exact numerical value of the eccentricity when $v_1=1\,\text{km/s}$, $v_2=2\,\text{km/s}$, and $v_3=3\,\text{km/s}$.
+{{< /tab >}}
+
+{{< tab name="Solution" >}}
+Refer to the solution by [Alexandru Bordei](https://physicscup.ee/wp-content/uploads/2025/09/Alexandru.pdf) to see the use of hodographs in action.
+{{< /tab >}}
+
+{{< tab name="Physics Cup – TalTech 2025" >}}{{< /tab >}}
+{{< /tabs >}}
 
 ### Precession of LRL vector under a perturbed potential
 
@@ -118,7 +154,7 @@ Aside from these two, there are also closed circular orbits in any central force
 {{< /callout >}}
 
 {{< tabs >}}
-{{< tab name="P1" >}}
+{{< tab name="P4" >}}
 Daniel, a strange guy, finds a strange force as well. He finds it to be a central force proportional to $r^n$, where $r$ is the distance from the source of the force to the body affected by it (perhaps, think of it as a strange type of “gravity”). What value of $n$ could make it such that closed, stable, nearly circular orbits can occur by bodies under the influence of this force (that is, orbits without precession each period)?
 
 $$\text{A.} \: 10 \qquad\qquad \text{B.} \: 11 \qquad\qquad \text{C.} \: 12 \qquad\qquad \text{D.} \: 13$$
@@ -176,7 +212,7 @@ $$ \frac{d^2 w_0}{d \theta^2} + w_0 = 1 \implies w_0 = 1 + e \cos \theta $$
 
 For $w_1$, we get
 
-$$ \frac{d^2 w_1}{d \theta^2} + w_1 \approx w_0^2  = 1 + \frac{e^2}{2} + 2 e \cos \theta +\frac{e^2}{2} \cos 2 \theta $$
+$$ \frac{d^2 w_1}{d \theta^2} + w_1 \approx w_0^2 = 1 + \frac{e^2}{2} + 2 e \cos \theta +\frac{e^2}{2} \cos 2 \theta $$
 
 This gives the solution for $w_1$ as
 
@@ -264,7 +300,7 @@ $$\tag{3.7.15} P_\text{rad} = \frac{L}{4 \pi r^2 c} $$
 where $L$ is the luminosity of the star and $r$ is the distance from the star. For sun, the peak wavelength is $\lambda_{p} \approx 500 \mathrm{\,nm}$. For $R \gg \lambda_p$, where sun's gravity dominates over radiation pressure, the Poynting-Robertson effect acts as a brake on orbiting particles, decreasing their angular momenta so that they slowly spiral into the sun. In the frame of the orbiting particle, the phenomena of abberation causes slight displacement in the direction of the motion for photons striking the particle. This applies a torque on the particle, causing it to lose angular momentum.
 
 $$ \mathbf{\tau} = \mathbf{r} \times \mathbf{F} = \frac{d \mathbf{L}}{dt} $$
-$$ \tau = -rF_\text{rad} \sin \theta = -r \frac{LR^2 Q_\text{pr}}{4cr^2} \frac{v}{c} $$
+$$ \tau = -rF*\text{rad} \sin \theta = -r \frac{LR^2 Q*\text{pr}}{4cr^2} \frac{v}{c} $$
 
 The angular momenta of the orbiting particle is
 
@@ -272,7 +308,7 @@ $$ L = m \sqrt{GMr} \implies \frac{dL}{dt} = \frac{m}{2} \sqrt{\frac{GM}{r}} \fr
 
 Hence we get that the radius of the particle's orbit decays as
 
-$$ \frac{dr}{dt} = -\frac{1}{r} \frac{L}{2c^2} \frac{R^2 Q_\text{pr}}{m} $$
+$$ \frac{dr}{dt} = -\frac{1}{r} \frac{L}{2c^2} \frac{R^2 Q\_\text{pr}}{m} $$
 
 The Poynting Robertson time scale is the time it takes for the particle to spiral into the sun
 

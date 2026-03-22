@@ -135,7 +135,7 @@ $$
 \sin a &= \cos h \cos \delta \cos \phi + \sin \delta \sin \phi
 \\ \\ \tag{1.2.9}
 \sin h \cos \delta &= \sin A \cos a \\
-\cos h \cos \delta &= -\cos A \cos a + \sin a \cos \phi \\
+\cos h \cos \delta &= -\cos A \cos a \sin \phi + \sin a \cos \phi \\
 \sin \delta &= \cos a \cos A \cos \phi + \sin a \sin \phi
 \end{align*}$$
 

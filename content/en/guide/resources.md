@@ -10,7 +10,7 @@ Most of the textbooks used in writing the guide have been mentioned in the About
 ## General
 
 - This [Drive](https://drive.google.com/drive/folders/1gZDmKb3n2vXHpVZMwFaUJ1ukUccCfYKD?usp=sharing) contains all the sources used, and more. Many national and international olympiad papers too are available here.
-- A really awesome and comprehensive [resource for IOAA](https://daniellee271828.github.io/ioaa_note_en.pdf) by former Hong Kong IOAA team members. Can be followed alongside the guide for a different perspective on topics.
+- A really awesome and comprehensive [resource for IOAA](https://drive.google.com/file/d/13bRXOBf5ri0Q-ipmvBewzgD4ETMWo_xW/view) by Lee Yiu Sing. Can be followed alongside the guide for a different perspective on topics.
 - Sean Ken M. Galanza's [astronomy handouts](https://drive.google.com/drive/folders/1i7HR025iR4HO7PHhx7RmDCRa5aRi14hX?usp=sharing)
 - Kevin Zhou's [Physics Olympiad Handouts](https://knzhou.github.io), mainly M6 and X3
 - [USAAAO Guide](https://www.usaaao.guide/handouts) - Handouts for USAAAO and IOAA preparation

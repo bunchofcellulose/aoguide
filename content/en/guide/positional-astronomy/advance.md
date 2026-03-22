@@ -74,7 +74,7 @@ Let the latitude of the observer be $\phi$ and the declination of the Sun be $\d
 
 $$ l = \frac{1}{\tan a} $$
 
-We set up our coordinate system with the stick at the origin, the $x$-axis pointing east, and the $y$-axis pointing north. The angle the shadow makes with the north is just the azimuth of the Sun, $A$. Thus,
+We set up our coordinate system with the stick at the origin, the $x$-axis pointing east, and the $y$-axis pointing north. The angle the shadow makes with the north is just the complement of the azimuth of the Sun, $180^\circ - A$. Thus,
 
 $$ x = l \sin A = \frac{\sin A}{\tan a} $$
 $$ y = l \cos A = \frac{\cos A}{\tan a} $$
