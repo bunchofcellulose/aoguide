@@ -83,7 +83,7 @@ where $\phi$ is the observer's latitude and $\delta$ is the star's declination. 
 
 Some stars never rise above the horizon. For a star to never rise above the horizon, we must have
 
-$$\tag{1.2.7} \phi - \delta \leq -90^\circ $$
+$$\tag{1.2.7} \phi - \delta \geq 90^\circ $$
 
 where $\phi$ is the observer's latitude and $\delta$ is the star's declination. This can be derived from the $a_\text{max} < 0$ condition from the previous section.
 
