@@ -227,6 +227,8 @@ $$\tag{3.4.6} \tan \lambda = \frac{Y}{X}\,, \qquad \qquad \sin \beta = \frac{Z}{
     $$\boxed{ \alpha = 69.46^\circ\,, \quad \delta = 3.26^\circ }$$
 
     {{< /tab >}}
+
+    {{< tab name="Iran 2014 TST" >}}{{< /tab >}}
 {{< /tabs >}}
 
 [^1]: These are orbits where the orbit rotates opposite to the rotation of the primary body, for example a satellite rotating in a direction opposite to Earth's rotation.

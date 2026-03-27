@@ -123,7 +123,7 @@ The eccentric anomaly $E$ in terms of these coordinates is given by
 
 $$ \cos E = \frac{x}{a}\,, \qquad \qquad \sin E = \frac{y}{b} $$
 
-As a consequence, since $r = x^2 + y^2$, and $b^2 = a^2(1-e^2)$ we get that the distance of the smaller body from the larger body (foci of the ellipse) is given by
+As a consequence, since $r^2 = x^2 + y^2$, and $b^2 = a^2(1-e^2)$ we get that the distance of the smaller body from the larger body (foci of the ellipse) is given by
 
 $$\tag{3.2.10} r = a (1 - e \cos E) $$
 
@@ -170,7 +170,26 @@ And thus we *have* found $r(t)$.
 
 ## Radial Elliptic trajectory
 
-A radial elliptic trajectory is a degenerate case of an elliptical trajectory, where the eccentricity $e$ is equal to 1 and the angular momentum of the system is zero. The trajectory is a straight line, and the two bodies collide with each other at some point in the trajectory. It is still classified as an elliptic trajectory since the total energy of the system is negative.
+A radial elliptic trajectory is a degenerate case of an elliptical trajectory, where the eccentricity $e$ is equal to 1 and the angular momentum of the system is zero. The trajectory is a pair of straight line segments, and the two bodies collide with each other at some point in the trajectory. It is still classified as an elliptic trajectory since the total energy of the system is negative. The radial elliptic trajectory is the solution of a two-body problem with at some instant zero speed, as in the case of dropping an object (neglecting air resistance).
+
+{{< tabs >}}
+    {{< tab name="P1" >}}
+    Find the position of a body moving in a radial elliptic trajectory as a function of time, $r(t)$, given that the initial position of the body is $r_0$ and the initial speed is zero.
+    {{< /tab >}}
+
+    {{< tab name="Solution" >}}
+    We can solve this by conservation of energy $\varepsilon$.
+
+    $$\begin{aligned}
+    \varepsilon &= \frac{1}{2} \dot{r}^2 - \frac{\mu}{r} = -\frac{\mu}{r_0} \\
+    \implies \dot{r} &= -\sqrt{2\mu \left( \frac{1}{r} - \frac{1}{r_0} \right)} \\
+    \implies t &= \int_{r_0}^r \frac{dr}{\sqrt{2\mu \left( \frac{1}{r} - \frac{1}{r_0} \right)}} \\
+    &= \sqrt{\frac{r_0^3}{2\mu}} \left( \arccos \sqrt{\frac{r}{r_0}} + \sqrt{\frac{r}{r_0} \left( 1 - \frac{r}{r_0} \right)} \right) \\
+    \end{aligned}$$
+
+    As one can tell, the result in of itself isn't very useful, and not worth remembering. However, one should know how to derive it if needed.
+    {{< /tab >}}
+{{< /tabs >}}
 
 ## Binary Systems
 
@@ -328,7 +347,7 @@ The above expression is for a rigid satellite. For a fluid satellite,
 $$ d \approx 2.44\, R_M \left( \frac{\rho_M}{\rho_m} \right)^{1/3} $$
 
 {{< tabs >}}
-{{< tab name="P1" >}}
+{{< tab name="P2" >}}
 Consider the satellite to be tidally locked to the primary body, such that the same side of the satellite always faces the primary. Find the Roche limit for such a satellite.
 {{< /tab >}}
 
@@ -350,7 +369,7 @@ Consider the satellite to be tidally locked to the primary body, such that the s
 ## Problems
 
 {{< tabs >}}
-    {{< tab name="P2" >}}
+    {{< tab name="P3" >}}
     A Sun-orbiting periodic comet is the farthest at $31.5 \mathrm{\,AU}$ and the closest at $0.5 \mathrm{\,AU}$. What is the orbital period of this comet? What is the area (in $\mathrm{AU^2/yr}$) swept by the line joining the comet and the Sun?
     {{< /tab >}}
 
@@ -378,7 +397,7 @@ Consider the satellite to be tidally locked to the primary body, such that the s
 {{< /tabs >}}
 
 {{< tabs >}}
-    {{< tab name="P3" >}}
+    {{< tab name="P4" >}}
     Estimate the radius of a planet that a man can escape its gravitation by jumping vertically. Assume density of the planet and the Earth are the same.
     {{< /tab >}}
 
@@ -396,7 +415,7 @@ Consider the satellite to be tidally locked to the primary body, such that the s
 {{< /tabs >}}
 
 {{< tabs >}}
-    {{< tab name="P4" >}}
+    {{< tab name="P5" >}}
     A projectile which starts from the surface of the Earth at the sea level is launched with the initial speed of $v_0 = \alpha \sqrt{\frac{GM_\oplus}{R_\oplus}}\,$ ($\alpha < \sqrt{2}$) and the projecting angle (with respect to the local horizon) of $\theta$. Ignore the air resistance.
 
     a) The orbit of the projectile is an ellipse. Find its semi-major axis $a$ in units of $R_\oplus$. <br/>
@@ -463,7 +482,7 @@ Consider the satellite to be tidally locked to the primary body, such that the s
 {{< /tabs >}}
 
 {{< tabs >}}
-    {{< tab name="P5" >}}
+    {{< tab name="P6" >}}
     Objects falling into a black hole experience immense tidal forces and thus break up like a spaghetti. Spaghettification is the vertical stretching and horizontal compression of objects into long thin shapes in a very strong, non-homogeneous gravitational field, such as that of a black hole. Assume a neutral non-spinning black hole of mass $M$. The gravitational field around it is described by the Schwarzschild metric, the radius of the event horizon being $r_s = 2GM / c^2$. In the following discussion, however, we will consider that gravity follows Newton's laws. Assume a non-rotating star of mass $m$ and radius $r_{m}$ orbits the black hole in a circular orbit at a distance $r$. It is known that there is no stable circular orbit for $r < 3r_s$, and there is no circular orbit for $r < 1.5 r_s$.
 
     a) The nearest distance to which the star can approach the black hole before being torn apart due to tidal forces is known as its Roche limit. Find the Roche limit $r_\text{Roche}$ for the star as a function of $\eta = M/m$ and $r_m$. Introduce a dimensionless variable $\alpha = r_\text{Roche} / r_m$. <br/>

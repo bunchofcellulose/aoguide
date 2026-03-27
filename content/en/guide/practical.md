@@ -1,6 +1,6 @@
 ---
 title: Practical Astronomy
-weight: 7
+weight: 8
 next: N
 prev: N
 ---

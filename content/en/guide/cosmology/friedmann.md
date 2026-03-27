@@ -1,6 +1,6 @@
 ---
 title: The Friedmann Equations
-weight: 4
+weight: 3
 ---
 
 ## The Friedmann Equation

@@ -165,12 +165,16 @@ html {
 .katex-display {
   text-align: center;
   margin: var(--spacing-sm) auto;
-  padding: var(--spacing-s) 0;
-  overflow-x: visible;
-  overflow-y: visible;
+  /* Fixed variable typo and forced padding to prevent vertical clipping */
+  padding: var(--spacing-sm) 0 !important; 
+  
+  /* Force hide vertical scroll, allow horizontal for long equations */
+  overflow-y: hidden !important;
+  overflow-x: auto !important;
+  
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
-  max-width: 120%;
+  max-width: 100%; /* Changed from 120% to prevent parent container layout shifts */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,11 +185,9 @@ html {
   white-space: nowrap;
 }
 
-/* Container for proper centering and scrolling */
-.katex-display {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Optional: Target Hextra's markdown wrapper if it forces a scrollbar */
+.hextra-content .overflow-x-auto {
+    overflow-y: hidden !important;
 }
 
 /* Mobile-specific adjustments */
@@ -193,9 +195,7 @@ html {
   .katex-display {
     font-size: 0.85em;
     justify-content: flex-start;
-    padding: var(--spacing-xs) var(--spacing-sm);
-    overflow-x: auto;
-    max-width: 100%;
+    padding: var(--spacing-xs) var(--spacing-sm) !important;
   }
   
   .katex-display > .katex {
@@ -209,8 +209,6 @@ html {
 @media (max-width: 1024px) {
   .katex-display {
     font-size: 0.95em;
-    overflow-x: auto;
-    max-width: 100%;
   }
 }
 
@@ -360,6 +358,32 @@ details :not(.math) {
   border-color: rgba(253, 230, 138, 0.3);
   background-color: rgba(161, 98, 7, 0.3);
   color: #fde047;
+}
+
+.callout-person {
+  border-color: #cbd5e1;
+  background-color: #f8fafc;
+  color: #334155;
+}
+
+.dark .callout-person {
+  border-color: #8899a6;
+  background-color: #1e293b;
+  color: #d8dee9;
+}
+
+.callout-quote {
+  border-color: #e0e7ff;
+  background-color: #f0f9ff;
+  color: #3730a3;
+  font-style: italic;
+}
+
+.dark .callout-quote {
+  border-color: rgba(224, 231, 255, 0.3);
+  background-color: rgba(240, 249, 255, 0.2);
+  color: #c7d2fe;
+  font-style: italic;
 }
 
 /* callout-math uses same styling as callout-default */

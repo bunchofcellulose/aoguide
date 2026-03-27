@@ -3,99 +3,268 @@ title: Stellar Evolution
 weight: 4
 ---
 
-## Star Clusters
+A star's life is a constant battle between gravity, which wants to compress it, and pressure, which resists. The fuel that sustains pressure is nuclear energy. When the fuel changes or runs out, the star responds — contracting, heating, expanding, changing luminosity and temperature. The **HR diagram** is the observational record of all these phases, and stellar evolution theory is the explanation of why stars trace the paths they do.
 
-Associations are groups of very young stars.
+## Star Clusters and Stellar Populations
 
-Open star clusters are groups of stars that are gravitationally bound and have a common origin. They are typically found in the galactic disk and are composed of a few hundred to a few thousand stars. Open clusters are usually younger than globular clusters and have a more irregular shape. In younger clusters, the main sequence extends to brighter and hotter stars and earlier spectral types. Usually, one can clearly see the point in the HR diagram where the main sequence ends and bends over the giant branch. This point is called the turnoff point, and it can be used to estimate the age of the cluster.
+### Clusters as Stellar Laboratories
 
-Globular clusters are spherical collections of stars that are gravitationally bound and orbit the galactic center. They are typically found in the halo of the galaxy and are composed of tens of thousands to millions of stars. Globular clusters are usually older than open clusters and have a more regular shape. The stars in globular clusters are typically older and have lower metallicity than stars in open clusters.
+Stars in a cluster share a common origin (same molecular cloud, same distance, same age, same initial chemical composition) but differ in one key parameter: **initial mass**. This makes clusters ideal for testing stellar evolution theory, because the entire spread of the cluster's HR diagram traces the evolutionary paths of stars of different masses, all born at the same time.
 
-Stars can be classified on the basis of their generation:
+**Open clusters** (a few hundred to a few thousand stars) are found in the galactic disk, are young to middle-aged, and have irregular shapes. Examples: Pleiades (~125 Myr), Hyades (~625 Myr).
 
-- Population I stars are young stars with almost circular orbits that are found in the galactic disk. They are typically metal-rich and have a high abundance of heavy elements. Population I stars are usually found in open clusters and are associated with star formation regions.
-- Population II stars are older stars with more elliptical orbits that are found in the halo of the galaxy. They are typically metal-poor and have a low abundance of heavy elements. Population II stars are usually found in globular clusters and are associated with the early stages of galaxy formation.
-- Population III stars are the first generation of stars that formed in the universe. They are thought to be metal-free and have a very low abundance of heavy elements. Population III stars are believed to have formed from primordial gas and dust and are thought to have played a key role in the reionization of the universe.
+**Globular clusters** (tens of thousands to millions of stars) are found in the galactic halo, are among the oldest objects in the universe (~10–13 Gyr), and have high central concentrations. Examples: M13, 47 Tucanae, Omega Centauri.
 
-## Stellar Time Scales
+The **main sequence turnoff point** is the most powerful age-dating tool in astronomy. Massive stars exhaust their hydrogen faster (nuclear timescale $t_\text{nuc} \propto M/L \propto M^{-2.8}$) and evolve off the main sequence first. The color/temperature of the turnoff point — where the main sequence bends upward toward the giant branch — directly indicates the age of the cluster: older clusters have a redder (cooler) turnoff.
 
-### Nuclear Time Scale
+{{< callout type="why" >}}
+**Why does the main sequence turn off?** Stars on the main sequence burn hydrogen in their cores. As hydrogen is consumed, the mean molecular weight $\mu$ increases (4 H → 1 He), so to maintain pressure ($P \propto \rho T / \mu$) the core must either increase in temperature or density. The luminosity rises slowly over the main sequence lifetime. When the core hydrogen is exhausted, the core contracts and the envelope expands — the star moves off the main sequence.
 
-The nuclear time scale is the time in which a star radiates away all the energy that can be released by nuclear reactions. Around $10$% of the total Hydrogen present in stars is consumable, and $0.7$% of the rest mass is turned into energy in hydrogen burning. Hence the nuclear time scale is
+The turnoff luminosity (and hence temperature) scales as: a star leaves the main sequence when its hydrogen fuel is ~10% exhausted, i.e., after time $t \approx 0.1 \, Mc^2 \times 0.007 / L \propto M^{-2.8}$. By setting this equal to the cluster age, we find the turnoff mass and hence turnoff temperature.
+{{< /callout >}}
 
-$$ t_\text{nuc} \backsim 0.1 \cdot 0.007 \cdot \frac{Mc^2}{L} $$
+### Stellar Populations
 
-For Sun, $t_\text{nuc} \approx 10^{10}$ years.
+Stars are classified by their chemical composition (metallicity $Z$, the mass fraction of elements heavier than helium) and kinematics:
 
-### Thermal Time Scale
+| Population | Age | Metallicity | Location | Example |
+| --- | --- | --- | --- | --- |
+| Pop I | Young (<a few Gyr) | Metal-rich ($Z \approx Z_\odot$) | Galactic disk, spiral arms | Sun, Pleiades |
+| Pop II | Old (>10 Gyr) | Metal-poor ($Z \ll Z_\odot$) | Galactic halo, bulge, globular clusters | RR Lyrae, globular cluster stars |
+| Pop III | $z > 20$ (theoretical) | Metal-free | First galaxies | Not yet directly observed |
 
-The thermal time scale is the time in which a star would radiate all its thermal energy if its nuclear energy production were suddenly cutoff. This is also known as the Kelvin-Helmholtz time scale.
+Pop III stars are believed to have been very massive ($>100 \, M_\odot$), short-lived, and responsible for the first nucleosynthesis of metals. Their deaths as supernovae enriched the early interstellar medium, enabling Pop II star formation.
 
-$$ t_\text{th} \backsim \frac{GM^2 / 2R}{L} $$
+## Stellar Timescales
 
-For Sun, $t_\text{th} \approx 2 \times 10^{7}$ years.
+Three timescales govern stellar structure and evolution. Understanding their hierarchy is essential.
 
-### Dynamical Time Scale
+### Dynamical Timescale
 
-The dynamical time scale is the time it would take for a star to collapse if the pressure supporting it against gravity were suddenly removed.
+The time for pressure waves to cross a star, or equivalently, the free-fall time if pressure support were suddenly removed:
 
-$$ t_\text{dyn} \backsim \sqrt{\frac{R^3}{GM}} $$
+$$\tag{5.1.1} t_\text{dyn} \sim \sqrt{\frac{R^3}{GM}} \sim \frac{1}{\sqrt{G\rho}}$$
 
-For Sun, $t_\text{dyn} \approx 0.5$ hr.
+For the Sun: $t_\text{dyn} \approx 27$ min. This is also roughly the period of stellar oscillations (pulsating variables have periods $\propto t_\text{dyn}$).
 
-Hence we see that $t_\text{nuc} \gg t_\text{th} \gg t_\text{dyn}$.
+### Kelvin–Helmholtz (Thermal) Timescale
 
-## Main Sequence Phase
+The time to radiate away all gravitational potential energy at the current luminosity. From the virial theorem, the gravitational energy of a star is $\sim GM^2/R$:
 
-The main sequence phase is that evolutionary stage in which the energy released by the burning of hydrogen in the core is the only source of stellar energy. During this stage, the star is in stable equilibrium, and its structure changes only because its chemical composition is gradually altered by the nuclear reactions. Thus the evolution takes place on a nuclear time scale, which means that the main sequence phase is the longest part of the life of a star. Main Sequence stars follow a mass-luminosity relationship
+$$\tag{5.1.2} t_\text{KH} \sim \frac{GM^2 / R}{L}$$
 
-$$ L \propto M^{3.8} $$
+For the Sun: $t_\text{KH} \approx 1.6 \times 10^7$ yr. This was once thought to be the Sun's age (Kelvin and Helmholtz both proposed gravitational contraction as the Sun's energy source), but it is far too short — fossils and radioactive dating require a much older Earth.
 
-## Jeans Limit
+### Nuclear Timescale
 
-The Jeans instability describes an instability that leads to the gravitational collapse of a cloud of gas or dust. It causes the collapse of interstellar gas clouds and subsequent star formation. It occurs when the internal gas pressure is not strong enough to prevent the gravitational collapse of a region filled with matter.
+The main-sequence lifetime, during which hydrogen is fused to helium. About 10% of the total hydrogen mass is available in the core, and 0.7% of the rest mass is released as energy in pp-chain fusion:
 
-Consider a gas cloud of mass $M$, radius $R$, uniform density $\rho$, mean molecular mass $\mu$ and temperature $T$. Jean's length is the critical radius of a gas cloud, below which the cloud will collapse under its own gravity. The gravitational force acting on the cloud is counteracted by the thermal pressure of the gas. The kinetic energy $K$ and potential energy $U$ of the cloud is
+$$\tag{5.1.3} t_\text{nuc} \sim 0.1 \times 0.007 \times \frac{Mc^2}{L} \approx \frac{7 \times 10^{-4} Mc^2}{L}$$
 
-$$ K = \frac{3}{2} N k T = 2kT \frac{\pi R^3 \rho}{\mu m_H} $$
+For the Sun: $t_\text{nuc} \approx 10^{10}$ yr. Using $L \propto M^4$ (mass-luminosity relation):
 
-$$ U = -\frac{3}{5} \frac{GM^2}{R} = -\frac{16}{15} G \pi^2 R^5 \rho^2 $$
+$$t_\text{nuc} \propto \frac{M}{L} \propto M^{-3}$$
 
-Using virial theorem,
+A $10 \, M_\odot$ star lives $\sim 1000$ times shorter than the Sun — only ~10 Myr. A $0.3 \, M_\odot$ red dwarf lives $\sim 30$ times longer — longer than the current age of the universe.
 
-$$\tag{5.4.1} R = \lambda_J = \left( \frac{15}{4 \pi} \frac{k}{Gm_H} \frac{T}{\mu \rho} \right)^{1/2} $$
+{{< callout type="remark" >}}
+The hierarchy $t_\text{dyn} \ll t_\text{KH} \ll t_\text{nuc}$ has deep consequences. It means:
 
-The critical mass, called Jean's mass is given by
+- A star is always in **hydrostatic equilibrium** (pressure balances gravity) on evolutionary timescales
+- A star is always in **thermal equilibrium** (energy generated = energy radiated) on evolutionary timescales  
+- Stellar **evolution** (compositional change) is the slowest process, and stars move through the HR diagram on nuclear timescales (except during phases of rapid restructuring, like the Hertzsprung gap)
+{{< /callout >}}
 
-$$\tag{5.4.2} M_J = \frac{4}{3} \pi \lambda_J^3 \rho = \sqrt{ \frac{375}{4 \pi} \left( \frac{k}{Gm_H} \right)^3 \frac{T^3}{\mu^3 \rho} } $$
+## The Evolutionary Track: From Cloud to Remnant
+
+### Stage 1: Molecular Cloud and Jeans Instability
+
+Stars form from the gravitational collapse of cold, dense regions within **molecular clouds** — giant complexes of gas and dust (mostly H$_2$) with temperatures ~10–30 K and densities ~$10^8$–$10^{10}$ molecules/m³.
+
+A cloud (or clump within one) will collapse under self-gravity when its gravitational potential energy exceeds its thermal kinetic energy. The **Jeans criterion** gives the critical mass for collapse.
+
+Consider a cloud of mass $M$, radius $R$, temperature $T$, mean molecular mass $\mu$, and density $\rho$. The kinetic and potential energies are:
+
+$$K = \frac{3}{2} N kT = \frac{3kT M}{2\mu m_H}, \qquad U = -\frac{3GM^2}{5R}$$
+
+Collapse occurs when $|U| > 2K$ (virial theorem condition). Setting $|U| = 2K$ gives the **Jeans length** (critical radius):
+
+$$\tag{5.4.1} \lambda_J = \left(\frac{15kT}{4\pi G \mu m_H \rho}\right)^{1/2}$$
+
+and the **Jeans mass** (minimum mass that will collapse):
+
+$$\tag{5.4.2} M_J = \frac{4}{3}\pi \lambda_J^3 \rho = \sqrt{\frac{375}{4\pi}\left(\frac{k}{G\mu m_H}\right)^3 \frac{T^3}{\rho}}$$
+
+{{< callout type="remark" >}}
+As a cloud collapses and density increases, $M_J$ falls. This means a collapsing cloud can fragment into smaller and smaller pieces — a process called **hierarchical fragmentation** — until each fragment is small enough to become opaque to its own radiation. Once opaque, the fragments heat up faster than they radiate, $M_J$ stops falling, and fragmentation halts. This is why molecular clouds form **clusters** of many stars rather than one giant star.
+{{< /callout >}}
+
+{{< tabs >}}
+    {{< tab name="Q1" >}}
+    A molecular cloud has temperature $T = 15$ K, density $\rho = 2 \times 10^{-18} \, \mathrm{kg\,m^{-3}}$, and mean molecular mass $\mu = 2$ (mostly H₂). Calculate the Jeans mass.
+    {{< /tab >}}
+
+    {{< tab name="Solution" >}}
+    $$M_J = \sqrt{\frac{375}{4\pi}\left(\frac{k}{G\mu m_H}\right)^3 \frac{T^3}{\rho}}$$
+
+    The factor $k / (G \mu m_H)$:
+
+    $$\frac{k}{G \mu m_H} = \frac{1.38 \times 10^{-23}}{6.67 \times 10^{-11} \times 2 \times 1.67 \times 10^{-27}} = \frac{1.38 \times 10^{-23}}{2.23 \times 10^{-37}} = 6.19 \times 10^{13}$$
+
+    $$M_J = \sqrt{\frac{375}{4\pi} \times (6.19 \times 10^{13})^3 \times \frac{15^3}{2 \times 10^{-18}}}$$
+
+    $$= \sqrt{29.8 \times 2.37 \times 10^{41} \times \frac{3375}{2 \times 10^{-18}}} = \sqrt{29.8 \times 2.37 \times 10^{41} \times 1.69 \times 10^{21}}$$
+
+    $$= \sqrt{1.19 \times 10^{64}} \approx 3.5 \times 10^{31} \, \mathrm{kg} \approx 17 \, M_\odot$$
+
+    This cloud fragment has a Jeans mass of ~17 solar masses — it will collapse and likely form a massive star or a small cluster.
+    {{< /tab >}}
+{{< /tabs >}}
+
+### Stage 2: Protostar
+
+As the cloud fragment collapses, gravitational energy is converted to heat. The infalling gas heats up until the central region becomes opaque and pressure builds: a **protostar** forms. The protostar is luminous (powered by Kelvin-Helmholtz contraction), large, and cool — it sits to the upper right of the zero-age main sequence in the HR diagram.
+
+Protostars are typically embedded in their parent molecular cloud, making them optically invisible but detectable in the infrared. The surrounding envelope and disk accrete onto the protostar; bipolar outflows and jets carry away excess angular momentum.
+
+The protostar descends the **Hayashi track** — a nearly vertical path in the HR diagram at roughly constant effective temperature (~4000 K), as the luminosity drops while the star contracts. The Hayashi track represents fully convective stars; stars cannot exist in hydrostatic equilibrium to the right of this track.
+
+Higher-mass stars then transition to nearly horizontal contraction (the **Henyey track**) as their interiors become radiative, before reaching the Zero-Age Main Sequence (ZAMS).
+
+### Stage 3: Zero-Age Main Sequence (ZAMS)
+
+When the core temperature reaches ~$10^7$ K, hydrogen fusion ignites via the **pp chain** (low-mass stars) or the **CNO cycle** (stars above ~$1.3 \, M_\odot$). The luminosity from nuclear reactions replaces the dwindling Kelvin-Helmholtz luminosity, and the star settles into a long-lived equilibrium: the **main sequence**.
+
+The ZAMS is the locus of newly-ignited stars in the HR diagram. More massive stars are hotter and more luminous, giving the main sequence its characteristic slope ($L \propto T^8$ roughly, tracing the mass-luminosity and mass-temperature relations).
+
+Main sequence stars obey:
+
+$$\tag{5.2.1} L \propto M^{3.8}$$
+
+(empirical; exact slope depends on the mass range).
+
+### Stage 4: Main Sequence Evolution
+
+During the main sequence phase, the **core becomes progressively helium-enriched** as hydrogen is consumed. The mean molecular weight $\mu$ increases, requiring higher temperature and density to maintain pressure. This causes a slow increase in luminosity and temperature over the main sequence lifetime: the Sun was ~70% as luminous 4.6 Gyr ago as it is today.
+
+The main sequence lifetime scales as $t_\text{MS} \propto M/L \propto M^{-2.8}$.
+
+### Stage 5: Subgiant and Red Giant Branch (RGB)
+
+When the **hydrogen in the core is exhausted**, the core — now pure helium — begins to contract (no energy source). By the virial theorem, gravitational contraction heats the core. This elevated temperature ignites hydrogen in a **shell** around the inert helium core.
+
+The shell burning drives the **envelope to expand and cool**, dramatically increasing the stellar radius. The star moves off the main sequence toward the upper right of the HR diagram — the **subgiant branch** (nearly horizontal at first, then steeply rising in luminosity), then onto the **red giant branch (RGB)**. A $1 \, M_\odot$ star expands to ~100–200 $R_\odot$ on the RGB.
+
+{{< callout type="why" >}}
+**Why does the envelope expand when the core contracts?** This is the **mirror principle** (also called the virial mirror). In a shell-burning star, the shell is sandwiched between the contracting core and the expanding envelope. As the core contracts and the shell temperature rises, the shell burns more vigorously, depositing more energy into the envelope. By virial theorem arguments, the envelope cannot absorb this energy without expanding. The star's total luminosity rises sharply on the RGB because the shell burning grows more vigorous as the core contracts and the shell gets hotter.
+{{< /callout >}}
+
+On the RGB, the outer convective envelope deepens and dredges helium and CNO-processed material up to the surface. This **first dredge-up** changes the surface abundances of carbon, nitrogen, and oxygen isotopes.
+
+### Stage 6: Helium Flash and Horizontal Branch
+
+The helium core contracts until it becomes **electron-degenerate** (in stars $\lesssim 2 \, M_\odot$). A degenerate gas has pressure independent of temperature. When the core temperature reaches ~$10^8$ K, **helium ignites** to form carbon via the triple-alpha process:
+
+$$3 \, {}^4\text{He} \rightarrow {}^{12}\text{C} + \gamma$$
+
+But because the pressure does not increase with temperature, the fusion is **thermally unstable**: burning heats the core, which burns faster, which heats more — a runaway reaction called the **helium flash**. This deposits $\sim 10^{11} \, L_\odot$ of power in the core in seconds, but almost none reaches the surface (it goes into expanding and lifting the degeneracy).
+
+After the flash, the core is non-degenerate and helium burning continues stably. The star settles on the **horizontal branch (HB)** of the HR diagram — roughly constant luminosity, at a temperature depending on the envelope mass lost on the RGB (a function of metallicity and other factors).
+
+In more massive stars ($\gtrsim 2 \, M_\odot$), the helium core is never degenerate and ignites smoothly.
+
+### Stage 7: Asymptotic Giant Branch (AGB)
+
+When the **core helium is exhausted**, the star now has an inert **carbon-oxygen (C/O) core** with a helium-burning shell and a hydrogen-burning shell around it. The star again expands enormously, ascending the **asymptotic giant branch (AGB)**, which runs roughly parallel to and slightly to the right of the RGB.
+
+AGB stars develop a powerful **stellar wind** (driven by radiation pressure on dust grains) that removes the envelope at rates $10^{-8}$–$10^{-4} \, M_\odot$/yr. The AGB is also characterized by **thermal pulses** — periodic ignition of helium in the shell, which drives convective mixing (**third dredge-up**) that brings freshly synthesized carbon and s-process elements to the surface, producing carbon stars and s-process enriched stars.
+
+### Stage 8: Fate — Planetary Nebula + White Dwarf or Core Collapse
+
+**For stars $\lesssim 8 \, M_\odot$**: The envelope is eventually completely ejected as a **planetary nebula** — a beautiful shell of ionized gas illuminated by the hot remnant stellar core. The core, now exposed as a C/O **white dwarf** of $\sim 0.5$–$1.0 \, M_\odot$, gradually cools over billions of years. White dwarfs are supported by electron degeneracy pressure and have no fusion; they simply radiate stored heat.
+
+**For stars $\gtrsim 8 \, M_\odot$**: The core grows through successive fusion stages — C, Ne, O, Si — each faster than the last (Si burning lasts days). An **iron core** forms; iron cannot be fused exothermically. When the iron core exceeds the Chandrasekhar mass ($\sim 1.4 \, M_\odot$), electron degeneracy pressure is overcome, and the core collapses in milliseconds to a **neutron star** (or black hole for the most massive cases). The collapse rebounds as a **core-collapse supernova** (Types II, Ib, Ic), ejecting the outer layers at $\sim 10^{44}$ J of kinetic energy.
+
+{{< callout type="remark" >}}
+**Summary of evolutionary fates by initial mass:**
+
+| Initial mass | Final remnant | Mechanism |
+| --- | --- | --- |
+| $< 0.08 \, M_\odot$ | Brown dwarf | Never ignites H |
+| $0.08$–$0.5 \, M_\odot$ | Helium white dwarf | No He flash; lifetime > Hubble time |
+| $0.5$–$8 \, M_\odot$ | C/O white dwarf | AGB + planetary nebula |
+| $8$–$20 \, M_\odot$ | Neutron star | Core-collapse SN (Type II) |
+| $> 20 \, M_\odot$ | Black hole (or NS) | Core-collapse SN; massive mass loss |
+| $> 100 \, M_\odot$ | Pair-instability SN or direct collapse | Exotic paths |
+
+{{< /callout >}}
+
+## Jeans Instability (Full Derivation)
+
+The Jean's length and mass derived above can be placed on a firmer footing via the **virial theorem**. For a system in equilibrium, $2K + U = 0$. If $|U| > 2K$, the system collapses. Setting $|U| = 2K$ as the marginal condition:
+
+$$\frac{3kT M}{\mu m_H} = \frac{3GM^2}{5R}$$
+
+For a sphere of uniform density, $M = \frac{4}{3}\pi R^3 \rho$, so $R = (3M/4\pi\rho)^{1/3}$. Substituting and solving for $R = \lambda_J$:
+
+$$\lambda_J = \left(\frac{15kT}{4\pi G \mu m_H \rho}\right)^{1/2}$$
+
+which reproduces eq. 5.4.1. The Jeans mass $M_J = \frac{4}{3}\pi\lambda_J^3\rho$ follows immediately.
+
+{{< tabs >}}
+    {{< tab name="Q2" >}}
+    How does the Jeans mass change as a cloud collapses isothermally (constant T, increasing $\rho$)? What about if the cloud is adiabatic ($T \propto \rho^{\gamma - 1}$, with $\gamma = 5/3$)?
+    {{< /tab >}}
+
+    {{< tab name="Solution" >}}
+    From $M_J \propto T^{3/2} \rho^{-1/2}$:
+
+    **Isothermal** ($T$ = const): $M_J \propto \rho^{-1/2}$. As density increases, $M_J$ **decreases**. This means collapsing isothermal clouds fragment progressively into smaller and smaller pieces — hierarchical fragmentation proceeds.
+
+    **Adiabatic** ($T \propto \rho^{\gamma - 1} = \rho^{2/3}$ for $\gamma = 5/3$):
+
+    $$M_J \propto T^{3/2} \rho^{-1/2} \propto \rho^{(2/3)(3/2)} \rho^{-1/2} = \rho^1 \rho^{-1/2} = \rho^{1/2}$$
+
+    $M_J$ **increases** with density. Once the cloud becomes opaque and heats adiabatically, the Jeans mass grows — fragmentation stops. This defines the **opacity limit for fragmentation** and sets the minimum stellar mass (~0.01 $M_\odot$).
+    {{< /tab >}}
+{{< /tabs >}}
 
 ## Strömgren Sphere
 
-If a hot star is embedded in a region of uniform density gas, then it will be surrounded by a sphere of almost completely ionized hydrogen. At the surface of the sphere (~1 photon mean free path thick), the ionized fraction of hydrogen drops from nearly 1 to nearly 0. Let the rate of ionization be $Q$. This is the rate at which the central star is producing photons with $h \nu > 13.6 \, \mathrm{eV}$.
+A newly formed hot, massive star (O or B type) embedded in a uniform neutral hydrogen medium ionizes the surrounding gas out to a well-defined boundary — the **Strömgren sphere**. Outside it, the UV flux is insufficient to maintain ionization; inside it, hydrogen is nearly fully ionized.
 
-$$\tag{5.4.3} Q_* = \int_{\nu_0}^{\infty} \frac{L_\nu}{h \nu}\, d\nu$$
+The star produces ionizing photons (with $h\nu > 13.6 \, \mathrm{eV}$) at a rate:
 
-where $L_\nu$ is the spectral luminosity of the star. The mean free path of an electron is
+$$\tag{5.4.3} Q_* = \int_{\nu_0}^{\infty} \frac{L_\nu}{h\nu} \, d\nu$$
 
-$$\tag{5.4.4} l_\text{rec} = \frac{1}{n_p \sigma_\text{rec}}$$
+In equilibrium, the ionization rate equals the recombination rate within the sphere of radius $R_S$:
 
-where $n_p$ is the number density of protons (ionized H) and $\sigma_\text{rec}$ is the cross section for recombination. Let the velocity of electron be $v_e$, then the initial recombinations per unit volume will be
+$$\tag{5.4.8} Q_* = n_e^2 \, \alpha(T_e) \, \frac{4}{3}\pi R_S^3$$
 
-$$\tag{5.4.5} t_\text{rec} = \frac{l_\text{rec}}{v_e} = \frac{1}{n_p \sigma_\text{rec} v_e}$$
-$$\tag{5.4.6} N_\text{rec} = \frac{n_e}{t_\text{rec}} = n_e n_p \sigma_\text{rec} v_e$$
+where $\alpha(T_e) = \langle \sigma_\text{rec} v_e \rangle \propto T_e^{-1/2}$ is the recombination coefficient and $n_e$ is the electron number density (= proton density for fully ionized hydrogen).
 
-where $n_e$ is the number density of electrons. The recombination coefficient is defined as
+Solving for the **Strömgren radius**:
 
-$$\tag{5.4.7} \alpha(T_e) = \langle \sigma_\text{rec} v_e \rangle \propto T_e^{-1/2}$$
+$$\tag{5.4.9} \boxed{R_S = \left(\frac{3Q_*}{4\pi n_e^2 \, \alpha(T_e)}\right)^{1/3} \propto Q_*^{1/3} n_e^{-2/3} T_e^{1/6}}$$
 
-$T_e$ is the temperature of the electrons (may or may not be equal to $T_*$). For overall charge neutrality, $n_e = n_p$.
+{{< callout type="remark" >}}
+The thickness of the ionization boundary is ~one recombination mean free path: $\ell \sim 1/(n_e \sigma_\text{rec})$. For typical HII region densities ($n_e \sim 10^7$ m$^{-3}$), this is much smaller than $R_S$, so the sharp boundary is an excellent approximation.
 
-$$ \therefore N_\text{rec} = n_e^2 \alpha (T_e) $$
+A typical O5 star has $Q_* \sim 10^{49}$ ionizing photons/s, and with $n_e \sim 10^8$ m$^{-3}$, gives $R_S \sim 10$ pc. These ionized HII regions are beautiful, observable as emission nebulae (Orion Nebula, Eagle Nebula, etc.).
+{{< /callout >}}
 
-For ionization fraction of H to be in equillibrium,
+{{< tabs >}}
+    {{< tab name="Q3" >}}
+    An O5 star has an ionizing photon rate of $Q_* = 5 \times 10^{48} \, \mathrm{s^{-1}}$. It is embedded in a uniform medium with $n_\text{H} = 10^7 \, \mathrm{m^{-3}}$ and the recombination coefficient is $\alpha = 3 \times 10^{-19} \, \mathrm{m^3\,s^{-1}}$. Find the Strömgren radius.
+    {{< /tab >}}
 
-$$\tag{5.4.8} Q_* = N_\text{rec} V$$
+    {{< tab name="Solution" >}}
+    $$R_S = \left(\frac{3 Q_*}{4\pi n_e^2 \alpha}\right)^{1/3} = \left(\frac{3 \times 5 \times 10^{48}}{4\pi \times (10^7)^2 \times 3 \times 10^{-19}}\right)^{1/3}$$
 
-where $V = \frac{4}{3} \pi R_S^3$ is the volume of the sphere, and $R_S$ is the radius of the Strömgren sphere, called the Strömgren radius. We can solve for $R_S$ as
+    $$= \left(\frac{1.5 \times 10^{49}}{4\pi \times 10^{14} \times 3 \times 10^{-19}}\right)^{1/3} = \left(\frac{1.5 \times 10^{49}}{3.77 \times 10^{-4}}\right)^{1/3}$$
 
-$$\tag{5.4.9} R_S = \left( \frac{3}{4 \pi} \frac{Q_*}{n_e^2 \, \alpha (T_e)} \right)^{1/3} \propto T_e^{-1/6}$$
+    $$= (3.98 \times 10^{52})^{1/3} \approx 3.4 \times 10^{17} \, \mathrm{m} \approx 11 \, \mathrm{pc}$$
+
+    A Strömgren radius of about 11 parsecs — comparable to observed HII regions.
+    {{< /tab >}}
+{{< /tabs >}}

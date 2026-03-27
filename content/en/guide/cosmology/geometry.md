@@ -1,6 +1,6 @@
 ---
 title: Geometry of the Universe
-weight: 3
+weight: 2
 ---
 
 ## Curvature of the Universe
