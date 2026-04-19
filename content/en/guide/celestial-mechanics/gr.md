@@ -104,7 +104,7 @@ Consider a small perturbation $h(r)$ to the potential energy $V(r)$, such that
 
 $$ V(r) = -\frac{k}{r} + h(r) $$
 
-Since the force is no longer inverse-square, the LRL vector is no longer conserved, and precesses, leading to precessiong of apsis.
+Since the force is no longer inverse-square, the LRL vector is no longer conserved, and precesses, leading to precessing of apsis.
 
 $$ \frac{d\mathbf{A}}{dt} = - \frac{d h(r)}{dt} \, \hat{\mathbf{r}} \times \mathbf{L} = L \frac{d}{dt} h(r) \: \hat{\mathbf{\varphi}} $$
 
@@ -175,12 +175,12 @@ which matches the result which we obtained via the precession of the LRL vector.
 Gravitational waves are waves of spacetime curvature that propagate at the speed of light and are produced by the relative motion of gravitating masses. They were predicted by Einstein in 1916 as a consequence of his general theory of relativity, and were first directly detected by the LIGO and Virgo collaborations in 2015. The sources of gravitational waves include binary systems of compact objects (like black holes and neutron stars), supernovae, and the early universe.
 
 {{< callout type="trivia" >}}
-The first evidence of graviational waves came from the observation of the Hulse-Taylor binary pulsar in 1974, which showed that the orbit of the pulsar was decaying at a rate consistent with the emission of gravitational waves. This discovery earned Hulse and Taylor the Nobel Prize in Physics in 1993. The direct detection of gravitational waves by LIGO in 2015 was a groundbreaking achievement that confirmed a major prediction of general relativity and opened up a new era of gravitational wave astronomy.
+The first evidence of gravitational waves came from the observation of the Hulse-Taylor binary pulsar in 1974, which showed that the orbit of the pulsar was decaying at a rate consistent with the emission of gravitational waves. This discovery earned Hulse and Taylor the Nobel Prize in Physics in 1993. The direct detection of gravitational waves by LIGO in 2015 was a groundbreaking achievement that confirmed a major prediction of general relativity and opened up a new era of gravitational wave astronomy.
 {{< /callout >}}
 
 Consider two massive bodies $M_1$ and $M_2$ orbiting each other, with position vectors $\mathbf{r_1}$ and $\mathbf{r_2}$ relative to the center of mass. We define $M = M_1 + M_2$ and $m = \frac{M_1 M_2}{M_1 + M_2}$.
 
-According to general theory of relativity, accelerated masses with non zero quadrouple moments radiate gravitataional waves (GWs) and lose energy. For small enough velocities, the emitted GWs
+According to general theory of relativity, accelerated masses with non zero quadrupole moments radiate gravitational waves (GWs) and lose energy. For small enough velocities, the emitted GWs
 
 - have a frequency twice as large as the orbital frequency
 - can be characterized by a luminosity, which is dominated by the expression
