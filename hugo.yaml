@@ -18,15 +18,23 @@ menu:
       weight: 3
       params:
         type: search
+    - identifier: aoxiv
+      name: aoXiv
+      url: https://aoxiv.aoguide.app
+      weight: 4
+    - identifier: aoac
+      name: AOAC
+      url: https://aoac.aoguide.app
+      weight: 5
     - identifier: discord
       name: Discord
-      weight: 4
+      weight: 6
       url: "https://discord.gg/bV8bxvTmzU"
       params:
         icon: discord
     - identifier: github
       name: GitHub
-      weight: 5
+      weight: 7
       url: "https://github.com/bunchofcellulose/aoguide"
       params:
         icon: github
@@ -49,8 +57,8 @@ markup:
     extensions:
       passthrough:
         delimiters:
-          block: [['\[', '\]'], ['$$', '$$']]
-          inline: [['\(', '\)'], ['$', '$']]
+          block: [['\[', '\]'], ["$$", "$$"]]
+          inline: [['\(', '\)'], ["$", "$"]]
         enable: true
   highlight:
     noClasses: false
@@ -61,6 +69,9 @@ services:
 
 params:
   description: Comprehensive guide for astronomy olympiads
+  author:
+    name: "Akshat Srivastava"
+    email: "bunchofcellulose@gmail.com"
 
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"

@@ -1154,3 +1154,69 @@ body::before {
   border-color: rgba(99, 102, 241, 0.6);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
+
+
+/* ========================================================
+   1. UNIFORM LINK CONTAINERS (Scrictly Scoped to Top Nav)
+   ======================================================== */
+nav a[href*="https://aoac.aoguide.app"],
+nav a[href*="https://aoxiv.aoguide.app"] {
+  font-size: 0 !important; 
+  
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center; 
+  width: 36px !important; 
+  height: 36px !important;
+  
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+}
+
+nav a[href*="https://aoac.aoguide.app"]:hover,
+nav a[href*="https://aoac.aoguide.app"]:focus,
+nav a[href*="https://aoxiv.aoguide.app"]:hover,
+nav a[href*="https://aoxiv.aoguide.app"]:focus {
+  background-color: transparent !important;
+}
+
+/* ========================================================
+   2. AOAC ICON (The Satellite)
+   ======================================================== */
+nav a[href*="https://aoac.aoguide.app"]::before {
+  content: "";
+  display: inline-block;
+  width: 32px; 
+  height: 32px;
+  background-image: url('/logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+nav a[href*="https://aoac.aoguide.app"]:hover::before {
+  opacity: 1;
+}
+
+/* ========================================================
+   3. AOXIV ICON (The Chi Symbol)
+   ======================================================== */
+nav a[href*="https://aoxiv.aoguide.app"]::before {
+  content: "";
+  display: inline-block;
+  width: 22px; 
+  height: 22px;
+  background-image: url('/aoxiv.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+nav a[href*="https://aoxiv.aoguide.app"]:hover::before {
+  opacity: 1;
+}

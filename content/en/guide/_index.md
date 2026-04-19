@@ -8,6 +8,118 @@ cascade:
   type: docs
 ---
 
+<style>
+  .custom-tooltip-box {
+    position: fixed; 
+    
+    /* Solid dark background */
+    background: #1a1a1a; 
+    color: #f7f7f7;
+    
+    padding: 1.2rem 1.4rem;
+    border-radius: 12px; 
+    width: max-content;
+    max-width: 280px;
+    
+    /* Standard dark drop-shadow */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    
+    /* The new golden border */
+    border: 1px solid #FFD700; 
+    
+    z-index: 9999;
+    
+    /* Bouncy drop-in animation */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translateY(-10px);
+    pointer-events: none;
+  }
+  
+  .custom-tooltip-box.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  /* THE POINTER ARROW */
+  .custom-tooltip-box::before {
+    content: "";
+    position: absolute;
+    top: -7px; 
+    right: 15px; 
+    width: 14px;
+    height: 14px;
+    background: #1a1a1a; 
+    
+    /* Matched the golden border for the arrow */
+    border-top: 1px solid #FFD700;
+    border-left: 1px solid #FFD700;
+    
+    transform: rotate(45deg);
+    border-top-left-radius: 3px;
+    z-index: 0;
+  }
+</style>
+
+<div id="topbar-tooltip" class="custom-tooltip-box">
+  <button id="close-tooltip-btn" style="position: absolute; top: 10px; right: 12px; background: none; border: none; cursor: pointer; font-size: 20px; line-height: 1; color: inherit; opacity: 0.6; transition: opacity 0.2s;">&times;</button>
+  
+  <p style="margin: 0 0 6px 0; padding-right: 15px; font-size: 1rem; font-weight: 600; line-height: 1.4;">
+    Pre-registrations for the AO Guide Astrophysics Challenge 2026 are open!
+  </p>
+  
+  <p style="margin: 0; font-size: 0.85rem; color: #d4c5ff; font-weight: 500;">
+    Register now!
+  </p>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const tooltip = document.getElementById('topbar-tooltip');
+    
+    // NOTE: Replace "/your-real-page/" with your actual URL
+    const iconLink = document.querySelector('a[href*="https://aoac.aoguide.app"]');
+    const closeBtn = document.getElementById('close-tooltip-btn');
+
+    // Function to calculate position and show the tooltip
+    function positionAndShowTooltip() {
+      if (!iconLink || !tooltip) return;
+      
+      const rect = iconLink.getBoundingClientRect();
+      
+      // Position it just below the icon
+      tooltip.style.top = (rect.bottom + 15) + 'px';
+      
+      // Align it relative to the right side of the screen
+      tooltip.style.right = (window.innerWidth - rect.right - 10) + 'px';
+      
+      // Trigger the CSS animation
+      tooltip.classList.add('show');
+    }
+
+    // 1. Show automatically on load (after 200ms delay)
+    setTimeout(positionAndShowTooltip, 200);
+
+    // 2. Hide tooltip when the close button is clicked (Verified logic)
+    if (closeBtn && tooltip) {
+      closeBtn.addEventListener('click', (event) => {
+        event.preventDefault(); // Extra safety to prevent link behavior
+        tooltip.classList.remove('show');
+      });
+    }
+
+    // 3. Keep it attached to the icon if the user resizes their browser window
+    window.addEventListener('resize', () => {
+      if (tooltip && tooltip.classList.contains('show')) {
+        positionAndShowTooltip();
+      }
+    });
+  });
+</script>
+
 Welcome to the AO Guide! To navigate the guide, use the sidebar on the left. You can also search for topics using the search bar at the top right. A table containing all useful constants is provided on the rightmost tab of the top bar.
 
 ## Prerequisites
