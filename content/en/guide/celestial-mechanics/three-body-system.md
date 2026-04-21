@@ -134,7 +134,7 @@ We will refer to something called the _barycenter_ in the following discussion, 
 
 Asteroids and comets are often found at the Lagrange points of the Sun and Jupiter. The Lagrange points are also used for placing satellites in orbit. Asteroids found around Jupiter's $L_4$ and $L_5$ points are called Trojan asteroids.
 
-Let the masses of the two primaries be $M$ and $m$ ($M > m$), separated at a distance $R$. Consider the co-ordinate system with the centre of mass as the centre. 
+Let the masses of the two primaries be $M$ and $m$ ($M \gg m$), separated at a distance $R$. Consider the co-ordinate system with the centre of mass as the centre. 
 Since the mass of the third body is negligible, the centre of mass is the same as the centre of mass of $M$, and $m$. 
 
 You might remember from bound orbits that the angular velocities of the two bodies about the centre of mass are same. We'll quickly show
@@ -158,7 +158,7 @@ by balancing centrifugal forces, and noting that the term on the right hand in p
 This turns out to be a quintic on expanding. Analytic solutions are as such not possible, but we can find $L_1$ using numerical methods.
 
 If $M \gg m$, then $L_1$ and $L_2$ are approximately at the same distance $r$ from the smaller primary, equal to the Hill radius, given by
-$$\tag{3.5.6} r \approx R \sqrt[3]{\frac{m}{M+m}} $$
+$$\tag{3.5.6} r \approx R \sqrt[3]{\frac{m}{3(M+m)}} $$
 
 ### L <sub>2</sub>
 
@@ -168,7 +168,7 @@ $$\tag{3.5.7} \frac{GM}{(R+r)^2} + \frac{Gm}{r^2} = \left( \frac{m}{M + m} R + r
 
 Again, if $M \gg m$, then $L_1$ and $L_2$ are approximately at the same distance $r$ from the smaller primary, equal to the hill radius, given by
 
-$$\tag{3.5.8} r \approx R \sqrt[3]{\frac{m}{M+m}} $$
+$$\tag{3.5.8} r \approx R \sqrt[3]{\frac{m}{3(M+m)}} $$
 
 <br>
 
@@ -192,7 +192,7 @@ $$\tag{3.5.9} \frac{GM}{(R-r)^2} + \frac{Gm}{(2R-r)^2} = \left( \frac{m}{M + m} 
 
 If $M \gg m$, then
 
-$$\tag{3.5.10} r \approx \frac{7}{12}\frac{m}{M+m}R $$
+$$\tag{3.5.10} r \approx R \left( 1 - \frac{5}{12}\frac{m}{M+m} \right) $$
 
 ### L <sub>4</sub> and L <sub>5</sub>
 
