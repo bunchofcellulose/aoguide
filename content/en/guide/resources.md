@@ -131,13 +131,10 @@ Most of the textbooks used in writing the guide have been mentioned in the About
 - [Celestial Sphere](https://bunchofcellulose.github.io/celestialsphere/) - A webapp to play with spherical diagrams
 - Astronomy Olympiad Discord Server ([AODS](https://discord.gg/cuVC54FksD)) - a community of astronomy enthusiasts and olympiad participants. Great place to ask questions, share resources, and connect with others who share your interest in astronomy.
 - [BDOAA Preparation Material](https://drive.google.com/drive/folders/0BxnDs515DNddbWg1VTBRZktZODA?resourcekey=0-evWmK0fkUFSEv7l4icX5OQ)
-- [CAAO Preparation Material](https://caao.ca/wp-content/uploads/2023/02/CAAO-tutorial.pdf)
 - [Relevant Physics Olympiad Problems](https://sheikhabrar140.github.io/website_docs/problems_Pho.pdf) for IOAA, compiled by Sheikh Hasin Abrar Alvi and me. Contains problems from IPhO, national physics olympiads, and physics contests that are relevant for IOAA preparation.
 - Kaiwen's orz [astronomy notes](https://apochrome.notion.site/Astronomy-c2080a4c5b464868a99f5cddec3e0bbb)
 - A very comprehensive analysis of the [analemma](https://rajit13.github.io/website_docs/Analemma_Primer.pdf) by Fahim Rajit Hossain.
 - A guide for [problem writing for Astronomy Olympiads](https://rajit13.github.io/website_docs/Astronomy_via_LaTeX.pdf) by Fahim Rajit Hossain.
-- [aoXiv](https://aoxiv.aoguide.app/) - an archive of problems from various astronomy olympiads throughout the globe. Community-driven and open source, so feel free to add any problems you find to the archive!
-- [phoXiv](https://phoxiv.org) - an archive of problems from various physics olympiads throughout the globe. Community-driven and open source, so feel free to add any problems you find to the archive!
 
 ## Practical
 
@@ -152,6 +149,8 @@ Most of the textbooks used in writing the guide have been mentioned in the About
 
 ## Competitions and Olympiad Archives
 
+- [aoXiv](https://aoxiv.aoguide.app/) - an archive of problems from various astronomy olympiads throughout the globe. Community-driven and open source, so feel free to add any problems you find to the archive!
+- [phoXiv](https://phoxiv.org) - an archive of problems from various physics olympiads throughout the globe. Community-driven and open source, so feel free to add any problems you find to the archive!
 - [AO Guide Astrophysics Challenge](https://aoac.aoguide.app/) - an online competition organized by us, with original problems designed to test your physics and astrophysics problem-solving skills.
 - [Official IOAA Website](https://ioaastrophysics.org)
 - [Astronomy Olympiad Archives](https://mega.nz/folder/3ZBWDbTL#U8-utZdSD-6URDjXS1t9Ag) by Stefan Ivanov
