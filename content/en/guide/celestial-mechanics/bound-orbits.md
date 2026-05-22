@@ -457,24 +457,24 @@ Consider the satellite to be tidally locked to the primary body, such that the s
 
     **d)** To find the time of flight, we find the mean anomaly at the launch and landing points. The eccentric anomaly at the launch point is
 
-    $$\cos E_0 = 1 - \frac{r}{a} = 1 - \frac{R_\oplus}{a} = 1 - (2 - \alpha^2) = \alpha^2 - 1$$
+    $$\cos E_0 = \frac{1}{e} \left( 1 - \frac{r}{a} \right) = \frac{1}{e} \left(1 - \frac{R_\oplus}{a} \right) = \frac{1}{e} \left(1 - (2 - \alpha^2) \right) = \frac{\alpha^2 - 1}{e}$$
 
     The mean anomaly at the launch point is
 
-    $$M_0 = E_0 - e \sin E_0 = \cos^{-1}(\alpha^2 - 1) - e \sqrt{2 \alpha^2 - \alpha^4}$$
+    $$M_0 = E_0 - e \sin E_0 = \cos^{-1}\left(\frac{\alpha^2 - 1}{e}\right) - e \sqrt{2 \alpha^2 - \alpha^4}$$
 
     The eccentric anomaly at the landing point is simply $E_1 = 2\pi - E_0$, and the mean anomaly at the landing point is just $M_1 = 2\pi - M_0$. Therefore, the time of flight is
 
     $$t = \frac{P}{2 \pi} (M_1 - M_0) = P\left(1 - \frac{M_0}{\pi}\right) $$
-    $$\boxed{t = \sqrt{\frac{R_\oplus^3}{GM_\oplus}} \frac{2}{(2 - \alpha^2)^{3/2}} \left[ \pi - \cos^{-1}(\alpha^2 - 1) + e \sqrt{2 \alpha^2 - \alpha^4} \right]} $$
+    $$\boxed{t = \sqrt{\frac{R_\oplus^3}{GM_\oplus}} \frac{2}{(2 - \alpha^2)^{3/2}} \left[ \pi - \cos^{-1}\left(\frac{\alpha^2 - 1}{e}\right) + e \sqrt{2 \alpha^2 - \alpha^4} \right]} $$
 
     **e)** To get the range of the projectile, we need to find the true anomaly at the launching and landing points. The true anomaly at the launch point is
 
-    $$ \theta_0 = 2 \tan^{-1} \left( \sqrt{\frac{1 + e}{1 - e}} \tan \frac{E_0}{2} \right) = 2 \tan^{-1} \left( \sqrt{\frac{1 + e}{1 - e}} \sqrt{\frac{2 - \alpha^2}{\alpha^2}} \right) $$
+    $$ \theta_0 = 2 \tan^{-1} \left( \sqrt{\frac{1 + e}{1 - e}} \tan \frac{E_0}{2} \right) = 2 \tan^{-1} \left( \sqrt{\frac{1 + e}{1 - e}} \sqrt{\frac{e + (1 - \alpha^2)}{e - (1 - \alpha^2)}} \right) $$
 
     The true anomaly at the landing point is $\theta_1 = 2\pi - \theta_0$. Thus the range of the projectile is
 
-    $$\boxed{R = 2 R_\oplus \left[ \pi - 2\tan^{-1} \left( \sqrt{\frac{1 + e}{1 - e}} \sqrt{\frac{2 - \alpha^2}{\alpha^2}} \right) \right]} $$
+    $$\boxed{R = 2 R_\oplus \left[ \pi - 2\tan^{-1} \left( \sqrt{\frac{1 + e}{1 - e}} \sqrt{\frac{e + (1 - \alpha^2)}{e - (1 - \alpha^2)}} \right) \right]} $$
 
     {{< /tab >}}
 

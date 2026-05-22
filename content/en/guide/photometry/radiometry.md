@@ -461,7 +461,7 @@ $$ T_e = \left( \frac{L}{4 \pi \sigma R^2} \right)^{1/4} \approx 5778 \mathrm{\,
 
 {{< tabs >}}
     {{< tab name="P5" >}}
-    Flux densities at the wavelengths $440 \, \mathrm{nm}$ and $550 \, \mathrm{nm}$ are $1.30$ and $1.00 \, \mathrm{W \, m^{-2} \, m^{-1}}$, respectively. Find the colour temperature.
+    Flux densities at the wavelengths $440 \, \mathrm{nm}$ and $550 \, \mathrm{nm}$ are $1.30$ and $1.00 \, \mathrm{W \, m^{-2}}$, respectively. Find the colour temperature.
     {{< /tab >}}
 
     {{< tab name="Solution" >}}
