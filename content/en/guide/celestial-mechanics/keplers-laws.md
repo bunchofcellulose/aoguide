@@ -97,9 +97,9 @@ The total energy of the system is given by
 
 $$
 \begin{align*}
-E &= \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2 - \frac{G m_1 m_2}{|\mathbf{r_1} - \mathbf{r_2}|^2} \\
-  &= \frac{1}{2} m_1 \left(\mathbf{\dot{R}} - \frac{m_2}{M} \mathbf{\dot{r}}\right)^2 + \frac{1}{2} m_2 \left(\mathbf{\dot{R}} + \frac{m_1}{M} \mathbf{\dot{r}}\right)^2 - \frac{G m_1 m_2}{|\mathbf{r_1} - \mathbf{r_2}|^2}\\
-  &= \frac{1}{2}M\mathbf{\dot{R}}^2 + \frac{1}{2} m v^2 - \mu \frac{m}{r^2}
+E &= \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2 - \frac{G m_1 m_2}{|\mathbf{r_1} - \mathbf{r_2}|} \\
+  &= \frac{1}{2} m_1 \left(\mathbf{\dot{R}} - \frac{m_2}{M} \mathbf{\dot{r}}\right)^2 + \frac{1}{2} m_2 \left(\mathbf{\dot{R}} + \frac{m_1}{M} \mathbf{\dot{r}}\right)^2 - \frac{G m_1 m_2}{|\mathbf{r_1} - \mathbf{r_2}|}\\
+  &= \frac{1}{2}M\mathbf{\dot{R}}^2 + \frac{1}{2} m v^2 - \mu \frac{m}{r}
 \end{align*}
 $$
 
