@@ -212,7 +212,7 @@ The horizon is the great circle defined by the cardinal points $NWSEN$. The cele
     The solutions are as follows:
     $$
     \begin{align*}
-    &i)\,   &a = 58.6^\circ,\quad &b = 66.3^\circ,\, &C = 91.7^\circ \\
+    &i)\,   &a = 58.6^\circ,\quad &b = 67.8^\circ,\, &C = 91.7^\circ \\
     &ii)\,  &A = 54.6^\circ,\quad &B = 67.1^\circ,\, &C = 88.2^\circ \\
     &iii)\, &A = 55.7^\circ,\quad &B = 79.8^\circ,\, &c = 42.4^\circ \\
     &iv)\,  &a = 103.8^\circ,\quad &b = 52.4^\circ,\, &c = 76.2^\circ \\
