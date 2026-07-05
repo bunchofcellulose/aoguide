@@ -26,15 +26,21 @@ menu:
       name: AOAC
       url: https://aoac.aoguide.app
       weight: 5
+    - name: "Ko-fi"
+      identifier: kofi
+      url: "https://ko-fi.com/aoguide"
+      weight: 6
+      params:
+        icon: heart
     - identifier: discord
       name: Discord
-      weight: 6
+      weight: 7
       url: "https://discord.gg/bV8bxvTmzU"
       params:
         icon: discord
     - identifier: github
       name: GitHub
-      weight: 7
+      weight: 8
       url: "https://github.com/bunchofcellulose/aoguide"
       params:
         icon: github
