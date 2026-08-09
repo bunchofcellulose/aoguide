@@ -135,6 +135,7 @@ Most of the textbooks used in writing the guide have been mentioned in the About
 - Kaiwen's orz [astronomy notes](https://apochrome.notion.site/Astronomy-c2080a4c5b464868a99f5cddec3e0bbb)
 - A very comprehensive analysis of the [analemma](https://rajit13.github.io/website_docs/Analemma_Primer.pdf) by Fahim Rajit Hossain.
 - A guide for [problem writing for Astronomy Olympiads](https://rajit13.github.io/website_docs/Astronomy_via_LaTeX.pdf) by Fahim Rajit Hossain.
+- A guide to kepler's equation by Rajarshi: [Kepler's Equation: The Unsolvable Equation of Celestial Mechanics.](https://github.com/RajarshiNeel/Kepler-s-Equation-/releases/download/Keplers_Equation/Keplars_Equation.pdf)
 
 ## Practical
 
