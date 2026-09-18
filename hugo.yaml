@@ -83,8 +83,9 @@ params:
   dateFormat: "January 2, 2006"
 
   math:
-    math:
     enable: true
+    katex:
+      base: "https://cdn.jsdelivr.net/npm/katex@0.16.22/dist"
 
   comments:
     enable: true
@@ -102,10 +103,6 @@ params:
       theme: "preferred_color_scheme"
       lang: "en"
       loading: "lazy"
-
-  katex:
-    enable: true
-    base: "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/"
 
   navbar:
     displayTitle: true
